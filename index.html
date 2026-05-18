@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>My English Spot — Encuentra tu spot para hablar inglés</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============================ NAV ============================ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand" aria-label="My English Spot — inicio">
+      <span class="nav__mark-wrap"><img src="assets/pin.png" alt="" class="nav__mark" /></span>
+      <span class="nav__wordmark">
+        <span class="orange">My</span> <span class="blue">English</span> <span class="orange">Spot</span>
+      </span>
+    </a>
+
+    <nav class="nav__menu" aria-label="Principal">
+      <a href="#para-quien" data-es="Para quién" data-en="Who it's for">Para quién</a>
+      <a href="#oferta"     data-es="Clases"      data-en="Classes">Clases</a>
+      <a href="#como"       data-es="Cómo funciona" data-en="How it works">Cómo funciona</a>
+      <a href="#precios"    data-es="Precios"     data-en="Pricing">Precios</a>
+      <a href="#opiniones"  data-es="Opiniones"   data-en="Reviews">Opiniones</a>
+    </nav>
+
+    <div class="nav__right">
+      <div class="lang" role="tablist" aria-label="Idioma">
+        <button class="lang__btn is-active" data-lang="es" role="tab" aria-selected="true">ES</button>
+        <button class="lang__btn"           data-lang="en" role="tab" aria-selected="false">EN</button>
+      </div>
+      <a class="btn btn--primary btn--sm" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener"
+         data-es="Reserva tu clase gratis"
+         data-en="Book your free class">Reserva tu clase gratis</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============================ HERO ============================ -->
+<section class="hero">
+  <div class="hero__inner">
+    <span class="eyebrow"
+          data-es="Academia online de inglés"
+          data-en="Online English academy">Academia online de inglés</span>
+
+    <h1 class="hero__h1">
+      <span data-es="Encuentra tu " data-en="Find your ">Encuentra tu </span><span class="ink--orange" data-es="spot" data-en="spot">spot</span><br/>
+      <span data-es="para hablar " data-en="to speak ">para hablar </span><span class="ink--blue" data-es="inglés" data-en="English">inglés</span>
+    </h1>
+
+    <p class="hero__mission"
+       data-es="Rompe la barrera que te impide hablar con confianza"
+       data-en="Break the barrier that keeps you from speaking with confidence">
+      Rompe la barrera que te impide hablar con confianza
+    </p>
+
+    <p class="hero__sub"
+       data-es="Clases online uno a uno y grupos reducidos, adaptadas a ti. Tono cercano, método claro y profesores que se acuerdan de tu nombre."
+       data-en="One-to-one online classes and small groups, built around you. Warm vibe, clear method, and teachers who remember your name.">
+      Clases online uno a uno y grupos reducidos, adaptadas a ti. Tono cercano, método claro y profesores que se acuerdan de tu nombre.
+    </p>
+
+    <div class="hero__ctas">
+      <a class="btn btn--primary btn--lg" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener"
+         data-es="Reserva tu clase gratis"
+         data-en="Book your free class">
+        Reserva tu clase gratis
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a class="btn btn--ghost btn--lg" href="mailto:info@myenglishspotclasses.com"
+         data-es="Escríbenos"
+         data-en="Email us">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h16v12H4z M4 6l8 7 8-7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Escríbenos
+      </a>
+    </div>
+
+    <ul class="hero__chips" aria-label="Highlights">
+      <li><span class="chip__dot chip__dot--blue"></span><span data-es="Prueba gratis 40 min" data-en="40-min free trial">Prueba gratis 40 min</span></li>
+      <li><span class="chip__dot chip__dot--orange"></span><span data-es="Profes nativos y certificados" data-en="Native &amp; certified teachers">Profes nativos y certificados</span></li>
+      <li><span class="chip__dot chip__dot--blue"></span><span data-es="Horario flexible" data-en="Flexible schedule">Horario flexible</span></li>
+    </ul>
+  </div>
+
+  <!-- Hero visual: 1-on-1 live video class -->
+  <aside class="hero__visual" aria-hidden="true">
+    <div class="vcall">
+      <!-- App chrome -->
+      <div class="vcall__bar">
+        <span class="vcall__bar-dot"></span><span class="vcall__bar-dot"></span><span class="vcall__bar-dot"></span>
+        <span class="vcall__bar-title">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="6" width="14" height="12" rx="2" stroke="currentColor" stroke-width="2"/><path d="M16 10l6-3v10l-6-3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          <span>Clase 1-a-1 · My English Spot</span>
+        </span>
+        <span class="vcall__bar-time">42:17</span>
+      </div>
+
+      <!-- Main video: Rocío (teacher) -->
+      <div class="vcall__stage">
+        <div class="vcall__main">
+          <!-- background gradient stands in for camera feed -->
+          <div class="vcall__main-bg"></div>
+          <!-- Teacher avatar/face placeholder -->
+          <div class="vcall__face vcall__face--teacher">R</div>
+
+          <!-- Top-left: live indicator -->
+          <div class="vcall__live">
+            <span class="vcall__live-dot"></span>
+            <span data-es="En directo" data-en="Live">En directo</span>
+          </div>
+
+          <!-- Bottom-left: name pill -->
+          <div class="vcall__name">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 1 0 6 0V6a3 3 0 0 0-3-3z M19 11a7 7 0 1 1-14 0 M12 18v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <span>Rocío</span>
+            <span class="vcall__name-role" data-es="Profesora" data-en="Teacher">Profesora</span>
+          </div>
+
+          <!-- Self-view PIP: student -->
+          <div class="vcall__pip">
+            <div class="vcall__pip-face">A</div>
+            <span class="vcall__pip-label" data-es="Tú · Ana" data-en="You · Ana">Tú · Ana</span>
+          </div>
+        </div>
+
+        <!-- Lesson caption -->
+        <div class="vcall__caption">
+          <span class="vcall__caption-tag" data-es="Hablando ahora" data-en="Speaking now">Hablando ahora</span>
+          <span class="vcall__caption-text">"What would you do if you had a whole free day?"</span>
+        </div>
+
+        <!-- Bottom toolbar (Zoom-like) -->
+        <div class="vcall__tools">
+          <span class="vcall__tool vcall__tool--on"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 1 0 6 0V6a3 3 0 0 0-3-3z M19 11a7 7 0 1 1-14 0 M12 18v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+          <span class="vcall__tool vcall__tool--on"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="13" height="12" rx="2" stroke="currentColor" stroke-width="2"/><path d="M16 10l5-3v10l-5-3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span>
+          <span class="vcall__tool"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="13" rx="2" stroke="currentColor" stroke-width="2"/><path d="M8 21h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+          <span class="vcall__tool"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span>
+          <span class="vcall__tool vcall__tool--leave"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M22 3 2 13c-.5.2-.4 1 .2 1.2L8 16l2 6c.2.6 1 .7 1.3.2L22 3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span>
+        </div>
+      </div>
+    </div>
+  </aside>
+</section>
+
+<!-- ============================ PARA QUIÉN ============================ -->
+<section class="section section--cream" id="para-quien">
+  <div class="section__inner">
+    <header class="sec-head">
+      <span class="eyebrow" data-es="Para quién" data-en="Who it's for">Para quién</span>
+      <h2 data-es="Desde tus primeras palabras hasta el C1. A cualquier edad."
+          data-en="From your first words to C1. At any age.">
+        Desde tus primeras palabras hasta el C1. A cualquier edad.
+      </h2>
+      <p class="sec-head__sub" data-es="Si quieres aprender, este es tu spot. Adaptamos cada clase a tu nivel, tu objetivo y tu ritmo."
+         data-en="If you want to learn, this is your spot. Every class is shaped to your level, goal and pace.">
+        Si quieres aprender, este es tu spot. Adaptamos cada clase a tu nivel, tu objetivo y tu ritmo.
+      </p>
+    </header>
+
+    <div class="levels">
+      <div class="level level--a1">
+        <span class="level__tag">A1</span>
+        <h3 data-es="Empiezo de cero" data-en="Starting from scratch">Empiezo de cero</h3>
+        <p data-es="Vocabulario, frases básicas y la confianza para decirlas en voz alta."
+           data-en="Vocab, basic phrases, and the confidence to say them out loud.">Vocabulario, frases básicas y la confianza para decirlas en voz alta.</p>
+      </div>
+      <div class="level level--a2">
+        <span class="level__tag">A2</span>
+        <h3 data-es="Sé un poco, quiero más" data-en="I know a bit, I want more">Sé un poco, quiero más</h3>
+        <p data-es="Conversaciones cotidianas, viajes, presentarte y entenderte sin bloqueos."
+           data-en="Everyday chats, travel, introducing yourself and being understood — no freezing.">Conversaciones cotidianas, viajes, presentarte y entenderte sin bloqueos.</p>
+      </div>
+      <div class="level level--b1">
+        <span class="level__tag">B1</span>
+        <h3 data-es="Defenderme bien" data-en="Holding my own">Defenderme bien</h3>
+        <p data-es="Hablar de ti, del trabajo, de planes y opiniones con naturalidad."
+           data-en="Talking about yourself, work, plans and opinions naturally.">Hablar de ti, del trabajo, de planes y opiniones con naturalidad.</p>
+      </div>
+      <div class="level level--b2">
+        <span class="level__tag">B2</span>
+        <h3 data-es="Trabajo y exámenes" data-en="Work &amp; exams">Trabajo y exámenes</h3>
+        <p data-es="Reuniones, emails, entrevistas y preparación para First (FCE)."
+           data-en="Meetings, emails, interviews and First (FCE) prep.">Reuniones, emails, entrevistas y preparación para First (FCE).</p>
+      </div>
+      <div class="level level--c1">
+        <span class="level__tag">C1</span>
+        <h3 data-es="Fluidez real" data-en="Real fluency">Fluidez real</h3>
+        <p data-es="Matices, debate, escritura avanzada y preparación para Advanced (CAE)."
+           data-en="Nuance, debate, advanced writing and Advanced (CAE) prep.">Matices, debate, escritura avanzada y preparación para Advanced (CAE).</p>
+      </div>
+    </div>
+
+    <div class="ages">
+      <div class="ages__group">
+        <span class="ages__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="9" cy="8" r="3" stroke="currentColor" stroke-width="2"/><circle cx="17" cy="9" r="2.4" stroke="currentColor" stroke-width="2"/><path d="M3 20c1-3 3.5-4.5 6-4.5s5 1.5 6 4.5 M14 19c.5-1.8 2-3 4-3s3.5 1 4 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </span>
+        <div>
+          <strong data-es="Adolescentes" data-en="Teens">Adolescentes</strong>
+          <span data-es="Cole, insti y exámenes" data-en="School &amp; exams">Cole, insti y exámenes</span>
+        </div>
+      </div>
+      <div class="ages__group">
+        <span class="ages__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 21c0-3 3-5 8-5s8 2 8 5 M12 4l2.6 5.3 5.9.8-4.3 4.1 1 5.8L12 17.3 6.8 20l1-5.8L3.5 10l5.9-.8L12 4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </span>
+        <div>
+          <strong data-es="Adultos" data-en="Adults">Adultos</strong>
+          <span data-es="Trabajo, viajes, vida" data-en="Work, travel, life">Trabajo, viajes, vida</span>
+        </div>
+      </div>
+      <div class="ages__group">
+        <span class="ages__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M3 19h18 M5 19V9l7-4 7 4v10 M9 19v-5h6v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <div>
+          <strong data-es="Profesionales" data-en="Professionals">Profesionales</strong>
+          <span data-es="Business English a medida" data-en="Tailored Business English">Business English a medida</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ QUÉ OFRECEMOS ============================ -->
+<section class="section" id="oferta">
+  <div class="section__inner">
+    <header class="sec-head">
+      <span class="eyebrow" data-es="Qué ofrecemos" data-en="What we offer">Qué ofrecemos</span>
+      <h2 data-es="Clases pensadas para que hables de verdad"
+          data-en="Classes designed so you actually speak">
+        Clases pensadas para que hables de verdad
+      </h2>
+    </header>
+
+    <div class="offer">
+      <article class="offer__card offer__card--feature">
+        <span class="offer__badge" data-es="Más popular" data-en="Most popular">Más popular</span>
+        <span class="offer__icon offer__icon--blue">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2.2"/><path d="M4 20c1.4-3.5 4.4-5.5 8-5.5s6.6 2 8 5.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </span>
+        <h3 data-es="Clases 1-a-1" data-en="One-to-one">Clases 1-a-1</h3>
+        <p data-es="Tú, tu profe y tus objetivos. Avance máximo, sin esperar a nadie."
+           data-en="You, your teacher and your goals. Maximum progress, no waiting.">
+          Tú, tu profe y tus objetivos. Avance máximo, sin esperar a nadie.
+        </p>
+        <ul class="offer__list">
+          <li data-es="Plan 100% personalizado" data-en="100% personal plan">Plan 100% personalizado</li>
+          <li data-es="Material adaptado cada semana" data-en="Material tailored weekly">Material adaptado cada semana</li>
+          <li data-es="Feedback claro y honesto" data-en="Clear, honest feedback">Feedback claro y honesto</li>
+        </ul>
+      </article>
+
+      <article class="offer__card">
+        <span class="offer__icon offer__icon--orange">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="8" cy="9" r="3" stroke="currentColor" stroke-width="2.2"/><circle cx="16" cy="9" r="3" stroke="currentColor" stroke-width="2.2"/><path d="M2 20c.8-3 3-4.5 6-4.5s5.2 1.5 6 4.5 M10 20c.8-3 3-4.5 6-4.5s5.2 1.5 6 4.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </span>
+        <h3 data-es="Grupos pequeños" data-en="Small groups">Grupos pequeños</h3>
+        <p data-es="Máximo 4 personas. Aprendes hablando con otros como tú."
+           data-en="Up to 4 people. You learn by talking with people like you.">
+          Máximo 4 personas. Aprendes hablando con otros como tú.
+        </p>
+        <ul class="offer__list">
+          <li data-es="Mismo nivel, mismos intereses" data-en="Same level, same interests">Mismo nivel, mismos intereses</li>
+          <li data-es="Mucha conversación real" data-en="Lots of real conversation">Mucha conversación real</li>
+          <li data-es="Comunidad cercana" data-en="Warm community">Comunidad cercana</li>
+        </ul>
+      </article>
+
+      <article class="offer__card">
+        <span class="offer__icon offer__icon--blue">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 3l3 6 6 .8-4.5 4.2 1.2 6.2L12 17l-5.7 3.2L7.5 14 3 9.8l6-.8L12 3z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
+        </span>
+        <h3 data-es="A tus objetivos" data-en="To your goals">A tus objetivos</h3>
+        <p data-es="¿Viaje, trabajo, mudanza, una entrevista? Construimos el camino contigo."
+           data-en="Travel, work, moving abroad, an interview? We build the path with you.">
+          ¿Viaje, trabajo, mudanza, una entrevista? Construimos el camino contigo.
+        </p>
+        <ul class="offer__list">
+          <li data-es="Business &amp; reuniones" data-en="Business &amp; meetings">Business &amp; reuniones</li>
+          <li data-es="Travel English" data-en="Travel English">Travel English</li>
+          <li data-es="Conversación pura" data-en="Pure conversation">Conversación pura</li>
+        </ul>
+      </article>
+
+      <article class="offer__card">
+        <span class="offer__icon offer__icon--orange">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M6 3h12v18H6z M9 8h6 M9 12h6 M9 16h4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <h3 data-es="Exámenes oficiales" data-en="Official exams">Exámenes oficiales</h3>
+        <p data-es="Preparación para Cambridge (PET, FCE, CAE) y Aptis."
+           data-en="Cambridge prep (PET, FCE, CAE) and Aptis.">
+          Preparación para Cambridge (PET, FCE, CAE) y Aptis.
+        </p>
+        <ul class="offer__list">
+          <li data-es="Simulacros reales" data-en="Real mock exams">Simulacros reales</li>
+          <li data-es="Técnica por sección" data-en="Section-by-section technique">Técnica por sección</li>
+          <li data-es="Gestión del tiempo" data-en="Time management">Gestión del tiempo</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CÓMO FUNCIONA ============================ -->
+<section class="section section--blue" id="como">
+  <div class="section__inner">
+    <header class="sec-head sec-head--center">
+      <span class="eyebrow eyebrow--on-blue" data-es="Cómo funciona" data-en="How it works">Cómo funciona</span>
+      <h2 class="ink--cream" data-es="Tres pasos. Sin letra pequeña."
+          data-en="Three steps. No fine print.">
+        Tres pasos. Sin letra pequeña.
+      </h2>
+    </header>
+
+    <ol class="steps">
+      <li class="step">
+        <div class="step__pin">
+          <svg viewBox="0 0 60 80" aria-hidden="true"><use href="#pin"/></svg>
+          <span class="step__num">1</span>
+        </div>
+        <h3 data-es="Clase gratis de 40 min" data-en="Free 40-min class">Clase gratis de 40 min</h3>
+        <p data-es="Nos conocemos, vemos tu nivel y hablamos de tus objetivos. Sin compromiso."
+           data-en="We meet, check your level and talk about your goals. No strings attached.">
+          Nos conocemos, vemos tu nivel y hablamos de tus objetivos. Sin compromiso.
+        </p>
+      </li>
+      <li class="step">
+        <div class="step__pin step__pin--orange">
+          <svg viewBox="0 0 60 80" aria-hidden="true"><use href="#pin-o"/></svg>
+          <span class="step__num">2</span>
+        </div>
+        <h3 data-es="Plan personalizado" data-en="Personal plan">Plan personalizado</h3>
+        <p data-es="Te enviamos una propuesta clara: tipo de clase, frecuencia y materiales."
+           data-en="We send a clear proposal: class type, frequency and materials.">
+          Te enviamos una propuesta clara: tipo de clase, frecuencia y materiales.
+        </p>
+      </li>
+      <li class="step">
+        <div class="step__pin">
+          <svg viewBox="0 0 60 80" aria-hidden="true"><use href="#pin"/></svg>
+          <span class="step__num">3</span>
+        </div>
+        <h3 data-es="Empiezas a hablar" data-en="You start speaking">Empiezas a hablar</h3>
+        <p data-es="Primera clase y a por todas. Avanzamos juntos, semana a semana."
+           data-en="First class and away you go. We move forward together, week by week.">
+          Primera clase y a por todas. Avanzamos juntos, semana a semana.
+        </p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============================ CONSULTA ============================ -->
+<section class="section section--cream" id="precios">
+  <div class="section__inner">
+    <header class="sec-head sec-head--center">
+      <span class="eyebrow" data-es="Planes a tu medida" data-en="Tailored plans">Planes a tu medida</span>
+      <h2 data-es="Cada alumno es distinto. Tu plan también."
+          data-en="Every student is different. Your plan too.">
+        Cada alumno es distinto. Tu plan también.
+      </h2>
+      <p class="sec-head__sub" data-es="Diseñamos el ritmo, la frecuencia y el contenido contigo: 1-a-1, en grupo, intensivo o tranquilito. Cuéntanos qué necesitas y te pasamos una propuesta clara, sin compromiso."
+         data-en="We shape the pace, frequency and content with you: 1-on-1, group, intensive or chill. Tell us what you need and we'll send a clear proposal, no strings attached.">
+        Diseñamos el ritmo, la frecuencia y el contenido contigo: 1-a-1, en grupo, intensivo o tranquilito. Cuéntanos qué necesitas y te pasamos una propuesta clara, sin compromiso.
+      </p>
+    </header>
+
+    <div class="consult">
+      <div class="consult__card">
+        <span class="consult__pin" aria-hidden="true">
+          <svg viewBox="0 0 60 80" width="52" height="70"><use href="#pin"/></svg>
+        </span>
+        <div class="consult__body">
+          <h3 data-es="Clase gratis de 40 min" data-en="Free 40-min class">Clase gratis de 40 min</h3>
+          <p data-es="Reserva una llamada con nosotros. Vemos tu nivel, hablamos de tus objetivos y te preparamos una propuesta personalizada."
+             data-en="Book a call with us. We check your level, talk about your goals, and put together a personal proposal for you.">
+            Reserva una llamada con nosotros. Vemos tu nivel, hablamos de tus objetivos y te preparamos una propuesta personalizada.
+          </p>
+          <ul class="consult__feats">
+            <li><span class="consult__check">✓</span><span data-es="Sin tarjeta, sin compromiso" data-en="No card, no commitment">Sin tarjeta, sin compromiso</span></li>
+            <li><span class="consult__check">✓</span><span data-es="Test de nivel incluido" data-en="Level check included">Test de nivel incluido</span></li>
+            <li><span class="consult__check">✓</span><span data-es="Propuesta clara en 48h" data-en="Clear proposal within 48h">Propuesta clara en 48h</span></li>
+          </ul>
+          <div class="consult__ctas">
+            <a class="btn btn--primary btn--lg" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener"
+               data-es="Reservar clase gratis"
+               data-en="Book free class">Reservar clase gratis</a>
+            <a class="btn btn--ghost btn--lg" href="mailto:info@myenglishspotclasses.com"
+               data-es="Consultar por email"
+               data-en="Ask by email">Consultar por email</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing-removed" hidden>
+      <article class="price">
+        <header class="price__head">
+          <span class="price__name" data-es="Pack Constante" data-en="Steady Pack">Pack Constante</span>
+          <span class="price__pace" data-es="1 clase / semana" data-en="1 class / week">1 clase / semana</span>
+        </header>
+        <div class="price__amount">
+          <span class="price__currency">€</span>
+          <span class="price__num">220</span>
+          <span class="price__per" data-es="/ pack de 10" data-en="/ pack of 10">/ pack de 10</span>
+        </div>
+        <p class="price__hint" data-es="≈ 22 €/clase · 60 minutos"
+           data-en="≈ €22/class · 60 minutes">≈ 22 €/clase · 60 minutos</p>
+        <ul class="price__feats">
+          <li data-es="10 clases de 60 min" data-en="10 classes of 60 min">10 clases de 60 min</li>
+          <li data-es="Material y deberes incluidos" data-en="Materials &amp; homework included">Material y deberes incluidos</li>
+          <li data-es="Cambia tu hora con 24h" data-en="Reschedule with 24h notice">Cambia tu hora con 24h</li>
+          <li data-es="Caducidad 4 meses" data-en="Valid for 4 months">Caducidad 4 meses</li>
+        </ul>
+        <a class="btn btn--ghost btn--block" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener"
+           data-es="Empezar con clase gratis"
+           data-en="Start with a free class">Empezar con clase gratis</a>
+      </article>
+
+      <article class="price price--feature">
+        <span class="price__ribbon" data-es="Recomendado" data-en="Recommended">Recomendado</span>
+        <header class="price__head">
+          <span class="price__name" data-es="Pack Intensivo" data-en="Intensive Pack">Pack Intensivo</span>
+          <span class="price__pace" data-es="2 clases / semana" data-en="2 classes / week">2 clases / semana</span>
+        </header>
+        <div class="price__amount">
+          <span class="price__currency">€</span>
+          <span class="price__num">200</span>
+          <span class="price__per" data-es="/ pack de 10" data-en="/ pack of 10">/ pack de 10</span>
+        </div>
+        <p class="price__hint" data-es="≈ 20 €/clase · avanzas el doble de rápido"
+           data-en="≈ €20/class · twice the progress">≈ 20 €/clase · avanzas el doble de rápido</p>
+        <ul class="price__feats">
+          <li data-es="10 clases de 60 min" data-en="10 classes of 60 min">10 clases de 60 min</li>
+          <li data-es="Plan semanal personalizado" data-en="Weekly personal plan">Plan semanal personalizado</li>
+          <li data-es="Seguimiento extra por WhatsApp" data-en="Extra follow-up on WhatsApp">Seguimiento extra por WhatsApp</li>
+          <li data-es="Caducidad 3 meses" data-en="Valid for 3 months">Caducidad 3 meses</li>
+        </ul>
+        <a class="btn btn--primary btn--block" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener"
+           data-es="Reserva tu clase gratis"
+           data-en="Book your free class">Reserva tu clase gratis</a>
+      </article>
+
+      <article class="price price--trial">
+        <span class="price__pin">
+          <svg viewBox="0 0 60 80" width="42" height="56" aria-hidden="true"><use href="#pin"/></svg>
+        </span>
+        <header class="price__head">
+          <span class="price__name" data-es="Clase de prueba" data-en="Trial class">Clase de prueba</span>
+          <span class="price__pace" data-es="Para empezar" data-en="To get started">Para empezar</span>
+        </header>
+        <div class="price__amount">
+          <span class="price__free" data-es="Gratis" data-en="Free">Gratis</span>
+        </div>
+        <p class="price__hint" data-es="40 minutos. Sin compromiso."
+           data-en="40 minutes. No commitment.">40 minutos. Sin compromiso.</p>
+        <ul class="price__feats">
+          <li data-es="Conoces a tu profe" data-en="Meet your teacher">Conoces a tu profe</li>
+          <li data-es="Pequeño test de nivel" data-en="Short level check">Pequeño test de nivel</li>
+          <li data-es="Hablamos de tus objetivos" data-en="We talk about your goals">Hablamos de tus objetivos</li>
+          <li data-es="Decides con calma" data-en="Decide on your own time">Decides con calma</li>
+        </ul>
+        <a class="btn btn--orange btn--block" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener"
+           data-es="Reservar ahora"
+           data-en="Book now">Reservar ahora</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ TESTIMONIOS ============================ -->
+<section class="section" id="opiniones">
+  <div class="section__inner">
+    <header class="sec-head">
+      <span class="eyebrow" data-es="Opiniones" data-en="Reviews">Opiniones</span>
+      <h2 data-es="Personas que ya encontraron su spot"
+          data-en="People who already found their spot">
+        Personas que ya encontraron su spot
+      </h2>
+    </header>
+
+    <div class="testis">
+      <figure class="testi">
+        <div class="testi__stars">★★★★★</div>
+        <blockquote data-es="“En tres meses pasé de bloquearme en cada email a hablar con confianza con clientes ingleses. Las clases se sienten como una charla, no como una clase.”"
+                    data-en="“In three months I went from freezing on every email to talking with British clients with real confidence. The classes feel like a chat, not a lesson.”">
+          “En tres meses pasé de bloquearme en cada email a hablar con confianza con clientes ingleses. Las clases se sienten como una charla, no como una clase.”
+        </blockquote>
+        <figcaption class="testi__by">
+          <span class="avatar avatar--blue">A</span>
+          <div>
+            <strong>Alba R.</strong>
+            <span data-es="Marketing Manager · B2" data-en="Marketing Manager · B2">Marketing Manager · B2</span>
+          </div>
+        </figcaption>
+      </figure>
+
+      <figure class="testi">
+        <div class="testi__stars">★★★★★</div>
+        <blockquote data-es="“Probé tres academias antes. Aquí me enseñan a usar el idioma de verdad, no a memorizar reglas sueltas. Aprobé el First a la primera.”"
+                    data-en="“I tried three academies before this one. Here they teach you to actually use the language, not memorise scattered rules. I passed First on my first try.”">
+          “Probé tres academias antes. Aquí me enseñan a usar el idioma de verdad, no a memorizar reglas sueltas. Aprobé el First a la primera.”
+        </blockquote>
+        <figcaption class="testi__by">
+          <span class="avatar avatar--orange">J</span>
+          <div>
+            <strong>Javi M.</strong>
+            <span data-es="Estudiante · FCE aprobado" data-en="Student · FCE passed">Estudiante · FCE aprobado</span>
+          </div>
+        </figcaption>
+      </figure>
+
+      <figure class="testi">
+        <div class="testi__stars">★★★★★</div>
+        <blockquote data-es="“Lo que más valoro es la cercanía. La profe reconoce mis progresos y eso me motiva a seguir. Entendí que el inglés también me sirve para viajar y conversar con gente de todo el mundo. Me encanta el ratito de clase.”"
+                    data-en="“What I value most is the warmth. My teacher notices my progress and that keeps me going. I realised English also helps me travel and chat with people from all over the world. I love my little class moment.”">
+          “Lo que más valoro es la cercanía. La profe reconoce mis progresos y eso me motiva a seguir. Entendí que el inglés también me sirve para viajar y conversar con gente de todo el mundo. Me encanta el ratito de clase.”
+        </blockquote>
+        <figcaption class="testi__by">
+          <span class="avatar avatar--blue">C</span>
+          <div>
+            <strong>Carmen L.</strong>
+            <span data-es="Contable retirada · A2 → B1" data-en="Retired accountant · A2 → B1">Contable retirada · A2 → B1</span>
+          </div>
+        </figcaption>
+      </figure>
+
+      <figure class="testi">
+        <div class="testi__stars">★★★★★</div>
+        <blockquote data-es="“Necesitaba el IELTS para terminar la carrera pero no sabía por dónde empezar. Rocío me está ayudando a organizarme y siempre recuerda dónde lo dejamos. Ahora puedo superar este desafío.”"
+                    data-en="“I needed IELTS to finish my degree but didn’t know where to start. Rocío is helping me get organised and always remembers where we left off. Now I can take on this challenge.”">
+          “Necesitaba el IELTS para terminar la carrera pero no sabía por dónde empezar. Rocío me está ayudando a organizarme y siempre recuerda dónde lo dejamos. Ahora puedo superar este desafío.”
+        </blockquote>
+        <figcaption class="testi__by">
+          <span class="avatar avatar--orange">A</span>
+          <div>
+            <strong>Antonio G.</strong>
+            <span data-es="Estudiante de Psicología · IELTS" data-en="Psychology student · IELTS">Estudiante de Psicología · IELTS</span>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FINAL CTA ============================ -->
+<section class="cta">
+  <div class="cta__inner">
+    <svg class="cta__pin" viewBox="0 0 60 80" aria-hidden="true"><use href="#pin-cream"/></svg>
+    <h2 data-es="¿Listo para encontrar tu spot?"
+        data-en="Ready to find your spot?">¿Listo para encontrar tu spot?</h2>
+    <p data-es="Reserva tu clase gratis de 40 minutos. Sin tarjeta, sin compromiso, sin rollos."
+       data-en="Book your free 40-min class. No card, no commitment, no fuss.">
+      Reserva tu clase gratis de 40 minutos. Sin tarjeta, sin compromiso, sin rollos.
+    </p>
+    <div class="cta__btns">
+      <a class="btn btn--outline-cream btn--lg" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener"
+         data-es="Reserva tu clase gratis"
+         data-en="Book your free class">Reserva tu clase gratis</a>
+      <a class="btn btn--outline-cream btn--lg" href="mailto:info@myenglishspotclasses.com"
+         data-es="Prefiero escribir"
+         data-en="I'd rather email">Prefiero escribir</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <img src="assets/pin.png" alt="" class="footer__mark"/>
+      <div>
+        <div class="footer__wordmark">
+          <span class="orange">My</span> <span class="blue">English</span> <span class="orange">Spot</span>
+        </div>
+        <p class="footer__tag" data-es="Tu spot online para aprender inglés"
+           data-en="Your online spot to learn English">Tu spot online para aprender inglés</p>
+      </div>
+    </div>
+
+    <div class="footer__cols">
+      <div class="footer__col">
+        <h4 data-es="Contacto" data-en="Contact">Contacto</h4>
+        <a href="mailto:info@myenglishspotclasses.com">info@myenglishspotclasses.com</a>
+        <a href="https://myenglishspotclasses.com">myenglishspotclasses.com</a>
+      </div>
+      <div class="footer__col footer__col--social">
+        <h4 data-es="Síguenos" data-en="Follow us">Síguenos</h4>
+        <div class="socials">
+          <a href="https://www.instagram.com/myenglishspot.classes" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2.2"/><circle cx="17.5" cy="6.5" r="1.3" fill="currentColor"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@myenglishspot" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M14 4v9.5a3.5 3.5 0 1 1-3.5-3.5 M14 4c.5 2.8 2.7 4.5 5 4.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__col footer__col--cta">
+        <h4 data-es="Empieza hoy" data-en="Start today">Empieza hoy</h4>
+        <a class="btn btn--primary btn--sm btn--ink" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener"
+           data-es="Reserva tu clase gratis"
+           data-en="Book your free class">Reserva tu clase gratis</a>
+      </div>    </div>
+  </div>
+
+  <div class="footer__legal">
+    <span>© 2026 My English Spot</span>
+    <span class="footer__legal-sep">·</span>
+    <a href="#" data-es="Aviso legal" data-en="Legal notice">Aviso legal</a>
+    <span class="footer__legal-sep">·</span>
+    <a href="#" data-es="Privacidad" data-en="Privacy">Privacidad</a>
+    <span class="footer__legal-sep">·</span>
+    <a href="#" data-es="Cookies" data-en="Cookies">Cookies</a>
+  </div>
+</footer>
+
+<!-- ============================ SVG SPRITE ============================ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- Blue pin -->
+    <symbol id="pin" viewBox="0 0 60 80">
+      <path d="M30 2C16.2 2 5 13.2 5 27c0 18 25 51 25 51s25-33 25-51C55 13.2 43.8 2 30 2z" fill="#65c6f4"/>
+      <circle cx="30" cy="27" r="9" fill="#faf8f3"/>
+    </symbol>
+    <!-- Orange pin -->
+    <symbol id="pin-o" viewBox="0 0 60 80">
+      <path d="M30 2C16.2 2 5 13.2 5 27c0 18 25 51 25 51s25-33 25-51C55 13.2 43.8 2 30 2z" fill="#ffa51f"/>
+      <circle cx="30" cy="27" r="9" fill="#faf8f3"/>
+    </symbol>
+    <!-- Cream pin (for use on blue/orange BG) -->
+    <symbol id="pin-cream" viewBox="0 0 60 80">
+      <path d="M30 2C16.2 2 5 13.2 5 27c0 18 25 51 25 51s25-33 25-51C55 13.2 43.8 2 30 2z" fill="#faf8f3"/>
+      <circle cx="30" cy="27" r="9" fill="#ffa51f"/>
+    </symbol>
+  </defs>
+</svg>
+
+<script src="app.js"></script>
+</body>
+</html>

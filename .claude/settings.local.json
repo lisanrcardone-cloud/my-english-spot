@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:api.anthropic.com)",
+      "Bash(cp \"/root/.claude/projects/-root-my-english-spot/98df16bb-c674-409e-954a-2c00bc22cfa3/tool-results/webfetch-1779037748129-c0shw7.bin\" /tmp/design.gz)",
+      "Bash(gunzip -f /tmp/design.gz)",
+      "Read(//tmp/**)",
+      "Bash(tar xf *)",
+      "Bash(cp \"/tmp/my-english-spot-landing/project/index.html\" /root/my-english-spot/index.html)",
+      "Bash(cp \"/tmp/my-english-spot-landing/project/styles.css\" /root/my-english-spot/styles.css)",
+      "Bash(cp \"/tmp/my-english-spot-landing/project/app.js\" /root/my-english-spot/app.js)",
+      "Bash(cp -r \"/tmp/my-english-spot-landing/project/assets\" /root/my-english-spot/assets)",
+      "Bash(python3 *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/)",
+      "Bash(cp \"/tmp/my-english-spot-landing/project/assets/pin.png\" /root/my-english-spot/assets/pin.png)"
+    ]
+  }
+}
