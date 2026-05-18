@@ -2,6 +2,14 @@
 // My English Spot — interaction layer
 // ============================================================
 
+// --- Google Fonts async injection (CSP-safe, no inline handlers) --
+(function () {
+  var l = document.createElement('link');
+  l.rel = 'stylesheet';
+  l.href = 'https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap';
+  document.head.appendChild(l);
+}());
+
 // --- Language toggle (ES / EN) ----------------------------------
 const langButtons = document.querySelectorAll('.lang__btn');
 const STORAGE_KEY = 'mes-lang';
