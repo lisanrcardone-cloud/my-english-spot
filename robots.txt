@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://myenglishspotclasses.com/sitemap.xml
+Sitemap: https://www.myenglishspotclasses.com/sitemap.xml
