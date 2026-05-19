@@ -32,6 +32,8 @@
 }
 
 * { box-sizing: border-box; }
+.svg-sprite { position: absolute; }
+.legal-foot { margin-top: 48px; padding-top: 24px; border-top: 1.5px solid var(--line); font-size: 13px; color: var(--ink-3); }
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
