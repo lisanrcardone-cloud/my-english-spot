@@ -45,3 +45,27 @@ const onScroll = () => {
 };
 window.addEventListener('scroll', onScroll, { passive: true });
 onScroll();
+
+// --- Hamburger menu toggle ------------------------------------
+const navToggle = document.getElementById('nav-toggle');
+const navMenu   = document.getElementById('nav-menu');
+
+function openMenu() {
+  nav.classList.add('is-open');
+  navToggle.setAttribute('aria-expanded', 'true');
+  navToggle.setAttribute('aria-label', 'Cerrar menú');
+}
+function closeMenu() {
+  nav.classList.remove('is-open');
+  navToggle.setAttribute('aria-expanded', 'false');
+  navToggle.setAttribute('aria-label', 'Abrir menú');
+}
+
+navToggle.addEventListener('click', () => {
+  nav.classList.contains('is-open') ? closeMenu() : openMenu();
+});
+
+navMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
+document.addEventListener('click',   e => { if (!nav.contains(e.target)) closeMenu(); });

@@ -349,6 +349,60 @@ p { margin: 0; }
 }
 
 /* ============================================================
+   NAV HAMBURGER
+   ============================================================ */
+.nav__hamburger {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 2px solid var(--line);
+  border-radius: var(--r-pill);
+  background: var(--white);
+  color: var(--ink);
+  flex-shrink: 0;
+  transition: background .15s, border-color .15s;
+}
+.nav__hamburger:hover {
+  background: var(--cream-2);
+  border-color: var(--ink-3);
+}
+.ham-close { display: none; }
+.nav.is-open .ham-open  { display: none; }
+.nav.is-open .ham-close { display: block; }
+
+@media (max-width: 768px) {
+  .nav__inner {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 12px 18px;
+  }
+  .nav__right { margin-left: auto; }
+  .nav__hamburger { display: flex; }
+  .lang { display: none; }
+
+  .nav__menu {
+    display: none;
+    width: 100%;
+    flex: none;
+    flex-direction: column;
+    gap: 2px;
+    margin-left: 0;
+    padding: 8px 0 14px;
+    order: 99;
+    border-top: 1.5px solid var(--line);
+  }
+  .nav.is-open .nav__menu { display: flex; }
+  .nav__menu a {
+    padding: 13px 16px;
+    font-size: 16px;
+    border-radius: var(--r-md);
+  }
+}
+
+/* ============================================================
    HERO
    ============================================================ */
 .hero {
@@ -1429,7 +1483,6 @@ p { margin: 0; }
   .steps::before { display: none; }
   .footer__inner { grid-template-columns: 1fr; gap: 32px; }
   .footer__cols { grid-template-columns: 1fr 1fr 1fr; gap: 22px; }
-  .nav__menu { display: none; }
 }
 @media (max-width: 720px) {
   .nav__wordmark { display: none; }
@@ -1447,8 +1500,6 @@ p { margin: 0; }
   /* Bug A fix: C1 (5th card) occupies full width when alone on its row */
   .levels .level:nth-child(5) { grid-column: span 2; }
   .offer { grid-template-columns: 1fr; }
-  .nav__inner { padding: 12px 18px; gap: 12px; }
-  .nav__right .btn { display: none; }
   .hero__h1 { font-size: 40px; }
   .cta { padding: 72px 20px; }
   .cta h2 { font-size: 30px; }
