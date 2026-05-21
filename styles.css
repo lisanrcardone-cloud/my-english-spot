@@ -28,7 +28,7 @@
   --shadow-blue: 0 18px 40px -16px rgba(101, 198, 244, 0.55);
   --shadow-orange: 0 18px 40px -16px rgba(255, 165, 31, 0.55);
 
-  --container: 1180px;
+  --container: 1440px;
 }
 
 * { box-sizing: border-box; }
