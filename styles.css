@@ -1403,6 +1403,7 @@ p { margin: 0; }
 .consult__header {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 24px;
 }
 .consult__card::after {
@@ -1443,16 +1444,21 @@ p { margin: 0; }
   margin-bottom: 22px;
 }
 .consult__feats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   gap: 12px;
   margin-bottom: 28px;
 }
 .consult__feats li {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 13px;
+  justify-content: center;
+  gap: 8px;
+  flex: 1;
+  text-align: center;
+  font-size: 15px;
   font-weight: 700;
   color: var(--ink);
   white-space: nowrap;
