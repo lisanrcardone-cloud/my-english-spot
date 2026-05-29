@@ -1442,6 +1442,7 @@ p { margin: 0; }
   color: var(--ink-2);
   line-height: 1.55;
   margin-bottom: 22px;
+  text-align: center;
 }
 .consult__feats {
   display: flex;
