@@ -1393,13 +1393,17 @@ p { margin: 0; }
   border: 1.5px solid var(--line);
   border-radius: var(--r-xl);
   padding: 44px;
-  display: grid;
-  grid-template-columns: 110px 1fr;
-  gap: 36px;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
   box-shadow: var(--shadow-md);
   position: relative;
   overflow: hidden;
+}
+.consult__header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 .consult__card::after {
   content: "";
@@ -1447,9 +1451,10 @@ p { margin: 0; }
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 14.5px;
+  font-size: 13px;
   font-weight: 700;
   color: var(--ink);
+  white-space: nowrap;
 }
 .consult__check {
   width: 22px;
@@ -1467,11 +1472,14 @@ p { margin: 0; }
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 @media (max-width: 720px) {
-  .consult__card { grid-template-columns: 1fr; gap: 22px; padding: 32px 26px; }
-  .consult__pin { width: 88px; height: 104px; margin: 0 auto; }
+  .consult__card { gap: 18px; padding: 32px 26px; }
+  .consult__header { flex-direction: column; align-items: center; text-align: center; }
+  .consult__pin { width: 88px; height: 104px; }
   .consult__feats { grid-template-columns: 1fr; }
+  .consult__feats li { white-space: normal; }
 }
 
 /* ============================================================
