@@ -1396,7 +1396,7 @@ p { margin: 0; }
   display: grid;
   grid-template-columns: 110px 1fr;
   gap: 36px;
-  align-items: start;
+  align-items: center;
   box-shadow: var(--shadow-md);
   position: relative;
   overflow: hidden;
