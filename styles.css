@@ -1446,10 +1446,11 @@ p { margin: 0; }
 }
 .consult__feats {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
-  gap: 12px;
+  gap: 12px 24px;
   margin-bottom: 28px;
 }
 .consult__feats li {
@@ -1457,7 +1458,7 @@ p { margin: 0; }
   align-items: center;
   justify-content: center;
   gap: 8px;
-  flex: 1;
+  flex: 0 0 auto;
   text-align: center;
   font-size: 17px;
   font-weight: 700;
