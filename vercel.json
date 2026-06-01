@@ -1,11 +1,5 @@
 {
-  "rewrites": [
-    {
-      "source": "/clases-particulares-ingles-online",
-      "destination": "/clases-particulares-ingles-online.html"
-    }
-  ],
-  "redirects": [
+"redirects": [
     {
       "source": "/(.*)",
       "has": [{ "type": "host", "value": "myenglishspotclasses.com" }],
