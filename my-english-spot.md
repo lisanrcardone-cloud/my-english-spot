@@ -1,5 +1,38 @@
 # My English Spot — Log de sesiones
 
+## Sesión 1 junio 2026
+
+### Google Business Profile — cambios manuales completados
+
+- ✅ Categoría cambiada a "Tutor privado"
+- ✅ Atributo "Ofrece clases online" activado
+- ✅ "Servicios en las instalaciones" desactivado
+- ✅ Dirección física oculta para clientes
+- ✅ Área de servicio: España añadida
+- ✅ Descripción actualizada (texto optimizado anti-confusión presencial)
+- ✅ Post publicado con botón "Reservar" → Google Calendar
+
+### Página de servicio `/clases-particulares-ingles-online`
+
+- Creada, revisada y aprobada visualmente en preview
+- **Problema detectado en producción:** CSS no carga en móvil — rutas relativas (`../styles.css`) en lugar de absolutas (`/styles.css`)
+- Página retirada del repo hasta resolver el problema
+- Contexto guardado en `/root/my-english-spot/data/pendiente-clases-particulares.md`
+
+### Checklist pendiente actualizado
+
+#### 🔴 Urgente
+
+- [ ] Arreglar rutas CSS en `clases-particulares-ingles-online.html` (relativas → absolutas), verificar en móvil y desktop, republicar
+
+#### 🟡 Próximas sesiones — Claude Code
+
+- [ ] Crear página `/clases-ingles-online-adultos`
+- [ ] Crear página `/clases-ingles-vigo`
+- [ ] Auditoría PageSpeed móvil
+
+---
+
 ## Sesión 31 mayo 2026 (tarde)
 
 ### Fixes de código aplicados
@@ -49,16 +82,16 @@
 
 #### 🔴 Urgente — Google Business Profile (`business.google.com`)
 
-- [ ] 1. Activar atributo "Presta servicios online"
-- [ ] 2. Eliminar dirección física → cambiar a Área de servicio: **España**
-- [ ] 3. Cambiar categoría principal a **"Tutor de idiomas"**
-- [ ] 4. Actualizar descripción: primera frase debe decir **"100% online, clases 1 a 1 por videollamada"**
-- [ ] 5. Publicar Post en GBP con oferta de clase de prueba gratuita
+- ✅ 1. Activar atributo "Presta servicios online" — hecho 1 jun
+- ✅ 2. Eliminar dirección física → cambiar a Área de servicio: **España** — hecho 1 jun
+- ✅ 3. Cambiar categoría principal a **"Tutor privado"** — hecho 1 jun
+- ✅ 4. Actualizar descripción — hecho 1 jun
+- ✅ 5. Publicar Post en GBP con oferta de clase de prueba gratuita — hecho 1 jun
 - [ ] 6. Pedir reseñas a alumnos (link directo desde GBP → "Pedir reseñas")
 
 #### 🟡 Próximas sesiones — Claude Code
 
-- [ ] 7. Crear página `/clases-particulares-ingles-online`
+- [ ] 7. Crear página `/clases-particulares-ingles-online` (creada, pendiente fix CSS móvil)
 - [ ] 8. Crear página `/clases-ingles-online-adultos`
 - [ ] 9. Crear página `/clases-ingles-vigo` (captura local → explica que es online)
 - [ ] 10. Auditoría PageSpeed móvil (identificar por qué CTR móvil es 10pp menor)
