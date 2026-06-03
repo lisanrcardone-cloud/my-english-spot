@@ -449,15 +449,22 @@
   /* ── Responsive ── */
   @media (max-width: 1000px) {
     .what-grid { grid-template-columns: 1fr; gap: 32px; }
+    .what-card { margin-top: 0; }
     .for-whom-grid { grid-template-columns: repeat(2, 1fr); }
     .method-strip { grid-template-columns: repeat(2, 1fr); }
   }
   @media (max-width: 640px) {
-    .service-hero { padding: 40px 18px 56px; }
+    .service-hero { padding: 32px 18px 48px; }
+    .service-hero__sub { font-size: 16px; }
+    .service-hero__ctas { flex-direction: column; }
+    .service-hero__ctas .btn { width: 100%; justify-content: center; }
+    .what-card { padding: 24px 20px; }
     .for-whom-grid { grid-template-columns: 1fr; }
+    .for-whom-card { padding: 24px 18px; }
     .includes-grid { grid-template-columns: 1fr; }
     .mini-testis { grid-template-columns: 1fr; }
     .method-strip { grid-template-columns: 1fr; }
+    .cta { padding: 48px 18px; }
   }
 </style>
 </head>
