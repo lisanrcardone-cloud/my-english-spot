@@ -32,16 +32,8 @@
     /* Hero confirmación */
     .g-hero {
       background: var(--cream);
-      padding: 72px 24px 56px;
+      padding: 16px 24px 28px;
       text-align: center;
-    }
-    .g-hero__check {
-      width: 68px; height: 68px;
-      border-radius: 50%;
-      background: rgba(101,198,244,.15);
-      display: inline-flex; align-items: center; justify-content: center;
-      margin-bottom: 22px;
-      color: var(--blue-deep);
     }
     .g-hero h1 {
       font-size: clamp(1.75rem, 4vw, 2.5rem);
@@ -57,7 +49,7 @@
     .g-form-section {
       background: var(--cream-2);
       border-top: 1.5px solid var(--line);
-      padding: 52px 24px 72px;
+      padding: 26px 24px 72px;
     }
     .g-form-inner { max-width: 520px; margin: 0 auto; }
 
@@ -115,7 +107,7 @@
     .btn--whatsapp:active { transform: translateY(0); }
 
     @media (max-width: 480px) {
-      .g-hero { padding: 56px 20px 40px; }
+      .g-hero { padding: 12px 20px 20px; }
     }
   </style>
 </head>
@@ -150,11 +142,6 @@
 
 <!-- CONFIRMACIÓN -->
 <section class="g-hero">
-  <div class="g-hero__check" aria-hidden="true">
-    <svg width="34" height="34" viewBox="0 0 24 24" fill="none">
-      <path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-  </div>
   <span class="eyebrow" style="margin-bottom:16px">¡Reserva confirmada!</span>
   <h1>¡Genial, <span class="ink--blue">nos vemos pronto</span>!</h1>
   <p>Tu clase de prueba gratuita está reservada. Cuéntale a Rocío un poco sobre ti para que pueda preparar la clase a tu medida.</p>
