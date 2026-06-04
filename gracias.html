@@ -259,28 +259,5 @@
 </svg>
 
 <script src="/app.js"></script>
-<script>
-document.getElementById('gracias-form').addEventListener('submit', function (e) {
-  e.preventDefault();
-  var nombre   = document.getElementById('nombre').value.trim();
-  var email    = document.getElementById('email').value.trim();
-  var nivel    = document.getElementById('nivel').value;
-  var objetivo = document.getElementById('objetivo').value;
-
-  if (!nombre || !email || !nivel || !objetivo) {
-    alert('Por favor rellena todos los campos antes de continuar.');
-    return;
-  }
-
-  var msg = '¡Hola Rocío! Acabo de reservar mi clase de prueba. Te cuento un poco sobre mí:\n\n'
-    + '👤 Nombre: ' + nombre + '\n'
-    + '📧 Email: ' + email + '\n'
-    + '📊 Nivel: ' + nivel + '\n'
-    + '🎯 Objetivo: ' + objetivo + '\n\n'
-    + '¡Nos vemos pronto! 😊';
-
-  window.open('https://wa.me/34678703017?text=' + encodeURIComponent(msg), '_blank');
-});
-</script>
 </body>
 </html>
