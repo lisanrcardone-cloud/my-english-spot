@@ -94,6 +94,12 @@ document.addEventListener('click',   e => { if (!nav.contains(e.target)) closeMe
       + '🎯 Objetivo: ' + objetivo + '\n\n'
       + '¡Nos vemos pronto! 😊';
 
-    window.open('https://wa.me/34678703017?text=' + encodeURIComponent(msg), '_blank');
+    var a = document.createElement('a');
+    a.href = 'https://wa.me/34678703017?text=' + encodeURIComponent(msg);
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
   });
 })();
