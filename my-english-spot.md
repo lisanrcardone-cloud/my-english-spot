@@ -1,5 +1,39 @@
 # My English Spot — Log de sesiones
 
+## Sesión 4 junio 2026
+
+### Página `/gracias` creada y depurada
+
+- Creada `gracias.html`: página de confirmación post-reserva
+  - Mensaje de bienvenida confirmando la reserva exitosa
+  - Formulario corto: Nombre, Email, Nivel de inglés (A1–C1 / No lo sé), Objetivo principal
+  - Al hacer submit construye un link `wa.me/34678703017` con los datos del formulario y abre WhatsApp directamente — sin servicios externos (sin Formspree, sin EmailJS)
+  - `noindex, follow` — correctamente bloqueada para buscadores
+  - Live en https://www.myenglishspotclasses.com/gracias
+
+- Fix en `vercel.json`: añadida rewrite `/gracias` → `/gracias.html` (sin esto Vercel devolvía 404 en la URL limpia)
+
+- **Bugs corregidos durante depuración:**
+  1. **CSP bloqueaba script inline**: `script-src 'self'` sin `'unsafe-inline'` impedía que el handler del form se ejecutara. Fix: mover el handler a `app.js` (ya permitido como `'self'`)
+  2. **`id="nav-menu"` faltante**: `gracias.html` no tenía `id="nav-menu"` en el `<nav>`. `app.js` llama `getElementById('nav-menu')` en el nivel superior; el null-dereference crasheaba sin capturar, impidiendo que el IIFE del form se registrara. Fix: añadir `id="nav-menu"` al nav de `gracias.html`
+  3. **Emojis en mensaje WhatsApp**: los emojis se codificaban como caracteres de reemplazo en algunos entornos. Fix: reemplazados por etiquetas de texto plano (`Nombre:`, `Email:`, etc.)
+
+### Search Console — análisis últimos 3 meses
+
+| Métrica | Valor |
+|---------|-------|
+| Clics | 16 |
+| Impresiones | 85 |
+| CTR medio | 18.82% |
+| Posición media | 6.36 |
+| Páginas indexadas | 1 |
+| Páginas "Descubierta: actualmente sin indexar" | 3 |
+
+- Solo 1 URL indexada — todo el SEO sigue dependiendo de la home
+- 3 páginas descubiertas pero no indexadas — pendiente investigar y solicitar indexación
+
+---
+
 ## Sesión 1 junio 2026
 
 ### Google Business Profile — cambios manuales completados
@@ -78,27 +112,27 @@
 
 ---
 
-### Checklist pendiente
+## Checklist de pendientes
 
-#### 🔴 Urgente — Google Business Profile (`business.google.com`)
+### 🔴 Urgente
 
-- ✅ 1. Activar atributo "Presta servicios online" — hecho 1 jun
-- ✅ 2. Eliminar dirección física → cambiar a Área de servicio: **España** — hecho 1 jun
-- ✅ 3. Cambiar categoría principal a **"Tutor privado"** — hecho 1 jun
-- ✅ 4. Actualizar descripción — hecho 1 jun
-- ✅ 5. Publicar Post en GBP con oferta de clase de prueba gratuita — hecho 1 jun
-- [ ] 6. Pedir reseñas a alumnos (link directo desde GBP → "Pedir reseñas")
+- [ ] Investigar y corregir 3 páginas "Descubierta: actualmente sin indexar" en Search Console — identificar causa y solicitar indexación
+- [ ] Arreglar rutas CSS en `clases-particulares-ingles-online.html` (relativas → absolutas), verificar en móvil y desktop, republicar
 
-#### 🟡 Próximas sesiones — Claude Code
+### 🟡 Próximas sesiones — Claude Code
 
-- [ ] 7. Crear página `/clases-particulares-ingles-online` (creada, pendiente fix CSS móvil)
-- [ ] 8. Crear página `/clases-ingles-online-adultos`
-- [ ] 9. Crear página `/clases-ingles-vigo` (captura local → explica que es online)
-- [ ] 10. Auditoría PageSpeed móvil (identificar por qué CTR móvil es 10pp menor)
+- [ ] Añadir perfiles de Instagram y TikTok a Google Business Profile
+- [ ] Vincular Google Calendar de reservas con "Configurar reserva" en GBP
+- [ ] Crear página `/clases-ingles-online-adultos`
+- [ ] Crear página `/clases-ingles-vigo`
+- [ ] Auditoría PageSpeed móvil (identificar por qué CTR móvil es 10pp menor)
 
-#### 🟢 Medio plazo
+### 🟢 Medio plazo
 
-- [ ] 11. Exportar CSVs de Search Console a 90 días (datos actuales: solo 13 días)
-- [ ] 12. Conectar GA4 para medir conversiones web
-- [ ] 13. Blog SEO — artículos para queries informacionales ("inglés online para adultos", etc.)
-- [ ] 14. Decidir arquitectura web: sitio estático actual vs CMS (para escalar contenido SEO)
+- [ ] Configurar dashboard unificado en Google Sheets (Search Console + GBP + datos manuales de Instagram)
+- [ ] Rocío: añadir link a `/gracias` en la descripción de la cita de Google Calendar
+- [ ] Exportar CSVs de Search Console a 90 días (datos actuales: solo 13 días)
+- [ ] Conectar GA4 para medir conversiones web
+- [ ] Blog SEO — artículos para queries informacionales ("inglés online para adultos", etc.)
+- [ ] Decidir arquitectura web: sitio estático actual vs CMS (para escalar contenido SEO)
+- [ ] Pedir reseñas a alumnos (link directo desde GBP → "Pedir reseñas")
