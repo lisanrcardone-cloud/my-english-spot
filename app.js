@@ -88,11 +88,11 @@ document.addEventListener('click',   e => { if (!nav.contains(e.target)) closeMe
     }
 
     var msg = '¡Hola Rocío! Acabo de reservar mi clase de prueba. Te cuento un poco sobre mí:\n\n'
-      + '👤 Nombre: ' + nombre + '\n'
-      + '📧 Email: ' + email + '\n'
-      + '📊 Nivel: ' + nivel + '\n'
-      + '🎯 Objetivo: ' + objetivo + '\n\n'
-      + '¡Nos vemos pronto! 😊';
+      + 'Nombre: ' + nombre + '\n'
+      + 'Email: ' + email + '\n'
+      + 'Nivel: ' + nivel + '\n'
+      + 'Objetivo: ' + objetivo + '\n\n'
+      + '¡Nos vemos pronto!';
 
     var a = document.createElement('a');
     a.href = 'https://wa.me/34678703017?text=' + encodeURIComponent(msg);
