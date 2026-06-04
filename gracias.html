@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1Y9YC09NL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Y1Y9YC09NL');
+    gtag('event', 'reservation_confirmed', { event_category: 'conversion' });
+  </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>¡Reserva confirmada! — My English Spot</title>
+  <meta name="description" content="Tu reserva está confirmada. Rocío se pondrá en contacto contigo muy pronto." />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href="https://www.myenglishspotclasses.com/gracias" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/assets/pin.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap"></noscript>
+  <link rel="stylesheet" href="/styles.css" />
+
+  <style>
+    /* ── Página /gracias — estilos específicos ── */
+    .gracias-wrap {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .gracias-hero {
+      background: var(--cream);
+      padding: 80px 24px 48px;
+      text-align: center;
+    }
+    .gracias-hero__icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 72px;
+      height: 72px;
+      background: rgba(101, 198, 244, 0.15);
+      border-radius: 50%;
+      margin-bottom: 24px;
+    }
+    .gracias-hero__icon svg { color: var(--blue-deep); }
+    .gracias-hero h1 {
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      color: var(--ink);
+      margin-bottom: 16px;
+    }
+    .gracias-hero h1 span { color: var(--blue-deep); }
+    .gracias-hero p {
+      font-size: 1.1rem;
+      color: var(--ink-2);
+      max-width: 540px;
+      margin: 0 auto 32px;
+      line-height: 1.65;
+    }
+
+    /* ── WhatsApp CTA ── */
+    .btn--whatsapp {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #25d366;
+      color: #fff;
+      font-weight: 800;
+      font-size: 1rem;
+      padding: 16px 28px;
+      border-radius: var(--r-pill);
+      transition: background 0.18s, transform 0.12s;
+      box-shadow: 0 8px 24px -8px rgba(37, 211, 102, 0.45);
+    }
+    .btn--whatsapp:hover { background: #1ebe5d; transform: translateY(-2px); }
+    .btn--whatsapp:active { transform: translateY(0); }
+
+    /* ── Form section ── */
+    .gracias-form-section {
+      background: var(--cream-2);
+      border-top: 1.5px solid var(--line);
+      padding: 56px 24px 72px;
+    }
+    .gracias-form-inner {
+      max-width: 560px;
+      margin: 0 auto;
+    }
+    .gracias-form-inner .sec-head { margin-bottom: 36px; }
+    .gracias-form-inner .sec-head h2 {
+      font-size: clamp(1.3rem, 3vw, 1.7rem);
+      margin-top: 10px;
+    }
+
+    .form-grid {
+      display: grid;
+      gap: 18px;
+    }
+    .form-field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .form-field label {
+      font-size: 0.85rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--ink-2);
+    }
+    .form-field input,
+    .form-field select {
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--ink);
+      background: var(--white);
+      border: 1.5px solid var(--line);
+      border-radius: var(--r-sm);
+      padding: 13px 16px;
+      transition: border-color 0.18s, box-shadow 0.18s;
+      -webkit-appearance: none;
+      appearance: none;
+      width: 100%;
+    }
+    .form-field input:focus,
+    .form-field select:focus {
+      outline: none;
+      border-color: var(--blue-deep);
+      box-shadow: 0 0 0 3px rgba(101, 198, 244, 0.25);
+    }
+    .form-field select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M6 9l6 6 6-6' stroke='%237a8092' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 14px center;
+      padding-right: 42px;
+    }
+
+    .form-submit {
+      margin-top: 8px;
+    }
+    .form-submit .btn--primary {
+      width: 100%;
+      justify-content: center;
+      font-size: 1rem;
+      padding: 16px 24px;
+    }
+
+    /* ── Inline confirmation ── */
+    .form-confirm {
+      display: none;
+      align-items: flex-start;
+      gap: 14px;
+      background: rgba(101, 198, 244, 0.12);
+      border: 1.5px solid rgba(101, 198, 244, 0.4);
+      border-radius: var(--r-md);
+      padding: 20px 22px;
+      margin-top: 20px;
+    }
+    .form-confirm.is-visible { display: flex; }
+    .form-confirm__icon {
+      flex-shrink: 0;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--blue-deep);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .form-confirm__icon svg { color: #fff; }
+    .form-confirm__text strong {
+      display: block;
+      font-size: 0.95rem;
+      margin-bottom: 4px;
+    }
+    .form-confirm__text span {
+      font-size: 0.88rem;
+      color: var(--ink-2);
+      font-weight: 600;
+    }
+
+    .form-error {
+      display: none;
+      color: #c0392b;
+      font-size: 0.88rem;
+      font-weight: 700;
+      margin-top: 12px;
+    }
+    .form-error.is-visible { display: block; }
+
+    /* ── Divider ── */
+    .gracias-divider {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--ink-3);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin: 32px 0 24px;
+    }
+    .gracias-divider::before,
+    .gracias-divider::after {
+      content: '';
+      flex: 1;
+      height: 1.5px;
+      background: var(--line);
+    }
+
+    /* ── Footer spacer ── */
+    .gracias-wrap .footer { margin-top: auto; }
+
+    @media (max-width: 480px) {
+      .gracias-hero { padding: 60px 20px 36px; }
+      .btn--whatsapp { font-size: 0.95rem; padding: 14px 22px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="gracias-wrap">
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="/" class="nav__brand" aria-label="My English Spot — inicio">
+      <span class="nav__mark-wrap"><img src="/assets/pin.png" alt="" class="nav__mark" width="44" height="44" /></span>
+      <span class="nav__wordmark">
+        <span class="orange">My</span> <span class="blue">English</span> <span class="orange">Spot</span>
+      </span>
+    </a>
+    <nav class="nav__menu" aria-label="Principal">
+      <a href="/#oferta">Clases</a>
+      <a href="/#como">Cómo funciona</a>
+      <a href="/#opiniones">Opiniones</a>
+    </nav>
+    <div class="nav__right">
+      <a class="btn btn--primary btn--sm" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener">Reserva tu clase gratis</a>
+      <button class="nav__hamburger" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+        <svg class="ham-open" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        <svg class="ham-close" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO CONFIRMACIÓN -->
+<section class="gracias-hero">
+  <div class="gracias-hero__icon" aria-hidden="true">
+    <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
+      <path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+
+  <span class="eyebrow" style="margin-bottom:18px">¡Reserva confirmada!</span>
+  <h1>¡Genial, <span>nos vemos pronto</span>!</h1>
+  <p>
+    Tu clase de prueba gratuita está reservada. Rocío revisará tu solicitud y te escribirá en menos de 24 horas para confirmar el horario y el enlace de videollamada.
+  </p>
+
+  <!-- WhatsApp CTA -->
+  <a class="btn--whatsapp" href="https://wa.me/34678703017?text=¡Hola%20Rocío!%20Acabo%20de%20reservar%20mi%20clase%20de%20prueba%20y%20quería%20presentarme%20%F0%9F%91%8B" target="_blank" rel="noopener">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    Escríbele a Rocío por WhatsApp
+  </a>
+</section>
+
+<!-- FORMULARIO COMPLEMENTARIO -->
+<section class="gracias-form-section">
+  <div class="gracias-form-inner">
+    <header class="sec-head">
+      <span class="eyebrow">Un momento más</span>
+      <h2>Cuéntanos un poco sobre ti</h2>
+      <p class="sec-head__sub" style="margin-top:10px">
+        Así Rocío podrá preparar tu primera clase a medida, sin perder tiempo en la sesión.
+      </p>
+    </header>
+
+    <form id="gracias-form" novalidate>
+      <!-- Formspree endpoint — reemplazar YOUR_FORM_ID con el ID real -->
+      <input type="hidden" name="_subject" value="Nuevo alumno — ficha de My English Spot" />
+      <input type="hidden" name="_next" value="https://www.myenglishspotclasses.com/gracias" />
+
+      <div class="form-grid">
+        <div class="form-field">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="¿Cómo te llaman?" autocomplete="given-name" required />
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="tu@email.com" autocomplete="email" required />
+        </div>
+
+        <div class="form-field">
+          <label for="nivel">Nivel de inglés</label>
+          <select id="nivel" name="nivel" required>
+            <option value="" disabled selected>Selecciona tu nivel</option>
+            <option value="A1">A1 — Principiante absoluto</option>
+            <option value="A2">A2 — Básico</option>
+            <option value="B1">B1 — Intermedio</option>
+            <option value="B2">B2 — Intermedio alto</option>
+            <option value="C1">C1 — Avanzado</option>
+            <option value="no-se">No lo sé</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="objetivo">Objetivo principal</label>
+          <select id="objetivo" name="objetivo" required>
+            <option value="" disabled selected>¿Para qué quieres el inglés?</option>
+            <option value="trabajo">Trabajo / Business English</option>
+            <option value="examen">Examen Cambridge / IELTS</option>
+            <option value="conversacion">Conversación general</option>
+            <option value="otro">Otro</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-submit">
+        <button type="submit" class="btn btn--primary btn--lg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M22 2 11 13 M22 2l-7 20-4-9-9-4 20-7z" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Enviar
+        </button>
+      </div>
+
+      <div class="form-confirm" id="form-confirm" role="alert" aria-live="polite">
+        <div class="form-confirm__icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="form-confirm__text">
+          <strong>¡Listo! Rocío ya tiene tu ficha.</strong>
+          <span>Prepárate para tu primera clase — nos vemos muy pronto.</span>
+        </div>
+      </div>
+
+      <p class="form-error" id="form-error" role="alert">
+        Algo no fue bien. Puedes escribirle directamente por WhatsApp o a <a href="mailto:info@myenglishspotclasses.com">info@myenglishspotclasses.com</a>.
+      </p>
+    </form>
+
+    <div class="gracias-divider">o</div>
+
+    <a class="btn--whatsapp" href="https://wa.me/34678703017?text=¡Hola%20Rocío!%20Acabo%20de%20reservar%20mi%20clase%20de%20prueba%20y%20quería%20presentarme%20%F0%9F%91%8B" target="_blank" rel="noopener" style="display:inline-flex;width:100%;justify-content:center">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+      Escríbele a Rocío por WhatsApp
+    </a>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <img src="/assets/pin.png" alt="" class="footer__mark" width="44" height="56" loading="lazy" />
+      <div>
+        <div class="footer__wordmark">
+          <span class="orange">My</span> <span class="blue">English</span> <span class="orange">Spot</span>
+        </div>
+        <p class="footer__tag">Tu spot online para aprender inglés</p>
+      </div>
+    </div>
+    <div class="footer__cols">
+      <div class="footer__col">
+        <h4>Contacto</h4>
+        <a href="mailto:info@myenglishspotclasses.com">info@myenglishspotclasses.com</a>
+        <a href="https://www.myenglishspotclasses.com">myenglishspotclasses.com</a>
+      </div>
+      <div class="footer__col footer__col--social">
+        <h4>Síguenos</h4>
+        <div class="socials">
+          <a href="https://www.instagram.com/myenglishspot.classes" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2.2"/><circle cx="17.5" cy="6.5" r="1.3" fill="currentColor"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@myenglishspot" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M14 4v9.5a3.5 3.5 0 1 1-3.5-3.5 M14 4c.5 2.8 2.7 4.5 5 4.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__col footer__col--cta">
+        <h4>Empieza hoy</h4>
+        <a class="btn btn--primary btn--sm btn--ink" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener">Reserva tu clase gratis</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__legal">
+    <span>© 2026 My English Spot</span>
+    <span class="footer__legal-sep">·</span>
+    <a href="/aviso-legal.html">Aviso legal</a>
+    <span class="footer__legal-sep">·</span>
+    <a href="/politica-privacidad.html">Privacidad</a>
+    <span class="footer__legal-sep">·</span>
+    <a href="/politica-cookies.html">Cookies</a>
+  </div>
+</footer>
+
+</div><!-- .gracias-wrap -->
+
+<!-- SVG Sprite -->
+<svg width="0" height="0" class="svg-sprite" aria-hidden="true">
+  <defs>
+    <symbol id="pin" viewBox="0 0 60 80">
+      <path d="M30 2C16.2 2 5 13.2 5 27c0 18 25 51 25 51s25-33 25-51C55 13.2 43.8 2 30 2z" fill="#65c6f4"/>
+      <circle cx="30" cy="27" r="9" fill="#faf8f3"/>
+    </symbol>
+  </defs>
+</svg>
+
+<script src="/app.js"></script>
+<script>
+(function () {
+  // Formspree endpoint — reemplazar YOUR_FORM_ID con el ID real tras crear la cuenta
+  const FORMSPREE_URL = 'https://formspree.io/f/YOUR_FORM_ID';
+
+  const form = document.getElementById('gracias-form');
+  const confirm = document.getElementById('form-confirm');
+  const errorMsg = document.getElementById('form-error');
+
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+
+    const submitBtn = form.querySelector('[type="submit"]');
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Enviando…';
+    confirm.classList.remove('is-visible');
+    errorMsg.classList.remove('is-visible');
+
+    const data = new FormData(form);
+
+    try {
+      const res = await fetch(FORMSPREE_URL, {
+        method: 'POST',
+        body: data,
+        headers: { Accept: 'application/json' }
+      });
+
+      if (res.ok) {
+        form.querySelectorAll('input, select').forEach(el => el.disabled = true);
+        submitBtn.style.display = 'none';
+        confirm.classList.add('is-visible');
+        confirm.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      } else {
+        throw new Error('server');
+      }
+    } catch {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Enviar';
+      errorMsg.classList.add('is-visible');
+    }
+  });
+})();
+</script>
+</body>
+</html>
