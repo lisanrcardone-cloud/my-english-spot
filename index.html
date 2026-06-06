@@ -41,10 +41,16 @@
 {
   "@context": "https://schema.org",
   "@type": ["EducationalOrganization", "LocalBusiness"],
+  "@id": "https://www.myenglishspotclasses.com/#organization",
   "name": "My English Spot",
   "description": "Academia de inglés online — clases particulares 1-a-1 y grupos reducidos. Aprende inglés online con enfoque personalizado. Niveles A1–C1 para adolescentes y adultos.",
   "url": "https://www.myenglishspotclasses.com",
-  "logo": "https://www.myenglishspotclasses.com/assets/og-image.jpeg",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://www.myenglishspotclasses.com/assets/logo.png",
+    "width": 1080,
+    "height": 1350
+  },
   "image": "https://www.myenglishspotclasses.com/assets/og-image.jpeg",
   "priceRange": "€€",
   "telephone": "+34678703017",
@@ -141,6 +147,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://www.myenglishspotclasses.com/#instructor",
   "name": "Rocío Antonella Denti Monaco",
   "jobTitle": "Profesora de inglés",
   "email": "rociodentimonaco@gmail.com",
@@ -185,7 +192,7 @@
           "@type": "CourseInstance",
           "courseMode": "online",
           "courseWorkload": "PT1H",
-          "inLanguage": "es"
+          "inLanguage": "en"
         },
         "offers": {
           "@type": "Offer",
@@ -218,7 +225,7 @@
           "@type": "CourseInstance",
           "courseMode": "online",
           "courseWorkload": "PT1H",
-          "inLanguage": "es"
+          "inLanguage": "en"
         },
         "offers": {
           "@type": "Offer",
@@ -251,7 +258,7 @@
           "@type": "CourseInstance",
           "courseMode": "online",
           "courseWorkload": "PT1H",
-          "inLanguage": "es"
+          "inLanguage": "en"
         },
         "offers": {
           "@type": "Offer",
@@ -284,7 +291,7 @@
           "@type": "CourseInstance",
           "courseMode": "online",
           "courseWorkload": "PT40M",
-          "inLanguage": "es"
+          "inLanguage": "en"
         },
         "offers": {
           "@type": "Offer",
@@ -1093,6 +1100,7 @@
     <div class="footer__cols">
       <div class="footer__col">
         <h4 data-es="Contacto" data-en="Contact">Contacto</h4>
+        <a href="/clases-particulares-ingles-online" data-es="Clases particulares" data-en="Private classes">Clases particulares</a>
         <a href="mailto:info@myenglishspotclasses.com">info@myenglishspotclasses.com</a>
         <a href="https://www.myenglishspotclasses.com">myenglishspotclasses.com</a>
       </div>
