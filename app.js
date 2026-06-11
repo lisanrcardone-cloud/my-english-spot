@@ -87,6 +87,21 @@ document.addEventListener('click',   e => { if (!nav.contains(e.target)) closeMe
       return;
     }
 
+    fetch('https://api.brevo.com/v3/contacts', {
+      method: 'POST',
+      headers: {
+        'accept': 'application/json',
+        'content-type': 'application/json',
+        'api-key': window.BREVO_KEY || ''
+      },
+      body: JSON.stringify({
+        email: email,
+        attributes: { FIRSTNAME: nombre, NIVEL: nivel, OBJETIVO: objetivo },
+        listIds: [3],
+        updateEnabled: true
+      })
+    }).catch(function () {});
+
     var msg = '¡Hola Rocío! Acabo de reservar mi clase de prueba. Te cuento un poco sobre mí:\n\n'
       + 'Nombre: ' + nombre + '\n'
       + 'Email: ' + email + '\n'
