@@ -1,8 +1,6 @@
 {
   "functions": {
-    "api/subscribe.js": {
-      "runtime": "nodejs20.x"
-    }
+    "api/subscribe.js": {}
   },
   "rewrites": [
     {
@@ -16,12 +14,21 @@
     {
       "source": "/preparacion-first-cambridge",
       "destination": "/preparacion-first-cambridge.html"
+    },
+    {
+      "source": "/politica-cookies",
+      "destination": "/politica-cookies.html"
     }
   ],
   "redirects": [
     {
       "source": "/(.*)",
-      "has": [{ "type": "host", "value": "myenglishspotclasses.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "myenglishspotclasses.com"
+        }
+      ],
       "destination": "https://www.myenglishspotclasses.com/$1",
       "permanent": true
     }
