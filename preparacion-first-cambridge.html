@@ -241,8 +241,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: center;
-    max-width: 680px;
+    justify-content: flex-start;
   }
   .chip {
     display: inline-flex;
@@ -259,6 +258,20 @@
   .chip svg { color: var(--blue); flex-shrink: 0; }
   .chip--orange svg { color: var(--orange); }
 
+  /* ── Hero badges row ── */
+  .hero-badges {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+  .hero-badges .urgency-banner,
+  .hero-badges .eyebrow {
+    margin-bottom: 0;
+    white-space: nowrap;
+  }
+
   /* ── Urgency banner ── */
   .urgency-banner {
     background: linear-gradient(135deg, rgba(255,165,31,0.12), rgba(255,165,31,0.06));
@@ -271,7 +284,6 @@
     font-size: 13.5px;
     font-weight: 800;
     color: var(--orange-deep);
-    margin-bottom: 24px;
   }
   .urgency-banner svg { color: var(--orange); flex-shrink: 0; }
 
@@ -652,12 +664,13 @@
     </nav>
   </div>
 
-  <div class="urgency-banner" aria-label="Convocatoria de verano">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-    Convocatoria de verano 2026 · Plazas limitadas
+  <div class="hero-badges">
+    <div class="urgency-banner" aria-label="Convocatoria de verano">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      Convocatoria de verano 2026 · Plazas limitadas
+    </div>
+    <span class="eyebrow">Cambridge B2 First (FCE) · 100% online</span>
   </div>
-
-  <span class="eyebrow">Cambridge B2 First (FCE) · 100% online</span>
 
   <h1 class="service-hero__h1">
     Prepara el <span class="ink--blue">First Certificate</span><br>
