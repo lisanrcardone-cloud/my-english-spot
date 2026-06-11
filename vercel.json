@@ -52,7 +52,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://www.clarity.ms; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://www.clarity.ms; connect-src 'self' https://www.google-analytics.com https://www.clarity.ms https://e.clarity.ms; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          "value": "default-src 'self'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://www.clarity.ms 'sha256-q+XKMZbit+w0UCre0kGhqEZ9+eRtaZ54Pw6fE/65+pA=' 'sha256-qgVz3fDZ1UwA0MAbITorFRB1rIA6qu62xILMTsr7YOY=' 'sha256-WoazQvXAkjRPgRtzEheLJjMlEodte27ArPEflNeRXBc=' 'sha256-5qnFDVNkaM4HlNoRnlNQMo+l+QgFSJlrJ3VfMvbN0do='; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://www.clarity.ms; connect-src 'self' https://www.google-analytics.com https://www.clarity.ms https://e.clarity.ms; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
         }
       ]
     }
