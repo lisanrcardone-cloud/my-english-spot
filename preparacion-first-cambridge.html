@@ -238,10 +238,14 @@
     margin-bottom: 36px;
   }
   .service-hero__chips {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
     gap: 10px;
-    justify-content: flex-start;
+  }
+  .service-hero__chips li:last-child {
+    grid-column: 1 / -1;
+    justify-self: center;
   }
   .chip {
     display: inline-flex;
@@ -258,34 +262,6 @@
   .chip svg { color: var(--blue); flex-shrink: 0; }
   .chip--orange svg { color: var(--orange); }
 
-  /* ── Hero badges row ── */
-  .hero-badges {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 24px;
-  }
-  .hero-badges .urgency-banner,
-  .hero-badges .eyebrow {
-    margin-bottom: 0;
-    white-space: nowrap;
-  }
-
-  /* ── Urgency banner ── */
-  .urgency-banner {
-    background: linear-gradient(135deg, rgba(255,165,31,0.12), rgba(255,165,31,0.06));
-    border: 1.5px solid rgba(255,165,31,0.35);
-    border-radius: var(--r-lg);
-    padding: 10px 18px;
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 13.5px;
-    font-weight: 800;
-    color: var(--orange-deep);
-  }
-  .urgency-banner svg { color: var(--orange); flex-shrink: 0; }
 
   /* ── What is it ── */
   .what-grid {
@@ -612,7 +588,6 @@
     .eyebrow { font-size: 10.5px; }
     .includes-card { align-items: center; }
     .service-hero__chips { flex-direction: column; align-items: center; }
-    .urgency-banner { font-size: 13px; }
   }
 </style>
 </head>
@@ -664,13 +639,7 @@
     </nav>
   </div>
 
-  <div class="hero-badges">
-    <div class="urgency-banner" aria-label="Convocatoria de verano">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-      Convocatoria de verano 2026 · Plazas limitadas
-    </div>
-    <span class="eyebrow">Cambridge B2 First (FCE) · 100% online</span>
-  </div>
+  <span class="eyebrow">Cambridge B2 First (FCE) · 100% online</span>
 
   <h1 class="service-hero__h1">
     Prepara el <span class="ink--blue">First Certificate</span><br>
