@@ -269,7 +269,9 @@
     grid-template-columns: 1fr 1fr;
     gap: 48px;
     align-items: start;
+    overflow: hidden;
   }
+  .what-grid > * { min-width: 0; }
   .what-grid__text h2 {
     font-size: clamp(28px, 3vw, 40px);
     letter-spacing: -0.02em;
@@ -469,26 +471,26 @@
     background: var(--white);
     border: 1.5px solid var(--line);
     border-radius: var(--r-lg);
-    padding: 28px 24px;
+    padding: 32px 28px;
     display: flex;
     align-items: flex-start;
-    gap: 16px;
+    gap: 18px;
     transition: transform .2s ease, box-shadow .2s ease;
   }
   .includes-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
   .includes-card__num {
-    width: 40px; height: 40px;
-    border-radius: 12px;
+    width: 44px; height: 44px;
+    border-radius: 13px;
     background: var(--blue);
     color: var(--white);
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 900;
     display: grid; place-items: center;
     flex-shrink: 0;
   }
   .includes-card:nth-child(2n) .includes-card__num { background: var(--orange); }
-  .includes-card__text strong { display: block; font-size: 16px; font-weight: 900; margin-bottom: 5px; }
-  .includes-card__text p { font-size: 14.5px; font-weight: 600; color: var(--ink-2); line-height: 1.55; margin: 0; }
+  .includes-card__text strong { display: block; font-size: 16.5px; font-weight: 900; margin-bottom: 7px; }
+  .includes-card__text p { font-size: 15px; font-weight: 600; color: var(--ink-2); line-height: 1.6; margin: 0; }
 
   /* ── Método ── */
   .method-strip {
@@ -553,6 +555,8 @@
   .service-hero { padding: 32px 28px 40px; }
   .sec-head { margin-bottom: 28px; }
   .cta { padding: 50px 28px; }
+  html, body { height: auto; }
+  .footer { margin-bottom: 0; padding-bottom: 14px; }
 
   /* ── Nav: increase link font-size by 2px ── */
   .nav__menu a { font-size: 17px; }
