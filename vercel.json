@@ -7,6 +7,10 @@
     {
       "source": "/clases-particulares-ingles-online",
       "destination": "/clases-particulares-ingles-online.html"
+    },
+    {
+      "source": "/preparacion-first-cambridge",
+      "destination": "/preparacion-first-cambridge.html"
     }
   ],
   "redirects": [
