@@ -391,7 +391,7 @@
 <!-- Google Fonts — async (non render-blocking) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" onload="this.rel=\'stylesheet\'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap"></noscript>
 <link rel="stylesheet" href="styles.css" />
 </head>
@@ -694,7 +694,7 @@
            data-en="Cambridge (PET, FCE, CAE), IELTS and Aptis prep.">
           Preparación para Cambridge (PET, FCE, CAE), IELTS y Aptis.
         </p>
-        <p style="font-size:13.5px;font-weight:700;margin-top:8px;"><a href="/preparacion-first-cambridge" style="color:var(--blue-ink);" data-es="Preparación FCE →" data-en="FCE prep →">Preparación FCE →</a></p>
+        <p class="note-sm"><a href="/preparacion-first-cambridge" class="link-blue" data-es="Preparación FCE →" data-en="FCE prep →">Preparación FCE →</a></p>
         <ul class="offer__list">
           <li data-es="Simulacros reales" data-en="Real mock exams">Simulacros reales</li>
           <li data-es="Técnica por sección" data-en="Section-by-section technique">Técnica por sección</li>

@@ -12,7 +12,21 @@
       "Bash(cp -r \"/tmp/my-english-spot-landing/project/assets\" /root/my-english-spot/assets)",
       "Bash(python3 *)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/)",
-      "Bash(cp \"/tmp/my-english-spot-landing/project/assets/pin.png\" /root/my-english-spot/assets/pin.png)"
+      "Bash(cp \"/tmp/my-english-spot-landing/project/assets/pin.png\" /root/my-english-spot/assets/pin.png)",
+      "Skill(claude-seo-ai:audit)",
+      "Skill(claude-seo-ai:seo-orchestrator)",
+      "Skill(claude-seo-ai:seo-crawl-render)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(sed -n '418,430p' /root/my-english-spot/styles.css)",
+      "Bash(sed -n '718,726p' /root/my-english-spot/styles.css)",
+      "Bash(sed -n '1221,1240p' /root/my-english-spot/styles.css)",
+      "Bash(sed -n '1262,1285p' /root/my-english-spot/styles.css)",
+      "Bash(sed -n '1560,1570p' /root/my-english-spot/styles.css)",
+      "Bash(sed -n '1580,1590p' /root/my-english-spot/styles.css)",
+      "Bash(sed -n '1600,1618p' /root/my-english-spot/styles.css)",
+      "Bash(sed -n '1655,1662p' /root/my-english-spot/styles.css)"
     ]
   }
 }
