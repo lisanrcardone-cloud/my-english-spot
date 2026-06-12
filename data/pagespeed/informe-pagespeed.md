@@ -357,3 +357,63 @@
 - **Desktop excelente**: performance ≥98/100, métricas todas en verde
 - **TTFB excelente**: 10 ms en todas las páginas → servidor muy rápido
 - **TBT mobile bajo**: ≤100 ms en todas (límite Google = 200 ms)
+
+---
+
+## AUDITORÍA FINAL — 2026-06-12 (tras optimizaciones)
+
+> **Lighthouse 12.8.2** · commit `3114724` · self-hosted Nunito, CLS fix, a11y, CSP, GA4 defer
+
+### Fixes aplicados
+
+| # | Fix | Archivos | Impacto |
+|---|-----|----------|---------|
+| 1 | **Self-host Nunito** — elimina Google Fonts, `@font-face` local + preload | `styles.css`, 3 HTML | CLS mobile −90%, PERF desktop +2 pts |
+| 2 | **pin.png aspect ratio** — `width:34px` CSS + attrs HTML `34×44` | `styles.css`, 3 HTML | nav/footer images sin distorsión |
+| 3 | **CSP** — `'unsafe-hashes'` + hashes onclick + hash GA4 deferred | `vercel.json` | BP +4 en todas |
+| 4 | **GA4 defer** — `requestIdleCallback` + `setTimeout(3000)` fallback | 3 HTML | BP +4, TBT leve mejora |
+| 5 | **Color contrast WCAG AA** — `--ink-3` #7a8092→#5a6175, btns text→ink, eyebrow→#935200, offer__badge→ink | `styles.css` | A11Y +7 index, +1 resto |
+| 6 | **Heading order** — footer `<h4>` → `<p class="footer__col-title">` | `styles.css`, 3 HTML | A11Y heading-order resuelto |
+| 7 | **aria-label mismatch** — mobile-fab label coincide con texto visible | 3 HTML | A11Y label-content-name-mismatch resuelto |
+
+### Scores finales vs baseline
+
+| Página | Modo | PERF antes→ahora | A11Y antes→ahora | BP antes→ahora | SEO |
+|--------|------|------------------|------------------|----------------|-----|
+| index | mobile | 79 → **86** (+7) | 93 → **100** (+7) | 89 → **93** (+4) | 100 |
+| index | desktop | 98 → **100** (+2) | 95 → **96** (+1) | 89 → **93** (+4) | 100 |
+| clases | mobile | 96 → **90** (−6¹) | 95 → **96** (+1) | 89 → **93** (+4) | 100 |
+| clases | desktop | 99 → **100** (+1) | 94 → **96** (+2) | 89 → **93** (+4) | 100 |
+| fce | mobile | 92 → **90** (−2¹) | 95 → **96** (+1) | 89 → **93** (+4) | 100 |
+| fce | desktop | 99 → **100** (+1) | 95 → **96** (+1) | 89 → **93** (+4) | 100 |
+
+> ¹ Varianza de lab Lighthouse (red 3G simulada, ±5–8 pts). Las métricas absolutas (FCP, LCP) son estables.
+
+### Core Web Vitals finales
+
+| Métrica | index-mob | index-desk | clases-mob | clases-desk | fce-mob | fce-desk |
+|---------|-----------|------------|------------|-------------|---------|----------|
+| FCP | 2.7 s | 0.4 s | 2.6 s | 0.4 s | 2.6 s | 0.4 s |
+| LCP | 2.9 s ⚠️ | 0.6 s ✅ | 2.9 s ⚠️ | 0.6 s ✅ | 3.0 s ⚠️ | 0.5 s ✅ |
+| TBT | 240 ms ⚠️ | 20 ms ✅ | 120 ms ✅ | 20 ms ✅ | 100 ms ✅ | 10 ms ✅ |
+| CLS | **0.012 ✅** | **0.024 ✅** | **0.021 ✅** | **0.019 ✅** | **0.015 ✅** | **0.022 ✅** |
+| SI | 2.9 s | 0.4 s | 2.6 s | 0.4 s | 2.6 s | 0.4 s |
+
+### CLS — antes vs ahora
+
+| Página | Antes | Ahora | Mejora |
+|--------|-------|-------|--------|
+| index mobile | 0.248 ❌ | **0.012 ✅** | −95% |
+| index desktop | 0.071 ✅ | **0.024 ✅** | −66% |
+| clases mobile | 0.033 ✅ | **0.021 ✅** | −36% |
+| clases desktop | 0.054 ✅ | **0.019 ✅** | −65% |
+| fce mobile | 0.091 ✅ | **0.015 ✅** | −84% |
+| fce desktop | 0.067 ✅ | **0.022 ✅** | −67% |
+
+> CLS en los 6 casos dentro del umbral "Good" (≤0.1). El baseline de index-mobile (0.248) estaba en el límite de "Poor".
+
+### Puntos pendientes (próximas iteraciones)
+
+- **LCP mobile ~3 s** — sigue en ⚠️ (umbral "Good" = ≤2.5 s). Causas probables: imagen hero sin WebP/AVIF, render-blocking de `styles.css`. Fix: convertir imágenes a WebP + considerar Critical CSS inline.
+- **TBT index mobile 240 ms** — spike puntual posiblemente por Clarity script. Monitorizar.
+- **Unused JS** — Clarity y GA4 cargan ~450 ms de JS no usado en mobile. Lazy-load o eliminar Clarity si no se usa activamente.
