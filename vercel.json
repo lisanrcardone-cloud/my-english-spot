@@ -56,7 +56,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://www.clarity.ms 'sha256-tmYXfx1AfUT2tBzA1sU1sUrZ8hmi6M+9dTo4gu6A/p0=' 'sha256-VgQy1ccJG3YdN6WOpHUHGiZQi93GpqVurxnIcXzLsRM=' 'sha256-KLM/B04xL2inpeRJjUbBy6aFXgMrHvx3aUcJZ4Iqnp8=' 'sha256-+fGJx4ksTvpWn/Z19DOmDs9tyPngXeF7RI9pl12Si7I='; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://www.clarity.ms; connect-src 'self' https://www.google-analytics.com https://www.clarity.ms https://e.clarity.ms; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          "value": "default-src 'self'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://www.clarity.ms 'unsafe-hashes' 'sha256-tmYXfx1AfUT2tBzA1sU1sUrZ8hmi6M+9dTo4gu6A/p0=' 'sha256-VgQy1ccJG3YdN6WOpHUHGiZQi93GpqVurxnIcXzLsRM=' 'sha256-KLM/B04xL2inpeRJjUbBy6aFXgMrHvx3aUcJZ4Iqnp8=' 'sha256-+fGJx4ksTvpWn/Z19DOmDs9tyPngXeF7RI9pl12Si7I=' 'sha256-5OlQQcFvur12jxFljvix2Zt93KSh63utG/7fqQvxCaI=' 'sha256-RWFNa/gDkXeOBfocbTxefoguIwnQCcPKKh/u34Bc7kQ=' 'sha256-F4b4c7SR/Y2CcJMl4j72QbHt6SPcP170mHa7kuPkEtc='; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://www.clarity.ms; connect-src 'self' https://www.google-analytics.com https://www.clarity.ms https://e.clarity.ms; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
         }
       ]
     }

@@ -189,18 +189,18 @@
 }
 </script>
 
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1Y9YC09NL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-Y1Y9YC09NL');
-</script>
+  <!-- Google tag (gtag.js) — deferred load -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    function loadGA(){var s=document.createElement('script');s.src='https://www.googletagmanager.com/gtag/js?id=G-Y1Y9YC09NL';s.async=true;document.head.appendChild(s);s.onload=function(){gtag('js',new Date());gtag('config','G-Y1Y9YC09NL');};}
+    if('requestIdleCallback' in window){requestIdleCallback(loadGA);}else{setTimeout(loadGA,3000);}
+  </script>
 
 <!-- Google Fonts — async (non render-blocking) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.gstatic.com/s/nunito/v32/XRXV3I6Li01BKofINeaB.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" onload="this.rel=\'stylesheet\'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap"></noscript>
 <link rel="stylesheet" href="/styles.css" />
@@ -809,7 +809,7 @@
 <footer class="footer">
   <div class="footer__inner">
     <div class="footer__brand">
-      <img src="/assets/pin.png" alt="" class="footer__mark" width="44" height="56" loading="lazy" />
+      <img src="/assets/pin.png" alt="" class="footer__mark" width="34" height="44" loading="lazy" />
       <div>
         <div class="footer__wordmark">
           <span class="orange">My</span> <span class="blue">English</span> <span class="orange">Spot</span>
@@ -820,12 +820,12 @@
 
     <div class="footer__cols">
       <div class="footer__col">
-        <h4>Contacto</h4>
+        <p class="footer__col-title">Contacto</p>
         <a href="mailto:info@myenglishspotclasses.com">info@myenglishspotclasses.com</a>
         <a href="https://www.myenglishspotclasses.com">myenglishspotclasses.com</a>
       </div>
       <div class="footer__col footer__col--social">
-        <h4>Síguenos</h4>
+        <p class="footer__col-title">Síguenos</p>
         <div class="socials">
           <a href="https://www.instagram.com/myenglishspot.classes" target="_blank" rel="noopener" aria-label="Instagram">
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2.2"/><circle cx="17.5" cy="6.5" r="1.3" fill="currentColor"/></svg>
@@ -836,7 +836,7 @@
         </div>
       </div>
       <div class="footer__col footer__col--cta">
-        <h4>Empieza hoy</h4>
+        <p class="footer__col-title">Empieza hoy</p>
         <a class="btn btn--primary btn--sm btn--ink" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva')">
           Simulacro gratis
         </a>
@@ -874,7 +874,7 @@
 </svg>
 
 <!-- Mobile floating CTA -->
-<a class="mobile-fab" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" aria-label="Simulacro diagnóstico gratis" onclick="gtag('event', 'click_reserva')">
+<a class="mobile-fab" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" aria-label="Simulacro gratis" onclick="gtag('event', 'click_reserva')">
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2.2"/><path d="M16 2v4M8 2v4M3 10h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
   Simulacro gratis
 </a>
