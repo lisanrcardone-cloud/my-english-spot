@@ -1645,7 +1645,7 @@ p { margin: 0; }
     font-size: 14px;
     transform: translate(-50%, -50%);
   }
-  .vcall__pip-label { font-size: 9px; bottom: 2px; }
+  .vcall__pip-label { font-size: 9px; bottom: -2px; }
 }
 
 /* Mobile floating CTA — visible only on small screens */
