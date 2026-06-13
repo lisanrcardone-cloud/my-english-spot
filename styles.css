@@ -1638,6 +1638,14 @@ p { margin: 0; }
 @media (max-width: 540px) {
   .ages { flex-direction: column; align-items: center; padding: 20px; }
   .ages__group { width: 100%; max-width: 280px; justify-content: flex-start; }
+
+  /* vcall pip: avatar demasiado grande en pip pequeño → reducir y recentrar */
+  .vcall__pip-face {
+    width: 30px; height: 30px;
+    font-size: 14px;
+    transform: translate(-50%, -50%);
+  }
+  .vcall__pip-label { font-size: 9px; bottom: 5px; }
 }
 
 /* Mobile floating CTA — visible only on small screens */
