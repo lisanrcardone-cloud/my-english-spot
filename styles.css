@@ -64,10 +64,10 @@ h1, h2, h3, h4 { margin: 0; font-weight: 900; letter-spacing: -0.01em; line-heig
 p { margin: 0; }
 
 .ink--orange { color: var(--orange); }
-.ink--blue { color: var(--blue-ink); }
+.ink--blue { color: var(--blue); }
 .ink--cream { color: var(--cream); }
-.orange { color: #9b5a00; }
-.blue { color: var(--blue-ink); }
+.orange { color: var(--orange); }
+.blue { color: var(--blue); }
 
 /* ===== Eyebrow ===== */
 .eyebrow {
