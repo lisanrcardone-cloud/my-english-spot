@@ -1641,11 +1641,11 @@ p { margin: 0; }
 
   /* vcall pip: avatar demasiado grande en pip pequeño → reducir y recentrar */
   .vcall__pip-face {
-    width: 30px; height: 30px;
+    width: 36px; height: 36px;
     font-size: 14px;
     transform: translate(-50%, -50%);
   }
-  .vcall__pip-label { font-size: 9px; bottom: 5px; }
+  .vcall__pip-label { font-size: 9px; bottom: 2px; }
 }
 
 /* Mobile floating CTA — visible only on small screens */
