@@ -2,12 +2,13 @@
 // My English Spot — interaction layer
 // ============================================================
 
-// --- Google Fonts async injection (CSP-safe, no inline handlers) --
+// --- Clarity: detener en entornos que no son producción --------
 (function () {
-  var l = document.createElement('link');
-  l.rel = 'stylesheet';
-  l.href = 'https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap';
-  document.head.appendChild(l);
+  var host = window.location.hostname;
+  var isProd = host === 'www.myenglishspotclasses.com' || host === 'myenglishspotclasses.com';
+  if (!isProd && typeof clarity !== 'undefined') {
+    clarity('stop');
+  }
 }());
 
 // --- Language toggle (ES / EN) ----------------------------------
@@ -70,10 +71,15 @@ navMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', clo
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
 document.addEventListener('click',   e => { if (!nav.contains(e.target)) closeMenu(); });
 
-// --- /gracias — WhatsApp form handler ---
+// --- /gracias — conversión + WhatsApp form handler -------------
 (function () {
   var form = document.getElementById('gracias-form');
   if (!form) return;
+
+  // Disparar reserva_confirmada al cargar /gracias.
+  // gtag() está definido en el <head>; los eventos se encolan en dataLayer
+  // y se envían cuando GA4 termina de cargarse.
+  gtag('event', 'reserva_confirmada', { value: 1 });
 
   form.addEventListener('submit', function (e) {
     e.preventDefault();
@@ -86,6 +92,9 @@ document.addEventListener('click',   e => { if (!nav.contains(e.target)) closeMe
       alert('Por favor rellena todos los campos antes de continuar.');
       return;
     }
+
+    // Conversión secundaria: el alumno envió su presentación a Rocío
+    gtag('event', 'lead_whatsapp', { value: 1 });
 
     fetch('/api/subscribe', {
       method: 'POST',
