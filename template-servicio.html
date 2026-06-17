@@ -1,0 +1,1084 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <!--
+  ======================================================================
+  MY ENGLISH SPOT — TEMPLATE DE PÁGINA DE SERVICIO
+  ======================================================================
+  Uso: duplica este archivo, renómbralo al slug definitivo y rellena
+  todos los placeholders marcados con <!-- PLACEHOLDER: ... -->.
+
+  Busca la cadena "PLACEHOLDER" para encontrarlos todos de una vez.
+
+  CHECKLIST ANTES DE PUBLICAR:
+    [ ] Reemplazar TODOS los placeholders del <head> (title, meta, schemas)
+    [ ] Reemplazar TODOS los placeholders del <body> (hero, secciones, FAQ)
+    [ ] Ajustar los href="#ancla" del nav según las secciones de esta página
+    [ ] Decidir si incluir la sección de formulario Brevo (ver #newsletter)
+        — si no aplica, eliminar esa sección completa
+    [ ] Añadir rewrite en vercel.json si la URL es sin .html
+    [ ] Actualizar sitemap.xml con la nueva URL y <lastmod>
+    [ ] Actualizar llms.txt si aplica
+  ======================================================================
+  -->
+
+  <!-- Microsoft Clarity — síncrono, siempre primero en <head> (no mover) -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "x5g3qs2fbb");
+  </script>
+
+  <!-- Schema.org: Course
+       Tipo principal para páginas de servicio educativo.
+       Si el servicio es más genérico (ej: asesoría), cambia @type a "Service". -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "<!-- PLACEHOLDER: nombre completo del curso/servicio (ej: Clases de inglés para empresas online) -->",
+    "description": "<!-- PLACEHOLDER: descripción larga del curso (2-3 frases, incluye keyword principal) -->",
+    "url": "https://www.myenglishspotclasses.com/<!-- PLACEHOLDER: slug sin barra inicial (ej: ingles-empresas-online) -->",
+    "provider": {
+      "@type": "EducationalOrganization",
+      "name": "My English Spot",
+      "url": "https://www.myenglishspotclasses.com"
+    },
+    "instructor": {
+      "@type": "Person",
+      "name": "Rocío Antonella Denti Monaco",
+      "jobTitle": "<!-- PLACEHOLDER: cargo específico para esta página (ej: Profesora de inglés de negocios) -->"
+    },
+    "hasCourseInstance": {
+      "@type": "CourseInstance",
+      "courseMode": "online",
+      "courseWorkload": "PT1H",
+      "inLanguage": "en"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "<!-- PLACEHOLDER: nombre de la oferta gratuita (ej: Clase de prueba gratuita) -->",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "category": "Free",
+        "url": "https://calendar.app.google/sRYu3JKfnedx8V3v8"
+      }
+    ],
+    "educationalLevel": "<!-- PLACEHOLDER: nivel CEFR (ej: A1–C1, B2, etc.) -->",
+    "inLanguage": "en",
+    "teaches": "<!-- PLACEHOLDER: qué aprende el alumno (ej: Business English, inglés para reuniones, emails profesionales) -->",
+    "datePublished": "<!-- PLACEHOLDER: YYYY-MM-DD -->",
+    "image": "https://www.myenglishspotclasses.com/assets/og-image.jpeg"
+  }
+  </script>
+
+  <!-- Schema.org: FAQPage
+       Las preguntas aquí DEBEN coincidir con las del <details> en la sección #faq del body.
+       Añade o elimina objetos Question según las que pongas en el HTML. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "<!-- PLACEHOLDER: pregunta 1 (copia literal del texto en el summary del FAQ) -->",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<!-- PLACEHOLDER: respuesta 1 completa (copia literal del <p> dentro del faq__a) -->"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "<!-- PLACEHOLDER: pregunta 2 -->",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<!-- PLACEHOLDER: respuesta 2 -->"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "<!-- PLACEHOLDER: pregunta 3 -->",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<!-- PLACEHOLDER: respuesta 3 -->"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "<!-- PLACEHOLDER: pregunta 4 -->",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<!-- PLACEHOLDER: respuesta 4 -->"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "<!-- PLACEHOLDER: pregunta 5 -->",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<!-- PLACEHOLDER: respuesta 5 -->"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "<!-- PLACEHOLDER: pregunta 6 -->",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<!-- PLACEHOLDER: respuesta 6 -->"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Schema.org: BreadcrumbList — refleja la jerarquía de URL -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "My English Spot",
+        "item": "https://www.myenglishspotclasses.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "<!-- PLACEHOLDER: etiqueta visible del breadcrumb (ej: Inglés para empresas) -->",
+        "item": "https://www.myenglishspotclasses.com/<!-- PLACEHOLDER: slug -->"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Schema.org: Person — instructor (E-E-A-T) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rocío Antonella Denti Monaco",
+    "jobTitle": "<!-- PLACEHOLDER: igual que en el schema Course.instructor.jobTitle -->",
+    "sameAs": [
+      "https://www.instagram.com/myenglishspot.classes",
+      "https://www.tiktok.com/@myenglishspot"
+    ],
+    "worksFor": {
+      "@type": "EducationalOrganization",
+      "name": "My English Spot",
+      "url": "https://www.myenglishspotclasses.com"
+    }
+  }
+  </script>
+
+  <!-- Google Analytics GA4 — carga diferida (no bloquea render) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    function loadGA(){
+      var s = document.createElement('script');
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-Y1Y9YC09NL';
+      s.async = true;
+      document.head.appendChild(s);
+      s.onload = function(){
+        gtag('js', new Date());
+        gtag('config', 'G-Y1Y9YC09NL');
+      };
+    }
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(loadGA);
+    } else {
+      setTimeout(loadGA, 3000);
+    }
+  </script>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <!-- TITLE: ~55 chars · keyword principal primero · " | My English Spot" al final -->
+  <title><!-- PLACEHOLDER: título SEO --> | My English Spot</title>
+
+  <!-- META DESCRIPTION: ~155 chars · incluye keyword principal y CTA -->
+  <meta name="description" content="<!-- PLACEHOLDER: meta descripción -->" />
+
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.myenglishspotclasses.com/<!-- PLACEHOLDER: slug -->" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.myenglishspotclasses.com/<!-- PLACEHOLDER: slug -->" />
+  <meta property="og:title" content="<!-- PLACEHOLDER: título OG (puede ser igual al title) --> | My English Spot" />
+  <meta property="og:description" content="<!-- PLACEHOLDER: descripción OG (~160 chars, gancho claro) -->" />
+  <meta property="og:image" content="https://www.myenglishspotclasses.com/assets/og-image.jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:site_name" content="My English Spot" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="<!-- PLACEHOLDER: título Twitter --> | My English Spot" />
+  <meta name="twitter:description" content="<!-- PLACEHOLDER: descripción Twitter (~120 chars) -->" />
+  <meta name="twitter:image" content="https://www.myenglishspotclasses.com/assets/og-image.jpeg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/assets/pin.png" />
+
+  <!-- Fuente Nunito — preload para evitar FOUT, no bloquea render -->
+  <noscript></noscript>
+  <link rel="preload" href="/assets/fonts/nunito-latin-desktop.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css" />
+
+</head>
+<body>
+
+<!-- ============================ NAV ============================ -->
+<!--
+  El nav es idéntico en todas las páginas salvo dos cosas:
+  1. Los href="#ancla" del nav__menu apuntan a las secciones de ESTA página.
+  2. El botón CTA puede cambiar de texto según el servicio
+     (ej: "Simulacro diagnóstico gratis" en vez de "Reserva tu clase gratis").
+-->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="https://www.myenglishspotclasses.com/" class="nav__brand" aria-label="My English Spot — inicio">
+      <span class="nav__mark-wrap"><img src="/assets/pin.png" alt="" class="nav__mark" width="31" height="40" fetchpriority="high" /></span>
+      <span class="nav__wordmark">
+        <span class="orange">My</span> <span class="blue">English</span> <span class="orange">Spot</span>
+      </span>
+    </a>
+
+    <!-- PLACEHOLDER: ajusta los href y el texto de cada enlace según las secciones de esta página -->
+    <nav class="nav__menu" id="nav-menu" aria-label="Principal">
+      <a href="#que-es"><!-- PLACEHOLDER: etiqueta nav 1 (ej: Qué es) --></a>
+      <a href="#para-quien">Para quién</a>
+      <a href="#incluye">Qué incluye</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#faq">Preguntas</a>
+      <!-- PLACEHOLDER: enlace(s) cruzado(s) a otras páginas de servicio según corresponda -->
+      <a href="/clases-particulares-ingles-online">Clases particulares</a>
+    </nav>
+
+    <div class="nav__right">
+      <!-- PLACEHOLDER: texto del CTA primario del nav (ej: "Reserva tu clase gratis" o "Simulacro diagnóstico gratis") -->
+      <a class="btn btn--primary btn--sm" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva')">
+        <!-- PLACEHOLDER: texto CTA nav -->
+      </a>
+      <button class="nav__hamburger" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+        <svg class="ham-open" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+        <svg class="ham-close" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ============================ HERO ============================ -->
+<!--
+  Sección de entrada. Estructura fija:
+  breadcrumb → eyebrow → h1 → subtítulo → CTAs → chips de features.
+
+  El h1 tiene siempre dos líneas: la primera en azul (ink--blue),
+  la segunda en color de texto normal.
+-->
+<section class="service-hero">
+  <div class="service-hero__eyebrow-wrap">
+    <nav class="breadcrumb" aria-label="Ruta de navegación">
+      <a href="https://www.myenglishspotclasses.com/">My English Spot</a>
+      <span class="breadcrumb__sep" aria-hidden="true">›</span>
+      <!-- PLACEHOLDER: etiqueta del breadcrumb de esta página -->
+      <span><!-- PLACEHOLDER: breadcrumb label --></span>
+    </nav>
+  </div>
+
+  <!-- EYEBROW: 2-3 palabras clave cortas separadas por · (ej: "Cambridge B2 · 100% online") -->
+  <span class="eyebrow"><!-- PLACEHOLDER: eyebrow --></span>
+
+  <!-- H1: primera línea en azul con ink--blue, segunda línea normal -->
+  <h1 class="service-hero__h1">
+    <span class="ink--blue"><!-- PLACEHOLDER: H1 primera línea --></span><br>
+    <!-- PLACEHOLDER: H1 segunda línea -->
+  </h1>
+
+  <!-- SUBTÍTULO HERO: 2-3 frases. Qué es + cómo funciona + para quién + gancho (clase gratis). -->
+  <p class="service-hero__sub">
+    <!-- PLACEHOLDER: subtítulo hero -->
+  </p>
+
+  <!-- CTAs hero: primario (calendario) + secundario (email) -->
+  <div class="service-hero__ctas">
+    <!-- PLACEHOLDER: texto del CTA primario (ej: "Reserva tu clase gratis" o acción específica del servicio) -->
+    <a class="btn btn--primary btn--lg" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva')">
+      <!-- PLACEHOLDER: texto CTA primario -->
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <a class="btn btn--ghost btn--lg" href="mailto:info@myenglishspotclasses.com" onclick="gtag('event', 'click_email')">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h16v12H4z M4 6l8 7 8-7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Prefiero escribir
+    </a>
+  </div>
+
+  <!--
+    CHIPS: 4-5 características llamativas. Alternan chip (azul) y chip--orange.
+    Los tres primeros son casi siempre iguales en todas las páginas de servicio;
+    los dos últimos son específicos del servicio.
+  -->
+  <ul class="service-hero__chips" aria-label="Características principales">
+    <li class="chip">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="6" width="14" height="12" rx="2" stroke="currentColor" stroke-width="2"/><path d="M16 10l6-3v10l-6-3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      Por videollamada, en directo
+    </li>
+    <li class="chip chip--orange">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      Horarios flexibles
+    </li>
+    <li class="chip">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2"/><path d="M4 20c1.4-3.5 4.4-5.5 8-5.5s6.6 2 8 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      Clase 1 a 1
+    </li>
+    <!-- PLACEHOLDER: chip 4 específico del servicio (ej: "Simulacros reales de Cambridge") -->
+    <li class="chip chip--orange">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l2.6 5.3 5.9.8-4.3 4.1 1 5.8L12 17.3 6.8 20l1-5.8L3.5 10l5.9-.8L12 3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      <!-- PLACEHOLDER: texto chip 4 -->
+    </li>
+    <li class="chip">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L20 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Sin tarjeta ni compromiso
+    </li>
+  </ul>
+</section>
+
+<!-- ============================ QUÉ ES ============================ -->
+<!--
+  Layout: dos columnas (what-grid).
+  Izquierda: badge + h2 + 2-3 párrafos (incluye enlace interno a otra página si aplica).
+  Derecha: what-card con 5 filas icono + título + descripción corta.
+  Fondo: cream (section--cream).
+-->
+<section class="section section--cream" id="que-es">
+  <div class="section__inner">
+    <div class="what-grid">
+
+      <div class="what-grid__text">
+        <!-- BADGE: característica clave muy corta (ej: "Sin local físico · 100% videollamada") -->
+        <span class="online-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="6" width="14" height="12" rx="2" stroke="currentColor" stroke-width="2"/><path d="M16 10l6-3v10l-6-3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          <!-- PLACEHOLDER: texto del badge -->
+        </span>
+
+        <!-- H2: pregunta directa que defina el servicio (ej: "¿Qué son las clases de inglés para empresas?") -->
+        <h2><!-- PLACEHOLDER: H2 qué es --></h2>
+
+        <!-- PLACEHOLDER: párrafo 1 — qué es exactamente el servicio, en términos concretos -->
+        <p><!-- PLACEHOLDER: párrafo 1 --></p>
+
+        <!-- PLACEHOLDER: párrafo 2 — para qué sirve / qué problema resuelve -->
+        <p><!-- PLACEHOLDER: párrafo 2 --></p>
+
+        <!-- PLACEHOLDER: párrafo 3 — condiciones de acceso o enlace interno a servicio relacionado (opcional) -->
+        <p><!-- PLACEHOLDER: párrafo 3 --></p>
+      </div>
+
+      <!-- WHAT-CARD: tarjeta de características (5 filas, iconos alternando azul/naranja) -->
+      <div class="what-card" aria-label="<!-- PLACEHOLDER: descripción aria de la tarjeta -->">
+
+        <div class="what-card__row">
+          <span class="what-card__icon what-card__icon--blue" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="2" y="6" width="14" height="12" rx="2" stroke="currentColor" stroke-width="2"/><path d="M16 10l6-3v10l-6-3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </span>
+          <div class="what-card__content">
+            <strong><!-- PLACEHOLDER: título fila 1 --></strong>
+            <span><!-- PLACEHOLDER: descripción fila 1 (1 frase) --></span>
+          </div>
+        </div>
+
+        <div class="what-card__row">
+          <span class="what-card__icon what-card__icon--orange" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M9 11l3 3L22 4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <div class="what-card__content">
+            <strong><!-- PLACEHOLDER: título fila 2 --></strong>
+            <span><!-- PLACEHOLDER: descripción fila 2 --></span>
+          </div>
+        </div>
+
+        <div class="what-card__row">
+          <span class="what-card__icon what-card__icon--blue" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </span>
+          <div class="what-card__content">
+            <strong><!-- PLACEHOLDER: título fila 3 --></strong>
+            <span><!-- PLACEHOLDER: descripción fila 3 --></span>
+          </div>
+        </div>
+
+        <div class="what-card__row">
+          <span class="what-card__icon what-card__icon--orange" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 1 0 6 0V6a3 3 0 0 0-3-3z M19 11a7 7 0 1 1-14 0 M12 18v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </span>
+          <div class="what-card__content">
+            <strong><!-- PLACEHOLDER: título fila 4 --></strong>
+            <span><!-- PLACEHOLDER: descripción fila 4 --></span>
+          </div>
+        </div>
+
+        <div class="what-card__row">
+          <span class="what-card__icon what-card__icon--blue" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3l2.6 5.3 5.9.8-4.3 4.1 1 5.8L12 17.3 6.8 20l1-5.8L3.5 10l5.9-.8L12 3z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
+          </span>
+          <div class="what-card__content">
+            <strong><!-- PLACEHOLDER: título fila 5 (suele ser la clase de prueba gratis) --></strong>
+            <span><!-- PLACEHOLDER: descripción fila 5 --></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PARA QUIÉN ============================ -->
+<!--
+  Grid de tarjetas de perfiles. Recomendado: 4-6 tarjetas (número par para que el grid quede bien).
+  Cada tarjeta: icono + h3 + párrafo + tags (azul por defecto, naranja con tag--orange).
+  Fondo: white.
+-->
+<section class="section" id="para-quien">
+  <div class="section__inner">
+    <header class="sec-head">
+      <span class="eyebrow">Para quién es</span>
+      <!-- H2: nombra explícitamente el servicio + "para" + perfil general -->
+      <h2><!-- PLACEHOLDER: H2 para quién (ej: "Clases de inglés para empresas: para quién son") --></h2>
+      <p class="sec-head__sub"><!-- PLACEHOLDER: subhead para quién (1 frase que englobe todos los perfiles) --></p>
+    </header>
+
+    <div class="for-whom-grid">
+
+      <!-- PLACEHOLDER: duplica este bloque para cada perfil. Recomendado 4-6 tarjetas. -->
+      <div class="for-whom-card">
+        <div class="for-whom-card__icon" aria-hidden="true">
+          <!-- PLACEHOLDER: SVG representativo del perfil -->
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 19h18 M5 19V9l7-4 7 4v10 M9 19v-5h6v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3><!-- PLACEHOLDER: título perfil 1 --></h3>
+        <p><!-- PLACEHOLDER: descripción perfil 1 (2-3 frases, problema + solución concreta) --></p>
+        <div class="for-whom-tags">
+          <span class="tag"><!-- PLACEHOLDER: tag 1 --></span>
+          <span class="tag"><!-- PLACEHOLDER: tag 2 --></span>
+        </div>
+      </div>
+
+      <div class="for-whom-card">
+        <div class="for-whom-card__icon" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 3l3 6 6 .8-4.5 4.2 1.2 6.2L12 17l-5.7 3.2L7.5 14 3 9.8l6-.8L12 3z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
+        </div>
+        <h3><!-- PLACEHOLDER: título perfil 2 --></h3>
+        <p><!-- PLACEHOLDER: descripción perfil 2 --></p>
+        <div class="for-whom-tags">
+          <span class="tag tag--orange"><!-- PLACEHOLDER: tag 3 --></span>
+          <span class="tag tag--orange"><!-- PLACEHOLDER: tag 4 --></span>
+        </div>
+      </div>
+
+      <div class="for-whom-card">
+        <div class="for-whom-card__icon" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2.2"/><path d="M4 20c1.4-3.5 4.4-5.5 8-5.5s6.6 2 8 5.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </div>
+        <h3><!-- PLACEHOLDER: título perfil 3 --></h3>
+        <p><!-- PLACEHOLDER: descripción perfil 3 --></p>
+        <div class="for-whom-tags">
+          <span class="tag"><!-- PLACEHOLDER: tag 5 --></span>
+          <span class="tag"><!-- PLACEHOLDER: tag 6 --></span>
+        </div>
+      </div>
+
+      <div class="for-whom-card">
+        <div class="for-whom-card__icon" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="9" cy="8" r="3" stroke="currentColor" stroke-width="2"/><circle cx="17" cy="9" r="2.4" stroke="currentColor" stroke-width="2"/><path d="M3 20c1-3 3.5-4.5 6-4.5s5 1.5 6 4.5 M14 19c.5-1.8 2-3 4-3s3.5 1 4 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3><!-- PLACEHOLDER: título perfil 4 --></h3>
+        <p><!-- PLACEHOLDER: descripción perfil 4 --></p>
+        <div class="for-whom-tags">
+          <span class="tag tag--orange"><!-- PLACEHOLDER: tag 7 --></span>
+          <span class="tag tag--orange"><!-- PLACEHOLDER: tag 8 --></span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ QUÉ INCLUYE ============================ -->
+<!--
+  Grid numerado de lo que viene incluido en el servicio.
+  5-6 tarjetas. Los números son decorativos (aria-hidden="true").
+  Fondo: cream.
+-->
+<section class="section section--cream" id="incluye">
+  <div class="section__inner">
+    <header class="sec-head">
+      <span class="eyebrow">Qué incluye</span>
+      <!-- H2: nombra el servicio explícitamente para SEO -->
+      <h2><!-- PLACEHOLDER: H2 qué incluye (ej: "Todo lo que incluye tu clase de inglés para empresas") --></h2>
+      <p class="sec-head__sub"><!-- PLACEHOLDER: subhead qué incluye (1 frase que anticipe el valor del listado) --></p>
+    </header>
+
+    <div class="includes-grid">
+
+      <div class="includes-card">
+        <span class="includes-card__num" aria-hidden="true">1</span>
+        <div class="includes-card__text">
+          <strong><!-- PLACEHOLDER: título item 1 --></strong>
+          <p><!-- PLACEHOLDER: descripción item 1 --></p>
+        </div>
+      </div>
+
+      <div class="includes-card">
+        <span class="includes-card__num" aria-hidden="true">2</span>
+        <div class="includes-card__text">
+          <strong><!-- PLACEHOLDER: título item 2 --></strong>
+          <p><!-- PLACEHOLDER: descripción item 2 --></p>
+        </div>
+      </div>
+
+      <div class="includes-card">
+        <span class="includes-card__num" aria-hidden="true">3</span>
+        <div class="includes-card__text">
+          <strong><!-- PLACEHOLDER: título item 3 --></strong>
+          <p><!-- PLACEHOLDER: descripción item 3 --></p>
+        </div>
+      </div>
+
+      <div class="includes-card">
+        <span class="includes-card__num" aria-hidden="true">4</span>
+        <div class="includes-card__text">
+          <strong><!-- PLACEHOLDER: título item 4 --></strong>
+          <p><!-- PLACEHOLDER: descripción item 4 --></p>
+        </div>
+      </div>
+
+      <div class="includes-card">
+        <span class="includes-card__num" aria-hidden="true">5</span>
+        <div class="includes-card__text">
+          <strong><!-- PLACEHOLDER: título item 5 --></strong>
+          <p><!-- PLACEHOLDER: descripción item 5 --></p>
+        </div>
+      </div>
+
+      <div class="includes-card">
+        <span class="includes-card__num" aria-hidden="true">6</span>
+        <div class="includes-card__text">
+          <!-- El item 6 suele ser la clase de prueba gratuita -->
+          <strong><!-- PLACEHOLDER: título item 6 --></strong>
+          <p><!-- PLACEHOLDER: descripción item 6 --></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ MÉTODO ============================ -->
+<!--
+  4 pilares del método sobre fondo azul.
+  Emojis como iconos rápidos y reconocibles.
+  El texto blanco se consigue con la clase section--blue + ink--cream en el h2.
+-->
+<section class="section section--blue" id="metodo">
+  <div class="section__inner">
+    <header class="sec-head sec-head--center">
+      <span class="eyebrow eyebrow--on-blue">El método</span>
+      <!-- H2 en color crema sobre fondo azul -->
+      <h2 class="ink--cream"><!-- PLACEHOLDER: H2 del método (ej: "Directo, conversacional y adaptado a ti") --></h2>
+      <p class="sec-head__sub"><!-- PLACEHOLDER: subhead método (1 frase con la propuesta de valor) --></p>
+    </header>
+
+    <!-- PLACEHOLDER: 4 pilares. Emoji + título + descripción 1 frase. -->
+    <div class="method-strip" role="list">
+
+      <div class="method-item" role="listitem">
+        <span class="method-item__emoji" aria-hidden="true"><!-- PLACEHOLDER: emoji 1 --></span>
+        <strong><!-- PLACEHOLDER: título pilar 1 --></strong>
+        <p><!-- PLACEHOLDER: descripción pilar 1 --></p>
+      </div>
+
+      <div class="method-item" role="listitem">
+        <span class="method-item__emoji" aria-hidden="true"><!-- PLACEHOLDER: emoji 2 --></span>
+        <strong><!-- PLACEHOLDER: título pilar 2 --></strong>
+        <p><!-- PLACEHOLDER: descripción pilar 2 --></p>
+      </div>
+
+      <div class="method-item" role="listitem">
+        <span class="method-item__emoji" aria-hidden="true"><!-- PLACEHOLDER: emoji 3 --></span>
+        <strong><!-- PLACEHOLDER: título pilar 3 --></strong>
+        <p><!-- PLACEHOLDER: descripción pilar 3 --></p>
+      </div>
+
+      <div class="method-item" role="listitem">
+        <span class="method-item__emoji" aria-hidden="true"><!-- PLACEHOLDER: emoji 4 --></span>
+        <strong><!-- PLACEHOLDER: título pilar 4 --></strong>
+        <p><!-- PLACEHOLDER: descripción pilar 4 --></p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ TESTIMONIOS ============================ -->
+<!--
+  4 testimonios en mini-testis grid.
+  Avatares: inicial del nombre, alternando avatar--blue / avatar--orange.
+  El texto de los testimonios debe ser literal y real (no inventado).
+-->
+<section class="section" id="opiniones">
+  <div class="section__inner">
+    <header class="sec-head">
+      <span class="eyebrow">Opiniones</span>
+      <!-- H2: menciona el resultado concreto que obtuvieron estos alumnos -->
+      <h2><!-- PLACEHOLDER: H2 testimonios (ej: "Alumnos que ya hablan inglés con confianza") --></h2>
+    </header>
+
+    <div class="mini-testis">
+
+      <!-- PLACEHOLDER: sustituye los 4 testimonios por testimonios reales relevantes para este servicio -->
+      <figure class="mini-testi">
+        <div class="mini-testi__stars">★★★★★</div>
+        <blockquote>"<!-- PLACEHOLDER: testimonio 1 -->"</blockquote>
+        <figcaption class="mini-testi__by">
+          <span class="avatar avatar--blue"><!-- PLACEHOLDER: inicial --></span>
+          <div>
+            <strong><!-- PLACEHOLDER: nombre 1 --></strong>
+            <span><!-- PLACEHOLDER: cargo o contexto (ej: Marketing Manager · B2) --></span>
+          </div>
+        </figcaption>
+      </figure>
+
+      <figure class="mini-testi">
+        <div class="mini-testi__stars">★★★★★</div>
+        <blockquote>"<!-- PLACEHOLDER: testimonio 2 -->"</blockquote>
+        <figcaption class="mini-testi__by">
+          <span class="avatar avatar--orange"><!-- PLACEHOLDER: inicial --></span>
+          <div>
+            <strong><!-- PLACEHOLDER: nombre 2 --></strong>
+            <span><!-- PLACEHOLDER: cargo o contexto --></span>
+          </div>
+        </figcaption>
+      </figure>
+
+      <figure class="mini-testi">
+        <div class="mini-testi__stars">★★★★★</div>
+        <blockquote>"<!-- PLACEHOLDER: testimonio 3 -->"</blockquote>
+        <figcaption class="mini-testi__by">
+          <span class="avatar avatar--blue"><!-- PLACEHOLDER: inicial --></span>
+          <div>
+            <strong><!-- PLACEHOLDER: nombre 3 --></strong>
+            <span><!-- PLACEHOLDER: cargo o contexto --></span>
+          </div>
+        </figcaption>
+      </figure>
+
+      <figure class="mini-testi">
+        <div class="mini-testi__stars">★★★★★</div>
+        <blockquote>"<!-- PLACEHOLDER: testimonio 4 -->"</blockquote>
+        <figcaption class="mini-testi__by">
+          <span class="avatar avatar--orange"><!-- PLACEHOLDER: inicial --></span>
+          <div>
+            <strong><!-- PLACEHOLDER: nombre 4 --></strong>
+            <span><!-- PLACEHOLDER: cargo o contexto --></span>
+          </div>
+        </figcaption>
+      </figure>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CÓMO FUNCIONA ============================ -->
+<!--
+  3 pasos con pins SVG de marca. Siempre exactamente 3.
+  Paso 1 y 3: pin azul. Paso 2: pin naranja (step__pin--orange + #pin-o).
+  Fondo: cream.
+-->
+<section class="section section--cream" id="como-funciona">
+  <div class="section__inner">
+    <header class="sec-head sec-head--center">
+      <span class="eyebrow">Cómo funciona</span>
+      <!-- H2: incluye el nombre del servicio para SEO -->
+      <h2><!-- PLACEHOLDER: H2 cómo funciona (ej: "Tres pasos para empezar con tu clase de inglés para empresas") --></h2>
+    </header>
+
+    <ol class="steps">
+      <li class="step">
+        <div class="step__pin">
+          <svg viewBox="0 0 60 80" aria-hidden="true"><use href="#pin"/></svg>
+          <span class="step__num">1</span>
+        </div>
+        <h3 class="steps-heading"><!-- PLACEHOLDER: título paso 1 (suele ser la clase/sesión gratuita) --></h3>
+        <p class="steps-body"><!-- PLACEHOLDER: descripción paso 1 --></p>
+      </li>
+      <li class="step">
+        <div class="step__pin step__pin--orange">
+          <svg viewBox="0 0 60 80" aria-hidden="true"><use href="#pin-o"/></svg>
+          <span class="step__num">2</span>
+        </div>
+        <h3 class="steps-heading"><!-- PLACEHOLDER: título paso 2 (plan personalizado) --></h3>
+        <p class="steps-body"><!-- PLACEHOLDER: descripción paso 2 --></p>
+      </li>
+      <li class="step">
+        <div class="step__pin">
+          <svg viewBox="0 0 60 80" aria-hidden="true"><use href="#pin"/></svg>
+          <span class="step__num">3</span>
+        </div>
+        <h3 class="steps-heading"><!-- PLACEHOLDER: título paso 3 (empiezas) --></h3>
+        <p class="steps-body"><!-- PLACEHOLDER: descripción paso 3 --></p>
+      </li>
+    </ol>
+
+  </div>
+</section>
+
+<!-- ============================ FAQ ============================ -->
+<!--
+  6-8 preguntas con <details>/<summary>.
+  IMPORTANTE: el texto de cada pregunta y respuesta DEBE ser copia literal
+  de lo que pusiste en el schema FAQPage del <head>.
+  Fondo: white.
+-->
+<section class="section" id="faq">
+  <div class="section__inner">
+    <header class="sec-head sec-head--center">
+      <span class="eyebrow">Preguntas frecuentes</span>
+      <!-- H2: incluye la keyword principal para SEO de largo plazo -->
+      <h2><!-- PLACEHOLDER: H2 FAQ con keyword (ej: "Preguntas frecuentes sobre las clases de inglés para empresas") --></h2>
+    </header>
+
+    <div class="faq">
+
+      <!-- PLACEHOLDER: copia este bloque por cada pregunta. Mínimo 6. -->
+      <details class="faq__item">
+        <summary class="faq__q">
+          <span><!-- PLACEHOLDER: pregunta 1 --></span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="faq__a">
+          <p><!-- PLACEHOLDER: respuesta 1 --></p>
+        </div>
+      </details>
+
+      <details class="faq__item">
+        <summary class="faq__q">
+          <span><!-- PLACEHOLDER: pregunta 2 --></span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="faq__a">
+          <p><!-- PLACEHOLDER: respuesta 2 --></p>
+        </div>
+      </details>
+
+      <details class="faq__item">
+        <summary class="faq__q">
+          <span><!-- PLACEHOLDER: pregunta 3 --></span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="faq__a">
+          <p><!-- PLACEHOLDER: respuesta 3 --></p>
+        </div>
+      </details>
+
+      <details class="faq__item">
+        <summary class="faq__q">
+          <span><!-- PLACEHOLDER: pregunta 4 --></span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="faq__a">
+          <p><!-- PLACEHOLDER: respuesta 4 --></p>
+        </div>
+      </details>
+
+      <details class="faq__item">
+        <summary class="faq__q">
+          <span><!-- PLACEHOLDER: pregunta 5 --></span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="faq__a">
+          <p><!-- PLACEHOLDER: respuesta 5 --></p>
+        </div>
+      </details>
+
+      <details class="faq__item">
+        <summary class="faq__q">
+          <span><!-- PLACEHOLDER: pregunta 6 --></span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="faq__a">
+          <p><!-- PLACEHOLDER: respuesta 6 --></p>
+        </div>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FORMULARIO BREVO (SECCIÓN OPCIONAL) ============================ -->
+<!--
+  INCLUIR cuando quieras capturar leads antes de que reserven directamente.
+  ELIMINAR si la página va directo al calendario de reservas sin paso intermedio.
+
+  Conectado al endpoint /api/subscribe (POST).
+  Campos: email (requerido), nombre, nivel, objetivo.
+  Respuesta: { ok: true } → muestra el mensaje de éxito.
+            { error: "..." } → muestra error genérico.
+
+  Ejemplo de uso: páginas de espera de grupo, listas de interés, contenido descargable.
+-->
+<section class="section section--cream" id="newsletter">
+  <div class="section__inner">
+    <header class="sec-head sec-head--center">
+      <span class="eyebrow"><!-- PLACEHOLDER: eyebrow del formulario (ej: "Avísame cuando haya plaza") --></span>
+      <h2><!-- PLACEHOLDER: H2 del formulario (ej: "Reserva tu sitio antes de que se llenen los grupos") --></h2>
+      <p class="sec-head__sub"><!-- PLACEHOLDER: subhead formulario (1 frase con el beneficio de apuntarse) --></p>
+    </header>
+
+    <form class="subscribe-form" id="subscribe-form" novalidate>
+      <div class="subscribe-form__row">
+        <label for="sub-nombre" class="subscribe-form__label">
+          Nombre
+        </label>
+        <input
+          type="text"
+          id="sub-nombre"
+          name="nombre"
+          class="subscribe-form__input"
+          placeholder="Tu nombre"
+          autocomplete="given-name"
+        />
+      </div>
+
+      <div class="subscribe-form__row">
+        <label for="sub-email" class="subscribe-form__label">
+          Email <span aria-hidden="true">*</span>
+        </label>
+        <input
+          type="email"
+          id="sub-email"
+          name="email"
+          class="subscribe-form__input"
+          placeholder="tu@email.com"
+          required
+          autocomplete="email"
+        />
+      </div>
+
+      <!-- PLACEHOLDER: ajusta o elimina los selects de nivel y objetivo según el servicio -->
+      <div class="subscribe-form__row">
+        <label for="sub-nivel" class="subscribe-form__label">Nivel de inglés</label>
+        <select id="sub-nivel" name="nivel" class="subscribe-form__input">
+          <option value="">— Elige tu nivel —</option>
+          <option value="A1-A2">A1–A2 (principiante)</option>
+          <option value="B1">B1 (intermedio)</option>
+          <option value="B2">B2 (intermedio-alto)</option>
+          <option value="C1">C1 (avanzado)</option>
+        </select>
+      </div>
+
+      <div class="subscribe-form__row">
+        <label for="sub-objetivo" class="subscribe-form__label">¿Cuál es tu objetivo principal?</label>
+        <select id="sub-objetivo" name="objetivo" class="subscribe-form__input">
+          <option value="">— Elige tu objetivo —</option>
+          <!-- PLACEHOLDER: ajusta las opciones al contexto específico del servicio -->
+          <option value="trabajo">Inglés para el trabajo</option>
+          <option value="cambridge">Preparar Cambridge (FCE/CAE)</option>
+          <option value="viajes">Viajes y vida en el extranjero</option>
+          <option value="conversacion">Conversación fluida</option>
+          <option value="otro">Otro</option>
+        </select>
+      </div>
+
+      <!-- PLACEHOLDER: texto del botón de envío -->
+      <button type="submit" class="btn btn--primary btn--lg subscribe-form__btn">
+        <!-- PLACEHOLDER: texto CTA formulario (ej: "Avisarme cuando haya plaza") -->
+      </button>
+
+      <!-- Estados de respuesta (controlados por JS) -->
+      <p class="subscribe-form__success" id="sub-success" hidden>
+        <!-- PLACEHOLDER: mensaje de éxito (ej: "¡Apuntado! Te avisaremos en cuanto haya plaza.") -->
+      </p>
+      <p class="subscribe-form__error" id="sub-error" hidden>
+        Algo ha fallado. Escríbenos a <a href="mailto:info@myenglishspotclasses.com">info@myenglishspotclasses.com</a>.
+      </p>
+    </form>
+  </div>
+</section>
+
+<!-- ============================ CTA FINAL ============================ -->
+<!--
+  Sección de cierre sobre fondo azul oscuro.
+  Pin cream como elemento decorativo de marca.
+  Dos botones outline-cream: reservar + email.
+-->
+<section class="cta">
+  <div class="cta__inner">
+    <svg class="cta__pin" viewBox="0 0 60 80" aria-hidden="true"><use href="#pin-cream"/></svg>
+    <!-- H2: pregunta que invite a actuar, con el beneficio principal -->
+    <h2><!-- PLACEHOLDER: H2 CTA (ej: "¿Lista para hablar inglés en el trabajo con confianza?") --></h2>
+    <!-- Descripción: 1 frase. Reitera el beneficio + sin compromiso. -->
+    <p><!-- PLACEHOLDER: descripción CTA (ej: "Reserva tu clase gratis de 40 minutos. Sin tarjeta, sin compromiso, sin rollos.") --></p>
+    <div class="cta__btns">
+      <!-- PLACEHOLDER: texto del botón primario del CTA final -->
+      <a class="btn btn--outline-cream btn--lg" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva')">
+        <!-- PLACEHOLDER: texto botón reservar -->
+      </a>
+      <a class="btn btn--outline-cream btn--lg" href="mailto:info@myenglishspotclasses.com" onclick="gtag('event', 'click_email')">
+        Prefiero escribir
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================ FOOTER ============================ -->
+<!-- Footer idéntico en todas las páginas. No modificar. -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <img src="/assets/pin.png" alt="" class="footer__mark" width="34" height="44" loading="lazy" />
+      <div>
+        <div class="footer__wordmark">
+          <span class="orange">My</span> <span class="blue">English</span> <span class="orange">Spot</span>
+        </div>
+        <p class="footer__tag">Tu spot online para aprender inglés</p>
+      </div>
+    </div>
+
+    <div class="footer__cols">
+      <div class="footer__col">
+        <p class="footer__col-title">Contacto</p>
+        <a href="mailto:info@myenglishspotclasses.com">info@myenglishspotclasses.com</a>
+        <a href="https://www.myenglishspotclasses.com">myenglishspotclasses.com</a>
+      </div>
+      <div class="footer__col footer__col--social">
+        <p class="footer__col-title">Síguenos</p>
+        <div class="socials">
+          <a href="https://www.instagram.com/myenglishspot.classes" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2.2"/><circle cx="17.5" cy="6.5" r="1.3" fill="currentColor"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@myenglishspot" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M14 4v9.5a3.5 3.5 0 1 1-3.5-3.5 M14 4c.5 2.8 2.7 4.5 5 4.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__col footer__col--cta">
+        <p class="footer__col-title">Empieza hoy</p>
+        <a class="btn btn--primary btn--sm btn--ink" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva')">
+          Reserva tu clase gratis
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__legal">
+    <span>© 2026 My English Spot</span>
+    <span class="footer__legal-sep">·</span>
+    <a href="/aviso-legal.html">Aviso legal</a>
+    <span class="footer__legal-sep">·</span>
+    <a href="/politica-privacidad.html">Privacidad</a>
+    <span class="footer__legal-sep">·</span>
+    <a href="/politica-cookies.html">Cookies</a>
+  </div>
+</footer>
+
+<!-- ============================ SVG SPRITE ============================ -->
+<!-- Sprite de los pins de marca. Idéntico en todas las páginas. No modificar. -->
+<svg width="0" height="0" class="svg-sprite" aria-hidden="true">
+  <defs>
+    <symbol id="pin" viewBox="0 0 60 80">
+      <path d="M30 2C16.2 2 5 13.2 5 27c0 18 25 51 25 51s25-33 25-51C55 13.2 43.8 2 30 2z" fill="#65c6f4"/>
+      <circle cx="30" cy="27" r="9" fill="#faf8f3"/>
+    </symbol>
+    <symbol id="pin-o" viewBox="0 0 60 80">
+      <path d="M30 2C16.2 2 5 13.2 5 27c0 18 25 51 25 51s25-33 25-51C55 13.2 43.8 2 30 2z" fill="#ffa51f"/>
+      <circle cx="30" cy="27" r="9" fill="#faf8f3"/>
+    </symbol>
+    <symbol id="pin-cream" viewBox="0 0 60 80">
+      <path d="M30 2C16.2 2 5 13.2 5 27c0 18 25 51 25 51s25-33 25-51C55 13.2 43.8 2 30 2z" fill="#faf8f3"/>
+      <circle cx="30" cy="27" r="9" fill="#ffa51f"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- Mobile floating CTA — visible solo en móvil (CSS lo controla) -->
+<!-- PLACEHOLDER: ajusta aria-label y el texto según el CTA primario del servicio -->
+<a class="mobile-fab" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" aria-label="Reserva gratis" onclick="gtag('event', 'click_reserva')">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2.2"/><path d="M16 2v4M8 2v4M3 10h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+  <!-- PLACEHOLDER: texto botón flotante móvil (ej: "Reserva gratis" o "Simulacro gratis") -->
+</a>
+
+<!-- app.js gestiona: nav hamburger, lang switcher (si aplica), FAQ accordion (si el browser no soporta <details>). -->
+<script src="/app.js"></script>
+
+<!-- Script del formulario Brevo — eliminar si no usas la sección #newsletter -->
+<script>
+(function () {
+  var form = document.getElementById('subscribe-form');
+  if (!form) return;
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    var btn     = form.querySelector('.subscribe-form__btn');
+    var success = document.getElementById('sub-success');
+    var error   = document.getElementById('sub-error');
+    var email   = form.querySelector('[name="email"]').value.trim();
+
+    if (!email) {
+      form.querySelector('[name="email"]').focus();
+      return;
+    }
+
+    btn.disabled = true;
+    success.hidden = true;
+    error.hidden   = true;
+
+    fetch('/api/subscribe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        email:   email,
+        nombre:  (form.querySelector('[name="nombre"]')  || {}).value || '',
+        nivel:   (form.querySelector('[name="nivel"]')   || {}).value || '',
+        objetivo:(form.querySelector('[name="objetivo"]') || {}).value || ''
+      })
+    })
+    .then(function (res) { return res.json(); })
+    .then(function (data) {
+      if (data.ok) {
+        success.hidden = false;
+        form.reset();
+        gtag('event', 'subscribe_success');
+      } else {
+        error.hidden = false;
+      }
+    })
+    .catch(function () {
+      error.hidden = false;
+    })
+    .finally(function () {
+      btn.disabled = false;
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
