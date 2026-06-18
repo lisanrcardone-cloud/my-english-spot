@@ -1,13 +1,12 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "x5g3qs2fbb");
-  </script>
+  <!-- Consent Mode v2 defaults: debe ejecutarse ANTES de que cargue gtag.js -->
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("consent","default",{analytics_storage:"denied",ad_storage:"denied",functionality_storage:"denied",personalization_storage:"denied",wait_for_update:500});</script>
+  <!-- GA4 — carga siempre, pero sin cookies hasta consentimiento (Consent Mode v2) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1Y9YC09NL"></script>
+  <!-- Clarity queue stub — el script real solo carga si hay consentimiento -->
+  <script>window.clarity=window.clarity||function(){(window.clarity.q=window.clarity.q||[]).push(arguments);};</script>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Política de Cookies — My English Spot</title>
@@ -18,6 +17,7 @@
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" onload="this.rel=\'stylesheet\'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap"></noscript>
 <link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="/consent.css" />
 </head>
 <body>
 
@@ -276,5 +276,20 @@
 </footer>
 
 <script src="app.js"></script>
+
+<!-- ==================== COOKIE BANNER ==================== -->
+<div id="cookie-banner" class="cookie-banner" hidden role="dialog" aria-label="Aviso de cookies" aria-live="polite">
+  <div class="cookie-banner__inner">
+    <p class="cookie-banner__text">
+      Usamos cookies analíticas (GA4) y de comportamiento (Clarity) para mejorar el sitio. No usamos cookies publicitarias.
+      <a href="/politica-cookies" class="cookie-banner__link">Política de cookies</a>
+    </p>
+    <div class="cookie-banner__actions">
+      <button id="cookie-reject" class="btn btn--ghost btn--sm">Rechazar</button>
+      <button id="cookie-accept" class="btn btn--primary btn--sm">Aceptar</button>
+    </div>
+  </div>
+</div>
+<script src="/consent.js"></script>
 </body>
 </html>

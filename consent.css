@@ -1,0 +1,82 @@
+/* ============================================================
+   My English Spot — Cookie consent banner
+   ============================================================ */
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9000;
+  background: #ffffff;
+  border-top: 2px solid #65c6f4;
+  box-shadow: 0 -4px 28px rgba(0, 0, 0, .10);
+  transform: translateY(100%);
+  transition: transform .35s cubic-bezier(.4, 0, .2, 1);
+  /* Oculto hasta que JS añada .is-visible */
+}
+
+.cookie-banner[hidden] {
+  /* [hidden] añade display:none; lo sobreescribimos para que la transición funcione */
+  display: block;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.cookie-banner.is-visible {
+  transform: translateY(0);
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.cookie-banner__inner {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: .9rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.cookie-banner__text {
+  flex: 1;
+  min-width: 0;
+  font-size: .875rem;
+  color: #555;
+  margin: 0;
+  line-height: 1.55;
+  font-family: 'Nunito', sans-serif;
+}
+
+.cookie-banner__link {
+  color: #65c6f4;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  white-space: nowrap;
+  margin-left: .3rem;
+}
+
+.cookie-banner__link:hover {
+  color: #3bb0e8;
+}
+
+.cookie-banner__actions {
+  display: flex;
+  gap: .625rem;
+  flex-shrink: 0;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 560px) {
+  .cookie-banner__inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: .75rem;
+    padding: .875rem 1rem;
+  }
+
+  .cookie-banner__actions {
+    justify-content: flex-end;
+  }
+}
