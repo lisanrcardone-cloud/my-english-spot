@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <!--
+  ======================================================================
+  MY ENGLISH SPOT — TEMPLATE DE ARTÍCULO DE BLOG
+  ======================================================================
+  Uso: duplica este archivo, renómbralo al slug definitivo y rellena
+  todos los PLACEHOLDER marcados a continuación.
+
+  CHECKLIST ANTES DE PUBLICAR:
+    [ ] Reemplazar TODOS los PLACEHOLDER del <head>
+    [ ] Reemplazar TODOS los PLACEHOLDER del <body>
+    [ ] Añadir rewrite en vercel.json: /blog/SLUG → /blog/SLUG.html
+    [ ] Actualizar sitemap.xml con la URL del artículo y <lastmod>
+    [ ] Añadir tarjeta del artículo en blog/index.html
+    [ ] Calcular SHA256 de los inline scripts si difieren de los existentes
+  ======================================================================
+  -->
+
+  <!-- Consent Mode v2 defaults: debe ejecutarse ANTES de que cargue gtag.js -->
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("consent","default",{analytics_storage:"denied",ad_storage:"denied",functionality_storage:"denied",personalization_storage:"denied",wait_for_update:500});</script>
+  <!-- GA4 — carga siempre, pero sin cookies hasta consentimiento (Consent Mode v2) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1Y9YC09NL"></script>
+  <!-- Clarity queue stub — el script real solo carga si hay consentimiento -->
+  <script>window.clarity=window.clarity||function(){(window.clarity.q=window.clarity.q||[]).push(arguments);};</script>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <!-- TITLE: ~55 chars · keyword principal primero -->
+  <title><!-- PLACEHOLDER: título SEO --> | My English Spot</title>
+
+  <!-- META DESCRIPTION: ~155 chars · keyword + CTA -->
+  <meta name="description" content="<!-- PLACEHOLDER: meta description -->" />
+
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.myenglishspotclasses.com/blog/<!-- PLACEHOLDER: slug -->" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.myenglishspotclasses.com/blog/<!-- PLACEHOLDER: slug -->" />
+  <meta property="og:title" content="<!-- PLACEHOLDER: título OG --> | My English Spot" />
+  <meta property="og:description" content="<!-- PLACEHOLDER: descripción OG -->" />
+  <meta property="og:image" content="https://www.myenglishspotclasses.com/assets/og-image.jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:site_name" content="My English Spot" />
+  <meta property="article:author" content="Rocío Antonella Denti Monaco" />
+  <meta property="article:published_time" content="<!-- PLACEHOLDER: YYYY-MM-DDT00:00:00+02:00 -->" />
+
+  <link rel="icon" type="image/png" href="/assets/pin.png" />
+  <link rel="preload" href="/assets/fonts/nunito-latin-desktop.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/blog/blog.css" />
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="https://www.myenglishspotclasses.com/" class="nav__brand" aria-label="My English Spot — inicio">
+      <span class="nav__mark-wrap"><img src="/assets/pin.png" alt="" class="nav__mark" width="31" height="40" fetchpriority="high" /></span>
+      <span class="nav__wordmark">
+        <span class="orange">My</span> <span class="blue">English</span> <span class="orange">Spot</span>
+      </span>
+    </a>
+    <nav class="nav__menu" id="nav-menu" aria-label="Principal">
+      <a href="/clases-particulares-ingles-online">Clases particulares</a>
+      <a href="/preparacion-first-cambridge">First Certificate</a>
+      <a href="/clases-ingles-verano">Verano</a>
+      <a href="/blog">Blog</a>
+    </nav>
+    <div class="nav__right">
+      <a class="btn btn--primary btn--sm" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva')">
+        Reserva tu clase gratis
+      </a>
+      <button class="nav__hamburger" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+        <svg class="ham-open" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+        <svg class="ham-close" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <article class="article-wrap">
+
+    <nav class="article__breadcrumb" aria-label="Ruta de navegación">
+      <a href="/">My English Spot</a>
+      <span aria-hidden="true">›</span>
+      <a href="/blog">Blog</a>
+      <span aria-hidden="true">›</span>
+      <!-- PLACEHOLDER: etiqueta visible del artículo en el breadcrumb -->
+      <span><!-- PLACEHOLDER: breadcrumb label --></span>
+    </nav>
+
+    <span class="article__eyebrow"><!-- PLACEHOLDER: categoría (ej: Exámenes Cambridge · FCE) --></span>
+
+    <h1 class="article__h1"><!-- PLACEHOLDER: H1 completo --></h1>
+
+    <div class="article__meta">
+      <span>Por <strong>Rocío Denti</strong></span>
+      <span><!-- PLACEHOLDER: fecha larga (ej: 19 de junio de 2026) --></span>
+      <span><!-- PLACEHOLDER: tiempo de lectura (ej: 7 min de lectura) --></span>
+    </div>
+
+    <p class="article__intro">
+      <!-- PLACEHOLDER: párrafo de introducción — engancha en 2-3 frases. Contexto + por qué importa + qué va a aprender. -->
+    </p>
+
+    <div class="article__body">
+
+      <h2><!-- PLACEHOLDER: H2 primera sección --></h2>
+      <p><!-- PLACEHOLDER: contenido --></p>
+
+      <h2><!-- PLACEHOLDER: H2 segunda sección --></h2>
+      <p><!-- PLACEHOLDER: contenido --></p>
+
+      <!-- CTA inline a mitad del artículo -->
+      <div class="article__cta-box">
+        <p><!-- PLACEHOLDER: frase de enganche que conecte el contenido con el servicio --></p>
+        <a class="btn btn--primary btn--sm" href="<!-- PLACEHOLDER: URL servicio relacionado -->" onclick="gtag('event', 'click_cta_articulo')">
+          <!-- PLACEHOLDER: texto CTA inline -->
+        </a>
+      </div>
+
+      <h2><!-- PLACEHOLDER: H2 tercera sección --></h2>
+      <p><!-- PLACEHOLDER: contenido --></p>
+
+      <!-- PLACEHOLDER: añade tantas secciones H2 como necesites -->
+
+    </div>
+
+  </article>
+</main>
+
+<!-- CTA final -->
+<section class="cta">
+  <div class="cta__inner">
+    <svg class="cta__pin" viewBox="0 0 60 80" aria-hidden="true"><use href="#pin-cream"/></svg>
+    <h2><!-- PLACEHOLDER: H2 CTA final (ej: ¿Lista para empezar con el FCE?) --></h2>
+    <p><!-- PLACEHOLDER: descripción del CTA (1 frase + sin compromiso) --></p>
+    <div class="cta__btns">
+      <a class="btn btn--outline-cream btn--lg" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva')">
+        Reserva tu clase gratis
+      </a>
+      <a class="btn btn--outline-cream btn--lg" href="mailto:info@myenglishspotclasses.com" onclick="gtag('event', 'click_email')">
+        Prefiero escribir
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <img src="/assets/pin.png" alt="" class="footer__mark" width="34" height="44" loading="lazy" />
+      <div>
+        <div class="footer__wordmark">
+          <span class="orange">My</span> <span class="blue">English</span> <span class="orange">Spot</span>
+        </div>
+        <p class="footer__tag">Tu spot online para aprender inglés</p>
+      </div>
+    </div>
+    <div class="footer__cols">
+      <div class="footer__col">
+        <p class="footer__col-title">Contacto</p>
+        <a href="mailto:info@myenglishspotclasses.com">info@myenglishspotclasses.com</a>
+        <a href="https://www.myenglishspotclasses.com">myenglishspotclasses.com</a>
+      </div>
+      <div class="footer__col footer__col--social">
+        <p class="footer__col-title">Síguenos</p>
+        <div class="socials">
+          <a href="https://www.instagram.com/myenglishspot.classes" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2.2"/><circle cx="17.5" cy="6.5" r="1.3" fill="currentColor"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@myenglishspot" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M14 4v9.5a3.5 3.5 0 1 1-3.5-3.5 M14 4c.5 2.8 2.7 4.5 5 4.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__col footer__col--cta">
+        <p class="footer__col-title">Empieza hoy</p>
+        <a class="btn btn--primary btn--sm btn--ink" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva')">
+          Reserva tu clase gratis
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__legal">
+    <span>© 2026 My English Spot</span>
+    <span class="footer__legal-sep">·</span>
+    <a href="/aviso-legal.html">Aviso legal</a>
+    <span class="footer__legal-sep">·</span>
+    <a href="/politica-privacidad.html">Privacidad</a>
+    <span class="footer__legal-sep">·</span>
+    <a href="/politica-cookies.html">Cookies</a>
+  </div>
+</footer>
+
+<svg width="0" height="0" class="svg-sprite" aria-hidden="true">
+  <defs>
+    <symbol id="pin" viewBox="0 0 60 80">
+      <path d="M30 2C16.2 2 5 13.2 5 27c0 18 25 51 25 51s25-33 25-51C55 13.2 43.8 2 30 2z" fill="#65c6f4"/>
+      <circle cx="30" cy="27" r="9" fill="#faf8f3"/>
+    </symbol>
+    <symbol id="pin-cream" viewBox="0 0 60 80">
+      <path d="M30 2C16.2 2 5 13.2 5 27c0 18 25 51 25 51s25-33 25-51C55 13.2 43.8 2 30 2z" fill="#faf8f3"/>
+      <circle cx="30" cy="27" r="9" fill="#ffa51f"/>
+    </symbol>
+  </defs>
+</svg>
+
+<a class="mobile-fab" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" aria-label="Reserva gratis" onclick="gtag('event', 'click_reserva')">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2.2"/><path d="M16 2v4M8 2v4M3 10h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+  Reserva gratis
+</a>
+
+<script src="/app.js"></script>
+</body>
+</html>
