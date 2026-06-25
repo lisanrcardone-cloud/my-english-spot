@@ -2404,3 +2404,41 @@ p { margin: 0; }
   
 
 .eyebrow--mb { margin-bottom: 16px; }
+
+/* ── niveles-ingles-examenes: overrides ── */
+
+/* Centrar última fila del grid de 5 niveles (flex en lugar de grid) */
+.for-whom-grid--5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+}
+.for-whom-grid--5 > .for-whom-card {
+  flex: 0 0 calc(33.333% - 12px);
+}
+@media (max-width: 1000px) {
+  .for-whom-grid--5 > .for-whom-card {
+    flex: 0 0 calc(50% - 9px);
+  }
+}
+@media (max-width: 640px) {
+  .for-whom-grid--5 > .for-whom-card {
+    flex: 0 0 100%;
+  }
+}
+
+/* Grid 2×2 para servicios */
+.for-whom-grid--2x2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 640px) {
+  .for-whom-grid--2x2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Utilidades de texto (reemplazo de inline styles) */
+.util-text-center { text-align: center; }
+.util-mt-md { margin-top: 2rem; }
+.util-mt-lg { margin-top: 2.5rem; }

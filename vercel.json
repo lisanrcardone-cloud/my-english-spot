@@ -23,6 +23,10 @@
     {
       "source": "/politica-cookies",
       "destination": "/politica-cookies.html"
+    },
+    {
+      "source": "/niveles-ingles-examenes",
+      "destination": "/niveles-ingles-examenes.html"
     }
   ],
   "redirects": [
