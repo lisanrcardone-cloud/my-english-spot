@@ -1,0 +1,4 @@
+39. [GET] https://cookies.administrarweb.es/css/modern4.min.css => [200] 
+40. [GET] https://stats.administrarweb.es/registerStats.ashx?empId%3D149062A%26type%3Dvisita%26url%3Dhttps%3A%2F%2Fwww.worldenglishvigo.es%2F => [200] 
+
+Note: 41 static requests not shown, run with "static" option to see them.

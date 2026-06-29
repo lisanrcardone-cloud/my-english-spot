@@ -1,0 +1,16 @@
+# ----------------------------------------
+# Eventos: Nombre del evento
+# Cuenta: My English Spot
+# Propiedad:  My English Spot
+# ----------------------------------------
+# 
+# Todos los usuarios
+# Fecha de inicio: 20260531
+# Fecha de finalización: 20260627
+Nombre del evento,Número de eventos,Total de usuarios,Número de eventos por usuario activo,Total de ingresos
+page_view,13,7,1.8571428571428572,0
+user_engagement,10,5,2,0
+session_start,8,7,1.1428571428571428,0
+first_visit,7,7,1,0
+scroll,3,2,1.5,0
+click_email_cta_verano,1,1,1,0

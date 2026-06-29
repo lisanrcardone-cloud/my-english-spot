@@ -1,0 +1,64 @@
+﻿"Nombre del proyecto","My English Spot"
+"Intervalo de fechas","06/11/2026 00:00 - 06/17/2026 23:59"
+
+
+"Id. de usuario de Clarity","3ui2im"
+
+"Métricas","Sesiones"
+"","Total de sesiones","1"
+"","Sesiones de bot","0"
+
+"Métricas","Páginas por sesión"
+"","Promedio","1"
+
+"Métricas","Profundidad de desplazamiento"
+"","Promedio","7"
+
+"Métricas","Tiempo activo empleado"
+"","Tiempo activo","0"
+"","Tiempo total","1"
+
+"Métricas","Información general de los usuarios"
+"","Usuarios únicos","2"
+"","Sesiones con nuevos usuarios","2"
+"","Sesiones con usuarios recurrentes","0"
+
+"Métricas","Todos los usuarios"
+"","Id. de usuario","Nro. de sesiones","País o región","Dispositivo"
+"","3ui2im","1","Spain","PC"
+
+"Métricas","Ideas","Nro. de sesiones","% de sesiones"
+"","Clics continuos","0","0%"
+"","Clic inactivo","0","0%"
+"","Desplazamiento excesivo","0","0%"
+"","Clic atrás rápido","0","0%"
+
+"Métricas","Exploradores","Nro. de sesiones","% de sesiones"
+"","Chrome","1","100%"
+
+"Métricas","Páginas principales","Nro. de sesiones"
+"","http://89.167.52.97:8080/preparacion-first-cambridge.html","1"
+
+"Métricas","Eventos inteligentes","Nro. de sesiones","% de sesiones"
+
+"Métricas","Origen de referencia","Nro. de sesiones"
+
+"Métricas","Errores de JavaScript"
+"","Sesiones con errores de JavaScript"
+""," total de errores de JavaScript","0"
+"","","Nro. de sesiones","% de sesiones"
+
+"Métricas","Información general del rendimiento"
+"","Puntuación","0"
+"","LCP (Pintura con contenido más grande)","nulls"
+"","INP (Interacción con Next Paint)","nullms"
+"","CLS (desplazamiento de diseño acumulativo)","nulls"
+
+"Métricas","Tráfico de bots"
+"webScraperBotSessions","0"
+"suspiciousDeviceBotSessions","0"
+"suspiciousNetworkBotSessions","0"
+"suspiciousInteractionBotSessions","0"
+"ppcAdFraudBotSessions","0"
+"otherBotsSessions","0"
+"__typename","BotTypes"
