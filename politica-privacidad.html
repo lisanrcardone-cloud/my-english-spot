@@ -11,6 +11,7 @@
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" onload="this.rel=\'stylesheet\'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap"></noscript>
 <link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="/consent.css" />
 </head>
 <body>
 
@@ -217,5 +218,19 @@
 </footer>
 
 <script src="app.js"></script>
+
+<div id="cookie-banner" class="cookie-banner" hidden role="dialog" aria-label="Aviso de cookies" aria-live="polite">
+  <div class="cookie-banner__inner">
+    <p class="cookie-banner__text">
+      Usamos cookies analíticas (GA4) y de comportamiento (Clarity) para mejorar el sitio. No usamos cookies publicitarias.
+      <a href="/politica-cookies" class="cookie-banner__link">Política de cookies</a>
+    </p>
+    <div class="cookie-banner__actions">
+      <button id="cookie-reject" class="btn btn--ghost btn--sm">Rechazar</button>
+      <button id="cookie-accept" class="btn btn--primary btn--sm">Aceptar</button>
+    </div>
+  </div>
+</div>
+<script src="/consent.js"></script>
 </body>
 </html>
