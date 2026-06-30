@@ -9,60 +9,45 @@
   <!-- Clarity queue stub — el script real solo carga si hay consentimiento -->
   <script>window.clarity=window.clarity||function(){(window.clarity.q=window.clarity.q||[]).push(arguments);};</script>
 
-  <!-- Schema.org: LocalBusiness + Course -->
+  <!-- Schema.org: Course -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": ["EducationalOrganization", "LocalBusiness"],
-    "@id": "https://www.myenglishspotclasses.com/#organization",
-    "name": "My English Spot",
-    "description": "Academia de inglés online con profesora en Vigo. Clases particulares 1 a 1 y grupos reducidos para adultos y adolescentes. Niveles A1–C1. Primera clase gratis.",
-    "url": "https://www.myenglishspotclasses.com",
-    "telephone": "+34678703017",
-    "email": "info@myenglishspotclasses.com",
-    "priceRange": "€€",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Vigo",
-      "addressRegion": "Pontevedra",
-      "addressCountry": "ES"
+    "@type": "Course",
+    "name": "Clases de inglés en Vigo online",
+    "description": "Clases de inglés online con profesora en Vigo: particulares 1 a 1 y grupos reducidos (máx. 5 personas). Niveles A1–C1, Cambridge FCE/CAE, IELTS e inglés para el trabajo. Primera clase de 45 minutos gratis.",
+    "url": "https://www.myenglishspotclasses.com/clases-ingles-vigo",
+    "provider": {
+      "@type": "EducationalOrganization",
+      "name": "My English Spot",
+      "url": "https://www.myenglishspotclasses.com"
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "42.2314",
-      "longitude": "-8.7124"
+    "instructor": {
+      "@type": "Person",
+      "name": "Rocío Antonella Denti Monaco",
+      "jobTitle": "Profesora de inglés online con base en Vigo"
     },
-    "areaServed": {
-      "@type": "City",
-      "name": "Vigo"
+    "hasCourseInstance": {
+      "@type": "CourseInstance",
+      "courseMode": "online",
+      "courseWorkload": "PT1H",
+      "inLanguage": "en"
     },
-    "sameAs": [
-      "https://www.instagram.com/myenglishspot.classes",
-      "https://www.tiktok.com/@myenglishspot"
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Clase de prueba gratuita",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "category": "Free",
+        "url": "https://calendar.app.google/sRYu3JKfnedx8V3v8"
+      }
     ],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Clases de inglés en Vigo (online)",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Course",
-            "name": "Clases de inglés online — profesora en Vigo",
-            "description": "Clases de inglés online 1 a 1 con profesora con base en Vigo. Adaptadas a tu nivel y objetivos. Niveles A1–C1.",
-            "provider": { "@type": "EducationalOrganization", "name": "My English Spot" },
-            "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "online" }
-          }
-        },
-        {
-          "@type": "Offer",
-          "name": "Clase de prueba gratuita",
-          "description": "Primera clase de 40 minutos gratis, sin tarjeta, sin compromiso. Incluye test de nivel y plan personalizado.",
-          "price": "0",
-          "priceCurrency": "EUR"
-        }
-      ]
-    }
+    "educationalLevel": "A1–C1",
+    "inLanguage": "en",
+    "teaches": "Conversación en inglés, gramática, inglés para el trabajo, preparación Cambridge B2 First (FCE), C1 Advanced (CAE) e IELTS",
+    "datePublished": "2026-06-30",
+    "image": "https://www.myenglishspotclasses.com/assets/og-image.jpeg"
   }
   </script>
 
@@ -77,55 +62,47 @@
         "name": "¿Las clases de inglés son online o presenciales en Vigo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Las clases son 100% online por videollamada. La profesora, Rocío, tiene base en Vigo, pero las clases se realizan por Zoom, Meet o la plataforma que prefieras. Esto significa que puedes tener clases con una profesora de Vigo desde cualquier parte de España o del mundo, sin desplazarte ni perder tiempo."
+          "text": "Las clases son 100% online por videollamada. La academia tiene base en Vigo pero imparte las clases por Meet. Esto significa que puedes tener una tutoría desde hacia cualquier punto de España o del mundo, sin desplazarte, con total flexibilidad horaria."
         }
       },
       {
         "@type": "Question",
-        "name": "¿Cuánto cuestan las clases de inglés en Vigo con My English Spot?",
+        "name": "¿Cuánto tiempo se tarda en preparar el First Certificate (FCE) con un tutor en Vigo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "La primera clase de 40 minutos es siempre gratis y sin tarjeta. Las clases individuales comienzan desde 25€/hora y los grupos reducidos desde 15€/persona. En la clase gratuita te damos un presupuesto exacto según tus objetivos y frecuencia."
+          "text": "Con un nivel B1 consolidado, la preparación del Cambridge B2 First suele llevar entre 4 y 6 meses estudiando a partir de 2 horas semanales con el tutor más práctica autónoma. Desde un nivel inferior el proceso puede extenderse, aproximadamente, a 8–12 meses, aunque el proceso de cada alumno se enfoca particularmente a sus necesidades."
         }
       },
       {
         "@type": "Question",
-        "name": "¿Dais clases de inglés en Vigo para adultos?",
+        "name": "¿Preparáis también el IELTS en Vigo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sí, la gran mayoría de nuestros alumnos son adultos a partir de 18 años: trabajadores que necesitan inglés para su carrera, opositores que preparan el nivel B2, personas que quieren hablar con soltura, o estudiantes universitarios que quieren mejorar antes de Erasmus. No hay límite de edad."
+          "text": "Sí. Además del Cambridge B2 First (FCE) y el C1 Advanced (CAE), Rocío prepara alumnos para el IELTS Academic y el IELTS General Training. Si necesitas el IELTS para estudiar en el extranjero, emigrar o cumplir un requisito laboral, podemos crear un plan personalizado según tu banda objetivo y fecha de examen."
         }
       },
       {
         "@type": "Question",
-        "name": "¿Podéis preparar el Cambridge B2 First (FCE) en Vigo?",
+        "name": "¿Qué nivel de inglés necesito para empezar las clases?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sí. La preparación del Cambridge B2 First (FCE) y C1 Advanced (CAE) es una de las especialidades de My English Spot. Trabajamos las cinco partes del examen con ejercicios reales y simulacros. Tenemos una página específica de preparación FCE online con más información."
+          "text": "No hay nivel mínimo. Trabajamos desde A2 (principiante-intermedio) hasta C1 avanzado. En la primera clase gratuita de 45 minutos hacemos una evaluación rápida para identificar exactamente en qué punto estás y qué pasos necesitas para llegar a tu objetivo, ya sea hablar con soltura, subir de nivel o aprobar un examen oficial."
         }
       },
       {
         "@type": "Question",
-        "name": "¿Hacéis clases de inglés para principiantes en Vigo?",
+        "name": "¿Preparáis exámenes de la EOI (Escola Oficial de Idiomas)?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sí, trabajamos desde el nivel A1 (cero conocimientos). El método se adapta completamente a tu punto de partida. Si llevas años sin practicar o nunca has tenido clases formales, la clase gratuita de diagnóstico sirve para evaluar tu nivel real y diseñar un plan realista."
+          "text": "Sí. Además del Cambridge B2 First, el C1 Advanced y el IELTS, preparamos alumnos para las pruebas de la Escola Oficial de Idiomas (EOI) de Galicia, incluidos los niveles B1, B2 y C1. El enfoque es el mismo: práctica real de las partes del examen con material específico para cada prueba."
         }
       },
       {
         "@type": "Question",
-        "name": "¿Qué diferencia hay entre una academia de inglés en Vigo y My English Spot?",
+        "name": "¿Puedo compaginar las clases con mi trabajo o estudios?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Las academias presenciales en Vigo tienen grupos más grandes, horarios fijos y poca flexibilidad. My English Spot ofrece clases individuales o grupos de máximo 5 personas, horarios que se adaptan a tu agenda, y una profesora que te conoce y adapta cada clase a tu progreso. Al ser online, no pagas desplazamiento ni pierdes tiempo en el trayecto."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "¿Cómo reservo una clase de inglés con la profesora de Vigo?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Elige un hueco en el calendario online y reserva en menos de un minuto. No hace falta registrarte ni dar datos de tarjeta. La primera clase es gratis. Rocío se pone en contacto contigo antes de la clase para confirmar los detalles."
+          "text": "Sí, es la situación más habitual. La mayoría de nuestros alumnos son personas activas con jornada laboral o universitaria. Las clases son online y los horarios se pactan directamente con la profesora, incluyendo tardes, noches y fines de semana. No hay horario fijo de academia."
         }
       }
     ]
@@ -147,7 +124,7 @@
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Clases de inglés Vigo",
+        "name": "Clases de inglés en Vigo",
         "item": "https://www.myenglishspotclasses.com/clases-ingles-vigo"
       }
     ]
@@ -160,7 +137,7 @@
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Rocío Antonella Denti Monaco",
-    "jobTitle": "Profesora de inglés — Vigo",
+    "jobTitle": "Profesora de inglés online con base en Vigo",
     "sameAs": [
       "https://www.instagram.com/myenglishspot.classes",
       "https://www.tiktok.com/@myenglishspot"
@@ -173,22 +150,19 @@
   }
   </script>
 
-
-
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
   <title>Clases de inglés en Vigo online | My English Spot | Profesora en Vigo</title>
-  <meta name="description" content="Clases de inglés en Vigo con profesora online. Particulares 1 a 1 y grupos reducidos (máx. 5). Niveles A1–C1, Cambridge FCE, IELTS, inglés laboral. Primera clase gratis, 40 min." />
-  <!-- IMPORTANTE: cambiar a "index, follow" antes de publicar -->
-  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="Clases de inglés en Vigo con profesora online. Particulares 1 a 1 y grupos reducidos (máx. 5). Niveles A1–C1, Cambridge FCE, IELTS, inglés laboral. Primera clase gratis, 45 min." />
+  <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://www.myenglishspotclasses.com/clases-ingles-vigo" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.myenglishspotclasses.com/clases-ingles-vigo" />
   <meta property="og:title" content="Clases de inglés en Vigo online | My English Spot" />
-  <meta property="og:description" content="Clases de inglés online con profesora en Vigo. 1 a 1 o grupos de máx. 5. Niveles A1–C1. Cambridge, IELTS, conversación, inglés laboral. Primera clase gratis." />
+  <meta property="og:description" content="Profesora con base en Vigo, clases 100% online. 1 a 1 o grupos reducidos (máx. 5). Niveles A1–C1, Cambridge FCE, IELTS e inglés laboral. Primera clase gratis." />
   <meta property="og:image" content="https://www.myenglishspotclasses.com/assets/og-image.jpeg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -198,22 +172,22 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Clases de inglés en Vigo online | My English Spot" />
-  <meta name="twitter:description" content="Profesora en Vigo, clases 100% online. 1 a 1 o grupo reducido. Primera clase gratis, sin tarjeta." />
+  <meta name="twitter:description" content="Profesora en Vigo, clases online 1 a 1 y grupos pequeños. Niveles A1–C1, Cambridge, IELTS. Primera clase gratis." />
   <meta name="twitter:image" content="https://www.myenglishspotclasses.com/assets/og-image.jpeg" />
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="/assets/pin.png" />
 
-  <!-- Nunito — preload -->
+  <!-- Nunito — preload para evitar FOUT -->
   <noscript></noscript>
   <link rel="preload" href="/assets/fonts/nunito-latin-desktop.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/consent.css" />
 
-<link rel="stylesheet" href="/consent.css" />
 </head>
 <body>
 
-<!-- ===================== NAV ===================== -->
+<!-- ============================ NAV ============================ -->
 <header class="nav" id="nav">
   <div class="nav__inner">
     <a href="https://www.myenglishspotclasses.com/" class="nav__brand" aria-label="My English Spot — inicio">
@@ -222,20 +196,27 @@
         <span class="orange">My</span> <span class="blue">English</span> <span class="orange">Spot</span>
       </span>
     </a>
+
     <nav class="nav__menu" id="nav-menu" aria-label="Principal">
-      <a href="#clases">Clases</a>
+      <a href="#que-es">Qué es</a>
       <a href="#para-quien">Para quién</a>
+      <a href="#incluye">Qué incluye</a>
       <a href="#como-funciona">Cómo funciona</a>
-      <a href="#precios">Precios</a>
       <a href="#faq">Preguntas</a>
+      <a href="/clases-particulares-ingles-online">Clases particulares</a>
     </nav>
+
     <div class="nav__right">
       <a class="btn btn--primary btn--sm" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva_nav_vigo')">
         Reserva tu clase gratis
       </a>
       <button class="nav__hamburger" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
-        <svg class="ham-open" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
-        <svg class="ham-close" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        <svg class="ham-open" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+        <svg class="ham-close" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
       </button>
     </div>
   </div>
@@ -243,405 +224,494 @@
 
 <main>
 
-<!-- ===================== HERO ===================== -->
+<!-- ============================ HERO ============================ -->
 <section class="service-hero">
   <div class="service-hero__eyebrow-wrap">
     <nav class="breadcrumb" aria-label="Ruta de navegación">
       <a href="https://www.myenglishspotclasses.com/">My English Spot</a>
       <span class="breadcrumb__sep" aria-hidden="true">›</span>
-      <span>Clases de inglés Vigo</span>
+      <span>Clases de inglés en Vigo</span>
     </nav>
   </div>
 
-  <span class="eyebrow">Clases online · Profesora en Vigo · A1–C1</span>
+  <span class="eyebrow">Profesora en Vigo · 100% online · A1–C1</span>
 
   <h1 class="service-hero__h1">
-    Clases de inglés en <span class="ink--blue">Vigo</span><br>
-    online, con quien de verdad te enseña
+    <span class="ink--blue">Clases de inglés en Vigo</span><br>
+    online, con profesora local
   </h1>
 
   <p class="service-hero__sub">
-    Clases de inglés 1&nbsp;a&nbsp;1 o en grupo reducido (máx.&nbsp;5&nbsp;personas) por videollamada con profesores nativos y bilingües con base en Vigo. Sin desplazamientos, sin grupos masivos, sin métodos genéricos. Tú marcas el objetivo; el equipo diseña el camino.
+    My English Spot es una academia de inglés online con profesora con base en Vigo. Clases particulares 1&nbsp;a&nbsp;1 y grupos reducidos (máx.&nbsp;5&nbsp;personas) por videollamada, para todos los niveles: desde A1 hasta C1, Cambridge FCE y CAE, IELTS e inglés para el trabajo. La primera clase de 45 minutos es gratis.
   </p>
 
   <div class="service-hero__ctas">
     <a class="btn btn--primary btn--lg" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva_hero_vigo')">
-      Reserva tu clase gratis en Vigo
+      Reserva tu clase gratis
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </a>
     <a class="btn btn--ghost btn--lg" href="mailto:info@myenglishspotclasses.com" onclick="gtag('event', 'click_email_hero_vigo')">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h16v12H4z M4 6l8 7 8-7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      Prefiero escribir primero
+      Prefiero escribir
     </a>
   </div>
 
   <ul class="service-hero__chips" aria-label="Características principales">
     <li class="chip">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/></svg>
-      Profesora en Vigo
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="6" width="14" height="12" rx="2" stroke="currentColor" stroke-width="2"/><path d="M16 10l6-3v10l-6-3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      Por videollamada, en directo
     </li>
     <li class="chip chip--orange">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="6" width="14" height="12" rx="2" stroke="currentColor" stroke-width="2"/><path d="M16 10l6-3v10l-6-3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
-      Clase online en directo
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      Horarios flexibles
     </li>
     <li class="chip">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2"/><path d="M4 20c1.4-3.5 4.4-5.5 8-5.5s6.6 2 8 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-      Grupos máx. 5 personas
+      1 a 1 o grupo (máx. 5)
     </li>
     <li class="chip chip--orange">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l2.6 5.3 5.9.8-4.3 4.1 1 5.8L12 17.3 6.8 20l1-5.8L3.5 10l5.9-.8L12 3z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
-      5,0 ⭐ · 7 reseñas
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l2.6 5.3 5.9.8-4.3 4.1 1 5.8L12 17.3 6.8 20l1-5.8L3.5 10l5.9-.8L12 3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      Cambridge FCE · IELTS
     </li>
     <li class="chip">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L20 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      Primera clase gratis, sin tarjeta
+      Sin tarjeta ni compromiso
     </li>
   </ul>
 </section>
 
-<!-- ===================== QUÉ SON ===================== -->
-<section class="section section--cream" id="clases">
+<!-- ============================ QUÉ ES ============================ -->
+<section class="section section--cream" id="que-es">
   <div class="section__inner">
     <div class="what-grid">
 
       <div class="what-grid__text">
         <span class="online-badge">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/></svg>
-          Profesora en Vigo · Clases online
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="6" width="14" height="12" rx="2" stroke="currentColor" stroke-width="2"/><path d="M16 10l6-3v10l-6-3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          100% online · profesora con base en Vigo
         </span>
 
-        <h2>Clases de inglés en Vigo, sin salir de casa</h2>
+        <h2>¿Qué son las clases de inglés en Vigo de My English Spot?</h2>
 
-        <p>My English Spot es una academia de inglés online fundada y dirigida por Rocío, profesora con base en Vigo. Las clases son 100% por videollamada — en directo, en tiempo real, no son vídeos grabados. Puedes conectarte desde cualquier sitio de Vigo, de Galicia o de España.</p>
+        <p>Son clases de inglés online impartidas por Rocío, profesora con base en Vigo. Las clases son 100% por videollamada: puedes tenerlas desde casa, desde la oficina o desde donde estés, sin desplazarte al centro de Vigo ni perder tiempo en desplazamientos.</p>
 
-        <p>La diferencia frente a una academia presencial en Vigo es clara: sin trayecto, sin grupo de 15 personas, sin horario rígido. Con My English Spot tienes una profesora que sabe quién eres, en qué punto estás y a dónde quieres llegar, y que diseña cada clase a partir de eso.</p>
+        <p>El formato es flexible: clases individuales 1&nbsp;a&nbsp;1 completamente personalizadas, o grupos reducidos de máximo 5 personas del mismo nivel. El contenido se adapta a tu objetivo: conversación fluida, gramática, preparación del Cambridge FCE o CAE, IELTS, inglés para el trabajo, o una combinación de lo que necesites.</p>
 
-        <p>Trabajamos todos los niveles, desde A1 hasta C1, y todos los objetivos: conversación fluida, preparación Cambridge FCE o IELTS, inglés para el trabajo o inglés general. Si tienes dudas sobre qué clase es la tuya, <a href="/clases-particulares-ingles-online">consulta la página de clases particulares</a> o reserva directamente la primera clase gratis — es la mejor forma de verlo.</p>
+        <p>Si buscas más opciones, consulta también nuestras <a href="/clases-particulares-ingles-online">clases particulares de inglés online</a> disponibles para todo el territorio nacional, o nuestra <a href="/preparacion-first-cambridge">preparación específica del First Certificate</a>.</p>
       </div>
 
       <div class="what-card" aria-label="Características de las clases de inglés en Vigo">
+
         <div class="what-card__row">
           <span class="what-card__icon what-card__icon--blue" aria-hidden="true">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/></svg>
-          </span>
-          <div class="what-card__content">
-            <strong>Profesora con raíces en Vigo</strong>
-            <span>Nuestros profesores conocen el contexto local: los ritmos de trabajo, las oposiciones de Galicia, los exámenes de la UVigo.</span>
-          </div>
-        </div>
-        <div class="what-card__row">
-          <span class="what-card__icon what-card__icon--orange" aria-hidden="true">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="2" y="6" width="14" height="12" rx="2" stroke="currentColor" stroke-width="2"/><path d="M16 10l6-3v10l-6-3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
           </span>
           <div class="what-card__content">
-            <strong>Clase en directo, no grabada</strong>
-            <span>Interacción real en cada sesión. Correcciones al momento, preguntas bienvenidas, nada de curso pregrabado.</span>
+            <strong>Online, sin desplazarte</strong>
+            <span>Clases en directo por videollamada desde cualquier lugar, con la misma calidad que presencial.</span>
           </div>
         </div>
+
         <div class="what-card__row">
-          <span class="what-card__icon what-card__icon--blue" aria-hidden="true">
+          <span class="what-card__icon what-card__icon--orange" aria-hidden="true">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M9 11l3 3L22 4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </span>
           <div class="what-card__content">
-            <strong>Progreso trazado y medido</strong>
-            <span>Sabes en qué nivel estás al empezar y cuándo pasas al siguiente. El plan se revisa cada mes.</span>
+            <strong>Plan personalizado desde el día 1</strong>
+            <span>Empezamos con un diagnóstico de nivel y diseñamos el plan según tu objetivo concreto.</span>
           </div>
         </div>
-        <div class="what-card__row">
-          <span class="what-card__icon what-card__icon--orange" aria-hidden="true">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3l2.6 5.3 5.9.8-4.3 4.1 1 5.8L12 17.3 6.8 20l1-5.8L3.5 10l5.9-.8L12 3z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
-          </span>
-          <div class="what-card__content">
-            <strong>5,0 ⭐ en Google con 7 reseñas</strong>
-            <span>Valoración perfecta de alumnos reales — muchos también de Vigo y Galicia.</span>
-          </div>
-        </div>
+
         <div class="what-card__row">
           <span class="what-card__icon what-card__icon--blue" aria-hidden="true">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           </span>
           <div class="what-card__content">
-            <strong>Horarios flexibles</strong>
-            <span>Mañanas, tardes o noches según tu disponibilidad. Se reserva y se cambia sin burocracia.</span>
+            <strong>Horarios adaptados a ti</strong>
+            <span>Mañanas, tardes o fines de semana: nos ajustamos a tu agenda, no al revés.</span>
           </div>
         </div>
-      </div>
 
+        <div class="what-card__row">
+          <span class="what-card__icon what-card__icon--orange" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 1 0 6 0V6a3 3 0 0 0-3-3z M19 11a7 7 0 1 1-14 0 M12 18v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </span>
+          <div class="what-card__content">
+            <strong>Profesora de Vigo, cerca de ti</strong>
+            <span>Conoce el contexto local: el sector naval, la logística portuaria, la hostelería de la ría.</span>
+          </div>
+        </div>
+
+        <div class="what-card__row">
+          <span class="what-card__icon what-card__icon--blue" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3l2.6 5.3 5.9.8-4.3 4.1 1 5.8L12 17.3 6.8 20l1-5.8L3.5 10l5.9-.8L12 3z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
+          </span>
+          <div class="what-card__content">
+            <strong>Primera clase siempre gratis</strong>
+            <span>45 minutos de diagnóstico sin tarjeta, sin compromiso, sin letra pequeña.</span>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ===================== PARA QUIÉN ===================== -->
+<!-- ============================ PARA QUIÉN ============================ -->
 <section class="section" id="para-quien">
   <div class="section__inner">
     <header class="sec-head">
-      <span class="eyebrow">¿Para quién son?</span>
-      <h2>Clases de inglés en Vigo para adultos y adolescentes</h2>
-      <p class="sec-head__sub">Cada alumno llega con un objetivo distinto. Aquí están los más habituales entre alumnos de Vigo.</p>
+      <span class="eyebrow">Para quién es</span>
+      <h2>Clases de inglés en Vigo: ¿para quién son?</h2>
+      <p class="sec-head__sub">Para personas de Vigo y de toda Galicia que quieren avanzar en inglés de verdad, sin salir de casa.</p>
     </header>
 
-    <div class="cards-grid">
+    <div class="for-whom-grid for-whom-grid--2x2">
 
-      <div class="card">
-        <div class="card__icon card__icon--blue" aria-hidden="true">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/><path d="M3 9h18 M8 4V2 M16 4V2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <div class="for-whom-card">
+        <div class="for-whom-card__icon" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="7" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2.2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
         </div>
-        <h3>Oposiciones y B2 laboral</h3>
-        <p>Trabajadores o funcionarios de Vigo que necesitan acreditar el nivel B2 para acceder a una plaza, subir de categoría o abrir nuevas oportunidades profesionales en empresas internacionales.</p>
+        <h3>Profesionales de Vigo</h3>
+        <p>Personas del sector naval, la logística, la exportación o la hostelería que necesitan inglés para reuniones, emails o clientes internacionales. El contenido se adapta al vocabulario de tu sector.</p>
+        <div class="for-whom-tags">
+          <span class="tag">Business English</span>
+          <span class="tag">Inglés laboral</span>
+        </div>
       </div>
 
-      <div class="card">
-        <div class="card__icon card__icon--orange" aria-hidden="true">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z M2 12h20 M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" stroke="currentColor" stroke-width="2"/></svg>
+      <div class="for-whom-card">
+        <div class="for-whom-card__icon" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 3l3 6 6 .8-4.5 4.2 1.2 6.2L12 17l-5.7 3.2L7.5 14 3 9.8l6-.8L12 3z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
         </div>
-        <h3>Conversación fluida</h3>
-        <p>Adultos de Vigo que entienden el inglés pero se bloquean al hablarlo. El foco es la fluidez oral: romper la vergüenza, automatizar expresiones y construir confianza real para situaciones del día a día y del trabajo.</p>
+        <h3>Estudiantes que preparan Cambridge</h3>
+        <p>Estudiantes universitarios o de bachillerato en Vigo que necesitan el B2 First (FCE) o el C1 Advanced (CAE). <a href="/blog/como-preparar-el-first-certificate-fce">Preparación completa del First Certificate</a> con simulacros reales de las cinco partes.</p>
+        <div class="for-whom-tags">
+          <span class="tag tag--orange">Cambridge FCE</span>
+          <span class="tag tag--orange">C1 Advanced</span>
+        </div>
       </div>
 
-      <div class="card">
-        <div class="card__icon card__icon--blue" aria-hidden="true">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      <div class="for-whom-card">
+        <div class="for-whom-card__icon" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2.2"/><path d="M4 20c1.4-3.5 4.4-5.5 8-5.5s6.6 2 8 5.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
         </div>
-        <h3>Cambridge FCE y CAE</h3>
-        <p>Estudiantes o jóvenes de Vigo que quieren presentarse al Cambridge B2 First o C1 Advanced. Preparación completa de las 5 partes del examen: Writing, Reading, Use of English, Listening y Speaking.</p>
+        <h3>Adultos que retoman el inglés</h3>
+        <p>Personas de Vigo que llevan años queriendo volver al inglés y nunca encuentran el momento. Un plan desde tu nivel real, sin agobios, con resultados visibles en los primeros dos meses.</p>
+        <div class="for-whom-tags">
+          <span class="tag">Todos los niveles</span>
+          <span class="tag">Conversación fluida</span>
+        </div>
       </div>
 
-      <div class="card">
-        <div class="card__icon card__icon--orange" aria-hidden="true">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="for-whom-card">
+        <div class="for-whom-card__icon" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="9" cy="8" r="3" stroke="currentColor" stroke-width="2"/><circle cx="17" cy="9" r="2.4" stroke="currentColor" stroke-width="2"/><path d="M3 20c1-3 3.5-4.5 6-4.5s5 1.5 6 4.5 M14 19c.5-1.8 2-3 4-3s3.5 1 4 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
         </div>
-        <h3>Inglés para el trabajo</h3>
-        <p>Profesionales de Vigo de sectores como la logística, el naval, la tecnología o la exportación que necesitan inglés para reuniones, presentaciones, emails y negociaciones con clientes o proveedores internacionales.</p>
-      </div>
-
-      <div class="card">
-        <div class="card__icon card__icon--blue" aria-hidden="true">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2"/><path d="M6 20v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <h3>Grupos de compañeros o equipos</h3>
+        <p>Grupos de máximo 5 personas del mismo nivel: compañeros de trabajo, amigos o equipos de empresa que quieren mejorar juntos. Precio más accesible y práctica de conversación más variada.</p>
+        <div class="for-whom-tags">
+          <span class="tag tag--orange">Máx. 5 personas</span>
+          <span class="tag tag--orange">Nivel homogéneo</span>
         </div>
-        <h3>Adolescentes desde los 14 años</h3>
-        <p>Estudiantes de ESO y Bachillerato en Vigo que quieren reforzar el inglés del colegio, preparar selectividad o simplemente aprender de verdad más allá de los libros de texto. Método adaptado a jóvenes.</p>
-      </div>
-
-      <div class="card">
-        <div class="card__icon card__icon--orange" aria-hidden="true">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5z M2 17l10 5 10-5 M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <h3>Universidad y Erasmus</h3>
-        <p>Estudiantes de la UVigo que van a hacer Erasmus o necesitan subir nota en las asignaturas de inglés. También alumnos que ya están fuera y quieren mantener el nivel con una profesora de confianza.</p>
       </div>
 
     </div>
   </div>
 </section>
 
-<!-- ===================== CÓMO FUNCIONA ===================== -->
-<section class="section section--cream" id="como-funciona">
+<!-- ============================ QUÉ INCLUYE ============================ -->
+<section class="section section--cream" id="incluye">
   <div class="section__inner">
     <header class="sec-head">
-      <span class="eyebrow">Cómo funciona</span>
-      <h2>De cero a clase en menos de 5 minutos</h2>
+      <span class="eyebrow">Qué incluye</span>
+      <h2>Todo lo que incluyen tus clases de inglés en Vigo</h2>
+      <p class="sec-head__sub">Un programa completo, desde el diagnóstico hasta que consigas tu objetivo.</p>
     </header>
 
-    <ol class="steps-list" aria-label="Pasos para empezar">
-      <li class="step">
-        <div class="step__num" aria-hidden="true">1</div>
-        <div class="step__content">
-          <h3>Elige un hueco y reserva</h3>
-          <p>Entra en el calendario online y elige el día y la hora que mejor te venga. No hace falta cuenta, ni tarjeta, ni rellenar formularios largos.</p>
-        </div>
-      </li>
-      <li class="step">
-        <div class="step__num" aria-hidden="true">2</div>
-        <div class="step__content">
-          <h3>La clase de diagnóstico gratis (40 min)</h3>
-          <p>El equipo evalúa tu nivel real, entiende tu objetivo y te propone un plan concreto: cuántas clases por semana, qué formato (1 a 1 o grupo) y en qué nos vamos a centrar. Sin compromiso de continuar.</p>
-        </div>
-      </li>
-      <li class="step">
-        <div class="step__num" aria-hidden="true">3</div>
-        <div class="step__content">
-          <h3>Arrancas con tu plan personalizado</h3>
-          <p>Si decides continuar, reservas un bono de clases (de 5 o 10 horas) y empezamos. Las clases son semanales o más frecuentes según lo que hayas acordado. Cada mes revisamos el progreso.</p>
-        </div>
-      </li>
-      <li class="step">
-        <div class="step__num" aria-hidden="true">4</div>
-        <div class="step__content">
-          <h3>Avanzas con seguimiento real</h3>
-          <p>Tienes acceso a material de refuerzo entre clases, feedback escrito por parte de tu profesor/a y una comunicación directa por WhatsApp para dudas puntuales. No eres un número.</p>
-        </div>
-      </li>
-    </ol>
+    <div class="includes-grid">
 
-    <div class="steps-cta">
-      <a class="btn btn--primary btn--lg" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva_steps_vigo')">
-        Empezar con la clase gratis
-      </a>
+      <div class="includes-card">
+        <span class="includes-card__num" aria-hidden="true">1</span>
+        <div class="includes-card__text">
+          <strong>Clase de diagnóstico gratuita</strong>
+          <p>45 minutos para evaluar tu nivel real, entender qué quieres conseguir y diseñar el plan más adecuado. Sin tarjeta, sin compromiso.</p>
+        </div>
+      </div>
+
+      <div class="includes-card">
+        <span class="includes-card__num" aria-hidden="true">2</span>
+        <div class="includes-card__text">
+          <strong>Plan de clases personalizado</strong>
+          <p>Un programa adaptado a tu nivel, tu objetivo (conversación, Cambridge, trabajo) y tu disponibilidad semanal. No hay dos planes iguales.</p>
+        </div>
+      </div>
+
+      <div class="includes-card">
+        <span class="includes-card__num" aria-hidden="true">3</span>
+        <div class="includes-card__text">
+          <strong>Clases en directo por videollamada</strong>
+          <p>Sesiones de 60 minutos en Zoom, Meet o la plataforma que prefieras. Siempre en directo, nunca grabadas ni asíncronas.</p>
+        </div>
+      </div>
+
+      <div class="includes-card">
+        <span class="includes-card__num" aria-hidden="true">4</span>
+        <div class="includes-card__text">
+          <strong>Materiales y ejercicios incluidos</strong>
+          <p>No tienes que comprar ni buscar nada. Preparamos los materiales según tu nivel y objetivo: conversación, gramática, Cambridge o inglés laboral.</p>
+        </div>
+      </div>
+
+      <div class="includes-card">
+        <span class="includes-card__num" aria-hidden="true">5</span>
+        <div class="includes-card__text">
+          <strong>Corrección de writing y pronunciación</strong>
+          <p>Feedback real en cada clase: qué dices bien, qué mejorar y cómo. No solo "muy bien", sino correcciones que se quedan.</p>
+        </div>
+      </div>
+
+      <div class="includes-card">
+        <span class="includes-card__num" aria-hidden="true">6</span>
+        <div class="includes-card__text">
+          <strong>Seguimiento y ajuste continuo</strong>
+          <p>El plan evoluciona contigo. Si necesitas más conversación una semana y más gramática la siguiente, nos adaptamos sin coste adicional.</p>
+        </div>
+      </div>
+
     </div>
-
   </div>
 </section>
 
-<!-- ===================== PRECIOS ===================== -->
-<section class="section" id="precios">
+<!-- ============================ MÉTODO ============================ -->
+<section class="section section--blue" id="metodo">
   <div class="section__inner">
-    <header class="sec-head">
-      <span class="eyebrow">Precios clases inglés Vigo</span>
-      <h2>Sin sorpresas ni letra pequeña</h2>
-      <p class="sec-head__sub">La primera clase siempre es gratis. Los precios de los bonos se confirman en esa clase según tu plan.</p>
+    <header class="sec-head sec-head--center">
+      <span class="eyebrow eyebrow--on-blue">El método</span>
+      <h2 class="ink--cream">Directo, práctico y sin rollos</h2>
+      <p class="sec-head__sub">No memorizas listas de vocabulario ni haces ejercicios de relleno. Aprendes usándolo desde el primer día.</p>
     </header>
 
-    <div class="pricing-grid">
+    <div class="method-strip" role="list">
 
-      <div class="pricing-card">
-        <div class="pricing-card__header">
-          <span class="pricing-card__tag">Más popular</span>
-          <h3>Clase particular 1 a 1</h3>
-          <div class="pricing-card__price">
-            <span class="pricing-card__amount">25€</span>
-            <span class="pricing-card__per">/hora</span>
-          </div>
-        </div>
-        <ul class="pricing-card__list">
-          <li>Plan 100% personalizado a tu nivel</li>
-          <li>Horario que eliges tú</li>
-          <li>Feedback directo y correcciones al momento</li>
-          <li>Cambios con 24h de antelación sin coste</li>
-          <li>Acceso a material de refuerzo</li>
-          <li>WhatsApp directo con Rocío</li>
-        </ul>
-        <a class="btn btn--primary" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva_precio_1a1_vigo')">
-          Reservar clase gratis
-        </a>
+      <div class="method-item" role="listitem">
+        <span class="method-item__emoji" aria-hidden="true">🎯</span>
+        <strong>Diagnóstico real</strong>
+        <p>Empezamos sabiendo exactamente desde dónde partes. Sin asumir ni adivinar tu nivel.</p>
       </div>
 
-      <div class="pricing-card">
-        <div class="pricing-card__header">
-          <h3>Grupo reducido</h3>
-          <div class="pricing-card__price">
-            <span class="pricing-card__amount">15€</span>
-            <span class="pricing-card__per">/persona/hora</span>
-          </div>
-        </div>
-        <ul class="pricing-card__list">
-          <li>Máximo 5 personas, mismo nivel</li>
-          <li>Conversación real con otras personas</li>
-          <li>Dinámicas de role-play y debate</li>
-          <li>Mismo rigor que la clase individual</li>
-          <li>Horario fijo semanal</li>
-        </ul>
-        <a class="btn btn--ghost" href="mailto:info@myenglishspotclasses.com" onclick="gtag('event', 'click_email_precio_grupo_vigo')">
-          Consultar disponibilidad
-        </a>
+      <div class="method-item" role="listitem">
+        <span class="method-item__emoji" aria-hidden="true">📋</span>
+        <strong>Plan a tu medida</strong>
+        <p>No todos los B2 necesitan lo mismo. Tu plan depende de tu objetivo: examen, trabajo o conversación.</p>
+      </div>
+
+      <div class="method-item" role="listitem">
+        <span class="method-item__emoji" aria-hidden="true">🗣️</span>
+        <strong>Hablar desde el día 1</strong>
+        <p>Hablar es el objetivo, no memorizarlo todo primero. La práctica oral empieza en la primera clase.</p>
+      </div>
+
+      <div class="method-item" role="listitem">
+        <span class="method-item__emoji" aria-hidden="true">📈</span>
+        <strong>Progreso medible</strong>
+        <p>Sabes en qué nivel estás y cuánto te falta. Sin sorpresas, sin meses de clase sin saber si avanzas.</p>
       </div>
 
     </div>
-
-    <p class="pricing-note">Los precios mostrados son orientativos. El precio exacto del bono depende de la frecuencia y la duración del programa. Se confirma en la primera clase gratuita.</p>
-
   </div>
 </section>
 
-<!-- ===================== TESTIMONIOS ===================== -->
-<section class="section section--cream" id="opiniones">
+<!-- ============================ TESTIMONIOS ============================ -->
+<section class="section" id="opiniones">
   <div class="section__inner">
     <header class="sec-head">
       <span class="eyebrow">Opiniones</span>
-      <h2>Lo que dicen los alumnos de Vigo y toda España</h2>
+      <h2>Alumnos que ya hablan inglés con confianza</h2>
     </header>
 
-    <div class="reviews-grid">
+    <div class="mini-testis">
 
-      <blockquote class="review-card">
-        <div class="review-card__stars" aria-label="5 estrellas">★★★★★</div>
-        <p class="review-card__text">"En tres meses pasé de bloquearme en cada email a hablar con confianza con clientes ingleses. Las clases se sienten como una charla, no como una clase."</p>
-        <footer class="review-card__author">— Alba R., Vigo</footer>
-      </blockquote>
+      <figure class="mini-testi">
+        <div class="mini-testi__stars">★★★★★</div>
+        <blockquote>"Preparé el FCE con Rocío y aprobé en octubre. Las clases eran exactamente lo que necesitaba: simulacros reales, feedback detallado y sin perder el tiempo con teoría que no entra en el examen."</blockquote>
+        <figcaption class="mini-testi__by">
+          <span class="avatar avatar--blue">C</span>
+          <div>
+            <strong>Candela B.</strong>
+            <span>Estudiante universitaria · FCE aprobado</span>
+          </div>
+        </figcaption>
+      </figure>
 
-      <blockquote class="review-card">
-        <div class="review-card__stars" aria-label="5 estrellas">★★★★★</div>
-        <p class="review-card__text">"Probé tres academias antes. Aquí me enseñan a usar el idioma de verdad, no a memorizar reglas sueltas. Aprobé el First a la primera."</p>
-        <footer class="review-card__author">— Javi M.</footer>
-      </blockquote>
+      <figure class="mini-testi">
+        <div class="mini-testi__stars">★★★★★</div>
+        <blockquote>"Llevaba años queriendo retomar el inglés y siempre lo postergaba. Con Rocío empecé con un B1 bajo y en seis meses ya me siento cómoda en reuniones con clientes en inglés."</blockquote>
+        <figcaption class="mini-testi__by">
+          <span class="avatar avatar--orange">A</span>
+          <div>
+            <strong>Alejandra A.</strong>
+            <span>Responsable de exportación · Vigo</span>
+          </div>
+        </figcaption>
+      </figure>
 
-      <blockquote class="review-card">
-        <div class="review-card__stars" aria-label="5 estrellas">★★★★★</div>
-        <p class="review-card__text">"Flexible con los horarios, me adapta los materiales a lo que necesito para el trabajo en el naval y las clases son muy dinámicas."</p>
-        <footer class="review-card__author">— Carlos D., Vigo</footer>
-      </blockquote>
+      <figure class="mini-testi">
+        <div class="mini-testi__stars">★★★★★</div>
+        <blockquote>"Lo que más me gustó fue que desde la primera clase ya estábamos hablando. Nada de gramática interminable. En tres meses pasé de bloquearme al hablar a poder mantener una conversación fluida."</blockquote>
+        <figcaption class="mini-testi__by">
+          <span class="avatar avatar--blue">L</span>
+          <div>
+            <strong>Laura A.</strong>
+            <span>Diseñadora · nivel B1–B2</span>
+          </div>
+        </figcaption>
+      </figure>
+
+      <figure class="mini-testi">
+        <div class="mini-testi__stars">★★★★★</div>
+        <blockquote>"Hice el grupo reducido con otras tres personas de nivel similar y fue genial. El precio es muy razonable y la dinámica de escuchar a otros también me ayudó mucho. Lo recomiendo sin dudarlo."</blockquote>
+        <figcaption class="mini-testi__by">
+          <span class="avatar avatar--orange">B</span>
+          <div>
+            <strong>Barbara D.</strong>
+            <span>Grupo reducido · conversación A2–B1</span>
+          </div>
+        </figcaption>
+      </figure>
 
     </div>
+  </div>
+</section>
 
-    <div class="reviews-footer">
-      <span class="reviews-footer__score">5,0 ⭐ en Google</span>
-      <span class="reviews-footer__count">· 7 reseñas verificadas</span>
-    </div>
+<!-- ============================ CÓMO FUNCIONA ============================ -->
+<section class="section section--cream" id="como-funciona">
+  <div class="section__inner">
+    <header class="sec-head sec-head--center">
+      <span class="eyebrow">Cómo funciona</span>
+      <h2>Tres pasos para empezar con tus clases de inglés en Vigo</h2>
+    </header>
+
+    <ol class="steps">
+      <li class="step">
+        <div class="step__pin">
+          <svg viewBox="0 0 60 80" aria-hidden="true"><use href="#pin"/></svg>
+          <span class="step__num">1</span>
+        </div>
+        <h3 class="steps-heading">Reserva tu clase de diagnóstico gratis</h3>
+        <p class="steps-body">45 minutos por videollamada: hablamos, evaluamos tu nivel real y entendemos qué quieres conseguir. Sin tarjeta, sin compromiso, sin rollos.</p>
+      </li>
+      <li class="step">
+        <div class="step__pin step__pin--orange">
+          <svg viewBox="0 0 60 80" aria-hidden="true"><use href="#pin-o"/></svg>
+          <span class="step__num">2</span>
+        </div>
+        <h3 class="steps-heading">Diseñamos tu plan personalizado</h3>
+        <p class="steps-body">Preparamos un plan según tu nivel, tu objetivo (examen, trabajo o conversación) y tu disponibilidad. Clases 1 a 1 o en grupo, tú eliges.</p>
+      </li>
+      <li class="step">
+        <div class="step__pin">
+          <svg viewBox="0 0 60 80" aria-hidden="true"><use href="#pin"/></svg>
+          <span class="step__num">3</span>
+        </div>
+        <h3 class="steps-heading">Empiezas a progresar de verdad</h3>
+        <p class="steps-body">Clases semanales que se notan desde el primer mes. Progreso medible, feedback real y un camino claro hacia tu objetivo.</p>
+      </li>
+    </ol>
 
   </div>
 </section>
 
-<!-- ===================== FAQ ===================== -->
+<!-- ============================ FAQ ============================ -->
 <section class="section" id="faq">
   <div class="section__inner">
-    <header class="sec-head">
+    <header class="sec-head sec-head--center">
       <span class="eyebrow">Preguntas frecuentes</span>
-      <h2>Clases de inglés en Vigo — FAQ</h2>
+      <h2>Preguntas frecuentes sobre las clases de inglés en Vigo</h2>
     </header>
 
-    <dl class="faq-list">
+    <div class="faq">
 
-      <div class="faq-item">
-        <dt class="faq-item__q">¿Las clases son online o presenciales en Vigo?</dt>
-        <dd class="faq-item__a">100% online por videollamada en directo. Nuestros profesores tienen base en Vigo, pero las clases se hacen por Zoom o Meet desde donde estés. Esto significa que puedes tener tu profesor/a de Vigo aunque vivas en otro barrio, en otra ciudad o incluso en el extranjero.</dd>
-      </div>
+      <details class="faq__item">
+        <summary class="faq__q">
+          <span>¿Las clases de inglés son online o presenciales en Vigo?</span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="faq__a">
+          <p>Las clases son 100% online por videollamada. La academia tiene base en Vigo pero imparte las clases por Meet. Esto significa que puedes tener una tutoría desde hacia cualquier punto de España o del mundo, sin desplazarte, con total flexibilidad horaria.</p>
+        </div>
+      </details>
 
-      <div class="faq-item">
-        <dt class="faq-item__q">¿Cuánto cuestan las clases de inglés en Vigo?</dt>
-        <dd class="faq-item__a">La primera clase de diagnóstico (40 min) es siempre gratis y sin tarjeta. Las clases individuales comienzan desde 25€/hora y los grupos desde 15€/persona/hora. El precio exacto del bono se confirma en esa primera clase según la frecuencia y duración del programa.</dd>
-      </div>
+      <details class="faq__item">
+        <summary class="faq__q">
+          <span>¿Cuánto tiempo se tarda en preparar el First Certificate (FCE) con un tutor en Vigo?</span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="faq__a">
+          <p>Con un nivel B1 consolidado, la preparación del Cambridge B2 First suele llevar entre 4 y 6 meses estudiando a partir de 2 horas semanales con el tutor más práctica autónoma. Desde un nivel inferior el proceso puede extenderse, aproximadamente, a 8–12 meses, aunque el proceso de cada alumno se enfoca particularmente a sus necesidades. Más detalles en nuestra página de <a href="/preparacion-first-cambridge">preparación FCE online</a>.</p>
+        </div>
+      </details>
 
-      <div class="faq-item">
-        <dt class="faq-item__q">¿Tengo que descargar algún programa especial?</dt>
-        <dd class="faq-item__a">No. Las clases se hacen por Zoom, Google Meet o Microsoft Teams según tu preferencia. Cualquier ordenador, tablet o móvil con cámara y micrófono funciona. No hace falta instalar nada extra.</dd>
-      </div>
+      <details class="faq__item">
+        <summary class="faq__q">
+          <span>¿Preparáis también el IELTS en Vigo?</span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="faq__a">
+          <p>Sí. Además del Cambridge B2 First (FCE) y el C1 Advanced (CAE), Rocío prepara alumnos para el IELTS Academic y el IELTS General Training. Si necesitas el IELTS para estudiar en el extranjero, emigrar o cumplir un requisito laboral, podemos crear un plan personalizado según tu banda objetivo y fecha de examen.</p>
+        </div>
+      </details>
 
-      <div class="faq-item">
-        <dt class="faq-item__q">¿Qué nivel necesito para apuntarme?</dt>
-        <dd class="faq-item__a">Cualquier nivel, desde A1 (sin ningún conocimiento previo) hasta C1 (avanzado). En la clase de diagnóstico gratuita evaluamos tu nivel real con una pequeña conversación y ejercicios cortos, y a partir de ahí diseñamos el plan.</dd>
-      </div>
+      <details class="faq__item">
+        <summary class="faq__q">
+          <span>¿Qué nivel de inglés necesito para empezar las clases?</span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="faq__a">
+          <p>No hay nivel mínimo. Trabajamos desde A2 (principiante-intermedio) hasta C1 avanzado. En la primera clase gratuita de 45 minutos hacemos una evaluación rápida para identificar exactamente en qué punto estás y qué pasos necesitas para llegar a tu objetivo, ya sea hablar con soltura, subir de nivel o aprobar un examen oficial.</p>
+        </div>
+      </details>
 
-      <div class="faq-item">
-        <dt class="faq-item__q">¿Preparáis el Cambridge FCE o el IELTS en Vigo?</dt>
-        <dd class="faq-item__a">Sí. La preparación del Cambridge B2 First (FCE) y el IELTS es una de nuestras especialidades. Trabajamos todas las partes del examen con materiales actualizados y simulacros. Tenemos una página específica de <a href="/preparacion-first-cambridge">preparación FCE online</a> con más información.</dd>
-      </div>
+      <details class="faq__item">
+        <summary class="faq__q">
+          <span>¿Preparáis exámenes de la EOI (Escola Oficial de Idiomas)?</span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="faq__a">
+          <p>Sí. Además del Cambridge B2 First, el C1 Advanced y el IELTS, preparamos alumnos para las pruebas de la Escola Oficial de Idiomas (EOI) de Galicia, incluidos los niveles B1, B2 y C1. El enfoque es el mismo: práctica real de las partes del examen con material específico para cada prueba.</p>
+        </div>
+      </details>
 
-      <div class="faq-item">
-        <dt class="faq-item__q">¿Podéis adaptar el horario a mi trabajo en Vigo?</dt>
-        <dd class="faq-item__a">Sí. Ofrecemos clases de mañana, tarde y noche de lunes a sábado. En la clase de diagnóstico acordamos los horarios que mejor encajan con tu agenda. Los cambios de última hora se gestionan con al menos 24 horas de antelación sin coste extra.</dd>
-      </div>
+      <details class="faq__item">
+        <summary class="faq__q">
+          <span>¿Puedo compaginar las clases con mi trabajo o estudios?</span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="faq__a">
+          <p>Sí, es la situación más habitual. La mayoría de nuestros alumnos son personas activas con jornada laboral o universitaria. Las clases son online y los horarios se pactan directamente con la profesora, incluyendo tardes, noches y fines de semana. No hay horario fijo de academia.</p>
+        </div>
+      </details>
 
-      <div class="faq-item">
-        <dt class="faq-item__q">¿Qué diferencia hay con una academia de inglés presencial en Vigo?</dt>
-        <dd class="faq-item__a">Las academias presenciales de Vigo suelen tener grupos de 10 a 20 personas, horarios fijos y poca personalización. My English Spot ofrece grupos de máximo 5 o clases individuales, horarios a tu medida y una profesora que diseña cada clase según tu progreso. Además, al ser online ahorras el trayecto.</dd>
-      </div>
+    </div>
 
-    </dl>
-
+    <p class="util-text-center util-mt-lg">
+      ¿Tienes más dudas? Escríbenos a <a href="mailto:info@myenglishspotclasses.com">info@myenglishspotclasses.com</a> o lee nuestro <a href="/blog/como-preparar-el-first-certificate-fce">artículo sobre cómo preparar el First Certificate</a>.
+    </p>
   </div>
 </section>
 
-<!-- ===================== CTA FINAL ===================== -->
-<section class="section-cta section--blue">
-  <div class="section__inner section__inner--narrow">
-    <h2>¿Listo para empezar con las clases de inglés en Vigo?</h2>
-    <p>Reserva tu primera clase gratis ahora. 40 minutos, sin tarjeta, sin compromiso. Te esperamos.</p>
-    <div class="section-cta__btns">
-      <a class="btn btn--white btn--lg" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva_final_vigo')">
-        Reservar clase gratis — Vigo
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<!-- ============================ CTA FINAL ============================ -->
+<section class="cta">
+  <div class="cta__inner">
+    <svg class="cta__pin" viewBox="0 0 60 80" aria-hidden="true"><use href="#pin-cream"/></svg>
+    <h2>¿Empezamos con tu inglés en Vigo?</h2>
+    <p>La clase de diagnóstico es gratis y dura 45 minutos. Sin tarjeta, sin compromiso, sin rollos.</p>
+    <div class="cta__btns">
+      <a class="btn btn--outline-cream btn--lg" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva_cta_vigo')">
+        Reserva tu clase gratis
       </a>
-      <a class="btn btn--white-ghost btn--lg" href="mailto:info@myenglishspotclasses.com" onclick="gtag('event', 'click_email_final_vigo')">
-        Escribir un email
+      <a class="btn btn--outline-cream btn--lg" href="mailto:info@myenglishspotclasses.com" onclick="gtag('event', 'click_email_cta_vigo')">
+        Prefiero escribir
       </a>
     </div>
   </div>
@@ -649,11 +719,11 @@
 
 </main>
 
-<!-- ===================== FOOTER ===================== -->
+<!-- ============================ FOOTER ============================ -->
 <footer class="footer">
   <div class="footer__inner">
     <div class="footer__brand">
-      <img src="/assets/pin.png" alt="" class="footer__mark" width="44" height="56" loading="lazy" />
+      <img src="/assets/pin.png" alt="" class="footer__mark" width="34" height="44" loading="lazy" />
       <div>
         <div class="footer__wordmark">
           <span class="orange">My</span> <span class="blue">English</span> <span class="orange">Spot</span>
@@ -661,20 +731,15 @@
         <p class="footer__tag">Tu spot online para aprender inglés</p>
       </div>
     </div>
+
     <div class="footer__cols">
       <div class="footer__col">
-        <h4>Contacto</h4>
+        <p class="footer__col-title">Contacto</p>
         <a href="mailto:info@myenglishspotclasses.com">info@myenglishspotclasses.com</a>
         <a href="https://www.myenglishspotclasses.com">myenglishspotclasses.com</a>
       </div>
-      <div class="footer__col">
-        <h4>Clases</h4>
-        <a href="/clases-particulares-ingles-online">Clases particulares</a>
-        <a href="/preparacion-first-cambridge">Preparación FCE</a>
-        <a href="/clases-ingles-verano">Intensivo de verano</a>
-      </div>
       <div class="footer__col footer__col--social">
-        <h4>Síguenos</h4>
+        <p class="footer__col-title">Síguenos</p>
         <div class="socials">
           <a href="https://www.instagram.com/myenglishspot.classes" target="_blank" rel="noopener" aria-label="Instagram">
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2.2"/><circle cx="17.5" cy="6.5" r="1.3" fill="currentColor"/></svg>
@@ -685,11 +750,14 @@
         </div>
       </div>
       <div class="footer__col footer__col--cta">
-        <h4>Empieza hoy</h4>
-        <a class="btn btn--primary btn--sm btn--ink" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva_footer_vigo')">Reserva tu clase gratis</a>
+        <p class="footer__col-title">Empieza hoy</p>
+        <a class="btn btn--primary btn--sm btn--ink" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva_footer_vigo')">
+          Reserva tu clase gratis
+        </a>
       </div>
     </div>
   </div>
+
   <div class="footer__legal">
     <span>© 2026 My English Spot</span>
     <span class="footer__legal-sep">·</span>
@@ -701,19 +769,32 @@
   </div>
 </footer>
 
-<!-- SVG Sprite -->
+<!-- ============================ SVG SPRITE ============================ -->
 <svg width="0" height="0" class="svg-sprite" aria-hidden="true">
   <defs>
     <symbol id="pin" viewBox="0 0 60 80">
       <path d="M30 2C16.2 2 5 13.2 5 27c0 18 25 51 25 51s25-33 25-51C55 13.2 43.8 2 30 2z" fill="#65c6f4"/>
       <circle cx="30" cy="27" r="9" fill="#faf8f3"/>
     </symbol>
+    <symbol id="pin-o" viewBox="0 0 60 80">
+      <path d="M30 2C16.2 2 5 13.2 5 27c0 18 25 51 25 51s25-33 25-51C55 13.2 43.8 2 30 2z" fill="#ffa51f"/>
+      <circle cx="30" cy="27" r="9" fill="#faf8f3"/>
+    </symbol>
+    <symbol id="pin-cream" viewBox="0 0 60 80">
+      <path d="M30 2C16.2 2 5 13.2 5 27c0 18 25 51 25 51s25-33 25-51C55 13.2 43.8 2 30 2z" fill="#faf8f3"/>
+      <circle cx="30" cy="27" r="9" fill="#ffa51f"/>
+    </symbol>
   </defs>
 </svg>
 
+<!-- Mobile floating CTA -->
+<a class="mobile-fab" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" aria-label="Reserva tu clase gratis" onclick="gtag('event', 'click_reserva_fab_vigo')">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2.2"/><path d="M16 2v4M8 2v4M3 10h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+  Reserva gratis
+</a>
+
 <script src="/app.js"></script>
 
-<!-- ==================== COOKIE BANNER ==================== -->
 <div id="cookie-banner" class="cookie-banner" hidden role="dialog" aria-label="Aviso de cookies" aria-live="polite">
   <div class="cookie-banner__inner">
     <p class="cookie-banner__text">
@@ -727,5 +808,6 @@
   </div>
 </div>
 <script src="/consent.js"></script>
+
 </body>
 </html>

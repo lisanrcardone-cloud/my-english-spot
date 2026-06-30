@@ -27,6 +27,10 @@
     {
       "source": "/niveles-ingles-examenes",
       "destination": "/niveles-ingles-examenes.html"
+    },
+    {
+      "source": "/clases-ingles-vigo",
+      "destination": "/clases-ingles-vigo.html"
     }
   ],
   "redirects": [
