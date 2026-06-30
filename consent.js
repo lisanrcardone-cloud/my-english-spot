@@ -15,7 +15,6 @@
   function enableGA4() {
     if (typeof gtag !== 'function') return;
     gtag('consent', 'update', { analytics_storage: 'granted' });
-    gtag('event', 'page_view');
   }
 
   // --- Cargar e inicializar Clarity ------------------------------
