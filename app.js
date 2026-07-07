@@ -62,14 +62,16 @@ function closeMenu() {
   navToggle.setAttribute('aria-label', 'Abrir menú');
 }
 
-navToggle.addEventListener('click', () => {
-  nav.classList.contains('is-open') ? closeMenu() : openMenu();
-});
+if (navToggle && navMenu) {
+  navToggle.addEventListener('click', () => {
+    nav.classList.contains('is-open') ? closeMenu() : openMenu();
+  });
 
-navMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+  navMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
 
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
-document.addEventListener('click',   e => { if (!nav.contains(e.target)) closeMenu(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
+  document.addEventListener('click',   e => { if (!nav.contains(e.target)) closeMenu(); });
+}
 
 // --- /gracias — conversión + WhatsApp form handler -------------
 (function () {
