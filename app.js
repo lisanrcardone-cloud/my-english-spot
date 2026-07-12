@@ -170,7 +170,10 @@ if (navToggle && navMenu) {
   });
 })();
 
-// --- /gracias — conversión + WhatsApp form handler -------------
+// --- /gracias — conversión + envío a Rocío (WhatsApp o email) --
+// El canal por defecto es WhatsApp, pero no todo el mundo lo tiene
+// instalado/prefiere usarlo (sobre todo en desktop) — se ofrece un
+// botón de email como alternativa, sin obligar a un único canal.
 (function () {
   var form = document.getElementById('gracias-form');
   if (!form) return;
@@ -180,40 +183,69 @@ if (navToggle && navMenu) {
   // y se envían cuando GA4 termina de cargarse.
   gtag('event', 'reserva_confirmada', { value: 1 });
 
+  function readFields() {
+    return {
+      nombre:   document.getElementById('nombre').value.trim(),
+      email:    document.getElementById('email').value.trim(),
+      nivel:    document.getElementById('nivel').value,
+      objetivo: document.getElementById('objetivo').value
+    };
+  }
+
+  function buildMessage(f) {
+    return '¡Hola Rocío! Acabo de reservar mi clase de prueba. Te cuento un poco sobre mí:\n\n'
+      + 'Nombre: ' + f.nombre + '\n'
+      + (f.email    ? 'Email: '     + f.email    + '\n' : '')
+      + (f.nivel    ? 'Nivel: '     + f.nivel    + '\n' : '')
+      + (f.objetivo ? 'Objetivo: '  + f.objetivo + '\n' : '')
+      + '\n¡Nos vemos pronto!';
+  }
+
+  function sendLead(f, source) {
+    fetch('/api/subscribe', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ email: f.email, nombre: f.nombre, nivel: f.nivel, objetivo: f.objetivo, source: source })
+    }).catch(function () {});
+  }
+
   form.addEventListener('submit', function (e) {
     e.preventDefault();
-    var nombre   = document.getElementById('nombre').value.trim();
-    var email    = document.getElementById('email').value.trim();
-    var nivel    = document.getElementById('nivel').value;
-    var objetivo = document.getElementById('objetivo').value;
-
-    if (!nombre) {
+    var f = readFields();
+    if (!f.nombre) {
       alert('Cuéntanos al menos tu nombre antes de continuar.');
       return;
     }
 
     // Conversión secundaria: el alumno envió su presentación a Rocío
     gtag('event', 'lead_whatsapp', { value: 1 });
-
-    fetch('/api/subscribe', {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ email: email, nombre: nombre, nivel: nivel, objetivo: objetivo })
-    }).catch(function () {});
-
-    var msg = '¡Hola Rocío! Acabo de reservar mi clase de prueba. Te cuento un poco sobre mí:\n\n'
-      + 'Nombre: ' + nombre + '\n'
-      + (email    ? 'Email: '     + email    + '\n' : '')
-      + (nivel    ? 'Nivel: '     + nivel    + '\n' : '')
-      + (objetivo ? 'Objetivo: '  + objetivo + '\n' : '')
-      + '\n¡Nos vemos pronto!';
+    sendLead(f, 'post_booking_whatsapp');
 
     var a = document.createElement('a');
-    a.href = 'https://wa.me/34678703017?text=' + encodeURIComponent(msg);
+    a.href = 'https://wa.me/34678703017?text=' + encodeURIComponent(buildMessage(f));
     a.target = '_blank';
     a.rel = 'noopener noreferrer';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
   });
+
+  var emailBtn = document.getElementById('gracias-email-btn');
+  if (emailBtn) {
+    emailBtn.addEventListener('click', function () {
+      var f = readFields();
+      if (!f.nombre) {
+        alert('Cuéntanos al menos tu nombre antes de continuar.');
+        return;
+      }
+
+      gtag('event', 'lead_email', { value: 1 });
+      sendLead(f, 'post_booking_email');
+
+      var subject = 'Reserva de clase de prueba — ' + f.nombre;
+      window.location.href = 'mailto:info@myenglishspotclasses.com'
+        + '?subject=' + encodeURIComponent(subject)
+        + '&body=' + encodeURIComponent(buildMessage(f));
+    });
+  }
 })();
