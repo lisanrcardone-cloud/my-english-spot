@@ -760,6 +760,21 @@ p { margin: 0; }
   align-items: center;
 }
 .sec-head--center { margin-left: auto; margin-right: auto; text-align: center; }
+.testis__gbadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  padding: 8px 16px;
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-pill);
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--ink-2);
+  background: var(--white);
+  transition: border-color .18s, box-shadow .18s;
+}
+.testis__gbadge:hover { border-color: var(--blue-deep); box-shadow: var(--shadow-sm); }
 .sec-head h2 {
   font-size: clamp(32px, 3.6vw, 50px);
   line-height: 1.05;
