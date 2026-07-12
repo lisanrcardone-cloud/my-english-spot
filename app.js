@@ -73,6 +73,103 @@ if (navToggle && navMenu) {
   document.addEventListener('click',   e => { if (!nav.contains(e.target)) closeMenu(); });
 }
 
+// --- Pre-captura de lead antes de saltar a Google Calendar ------
+// Oportunidad #1 de la auditoría CRO: el CTA de reserva llevaba a una
+// pestaña externa sin guardar ningún dato del visitante. Si abandonaba
+// ahí, el negocio no tenía forma de contactarlo. Ahora se intercepta
+// cualquier enlace a Calendar, se pide nombre + email en un modal propio
+// (con opción de saltarlo para no bloquear a quien no quiere rellenar
+// nada) y solo entonces se abre Calendar.
+(function () {
+  var CAL_MATCH = 'calendar.app.google';
+  var modal = null;
+  var pendingHref = null;
+
+  function buildModal() {
+    var el = document.createElement('div');
+    el.className = 'precap';
+    el.setAttribute('role', 'dialog');
+    el.setAttribute('aria-modal', 'true');
+    el.setAttribute('aria-labelledby', 'precap-title');
+    el.innerHTML =
+      '<div class="precap__backdrop" data-precap-close></div>' +
+      '<div class="precap__box">' +
+        '<button type="button" class="precap__close" aria-label="Cerrar" data-precap-close>' +
+          '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M6 18L18 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>' +
+        '</button>' +
+        '<span class="precap__eyebrow">Antes de reservar</span>' +
+        '<h2 class="precap__title" id="precap-title">¿Cómo te llamamos?</h2>' +
+        '<p class="precap__sub">Así Rocío puede contactarte si algo falla al elegir horario en el calendario. No hace falta tarjeta ni ningún compromiso.</p>' +
+        '<form class="precap__form" novalidate>' +
+          '<div class="precap__field">' +
+            '<label for="precap-nombre">Nombre</label>' +
+            '<input type="text" id="precap-nombre" autocomplete="given-name" required />' +
+          '</div>' +
+          '<div class="precap__field">' +
+            '<label for="precap-email">Email</label>' +
+            '<input type="email" id="precap-email" autocomplete="email" required />' +
+          '</div>' +
+          '<div class="precap__actions">' +
+            '<button type="submit" class="btn btn--primary btn--lg">Continuar a elegir horario</button>' +
+            '<button type="button" class="precap__skip" data-precap-skip>Prefiero ir directo, sin dar mis datos</button>' +
+          '</div>' +
+        '</form>' +
+      '</div>';
+    document.body.appendChild(el);
+
+    el.querySelectorAll('[data-precap-close]').forEach(function (btn) {
+      btn.addEventListener('click', closeModal);
+    });
+    el.querySelector('[data-precap-skip]').addEventListener('click', function () {
+      gtag('event', 'lead_precapture_skip', { value: 1 });
+      goToCalendar();
+    });
+    el.querySelector('form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var nombre = document.getElementById('precap-nombre').value.trim();
+      var email  = document.getElementById('precap-email').value.trim();
+      if (!nombre || !email) return;
+
+      gtag('event', 'lead_precapture', { value: 1 });
+      fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ email: email, nombre: nombre, source: 'precapture' })
+      }).catch(function () {});
+
+      goToCalendar();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && modal.classList.contains('is-open')) closeModal();
+    });
+    return el;
+  }
+
+  function goToCalendar() {
+    if (pendingHref) window.open(pendingHref, '_blank', 'noopener');
+    closeModal();
+  }
+
+  function openModal(href) {
+    if (!modal) modal = buildModal();
+    pendingHref = href;
+    modal.classList.add('is-open');
+    var firstField = document.getElementById('precap-nombre');
+    if (firstField) firstField.focus();
+  }
+
+  function closeModal() {
+    if (modal) modal.classList.remove('is-open');
+  }
+
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('a[href*="' + CAL_MATCH + '"]');
+    if (!a) return;
+    e.preventDefault();
+    openModal(a.href);
+  });
+})();
+
 // --- /gracias — conversión + WhatsApp form handler -------------
 (function () {
   var form = document.getElementById('gracias-form');

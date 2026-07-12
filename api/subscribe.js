@@ -3,7 +3,7 @@ module.exports = async function handler(req, res) {
     return res.status(405).end();
   }
 
-  const { email, nombre, nivel, objetivo } = req.body || {};
+  const { email, nombre, nivel, objetivo, source } = req.body || {};
 
   if (!email) {
     return res.status(400).json({ error: 'email required' });
@@ -19,7 +19,7 @@ module.exports = async function handler(req, res) {
       },
       body: JSON.stringify({
         email,
-        attributes: { FIRSTNAME: nombre, NIVEL: nivel, OBJETIVO: objetivo },
+        attributes: { FIRSTNAME: nombre, NIVEL: nivel, OBJETIVO: objetivo, SOURCE: source || 'post_booking' },
         listIds: [3],
         updateEnabled: true
       })
