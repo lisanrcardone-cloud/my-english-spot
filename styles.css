@@ -461,6 +461,14 @@ p { margin: 0; }
   margin-bottom: 28px;
 }
 
+.hero__note {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--ink-2);
+  opacity: .75;
+  margin: -22px 0 20px;
+}
+
 .hero__chips {
   display: flex;
   flex-wrap: wrap;
@@ -1622,6 +1630,10 @@ p { margin: 0; }
   .hero__sub { font-size: 16px; max-width: 100%; }
   .hero__ctas { gap: 10px; }
   .hero__ctas .btn { font-size: 15px; padding: 13px 18px; }
+  /* Un solo CTA dominante en el hero mobile — el secundario (mailto) queda
+     disponible en footer/FAQ para quien ya bajó buscando otro canal. */
+  .hero__ctas a.btn--ghost,
+  .service-hero__ctas a.btn--ghost { display: none; }
   .cta { padding: 32px 18px; }
   .cta h2 { font-size: clamp(26px, 7vw, 36px); }
   .cta p { font-size: 16px; }
@@ -2355,6 +2367,10 @@ p { margin: 0; }
       font-size: .8rem; font-weight: 800;
       letter-spacing: .06em; text-transform: uppercase;
       color: var(--ink-2);
+    }
+    .g-optional {
+      font-weight: 500; text-transform: none;
+      letter-spacing: normal; opacity: .6;
     }
     .g-field input,
     .g-field select {

@@ -73,25 +73,24 @@
         <input type="text" id="nombre" name="nombre" placeholder="¿Cómo te llaman?" autocomplete="given-name" required />
       </div>
       <div class="g-field">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="tu@email.com" autocomplete="email" required />
+        <label for="email">Email <span class="g-optional">(opcional)</span></label>
+        <input type="email" id="email" name="email" placeholder="tu@email.com" autocomplete="email" />
       </div>
       <div class="g-field">
-        <label for="nivel">Nivel de inglés</label>
-        <select id="nivel" name="nivel" required>
-          <option value="" disabled selected>Selecciona tu nivel</option>
+        <label for="nivel">Nivel de inglés <span class="g-optional">(opcional)</span></label>
+        <select id="nivel" name="nivel">
+          <option value="" selected>Prefiero contarlo en clase</option>
           <option value="A1">A1 — Principiante</option>
           <option value="A2">A2 — Básico</option>
           <option value="B1">B1 — Intermedio</option>
           <option value="B2">B2 — Intermedio alto</option>
           <option value="C1">C1 — Avanzado</option>
-          <option value="No lo sé">No lo sé</option>
         </select>
       </div>
       <div class="g-field">
-        <label for="objetivo">Objetivo principal</label>
-        <select id="objetivo" name="objetivo" required>
-          <option value="" disabled selected>¿Para qué quieres el inglés?</option>
+        <label for="objetivo">Objetivo principal <span class="g-optional">(opcional)</span></label>
+        <select id="objetivo" name="objetivo">
+          <option value="" selected>Prefiero contarlo en clase</option>
           <option value="Trabajo">Trabajo / Business English</option>
           <option value="Examen Cambridge/IELTS">Examen Cambridge / IELTS</option>
           <option value="Conversación general">Conversación general</option>

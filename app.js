@@ -90,8 +90,8 @@ if (navToggle && navMenu) {
     var nivel    = document.getElementById('nivel').value;
     var objetivo = document.getElementById('objetivo').value;
 
-    if (!nombre || !email || !nivel || !objetivo) {
-      alert('Por favor rellena todos los campos antes de continuar.');
+    if (!nombre) {
+      alert('Cuéntanos al menos tu nombre antes de continuar.');
       return;
     }
 
@@ -106,10 +106,10 @@ if (navToggle && navMenu) {
 
     var msg = '¡Hola Rocío! Acabo de reservar mi clase de prueba. Te cuento un poco sobre mí:\n\n'
       + 'Nombre: ' + nombre + '\n'
-      + 'Email: ' + email + '\n'
-      + 'Nivel: ' + nivel + '\n'
-      + 'Objetivo: ' + objetivo + '\n\n'
-      + '¡Nos vemos pronto!';
+      + (email    ? 'Email: '     + email    + '\n' : '')
+      + (nivel    ? 'Nivel: '     + nivel    + '\n' : '')
+      + (objetivo ? 'Objetivo: '  + objetivo + '\n' : '')
+      + '\n¡Nos vemos pronto!';
 
     var a = document.createElement('a');
     a.href = 'https://wa.me/34678703017?text=' + encodeURIComponent(msg);
