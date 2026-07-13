@@ -1,12 +1,49 @@
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const MAX_FIELD_LEN = 100;
+
+// Rate limit best-effort en memoria: no persiste entre instancias/cold starts
+// de Vercel, pero corta los intentos automatizados más obvios (ráfagas desde
+// la misma instancia caliente). Para un límite real por IP hace falta un
+// store compartido (p.ej. Upstash Redis) — pendiente de decisión, ver informe.
+const hits = new Map();
+const WINDOW_MS = 60_000;
+const MAX_PER_WINDOW = 5;
+
+function isRateLimited(ip) {
+  const now = Date.now();
+  const entry = hits.get(ip) || { count: 0, start: now };
+  if (now - entry.start > WINDOW_MS) {
+    entry.count = 0;
+    entry.start = now;
+  }
+  entry.count += 1;
+  hits.set(ip, entry);
+  return entry.count > MAX_PER_WINDOW;
+}
+
+function clean(value) {
+  if (typeof value !== 'string') return '';
+  return value.trim().slice(0, MAX_FIELD_LEN);
+}
+
 module.exports = async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).end();
   }
 
-  const { email, nombre, nivel, objetivo, source } = req.body || {};
+  const ip = (req.headers['x-forwarded-for'] || '').split(',')[0].trim() || req.socket?.remoteAddress || 'unknown';
+  if (isRateLimited(ip)) {
+    return res.status(429).json({ error: 'too many requests' });
+  }
 
-  if (!email) {
-    return res.status(400).json({ error: 'email required' });
+  const email = clean((req.body || {}).email);
+  const nombre = clean((req.body || {}).nombre);
+  const nivel = clean((req.body || {}).nivel);
+  const objetivo = clean((req.body || {}).objetivo);
+  const source = clean((req.body || {}).source) || 'post_booking';
+
+  if (!email || !EMAIL_RE.test(email)) {
+    return res.status(400).json({ error: 'valid email required' });
   }
 
   try {
@@ -19,7 +56,7 @@ module.exports = async function handler(req, res) {
       },
       body: JSON.stringify({
         email,
-        attributes: { FIRSTNAME: nombre, NIVEL: nivel, OBJETIVO: objetivo, SOURCE: source || 'post_booking' },
+        attributes: { FIRSTNAME: nombre, NIVEL: nivel, OBJETIVO: objetivo, SOURCE: source },
         listIds: [3],
         updateEnabled: true
       })
@@ -31,8 +68,10 @@ module.exports = async function handler(req, res) {
       return res.status(200).json({ ok: true });
     }
     const body = await response.text();
-    return res.status(502).json({ error: body });
+    console.error('Brevo API error', status, body);
+    return res.status(502).json({ error: 'subscription service error' });
   } catch (err) {
-    return res.status(502).json({ error: err.message });
+    console.error('Brevo request failed', err);
+    return res.status(502).json({ error: 'subscription service error' });
   }
 }
