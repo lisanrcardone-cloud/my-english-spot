@@ -464,9 +464,17 @@
       <p class="sec-head__sub"><!-- PLACEHOLDER: subhead para quién (1 frase que englobe todos los perfiles) --></p>
     </header>
 
-    <div class="for-whom-grid">
+    <!--
+      IMPORTANTE — grid de tarjetas:
+      · Exactamente 4 tarjetas → añade el modificador "for-whom-grid--2x2"
+        (si no, el grid base a 3 columnas deja 3 arriba y 1 sola abajo, roto).
+      · 5 tarjetas → usa "for-whom-grid--5" (centra la última fila).
+      · 6 tarjetas → deja solo "for-whom-grid" (3 columnas x 2 filas, sin modificador).
+    -->
+    <div class="for-whom-grid for-whom-grid--2x2">
 
-      <!-- PLACEHOLDER: duplica este bloque para cada perfil. Recomendado 4-6 tarjetas. -->
+      <!-- PLACEHOLDER: duplica este bloque para cada perfil. Recomendado 4-6 tarjetas.
+           Si cambias a 5 o 6 tarjetas, ajusta el modificador de la clase de arriba. -->
       <div class="for-whom-card">
         <div class="for-whom-card__icon" aria-hidden="true">
           <!-- PLACEHOLDER: SVG representativo del perfil -->

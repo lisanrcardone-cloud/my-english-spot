@@ -1765,6 +1765,7 @@ p { margin: 0; }
   .chip {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 7px;
     font-size: 13.5px;
     font-weight: 700;
