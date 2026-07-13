@@ -1931,6 +1931,8 @@ p { margin: 0; }
   }
   .includes-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
   .includes-card__num {
+    width: 40px; height: 40px;
+    border-radius: 12px;
     background: var(--blue);
     color: var(--white);
     font-size: 19px;
@@ -2035,9 +2037,11 @@ p { margin: 0; }
 
 /* ── Clases particulares — page-specific ── */
   .service-hero .eyebrow { margin-bottom: 0.5rem; }
+  .includes-card__num {
     gap: 16px;
     width: 40px; height: 40px;
     border-radius: 12px;
+  }
   .includes-card__text strong { display: block; font-size: 16px; font-weight: 900; margin-bottom: 5px; }
   .includes-card__text p { font-size: 14.5px; font-weight: 600; color: var(--ink-2); line-height: 1.55; margin: 0; }
   .method-item strong { display: block; font-size: 16px; font-weight: 900; margin-bottom: 8px; }
