@@ -2458,23 +2458,29 @@ p { margin: 0; }
 
 /* ── niveles-ingles-examenes: overrides ── */
 
-/* Centrar última fila del grid de 5 niveles (flex en lugar de grid) */
-.for-whom-grid--5 {
+/* Centrar última fila cuando el nº de tarjetas no es múltiplo exacto de las columnas
+   (flex en lugar de grid). Usar en cualquier for-whom-grid con 3 o 5 tarjetas —
+   con 3 evita el "2 arriba + 1 suelta a la izquierda" en tablet (641-1000px). */
+.for-whom-grid--5,
+.for-whom-grid--center {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 18px;
 }
-.for-whom-grid--5 > .for-whom-card {
+.for-whom-grid--5 > .for-whom-card,
+.for-whom-grid--center > .for-whom-card {
   flex: 0 0 calc(33.333% - 12px);
 }
 @media (max-width: 1000px) {
-  .for-whom-grid--5 > .for-whom-card {
+  .for-whom-grid--5 > .for-whom-card,
+  .for-whom-grid--center > .for-whom-card {
     flex: 0 0 calc(50% - 9px);
   }
 }
 @media (max-width: 640px) {
-  .for-whom-grid--5 > .for-whom-card {
+  .for-whom-grid--5 > .for-whom-card,
+  .for-whom-grid--center > .for-whom-card {
     flex: 0 0 100%;
   }
 }
