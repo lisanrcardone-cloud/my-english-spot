@@ -31,6 +31,10 @@
     {
       "source": "/clases-ingles-vigo",
       "destination": "/clases-ingles-vigo.html"
+    },
+    {
+      "source": "/preparacion-ielts-online",
+      "destination": "/preparacion-ielts-online.html"
     }
   ],
   "redirects": [
