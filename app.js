@@ -77,9 +77,10 @@ if (navToggle && navMenu) {
 // Oportunidad #1 de la auditoría CRO: el CTA de reserva llevaba a una
 // pestaña externa sin guardar ningún dato del visitante. Si abandonaba
 // ahí, el negocio no tenía forma de contactarlo. Ahora se intercepta
-// cualquier enlace a Calendar, se pide nombre + email en un modal propio
-// (con opción de saltarlo para no bloquear a quien no quiere rellenar
-// nada) y solo entonces se abre Calendar.
+// cualquier enlace a Calendar, se pide nombre (obligatorio) + email
+// (opcional, igual que en /gracias) en un modal propio, con opción de
+// saltarlo para no bloquear a quien no quiere rellenar nada, y solo
+// entonces se abre Calendar.
 (function () {
   var CAL_MATCH = 'calendar.app.google';
   var modal = null;
@@ -99,15 +100,17 @@ if (navToggle && navMenu) {
         '</button>' +
         '<span class="precap__eyebrow">Antes de reservar</span>' +
         '<h2 class="precap__title" id="precap-title">¿Cómo te llamamos?</h2>' +
-        '<p class="precap__sub">Así Rocío puede contactarte si algo falla al elegir horario en el calendario. No hace falta tarjeta ni ningún compromiso.</p>' +
+        '<p class="precap__sub">Así Rocío puede contactarte si algo falla al elegir horario en el calendario. El email es opcional. No hace falta tarjeta ni ningún compromiso.</p>' +
         '<form class="precap__form" novalidate>' +
-          '<div class="precap__field">' +
+          '<div class="precap__field" data-field="nombre">' +
             '<label for="precap-nombre">Nombre</label>' +
             '<input type="text" id="precap-nombre" autocomplete="given-name" required />' +
+            '<span class="precap__error">Escribe tu nombre para continuar</span>' +
           '</div>' +
-          '<div class="precap__field">' +
-            '<label for="precap-email">Email</label>' +
-            '<input type="email" id="precap-email" autocomplete="email" required />' +
+          '<div class="precap__field" data-field="email">' +
+            '<label for="precap-email">Email (opcional)</label>' +
+            '<input type="email" id="precap-email" autocomplete="email" />' +
+            '<span class="precap__error">Revisa el formato del email</span>' +
           '</div>' +
           '<div class="precap__actions">' +
             '<button type="submit" class="btn btn--primary btn--lg">Continuar a elegir horario</button>' +
@@ -116,6 +119,12 @@ if (navToggle && navMenu) {
         '</form>' +
       '</div>';
     document.body.appendChild(el);
+
+    var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    function setFieldError(field, hasError) {
+      field.classList.toggle('precap__field--error', hasError);
+    }
 
     el.querySelectorAll('[data-precap-close]').forEach(function (btn) {
       btn.addEventListener('click', closeModal);
@@ -126,9 +135,22 @@ if (navToggle && navMenu) {
     });
     el.querySelector('form').addEventListener('submit', function (e) {
       e.preventDefault();
-      var nombre = document.getElementById('precap-nombre').value.trim();
-      var email  = document.getElementById('precap-email').value.trim();
-      if (!nombre || !email) return;
+      var nombreField = el.querySelector('[data-field="nombre"]');
+      var emailField  = el.querySelector('[data-field="email"]');
+      var nombreInput = document.getElementById('precap-nombre');
+      var emailInput  = document.getElementById('precap-email');
+      var nombre = nombreInput.value.trim();
+      var email  = emailInput.value.trim();
+
+      var nombreError = !nombre;
+      var emailError  = email !== '' && !EMAIL_RE.test(email);
+      setFieldError(nombreField, nombreError);
+      setFieldError(emailField, emailError);
+
+      if (nombreError || emailError) {
+        (nombreError ? nombreInput : emailInput).focus();
+        return;
+      }
 
       gtag('event', 'lead_precapture', { value: 1 });
       fetch('/api/subscribe', {

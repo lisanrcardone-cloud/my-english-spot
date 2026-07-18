@@ -18,6 +18,7 @@
   --blue-ink: #1a6fa0;
   --orange: #ffa51f;
   --orange-deep: #ed8c00;
+  --error: #b3432b;
   --cream: #faf8f3;
   --cream-2: #f3efe5;
   --ink: #1f2330;
@@ -1645,10 +1646,13 @@ p { margin: 0; }
   .hero__sub { font-size: 16px; max-width: 100%; }
   .hero__ctas { gap: 10px; }
   .hero__ctas .btn { font-size: 15px; padding: 13px 18px; }
-  /* Un solo CTA dominante en el hero mobile — el secundario (mailto) queda
-     disponible en footer/FAQ para quien ya bajó buscando otro canal. */
+  /* Un solo CTA dominante en el hero, en "Planes a tu medida" y en el CTA
+     final mobile — el secundario (mailto) queda disponible en footer/FAQ
+     para quien ya bajó buscando otro canal. */
   .hero__ctas a.btn--ghost,
-  .service-hero__ctas a.btn--ghost { display: none; }
+  .service-hero__ctas a.btn--ghost,
+  .consult__ctas a[href^="mailto:"],
+  .cta__btns a[href^="mailto:"] { display: none; }
   .cta { padding: 32px 18px; }
   .cta h2 { font-size: clamp(26px, 7vw, 36px); }
   .cta p { font-size: 16px; }
@@ -2566,6 +2570,18 @@ p { margin: 0; }
   outline: none; border-color: var(--blue-deep);
   box-shadow: 0 0 0 3px rgba(46, 167, 218, 0.18);
 }
+.precap__error {
+  display: none;
+  font-size: 12.5px; font-weight: 700; color: var(--error);
+  margin-top: -2px;
+}
+.precap__field--error input {
+  border-color: var(--error);
+}
+.precap__field--error input:focus {
+  box-shadow: 0 0 0 3px rgba(179, 67, 43, 0.16);
+}
+.precap__field--error .precap__error { display: block; }
 .precap__note {
   font-size: 12.5px; color: var(--ink-2); opacity: .75; margin: 2px 0 4px;
 }
