@@ -35,6 +35,10 @@
     {
       "source": "/preparacion-ielts-online",
       "destination": "/preparacion-ielts-online.html"
+    },
+    {
+      "source": "/preparacion-cae-online",
+      "destination": "/preparacion-cae-online.html"
     }
   ],
   "redirects": [

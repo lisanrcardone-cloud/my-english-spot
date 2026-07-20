@@ -1,23 +1,23 @@
 <!doctype html>
 <html lang="es">
 <head>
-
-  <!-- Consent Mode v2 defaults: debe ejecutarse ANTES de que cargue gtag.js -->
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("consent","default",{analytics_storage:"denied",ad_storage:"denied",functionality_storage:"denied",personalization_storage:"denied",wait_for_update:500});</script>
-  <!-- GA4 — carga siempre, pero sin cookies hasta consentimiento (Consent Mode v2) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1Y9YC09NL"></script>
-  <script>gtag("js", new Date());gtag("config", "G-Y1Y9YC09NL");</script>
-  <!-- Clarity queue stub — el script real solo carga si hay consentimiento -->
-  <script>window.clarity=window.clarity||function(){(window.clarity.q=window.clarity.q||[]).push(arguments);};</script>
+  <!-- Microsoft Clarity — síncrono, siempre primero en <head> (no mover) -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "x5g3qs2fbb");
+  </script>
 
   <!-- Schema.org: Course -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Course",
-    "name": "Clases de inglés en Vigo online",
-    "description": "Clases de inglés online con profesora en Vigo: particulares 1 a 1 y grupos reducidos (máx. 5 personas). Niveles A1–C1, Cambridge FCE/CAE, IELTS e inglés para el trabajo. Primera clase de 40 minutos gratis.",
-    "url": "https://www.myenglishspotclasses.com/clases-ingles-vigo",
+    "name": "Preparación CAE online (C1 Advanced)",
+    "description": "Clases 1 a 1 para preparar el examen Cambridge CAE (C1 Advanced) online, con simulacros reales, corrección de Writing y Speaking, y estrategia por sección.",
+    "url": "https://www.myenglishspotclasses.com/preparacion-cae-online",
     "provider": {
       "@type": "EducationalOrganization",
       "name": "My English Spot",
@@ -26,7 +26,7 @@
     "instructor": {
       "@type": "Person",
       "name": "Rocío Antonella Denti Monaco",
-      "jobTitle": "Profesora de inglés online con base en Vigo"
+      "jobTitle": "Profesora de inglés especializada en preparación de exámenes"
     },
     "hasCourseInstance": {
       "@type": "CourseInstance",
@@ -44,10 +44,10 @@
         "url": "https://calendar.app.google/sRYu3JKfnedx8V3v8"
       }
     ],
-    "educationalLevel": "A1–C1",
+    "educationalLevel": "B2–C1",
     "inLanguage": "en",
-    "teaches": "Conversación en inglés, gramática, inglés para el trabajo, preparación Cambridge B2 First (FCE), C1 Advanced (CAE) e IELTS",
-    "datePublished": "2026-06-30",
+    "teaches": "Reading and Use of English, Writing, Listening y Speaking del examen Cambridge CAE (C1 Advanced)",
+    "datePublished": "2026-07-20",
     "image": "https://www.myenglishspotclasses.com/assets/og-image.jpeg"
   }
   </script>
@@ -60,50 +60,50 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "¿Las clases de inglés son online o presenciales en Vigo?",
+        "name": "¿Qué diferencia hay entre el CAE y el First Certificate (FCE)?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Las clases son 100% online por videollamada. La academia tiene base en Vigo pero imparte las clases por Meet. Esto significa que puedes tener una tutoría desde hacia cualquier punto de España o del mundo, sin desplazarte, con total flexibilidad horaria."
+          "text": "El FCE certifica nivel B2 y el CAE certifica nivel C1, un escalón por encima: textos más largos y complejos, vocabulario más preciso, mayor exigencia en Writing y Speaking. Si vienes de aprobar el FCE, el CAE es el siguiente paso natural; si aún no tienes B2 consolidado, conviene empezar por el FCE."
         }
       },
       {
         "@type": "Question",
-        "name": "¿Cuánto tiempo se tarda en preparar el First Certificate (FCE) con un tutor en Vigo?",
+        "name": "¿Caduca el certificado del CAE?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Con un nivel B1 consolidado, la preparación del Cambridge B2 First suele llevar entre 4 y 6 meses estudiando a partir de 2 horas semanales con el tutor más práctica autónoma. Desde un nivel inferior el proceso puede extenderse, aproximadamente, a 8–12 meses, aunque el proceso de cada alumno se enfoca particularmente a sus necesidades."
+          "text": "No. El Certificate in Advanced English es una acreditación permanente de Cambridge que no caduca, a diferencia de otros certificados que solo son válidos durante dos años. Una vez aprobado, el nivel C1 queda certificado de por vida."
         }
       },
       {
         "@type": "Question",
-        "name": "¿Preparáis también el IELTS en Vigo?",
+        "name": "¿Qué nota necesito para aprobar el CAE?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sí. Además del Cambridge B2 First (FCE) y el C1 Advanced (CAE), Rocío prepara alumnos para el IELTS Academic y el IELTS General Training. Si necesitas el IELTS para estudiar en el extranjero, emigrar o cumplir un requisito laboral, podemos crear un plan personalizado según tu banda objetivo y fecha de examen."
+          "text": "El CAE se puntúa en una escala de 160 a 210 puntos. A partir de 180 se obtiene el Grade C (aprobado, certificado C1); desde 193 el Grade B y desde 200 el Grade A, ambos con más nota dentro del mismo certificado C1. Entre 160 y 179 se certifica nivel B2 en vez de C1."
         }
       },
       {
         "@type": "Question",
-        "name": "¿Qué nivel de inglés necesito para empezar las clases?",
+        "name": "¿Cómo está estructurado el examen CAE?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "No hay nivel mínimo. Trabajamos desde A2 (principiante-intermedio) hasta C1 avanzado. En la primera clase gratuita de 40 minutos hacemos una evaluación rápida para identificar exactamente en qué punto estás y qué pasos necesitas para llegar a tu objetivo, ya sea hablar con soltura, subir de nivel o aprobar un examen oficial."
+          "text": "Consta de cuatro partes: Reading and Use of English, Writing (dos tareas), Listening y Speaking (entrevista con otro candidato). Cada parte pesa un 25% de la nota final."
         }
       },
       {
         "@type": "Question",
-        "name": "¿Preparáis exámenes de la EOI (Escola Oficial de Idiomas)?",
+        "name": "¿Qué nivel necesito para empezar a preparar el CAE?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sí. Además del Cambridge B2 First, el C1 Advanced y el IELTS, preparamos alumnos para las pruebas de la Escola Oficial de Idiomas (EOI) de Galicia, incluidos los niveles B1, B2 y C1. El enfoque es el mismo: práctica real de las partes del examen con material específico para cada prueba."
+          "text": "Idealmente un B2 sólido o el First Certificate ya aprobado. En la clase de prueba se evalúa tu nivel real y se decide si conviene empezar directamente con el CAE o reforzar primero el B2."
         }
       },
       {
         "@type": "Question",
-        "name": "¿Puedo compaginar las clases con mi trabajo o estudios?",
+        "name": "¿Cuánto dura la preparación para el CAE?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sí, es la situación más habitual. La mayoría de nuestros alumnos son personas activas con jornada laboral o universitaria. Las clases son online y los horarios se pactan directamente con la profesora, incluyendo tardes, noches y fines de semana. No hay horario fijo de academia."
+          "text": "Depende de tu nivel de partida. Como referencia, con un B2 consolidado y 2 clases semanales, la preparación suele necesitar entre 3 y 6 meses hasta llegar con seguridad a la convocatoria. En la clase de prueba hacemos una estimación realista con tu nivel actual."
         }
       }
     ]
@@ -125,20 +125,20 @@
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Clases de inglés en Vigo",
-        "item": "https://www.myenglishspotclasses.com/clases-ingles-vigo"
+        "name": "Preparación CAE",
+        "item": "https://www.myenglishspotclasses.com/preparacion-cae-online"
       }
     ]
   }
   </script>
 
-  <!-- Schema.org: Person — E-E-A-T -->
+  <!-- Schema.org: Person — instructor (E-E-A-T) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Rocío Antonella Denti Monaco",
-    "jobTitle": "Profesora de inglés online con base en Vigo",
+    "jobTitle": "Profesora de inglés especializada en preparación de exámenes",
     "sameAs": [
       "https://www.instagram.com/myenglishspot.classes",
       "https://www.tiktok.com/@myenglishspot"
@@ -151,19 +151,41 @@
   }
   </script>
 
+  <!-- Google Analytics GA4 — carga diferida (no bloquea render) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    function loadGA(){
+      var s = document.createElement('script');
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-Y1Y9YC09NL';
+      s.async = true;
+      document.head.appendChild(s);
+      s.onload = function(){
+        gtag('js', new Date());
+        gtag('config', 'G-Y1Y9YC09NL');
+      };
+    }
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(loadGA);
+    } else {
+      setTimeout(loadGA, 3000);
+    }
+  </script>
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <title>Clases de inglés en Vigo online | My English Spot</title>
-  <meta name="description" content="Clases de inglés en Vigo con profesora online. Particulares 1 a 1 y grupos reducidos (máx. 5). Cambridge FCE, IELTS. Primera clase gratis, 40 min." />
+  <title>Preparación CAE online 2026: C1 Advanced | My English Spot</title>
+  <meta name="description" content="Prepara el CAE (C1 Advanced) online: simulacros cronometrados, corrección de Writing y Speaking, plan por semanas. Primera clase de prueba gratis." />
+
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://www.myenglishspotclasses.com/clases-ingles-vigo" />
+  <link rel="canonical" href="https://www.myenglishspotclasses.com/preparacion-cae-online" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.myenglishspotclasses.com/clases-ingles-vigo" />
-  <meta property="og:title" content="Clases de inglés en Vigo online | My English Spot" />
-  <meta property="og:description" content="Profesora con base en Vigo, clases 100% online. 1 a 1 o grupos reducidos (máx. 5). Niveles A1–C1, Cambridge FCE, IELTS e inglés laboral. Primera clase gratis." />
+  <meta property="og:url" content="https://www.myenglishspotclasses.com/preparacion-cae-online" />
+  <meta property="og:title" content="Preparación CAE online 2026: C1 Advanced | My English Spot" />
+  <meta property="og:description" content="Clases 1 a 1 para preparar el CAE: simulacros reales, corrección de Writing y Speaking, y plan por semanas. Primera clase de prueba gratis." />
   <meta property="og:image" content="https://www.myenglishspotclasses.com/assets/og-image.jpeg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -172,18 +194,15 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Clases de inglés en Vigo online | My English Spot" />
-  <meta name="twitter:description" content="Profesora en Vigo, clases online 1 a 1 y grupos pequeños. Niveles A1–C1, Cambridge, IELTS. Primera clase gratis." />
+  <meta name="twitter:title" content="Preparación CAE online 2026: C1 Advanced | My English Spot" />
+  <meta name="twitter:description" content="Prepara el CAE online con profesora especializada. Simulacros reales, corrección de Writing y Speaking. Primera clase gratis." />
   <meta name="twitter:image" content="https://www.myenglishspotclasses.com/assets/og-image.jpeg" />
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="/assets/pin.png" />
 
-  <!-- Nunito — preload para evitar FOUT -->
-  <noscript></noscript>
   <link rel="preload" href="/assets/fonts/nunito-latin-desktop.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/styles.css" />
-  <link rel="stylesheet" href="/consent.css" />
 
 </head>
 <body>
@@ -204,14 +223,12 @@
       <a href="#incluye">Qué incluye</a>
       <a href="#como-funciona">Cómo funciona</a>
       <a href="#faq">Preguntas</a>
-      <a href="/clases-particulares-ingles-online">Clases particulares</a>
-      <a href="/preparacion-ielts-online">IELTS</a>
-      <a href="/preparacion-cae-online">CAE</a>
+      <a href="/preparacion-first-cambridge">Preparación FCE</a>
     </nav>
 
     <div class="nav__right">
-      <a class="btn btn--primary btn--sm" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva_nav_vigo')">
-        Reserva tu clase gratis
+      <a class="btn btn--primary btn--sm" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva')">
+        Clase de prueba gratis
       </a>
       <button class="nav__hamburger" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
         <svg class="ham-open" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -233,33 +250,31 @@
     <nav class="breadcrumb" aria-label="Ruta de navegación">
       <a href="https://www.myenglishspotclasses.com/">My English Spot</a>
       <span class="breadcrumb__sep" aria-hidden="true">›</span>
-      <span>Clases de inglés en Vigo</span>
+      <span>Preparación CAE</span>
     </nav>
   </div>
 
-  <span class="eyebrow">Profesora en Vigo · 100% online · A1–C1</span>
+  <span class="eyebrow">CAE · C1 Advanced · 100% online</span>
 
   <h1 class="service-hero__h1">
-    <span class="ink--blue">Clases de inglés en Vigo</span><br>
-    online, con profesora local
+    <span class="ink--blue">Preparación CAE online</span><br>
+    con profesora especializada
   </h1>
 
   <p class="service-hero__sub">
-    My English Spot es una academia de inglés online con base en Vigo. Clases particulares 1&nbsp;a&nbsp;1 y grupos reducidos (máx.&nbsp;5&nbsp;personas) por videollamada, para todos los niveles: desde A1 hasta C1, Cambridge FCE y CAE, IELTS e inglés para el trabajo. La primera clase de 40 minutos es gratis.
+    Clases 1 a 1 para llegar preparado/a a tu examen Cambridge CAE (C1 Advanced): simulacros cronometrados de Reading and Use of English, Listening y Writing, entrevistas de Speaking reales y feedback por criterio oficial. Empieza con una clase de prueba gratuita de 40 minutos, sin compromiso.
   </p>
 
   <div class="service-hero__ctas">
-    <a class="btn btn--primary btn--lg" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva_hero_vigo')">
-      Reserva tu clase gratis
+    <a class="btn btn--primary btn--lg" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva')">
+      Reserva tu clase diagnóstica
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </a>
-    <a class="btn btn--ghost btn--lg" href="mailto:info@myenglishspotclasses.com" onclick="gtag('event', 'click_email_hero_vigo')">
+    <a class="btn btn--ghost btn--lg" href="mailto:info@myenglishspotclasses.com" onclick="gtag('event', 'click_email')">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h16v12H4z M4 6l8 7 8-7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       Prefiero escribir
     </a>
   </div>
-
-  <p class="hero__note">Sin tarjeta · Sin compromiso</p>
 
   <ul class="service-hero__chips" aria-label="Características principales">
     <li class="chip">
@@ -272,11 +287,11 @@
     </li>
     <li class="chip">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2"/><path d="M4 20c1.4-3.5 4.4-5.5 8-5.5s6.6 2 8 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-      1 a 1 o grupo (máx. 5)
+      Clase 1 a 1
     </li>
     <li class="chip chip--orange">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l2.6 5.3 5.9.8-4.3 4.1 1 5.8L12 17.3 6.8 20l1-5.8L3.5 10l5.9-.8L12 3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
-      Cambridge FCE · IELTS
+      Simulacros reales cronometrados
     </li>
     <li class="chip">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L20 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -293,27 +308,27 @@
       <div class="what-grid__text">
         <span class="online-badge">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="6" width="14" height="12" rx="2" stroke="currentColor" stroke-width="2"/><path d="M16 10l6-3v10l-6-3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
-          100% online · profesora con base en Vigo
+          Preparación específica CAE
         </span>
 
-        <h2>¿Qué son las clases de inglés en Vigo de My English Spot?</h2>
+        <h2>¿Qué es la preparación CAE online de My English Spot?</h2>
 
-        <p>Son clases de inglés online impartidas por Rocío, profesora con base en Vigo. Las clases son 100% por videollamada: puedes tenerlas desde casa, desde la oficina o desde donde estés, sin desplazarte al centro de Vigo ni perder tiempo en desplazamientos.</p>
+        <p>Son clases individuales centradas exclusivamente en el examen Cambridge CAE (Certificate in Advanced English, nivel C1): técnica por sección (Reading and Use of English, Writing, Listening, Speaking), simulacros con condiciones reales de examen y corrección con los criterios oficiales de Cambridge.</p>
 
-        <p>El formato es flexible: clases individuales 1&nbsp;a&nbsp;1 completamente personalizadas, o grupos reducidos de máximo 5 personas del mismo nivel. El contenido se adapta a tu objetivo: conversación fluida, gramática, preparación del Cambridge FCE o CAE, IELTS, inglés para el trabajo, o una combinación de lo que necesites.</p>
+        <p>El CAE certifica nivel C1 de forma permanente, sin caducidad, y es reconocido por universidades, empresas y administraciones de todo el mundo.</p>
 
-        <p>Si buscas más opciones, consulta también nuestras <a href="/clases-particulares-ingles-online">clases particulares de inglés online</a> disponibles para todo el territorio nacional, o nuestra <a href="/preparacion-first-cambridge">preparación específica del First Certificate</a>.</p>
+        <p>Si aún no tienes el B2 consolidado, te recomendamos empezar por nuestra <a href="/preparacion-first-cambridge">preparación First Certificate (FCE)</a> antes de dar el salto al CAE. Y si tu objetivo es un certificado de validez internacional que no sea de Cambridge, también puedes ver nuestra <a href="/preparacion-ielts-online">preparación IELTS</a> — en la clase de prueba te ayudamos a decidir cuál encaja con tu objetivo real.</p>
       </div>
 
-      <div class="what-card" aria-label="Características de las clases de inglés en Vigo">
+      <div class="what-card" aria-label="Qué incluye la preparación CAE">
 
         <div class="what-card__row">
           <span class="what-card__icon what-card__icon--blue" aria-hidden="true">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="2" y="6" width="14" height="12" rx="2" stroke="currentColor" stroke-width="2"/><path d="M16 10l6-3v10l-6-3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
           </span>
           <div class="what-card__content">
-            <strong>Online, sin desplazarte</strong>
-            <span>Clases en directo por videollamada desde cualquier lugar, con la misma calidad que presencial.</span>
+            <strong>Clases 1 a 1 por videollamada</strong>
+            <span>100% adaptadas a tu nivel de partida y fecha de examen.</span>
           </div>
         </div>
 
@@ -322,8 +337,8 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M9 11l3 3L22 4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </span>
           <div class="what-card__content">
-            <strong>Plan personalizado desde el día 1</strong>
-            <span>Empezamos con un diagnóstico de nivel y diseñamos el plan según tu objetivo concreto.</span>
+            <strong>Simulacros cronometrados</strong>
+            <span>Reading and Use of English, Listening y Writing en condiciones reales de tiempo.</span>
           </div>
         </div>
 
@@ -332,8 +347,8 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           </span>
           <div class="what-card__content">
-            <strong>Horarios adaptados a ti</strong>
-            <span>Mañanas, tardes o fines de semana: nos ajustamos a tu agenda, no al revés.</span>
+            <strong>Speaking en formato entrevista</strong>
+            <span>Las 4 partes del examen oral, con feedback inmediato.</span>
           </div>
         </div>
 
@@ -342,8 +357,8 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 1 0 6 0V6a3 3 0 0 0-3-3z M19 11a7 7 0 1 1-14 0 M12 18v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           </span>
           <div class="what-card__content">
-            <strong>Profesora de Vigo, cerca de ti</strong>
-            <span>Clases online, pero con la cercanía de una profesora local que conoce la ciudad y se adapta a tu horario.</span>
+            <strong>Corrección de Writing por criterio</strong>
+            <span>Contenido, Comunicación, Organización y Lenguaje, con nota estimada.</span>
           </div>
         </div>
 
@@ -352,8 +367,8 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3l2.6 5.3 5.9.8-4.3 4.1 1 5.8L12 17.3 6.8 20l1-5.8L3.5 10l5.9-.8L12 3z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
           </span>
           <div class="what-card__content">
-            <strong>Primera clase siempre gratis</strong>
-            <span>40 minutos de diagnóstico sin tarjeta, sin compromiso, sin letra pequeña.</span>
+            <strong>Clase de prueba gratuita</strong>
+            <span>40 minutos para evaluar tu nivel real y diseñar tu plan por semanas.</span>
           </div>
         </div>
 
@@ -367,21 +382,21 @@
   <div class="section__inner">
     <header class="sec-head">
       <span class="eyebrow">Para quién es</span>
-      <h2>Clases de inglés en Vigo: ¿para quién son?</h2>
-      <p class="sec-head__sub">Para personas de Vigo y de toda Galicia que quieren avanzar en inglés de verdad, sin salir de casa.</p>
+      <h2>Preparación CAE: para quién es</h2>
+      <p class="sec-head__sub">Cualquier persona que quiera certificar nivel C1 de forma permanente, con Cambridge.</p>
     </header>
 
     <div class="for-whom-grid for-whom-grid--2x2">
 
       <div class="for-whom-card">
         <div class="for-whom-card__icon" aria-hidden="true">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="7" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2.2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 19h18 M5 19V9l7-4 7 4v10 M9 19v-5h6v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3>Profesionales de Vigo</h3>
-        <p>Personas de Vigo y alrededores que necesitan inglés para el trabajo: reuniones, emails o clientes internacionales. Las clases se adaptan a lo que tú necesites usar en tu día a día.</p>
+        <h3>Ya aprobaste el B2/FCE y quieres subir a C1</h3>
+        <p>Tienes el First Certificate o un B2 consolidado y quieres dar el siguiente paso natural hacia el C1 Advanced.</p>
         <div class="for-whom-tags">
-          <span class="tag">Business English</span>
-          <span class="tag">Inglés laboral</span>
+          <span class="tag">De B2 a C1</span>
+          <span class="tag">Progresión</span>
         </div>
       </div>
 
@@ -389,11 +404,11 @@
         <div class="for-whom-card__icon" aria-hidden="true">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 3l3 6 6 .8-4.5 4.2 1.2 6.2L12 17l-5.7 3.2L7.5 14 3 9.8l6-.8L12 3z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
         </div>
-        <h3>Estudiantes que preparan Cambridge</h3>
-        <p>Estudiantes universitarios o de bachillerato en Vigo que necesitan el B2 First (FCE) o el C1 Advanced (CAE). <a href="/blog/como-preparar-el-first-certificate-fce">Preparación completa del First Certificate</a> con simulacros reales de las cinco partes.</p>
+        <h3>Lo necesitas para tu trabajo</h3>
+        <p>Tu empresa o tu puesto exige un nivel de inglés alto para negociar, presentar o comunicarte con clientes internacionales.</p>
         <div class="for-whom-tags">
-          <span class="tag tag--orange">Cambridge FCE</span>
-          <span class="tag tag--orange">C1 Advanced</span>
+          <span class="tag tag--orange">Uso profesional</span>
+          <span class="tag tag--orange">Negociación</span>
         </div>
       </div>
 
@@ -401,11 +416,11 @@
         <div class="for-whom-card__icon" aria-hidden="true">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2.2"/><path d="M4 20c1.4-3.5 4.4-5.5 8-5.5s6.6 2 8 5.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
         </div>
-        <h3>Adultos que retoman el inglés</h3>
-        <p>Personas de Vigo que llevan años queriendo volver al inglés y nunca encuentran el momento. Un plan desde tu nivel real, sin agobios, con resultados visibles en los primeros dos meses.</p>
+        <h3>Quieres acceder a una universidad extranjera</h3>
+        <p>Muchos programas de grado o máster en el extranjero piden nivel C1 acreditado, y el CAE es una de las certificaciones más reconocidas.</p>
         <div class="for-whom-tags">
-          <span class="tag">Todos los niveles</span>
-          <span class="tag">Conversación fluida</span>
+          <span class="tag">Universidad</span>
+          <span class="tag">Acceso internacional</span>
         </div>
       </div>
 
@@ -413,11 +428,11 @@
         <div class="for-whom-card__icon" aria-hidden="true">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="9" cy="8" r="3" stroke="currentColor" stroke-width="2"/><circle cx="17" cy="9" r="2.4" stroke="currentColor" stroke-width="2"/><path d="M3 20c1-3 3.5-4.5 6-4.5s5 1.5 6 4.5 M14 19c.5-1.8 2-3 4-3s3.5 1 4 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
         </div>
-        <h3>Grupos de compañeros o equipos</h3>
-        <p>Grupos de máximo 5 personas del mismo nivel: compañeros de trabajo, amigos o equipos de empresa que quieren mejorar juntos. Precio más accesible y práctica de conversación más variada.</p>
+        <h3>Quieres una acreditación C1 que no caduque</h3>
+        <p>Buscas un certificado permanente para tu CV, sin fecha de caducidad, que valga tanto ahora como dentro de diez años.</p>
         <div class="for-whom-tags">
-          <span class="tag tag--orange">Máx. 5 personas</span>
-          <span class="tag tag--orange">Nivel homogéneo</span>
+          <span class="tag tag--orange">CV</span>
+          <span class="tag tag--orange">Certificación permanente</span>
         </div>
       </div>
 
@@ -430,8 +445,8 @@
   <div class="section__inner">
     <header class="sec-head">
       <span class="eyebrow">Qué incluye</span>
-      <h2>Todo lo que incluyen tus clases de inglés en Vigo</h2>
-      <p class="sec-head__sub">Un programa completo, desde el diagnóstico hasta que consigas tu objetivo.</p>
+      <h2>Todo lo que incluye tu preparación CAE</h2>
+      <p class="sec-head__sub">Cada clase suma directamente hacia tu certificación C1, sin relleno.</p>
     </header>
 
     <div class="includes-grid">
@@ -439,48 +454,48 @@
       <div class="includes-card">
         <span class="includes-card__num" aria-hidden="true">1</span>
         <div class="includes-card__text">
-          <strong>Clase de diagnóstico gratuita</strong>
-          <p>40 minutos para evaluar tu nivel real, entender qué quieres conseguir y diseñar el plan más adecuado. Sin tarjeta, sin compromiso.</p>
+          <strong>Diagnóstico de nivel de partida</strong>
+          <p>En la primera clase evaluamos tu nivel real frente a las exigencias del C1 y el tiempo disponible.</p>
         </div>
       </div>
 
       <div class="includes-card">
         <span class="includes-card__num" aria-hidden="true">2</span>
         <div class="includes-card__text">
-          <strong>Plan de clases personalizado</strong>
-          <p>Un programa adaptado a tu nivel, tu objetivo (conversación, Cambridge, trabajo) y tu disponibilidad semanal. No hay dos planes iguales.</p>
+          <strong>Plan de estudio por semanas</strong>
+          <p>Calendario concreto hasta tu fecha de examen, con foco en las secciones donde más puntos puedes ganar.</p>
         </div>
       </div>
 
       <div class="includes-card">
         <span class="includes-card__num" aria-hidden="true">3</span>
         <div class="includes-card__text">
-          <strong>Clases en directo por videollamada</strong>
-          <p>Sesiones de 60 minutos en Zoom, Meet o la plataforma que prefieras. Siempre en directo, nunca grabadas ni asíncronas.</p>
+          <strong>Técnica por sección</strong>
+          <p>Estrategias específicas de Reading and Use of English, Writing, Listening y Speaking, no solo práctica general.</p>
         </div>
       </div>
 
       <div class="includes-card">
         <span class="includes-card__num" aria-hidden="true">4</span>
         <div class="includes-card__text">
-          <strong>Materiales y ejercicios incluidos</strong>
-          <p>No tienes que comprar ni buscar nada. Preparamos los materiales según tu nivel y objetivo: conversación, gramática, Cambridge o inglés laboral.</p>
+          <strong>Simulacros completos cronometrados</strong>
+          <p>Condiciones reales de examen para llegar sin sorpresas de tiempo el día del CAE.</p>
         </div>
       </div>
 
       <div class="includes-card">
         <span class="includes-card__num" aria-hidden="true">5</span>
         <div class="includes-card__text">
-          <strong>Corrección de writing y pronunciación</strong>
-          <p>Feedback real en cada clase: qué dices bien, qué mejorar y cómo. No solo "muy bien", sino correcciones que se quedan.</p>
+          <strong>Corrección detallada de Writing y Speaking</strong>
+          <p>Feedback con los criterios oficiales de Cambridge, no solo "está bien" o "está mal".</p>
         </div>
       </div>
 
       <div class="includes-card">
         <span class="includes-card__num" aria-hidden="true">6</span>
         <div class="includes-card__text">
-          <strong>Seguimiento y ajuste continuo</strong>
-          <p>El plan evoluciona contigo. Si necesitas más conversación una semana y más gramática la siguiente, nos adaptamos sin coste adicional.</p>
+          <strong>Clase de prueba gratuita</strong>
+          <p>40 minutos sin compromiso para conocer el método y salir con un plan concreto, lo lleves adelante con nosotras o no.</p>
         </div>
       </div>
 
@@ -493,34 +508,34 @@
   <div class="section__inner">
     <header class="sec-head sec-head--center">
       <span class="eyebrow eyebrow--on-blue">El método</span>
-      <h2 class="ink--cream">Directo, práctico y sin rollos</h2>
-      <p class="sec-head__sub">No memorizas listas de vocabulario ni haces ejercicios de relleno. Aprendes usándolo desde el primer día.</p>
+      <h2 class="ink--cream">Directo a tu certificación C1, sin rodeos</h2>
+      <p class="sec-head__sub">Cada sesión se mide contra las exigencias reales del examen, no contra un temario genérico.</p>
     </header>
 
     <div class="method-strip" role="list">
 
       <div class="method-item" role="listitem">
         <span class="method-item__emoji" aria-hidden="true">🎯</span>
-        <strong>Diagnóstico real</strong>
-        <p>Empezamos sabiendo exactamente desde dónde partes. Sin asumir ni adivinar tu nivel.</p>
-      </div>
-
-      <div class="method-item" role="listitem">
-        <span class="method-item__emoji" aria-hidden="true">📋</span>
-        <strong>Plan a tu medida</strong>
-        <p>No todos los B2 necesitan lo mismo. Tu plan depende de tu objetivo: examen, trabajo o conversación.</p>
+        <strong>Objetivo claro</strong>
+        <p>Trabajamos sobre tu nivel C1 concreto y tu fecha real de examen.</p>
       </div>
 
       <div class="method-item" role="listitem">
         <span class="method-item__emoji" aria-hidden="true">🗣️</span>
-        <strong>Hablar desde el día 1</strong>
-        <p>Hablar es el objetivo, no memorizarlo todo primero. La práctica oral empieza en la primera clase.</p>
+        <strong>Conversacional</strong>
+        <p>El Speaking se entrena hablando de verdad, no memorizando respuestas.</p>
+      </div>
+
+      <div class="method-item" role="listitem">
+        <span class="method-item__emoji" aria-hidden="true">📝</span>
+        <strong>Feedback inmediato</strong>
+        <p>Cada simulacro se corrige en la misma sesión o en 48h como máximo.</p>
       </div>
 
       <div class="method-item" role="listitem">
         <span class="method-item__emoji" aria-hidden="true">📈</span>
-        <strong>Progreso medible</strong>
-        <p>Sabes en qué nivel estás y cuánto te falta. Sin sorpresas, sin meses de clase sin saber si avanzas.</p>
+        <strong>Seguimiento real</strong>
+        <p>Se registra tu progreso sesión a sesión hasta llegar con seguridad al examen.</p>
       </div>
 
     </div>
@@ -532,55 +547,55 @@
   <div class="section__inner">
     <header class="sec-head">
       <span class="eyebrow">Opiniones</span>
-      <h2>Alumnos que ya hablan inglés con confianza</h2>
+      <h2>Alumnos que ya aprobaron sus exámenes de inglés con nosotras</h2>
     </header>
 
     <div class="mini-testis">
 
       <figure class="mini-testi">
         <div class="mini-testi__stars">★★★★★</div>
-        <blockquote>"Preparé el FCE con Rocío y aprobé en octubre. Las clases eran exactamente lo que necesitaba: simulacros reales, feedback detallado y sin perder el tiempo con teoría que no entra en el examen."</blockquote>
-        <figcaption class="mini-testi__by">
-          <span class="avatar avatar--blue">C</span>
-          <div>
-            <strong>Candela B.</strong>
-            <span>Estudiante universitaria · FCE aprobado</span>
-          </div>
-        </figcaption>
-      </figure>
-
-      <figure class="mini-testi">
-        <div class="mini-testi__stars">★★★★★</div>
-        <blockquote>"Llevaba años queriendo retomar el inglés y siempre lo postergaba. Con Rocío empecé con un B1 bajo y en seis meses ya me siento cómoda en reuniones con clientes en inglés."</blockquote>
-        <figcaption class="mini-testi__by">
-          <span class="avatar avatar--orange">A</span>
-          <div>
-            <strong>Alejandra A.</strong>
-            <span>Responsable de exportación · Vigo</span>
-          </div>
-        </figcaption>
-      </figure>
-
-      <figure class="mini-testi">
-        <div class="mini-testi__stars">★★★★★</div>
-        <blockquote>"Lo que más me gustó fue que desde la primera clase ya estábamos hablando. Nada de gramática interminable. En tres meses pasé de bloquearme al hablar a poder mantener una conversación fluida."</blockquote>
+        <blockquote>"Gracias a Rocío he conseguido aprobar mi examen C1 de la EOI. La recomiendo muchísimo!!!"</blockquote>
         <figcaption class="mini-testi__by">
           <span class="avatar avatar--blue">L</span>
           <div>
-            <strong>Laura A.</strong>
-            <span>Diseñadora · nivel B1–B2</span>
+            <strong>Laura Alonso</strong>
+            <span>Alumna · C1 EOI aprobado</span>
           </div>
         </figcaption>
       </figure>
 
       <figure class="mini-testi">
         <div class="mini-testi__stars">★★★★★</div>
-        <blockquote>"Hice el grupo reducido con otras tres personas de nivel similar y fue genial. El precio es muy razonable y la dinámica de escuchar a otros también me ayudó mucho. Lo recomiendo sin dudarlo."</blockquote>
+        <blockquote>"Excelente profesora! Gracias a Rocío y a su método de enseñanza, logré aprobar el FCE sin problemas. La recomiendo al 100%."</blockquote>
+        <figcaption class="mini-testi__by">
+          <span class="avatar avatar--orange">C</span>
+          <div>
+            <strong>Candela Barbas</strong>
+            <span>Alumna · FCE aprobado</span>
+          </div>
+        </figcaption>
+      </figure>
+
+      <figure class="mini-testi">
+        <div class="mini-testi__stars">★★★★★</div>
+        <blockquote>"Me ha preparado genial en el poco tiempo con el que disponíamos y he sacado la nota que necesitaba."</blockquote>
+        <figcaption class="mini-testi__by">
+          <span class="avatar avatar--blue">A</span>
+          <div>
+            <strong>Alejandra Autran Thomas</strong>
+            <span>Alumna</span>
+          </div>
+        </figcaption>
+      </figure>
+
+      <figure class="mini-testi">
+        <div class="mini-testi__stars">★★★★★</div>
+        <blockquote>"Gracias a las clases de Rocío he mejorado mucho mi nivel. Ahora me siento mucho más segura al hablar. Las clases son dinámicas y se adaptaron perfectamente a mis objetivos."</blockquote>
         <figcaption class="mini-testi__by">
           <span class="avatar avatar--orange">B</span>
           <div>
-            <strong>Barbara D.</strong>
-            <span>Grupo reducido · conversación A2–B1</span>
+            <strong>Barbara Digangi</strong>
+            <span>Alumna</span>
           </div>
         </figcaption>
       </figure>
@@ -594,7 +609,7 @@
   <div class="section__inner">
     <header class="sec-head sec-head--center">
       <span class="eyebrow">Cómo funciona</span>
-      <h2>Tres pasos para empezar con tus clases de inglés en Vigo</h2>
+      <h2>Tres pasos para empezar tu preparación CAE</h2>
     </header>
 
     <ol class="steps">
@@ -603,24 +618,24 @@
           <svg viewBox="0 0 60 80" aria-hidden="true"><use href="#pin"/></svg>
           <span class="step__num">1</span>
         </div>
-        <h3 class="steps-heading">Reserva tu clase de diagnóstico gratis</h3>
-        <p class="steps-body">40 minutos por videollamada: hablamos, evaluamos tu nivel real y entendemos qué quieres conseguir. Sin tarjeta, sin compromiso, sin rollos.</p>
+        <h3 class="steps-heading">Reserva tu clase diagnóstica gratuita</h3>
+        <p class="steps-body">40 minutos para evaluar tu nivel real frente a las exigencias del C1.</p>
       </li>
       <li class="step">
         <div class="step__pin step__pin--orange">
           <svg viewBox="0 0 60 80" aria-hidden="true"><use href="#pin-o"/></svg>
           <span class="step__num">2</span>
         </div>
-        <h3 class="steps-heading">Diseñamos tu plan personalizado</h3>
-        <p class="steps-body">Preparamos un plan según tu nivel, tu objetivo (examen, trabajo o conversación) y tu disponibilidad. Clases 1 a 1 o en grupo, tú eliges.</p>
+        <h3 class="steps-heading">Recibe tu plan por semanas</h3>
+        <p class="steps-body">Calendario concreto hasta tu fecha de examen, con foco en tus puntos débiles.</p>
       </li>
       <li class="step">
         <div class="step__pin">
           <svg viewBox="0 0 60 80" aria-hidden="true"><use href="#pin"/></svg>
           <span class="step__num">3</span>
         </div>
-        <h3 class="steps-heading">Empiezas a progresar de verdad</h3>
-        <p class="steps-body">Clases semanales que se notan desde el primer mes. Progreso medible, feedback real y un camino claro hacia tu objetivo.</p>
+        <h3 class="steps-heading">Practica con simulacros reales</h3>
+        <p class="steps-body">Llegas al día del examen sin sorpresas, con el C1 trabajado de verdad.</p>
       </li>
     </ol>
 
@@ -632,76 +647,72 @@
   <div class="section__inner">
     <header class="sec-head sec-head--center">
       <span class="eyebrow">Preguntas frecuentes</span>
-      <h2>Preguntas frecuentes sobre las clases de inglés en Vigo</h2>
+      <h2>Preguntas frecuentes sobre la preparación CAE online</h2>
     </header>
 
     <div class="faq">
 
       <details class="faq__item">
         <summary class="faq__q">
-          <span>¿Las clases de inglés son online o presenciales en Vigo?</span>
+          <span>¿Qué diferencia hay entre el CAE y el First Certificate (FCE)?</span>
           <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </summary>
         <div class="faq__a">
-          <p>Las clases son 100% online por videollamada. La academia tiene base en Vigo pero imparte las clases por Meet. Esto significa que puedes tener una tutoría desde hacia cualquier punto de España o del mundo, sin desplazarte, con total flexibilidad horaria.</p>
+          <p>El FCE certifica nivel B2 y el CAE certifica nivel C1, un escalón por encima: textos más largos y complejos, vocabulario más preciso, mayor exigencia en Writing y Speaking. Si vienes de aprobar el FCE, el CAE es el siguiente paso natural; si aún no tienes B2 consolidado, conviene empezar por el FCE.</p>
         </div>
       </details>
 
       <details class="faq__item">
         <summary class="faq__q">
-          <span>¿Cuánto tiempo se tarda en preparar el First Certificate (FCE) con un tutor en Vigo?</span>
+          <span>¿Caduca el certificado del CAE?</span>
           <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </summary>
         <div class="faq__a">
-          <p>Con un nivel B1 consolidado, la preparación del Cambridge B2 First suele llevar entre 4 y 6 meses estudiando a partir de 2 horas semanales con el tutor más práctica autónoma. Desde un nivel inferior el proceso puede extenderse, aproximadamente, a 8–12 meses, aunque el proceso de cada alumno se enfoca particularmente a sus necesidades. Más detalles en nuestra página de <a href="/preparacion-first-cambridge">preparación FCE online</a>.</p>
+          <p>No. El Certificate in Advanced English es una acreditación permanente de Cambridge que no caduca, a diferencia de otros certificados que solo son válidos durante dos años. Una vez aprobado, el nivel C1 queda certificado de por vida.</p>
         </div>
       </details>
 
       <details class="faq__item">
         <summary class="faq__q">
-          <span>¿Preparáis también el IELTS en Vigo?</span>
+          <span>¿Qué nota necesito para aprobar el CAE?</span>
           <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </summary>
         <div class="faq__a">
-          <p>Sí. Además del Cambridge B2 First (FCE) y el C1 Advanced (CAE), Rocío prepara alumnos para el IELTS Academic y el IELTS General Training. Si necesitas el IELTS para estudiar en el extranjero, emigrar o cumplir un requisito laboral, podemos crear un plan personalizado según tu banda objetivo y fecha de examen.</p>
+          <p>El CAE se puntúa en una escala de 160 a 210 puntos. A partir de 180 se obtiene el Grade C (aprobado, certificado C1); desde 193 el Grade B y desde 200 el Grade A, ambos con más nota dentro del mismo certificado C1. Entre 160 y 179 se certifica nivel B2 en vez de C1.</p>
         </div>
       </details>
 
       <details class="faq__item">
         <summary class="faq__q">
-          <span>¿Qué nivel de inglés necesito para empezar las clases?</span>
+          <span>¿Cómo está estructurado el examen CAE?</span>
           <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </summary>
         <div class="faq__a">
-          <p>No hay nivel mínimo. Trabajamos desde A2 (principiante-intermedio) hasta C1 avanzado. En la primera clase gratuita de 40 minutos hacemos una evaluación rápida para identificar exactamente en qué punto estás y qué pasos necesitas para llegar a tu objetivo, ya sea hablar con soltura, subir de nivel o aprobar un examen oficial.</p>
+          <p>Consta de cuatro partes: Reading and Use of English, Writing (dos tareas), Listening y Speaking (entrevista con otro candidato). Cada parte pesa un 25% de la nota final.</p>
         </div>
       </details>
 
       <details class="faq__item">
         <summary class="faq__q">
-          <span>¿Preparáis exámenes de la EOI (Escola Oficial de Idiomas)?</span>
+          <span>¿Qué nivel necesito para empezar a preparar el CAE?</span>
           <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </summary>
         <div class="faq__a">
-          <p>Sí. Además del Cambridge B2 First, el C1 Advanced y el IELTS, preparamos alumnos para las pruebas de la Escola Oficial de Idiomas (EOI) de Galicia, incluidos los niveles B1, B2 y C1. El enfoque es el mismo: práctica real de las partes del examen con material específico para cada prueba.</p>
+          <p>Idealmente un B2 sólido o el First Certificate ya aprobado. En la clase de prueba se evalúa tu nivel real y se decide si conviene empezar directamente con el CAE o reforzar primero el B2.</p>
         </div>
       </details>
 
       <details class="faq__item">
         <summary class="faq__q">
-          <span>¿Puedo compaginar las clases con mi trabajo o estudios?</span>
+          <span>¿Cuánto dura la preparación para el CAE?</span>
           <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </summary>
         <div class="faq__a">
-          <p>Sí, es la situación más habitual. La mayoría de nuestros alumnos son personas activas con jornada laboral o universitaria. Las clases son online y los horarios se pactan directamente con la profesora, incluyendo tardes, noches y fines de semana. No hay horario fijo de academia.</p>
+          <p>Depende de tu nivel de partida. Como referencia, con un B2 consolidado y 2 clases semanales, la preparación suele necesitar entre 3 y 6 meses hasta llegar con seguridad a la convocatoria. En la clase de prueba hacemos una estimación realista con tu nivel actual.</p>
         </div>
       </details>
 
     </div>
-
-    <p class="util-text-center util-mt-lg">
-      ¿Tienes más dudas? Escríbenos a <a href="mailto:info@myenglishspotclasses.com">info@myenglishspotclasses.com</a> o lee nuestro <a href="/blog/como-preparar-el-first-certificate-fce">artículo sobre cómo preparar el First Certificate</a>.
-    </p>
   </div>
 </section>
 
@@ -709,13 +720,13 @@
 <section class="cta">
   <div class="cta__inner">
     <svg class="cta__pin" viewBox="0 0 60 80" aria-hidden="true"><use href="#pin-cream"/></svg>
-    <h2>¿Empezamos con tu inglés en Vigo?</h2>
-    <p>La clase de diagnóstico es gratis y dura 40 minutos. Sin tarjeta, sin compromiso, sin rollos.</p>
+    <h2>¿Lista para certificar tu nivel C1 con el CAE?</h2>
+    <p>Reserva tu clase diagnóstica gratuita de 40 minutos. Sin tarjeta, sin compromiso.</p>
     <div class="cta__btns">
-      <a class="btn btn--outline-cream btn--lg" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva_cta_vigo')">
+      <a class="btn btn--outline-cream btn--lg" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva')">
         Reserva tu clase gratis
       </a>
-      <a class="btn btn--outline-cream btn--lg" href="mailto:info@myenglishspotclasses.com" onclick="gtag('event', 'click_email_cta_vigo')">
+      <a class="btn btn--outline-cream btn--lg" href="mailto:info@myenglishspotclasses.com" onclick="gtag('event', 'click_email')">
         Prefiero escribir
       </a>
     </div>
@@ -756,7 +767,7 @@
       </div>
       <div class="footer__col footer__col--cta">
         <p class="footer__col-title">Empieza hoy</p>
-        <a class="btn btn--primary btn--sm btn--ink" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva_footer_vigo')">
+        <a class="btn btn--primary btn--sm btn--ink" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" onclick="gtag('event', 'click_reserva')">
           Reserva tu clase gratis
         </a>
       </div>
@@ -792,27 +803,12 @@
   </defs>
 </svg>
 
-<!-- Mobile floating CTA -->
-<a class="mobile-fab" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" aria-label="Reserva tu clase gratis" onclick="gtag('event', 'click_reserva_fab_vigo')">
+<a class="mobile-fab" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener" aria-label="Clase de prueba gratis" onclick="gtag('event', 'click_reserva')">
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2.2"/><path d="M16 2v4M8 2v4M3 10h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
-  Reserva gratis
+  Clase de prueba gratis
 </a>
 
 <script src="/app.js"></script>
-
-<div id="cookie-banner" class="cookie-banner" hidden role="dialog" aria-label="Aviso de cookies" aria-live="polite">
-  <div class="cookie-banner__inner">
-    <p class="cookie-banner__text">
-      Usamos cookies analíticas (GA4) y de comportamiento (Clarity) para mejorar el sitio. No usamos cookies publicitarias.
-      <a href="/politica-cookies" class="cookie-banner__link">Política de cookies</a>
-    </p>
-    <div class="cookie-banner__actions">
-      <button id="cookie-reject" class="btn btn--ghost btn--sm">Rechazar</button>
-      <button id="cookie-accept" class="btn btn--primary btn--sm">Aceptar</button>
-    </div>
-  </div>
-</div>
-<script src="/consent.js"></script>
 
 </body>
 </html>
