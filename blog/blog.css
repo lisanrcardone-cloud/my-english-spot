@@ -171,3 +171,74 @@
   color: #aaa;
   margin-top: 0.25rem;
 }
+
+.blog-card__thumb {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0.25rem;
+}
+.blog-card__thumb svg { width: 28px; height: 28px; }
+
+/* ── Filtro de categorías ───────────────────────────────── */
+.blog-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+.blog-filter__btn {
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 0.85rem;
+  padding: 9px 18px;
+  border-radius: 999px;
+  border: 2.5px solid #e8e4db;
+  background: #fff;
+  color: #1f2330;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s, transform 0.12s;
+}
+.blog-filter__btn:hover { border-color: #1f2330; transform: translateY(-2px); }
+.blog-filter__btn.is-active {
+  background: #65c6f4;
+  border-color: #65c6f4;
+  color: #1f2330;
+}
+
+/* ── Foco visible por teclado ───────────────────────────── */
+.blog-card:focus-visible {
+  outline: 3px solid #ed8c00;
+  outline-offset: 3px;
+}
+.blog-filter__btn:focus-visible {
+  outline: 3px solid #ed8c00;
+  outline-offset: 2px;
+}
+.article__body a:focus-visible {
+  outline: 3px solid #ed8c00;
+  outline-offset: 2px;
+}
+
+/* ── Seguí leyendo ──────────────────────────────────────── */
+.article__related {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e8e4db;
+}
+.article__related h2 {
+  font-size: 1.3rem;
+  color: #1a2b4a;
+  margin: 0 0 0.75rem;
+}
+.article__related ul {
+  margin: 0;
+  padding-left: 1.5rem;
+  color: #333;
+  line-height: 1.8;
+}
+.article__related li { margin-bottom: 0.4rem; }
