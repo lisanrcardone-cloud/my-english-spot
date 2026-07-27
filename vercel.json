@@ -39,6 +39,10 @@
     {
       "source": "/preparacion-cae-online",
       "destination": "/preparacion-cae-online.html"
+    },
+    {
+      "source": "/preparacion-aptis-online",
+      "destination": "/preparacion-aptis-online.html"
     }
   ],
   "redirects": [
