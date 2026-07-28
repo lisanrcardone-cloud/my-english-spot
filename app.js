@@ -223,6 +223,25 @@ if (navToggle && navMenu) {
       + '\n¡Nos vemos pronto!';
   }
 
+  function showNombreError() {
+    var input = document.getElementById('nombre');
+    var error = document.getElementById('nombre-error');
+    input.style.borderColor = '#b3432b';
+    if (error) error.style.display = 'block';
+    input.focus();
+  }
+
+  function clearNombreError() {
+    var input = document.getElementById('nombre');
+    var error = document.getElementById('nombre-error');
+    input.style.borderColor = '';
+    if (error) error.style.display = 'none';
+  }
+
+  document.getElementById('nombre').addEventListener('input', function () {
+    if (this.value.trim()) clearNombreError();
+  });
+
   function sendLead(f, source) {
     fetch('/api/subscribe', {
       method: 'POST',
@@ -235,9 +254,10 @@ if (navToggle && navMenu) {
     e.preventDefault();
     var f = readFields();
     if (!f.nombre) {
-      alert('Cuéntanos al menos tu nombre antes de continuar.');
+      showNombreError();
       return;
     }
+    clearNombreError();
 
     // Conversión secundaria: el alumno envió su presentación a Rocío
     gtag('event', 'lead_whatsapp', { value: 1 });
@@ -257,9 +277,10 @@ if (navToggle && navMenu) {
     emailBtn.addEventListener('click', function () {
       var f = readFields();
       if (!f.nombre) {
-        alert('Cuéntanos al menos tu nombre antes de continuar.');
+        showNombreError();
         return;
       }
+      clearNombreError();
 
       gtag('event', 'lead_email', { value: 1 });
       sendLead(f, 'post_booking_email');

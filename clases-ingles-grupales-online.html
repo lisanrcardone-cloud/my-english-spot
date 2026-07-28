@@ -594,6 +594,18 @@
         </figcaption>
       </figure>
 
+      <figure class="mini-testi">
+        <div class="mini-testi__stars">★★★★★</div>
+        <blockquote>"Gracias a Rocío he conseguido aprobar mi examen C1 de la EOI. La recomiendo muchísimo!!!"</blockquote>
+        <figcaption class="mini-testi__by">
+          <span class="avatar avatar--orange">L</span>
+          <div>
+            <strong>Laura Alonso</strong>
+            <span>Alumna · C1 EOI aprobado</span>
+          </div>
+        </figcaption>
+      </figure>
+
     </div>
   </div>
 </section>
@@ -719,39 +731,33 @@
       <p class="sec-head__sub">Te avisamos en cuanto haya una plaza libre en un grupo de tu nivel y horario.</p>
     </header>
 
-    <form class="subscribe-form" id="subscribe-form" novalidate>
-      <div class="subscribe-form__row">
-        <label for="sub-nombre" class="subscribe-form__label">
-          Nombre
-        </label>
+    <form class="g-form" id="subscribe-form" novalidate style="max-width:520px;margin:0 auto;">
+      <div class="g-field">
+        <label for="sub-nombre">Nombre</label>
         <input
           type="text"
           id="sub-nombre"
           name="nombre"
-          class="subscribe-form__input"
           placeholder="Tu nombre"
           autocomplete="given-name"
         />
       </div>
 
-      <div class="subscribe-form__row">
-        <label for="sub-email" class="subscribe-form__label">
-          Email <span aria-hidden="true">*</span>
-        </label>
+      <div class="g-field">
+        <label for="sub-email">Email <span aria-hidden="true">*</span></label>
         <input
           type="email"
           id="sub-email"
           name="email"
-          class="subscribe-form__input"
           placeholder="tu@email.com"
           required
           autocomplete="email"
         />
       </div>
 
-      <div class="subscribe-form__row">
-        <label for="sub-nivel" class="subscribe-form__label">Nivel de inglés</label>
-        <select id="sub-nivel" name="nivel" class="subscribe-form__input">
+      <div class="g-field">
+        <label for="sub-nivel">Nivel de inglés</label>
+        <select id="sub-nivel" name="nivel">
           <option value="">— Elige tu nivel —</option>
           <option value="A1-A2">A1–A2 (principiante)</option>
           <option value="B1">B1 (intermedio)</option>
@@ -760,9 +766,9 @@
         </select>
       </div>
 
-      <div class="subscribe-form__row">
-        <label for="sub-objetivo" class="subscribe-form__label">¿Cuál es tu objetivo principal?</label>
-        <select id="sub-objetivo" name="objetivo" class="subscribe-form__input">
+      <div class="g-field">
+        <label for="sub-objetivo">¿Cuál es tu objetivo principal?</label>
+        <select id="sub-objetivo" name="objetivo">
           <option value="">— Elige tu objetivo —</option>
           <option value="conversacion">Conversación fluida</option>
           <option value="trabajo">Inglés para el trabajo</option>
@@ -771,15 +777,15 @@
         </select>
       </div>
 
-      <button type="submit" class="btn btn--primary btn--lg subscribe-form__btn">
+      <button type="submit" class="btn btn--primary btn--lg subscribe-form__btn" style="width:100%;justify-content:center;margin-top:8px;">
         Avisarme cuando haya plaza
       </button>
 
       <!-- Estados de respuesta (controlados por JS) -->
-      <p class="subscribe-form__success" id="sub-success" hidden>
+      <p id="sub-success" hidden style="margin-top:16px;color:var(--blue-deep);font-weight:700;text-align:center;">
         ¡Apuntado! Te avisaremos en cuanto haya una plaza libre en un grupo de tu nivel y horario.
       </p>
-      <p class="subscribe-form__error" id="sub-error" hidden>
+      <p id="sub-error" hidden style="margin-top:16px;color:#c0392b;text-align:center;">
         Algo ha fallado. Escríbenos a <a href="mailto:info@myenglishspotclasses.com">info@myenglishspotclasses.com</a>.
       </p>
     </form>
