@@ -41,6 +41,10 @@
       "destination": "/preparacion-cae-online.html"
     },
     {
+      "source": "/preparacion-aptis-online",
+      "destination": "/preparacion-aptis-online.html"
+    },
+    {
       "source": "/clases-ingles-grupales-online",
       "destination": "/clases-ingles-grupales-online.html"
     }
