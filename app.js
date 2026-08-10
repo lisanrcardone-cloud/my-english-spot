@@ -73,6 +73,31 @@ if (navToggle && navMenu) {
   document.addEventListener('click',   e => { if (!nav.contains(e.target)) closeMenu(); });
 }
 
+document.querySelectorAll('.nav__dropdown-toggle').forEach(btn => {
+  const dropdown = btn.closest('.nav__dropdown');
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isOpen = dropdown.classList.toggle('is-open');
+    btn.setAttribute('aria-expanded', String(isOpen));
+  });
+});
+document.addEventListener('click', e => {
+  document.querySelectorAll('.nav__dropdown.is-open').forEach(d => {
+    if (!d.contains(e.target)) {
+      d.classList.remove('is-open');
+      d.querySelector('.nav__dropdown-toggle')?.setAttribute('aria-expanded', 'false');
+    }
+  });
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    document.querySelectorAll('.nav__dropdown.is-open').forEach(d => {
+      d.classList.remove('is-open');
+      d.querySelector('.nav__dropdown-toggle')?.setAttribute('aria-expanded', 'false');
+    });
+  }
+});
+
 // --- Pre-captura de lead antes de saltar a Google Calendar ------
 // Oportunidad #1 de la auditoría CRO: el CTA de reserva llevaba a una
 // pestaña externa sin guardar ningún dato del visitante. Si abandonaba
