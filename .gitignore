@@ -7,3 +7,5 @@ data/
 my-english-spot.md
 utm-links.md
 previews/
+.vercel
+.env*
