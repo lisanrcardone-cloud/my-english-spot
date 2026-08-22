@@ -360,22 +360,28 @@ p { margin: 0; }
 }
 .nav__dropdown.is-open .nav__dropdown-toggle::after { transform: rotate(-135deg) translateY(2px); }
 
-@media (min-width: 1540px) {
+/* --container tope el ancho real del nav en 1440px en CUALQUIER viewport
+   >=1440px (1440/1536/1920 son dimensionalmente idénticos para el nav) —
+   por eso esta compresión y el traslado del dropdown al hamburger (ver
+   bloque junto a NAV HAMBURGER más abajo) no tienen un breakpoint superior:
+   aplican de forma uniforme desde 769px en adelante, sin "modo ancho
+   cómodo" a partir de cierto punto, porque ese punto no existe realmente. */
+@media (min-width: 769px) {
   .nav__menu a {
     white-space: nowrap;
     font-size: 13px;
-    padding: 8px 8px;
+    padding: 8px 3px;
   }
   .nav__dropdown-toggle {
     white-space: nowrap;
     font-size: 13px;
-    padding: 8px 8px;
+    padding: 8px 3px;
   }
 
   .nav__dropdown-menu {
     display: none;
     position: absolute;
-    top: calc(100% + 8px);
+    top: calc(100% + 10px);
     left: 0;
     min-width: 210px;
     background: var(--cream);
@@ -444,7 +450,22 @@ p { margin: 0; }
 .nav.is-open .ham-open  { display: none; }
 .nav.is-open .ham-close { display: block; }
 
-@media (max-width: 1539px) {
+/* 769px+: los 6 links directos + selector de idioma caben en línea, pero
+   el dropdown "Preparación de exámenes" (el ítem más ancho, ~210px) no —
+   se saca del flujo horizontal y se sirve desde el hamburger (reutiliza
+   la misma clase .nav.is-open que ya alterna el botón, sin JS nuevo). Sin
+   límite superior: --container topea el nav en 1440px real en cualquier
+   viewport >=1440px, así que no hay ancho de escritorio "más cómodo" a
+   partir del cual el dropdown vuelva a caber en línea. */
+@media (min-width: 769px) {
+  .nav__inner { gap: 10px; padding: 16px 14px; }
+  .nav__right { gap: 8px; }
+  .nav__hamburger { display: flex; }
+  .nav__dropdown-toggle { display: none; }
+  .nav.is-open .nav__dropdown-menu { display: flex; }
+}
+
+@media (max-width: 768px) {
   .nav__inner {
     flex-wrap: wrap;
     gap: 10px;
