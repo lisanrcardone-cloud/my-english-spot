@@ -386,7 +386,7 @@
 <link rel="stylesheet" href="styles.css" />
 <link rel="stylesheet" href="/consent.css" />
 </head>
-<body>
+<body data-page="home">
 
 <!-- ============================ NAV ============================ -->
 <header class="nav" id="nav">
@@ -399,12 +399,12 @@
     </a>
 
     <nav class="nav__menu" id="nav-menu" aria-label="Principal">
-      <a href="#para-quien" data-es="Para quién" data-en="Who it's for">Para quién</a>
+      <a href="#para-quien" data-es="Para quién" data-en="Who it's for" class="nav__link--flex-2">Para quién</a>
       <a href="#oferta"     data-es="Clases"      data-en="Classes">Clases</a>
-      <a href="#como"       data-es="Cómo funciona" data-en="How it works">Cómo funciona</a>
+      <a href="#como"       data-es="Cómo funciona" data-en="How it works" class="nav__link--flex-1">Cómo funciona</a>
       <a href="/clases-ingles-grupales-online" data-es="Clases grupales" data-en="Group Classes">Clases grupales</a>
-      <a href="#precios"    data-es="Haz una prueba" data-en="Take a Trial">Haz una prueba</a>
-      <a href="#opiniones"  data-es="Opiniones"   data-en="Reviews">Opiniones</a>
+      <a href="#precios"    data-es="Haz una prueba" data-en="Take a Trial" class="nav__link--flex-4">Haz una prueba</a>
+      <a href="#opiniones"  data-es="Opiniones"   data-en="Reviews" class="nav__link--flex-3">Opiniones</a>
       <div class="nav__dropdown">
         <button type="button" class="nav__dropdown-toggle" aria-expanded="false" data-es="Preparación de exámenes" data-en="Exam Prep">Preparación de exámenes</button>
         <div class="nav__dropdown-menu">
@@ -424,6 +424,12 @@
       <a class="btn btn--primary btn--sm" href="https://calendar.app.google/sRYu3JKfnedx8V3v8" target="_blank" rel="noopener"
          data-es="Reserva tu clase gratis"
          data-en="Book your free class" onclick="gtag('event', 'click_reserva')">Reserva tu clase gratis</a>
+      <div class="nav__overflow-menu" aria-label="Más opciones">
+        <a href="#como" data-es="Cómo funciona" data-en="How it works" class="nav__overflow-link nav__overflow-link--flex-1">Cómo funciona</a>
+        <a href="#para-quien" data-es="Para quién" data-en="Who it's for" class="nav__overflow-link nav__overflow-link--flex-2">Para quién</a>
+        <a href="#opiniones" data-es="Opiniones" data-en="Reviews" class="nav__overflow-link nav__overflow-link--flex-3">Opiniones</a>
+        <a href="#precios" data-es="Haz una prueba" data-en="Take a Trial" class="nav__overflow-link nav__overflow-link--flex-4">Haz una prueba</a>
+      </div>
       <button class="nav__hamburger" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
         <svg class="ham-open" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
