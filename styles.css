@@ -468,13 +468,17 @@ p { margin: 0; }
 /* Home (index.html, data-page="home"): "Preparación de exámenes" y
    "Clases grupales" tienen prioridad absoluta y quedan siempre en línea,
    texto completo, a diferencia del resto de páginas donde el dropdown se
-   colapsa al hamburger. Si no entran los 6 links directos, se sacan del
-   flujo horizontal — en este orden de prioridad, el menos importante
-   primero — Cómo funciona → Para quién → Opiniones → Haz una prueba, y
-   quedan disponibles en un panel propio (.nav__overflow-menu) que abre el
-   mismo hamburger. El dropdown de exámenes nunca se toca. */
+   colapsa al hamburger. "Clases" se saca del nav horizontal de forma
+   permanente (no por falta de espacio) y vive solo en el panel del
+   hamburger (.nav__overflow-menu), visible en todo el rango de escritorio
+   — a diferencia del resto de páginas, donde el hamburger abre el
+   dropdown de exámenes, acá abre este panel. Medido (24-ago): sin
+   "Clases", los 6 links directos + dropdown entran en línea sin cortar
+   nada desde 1280px hasta 1920px, así que ya no hace falta ningún sistema
+   de corte dinámico adicional. */
 @media (min-width: 769px) {
   body[data-page="home"] .nav__dropdown-toggle { display: inline-flex; }
+  body[data-page="home"] .nav__link--mobile-only { display: none; }
 }
 
 body[data-page="home"] .nav__overflow-menu {
@@ -482,7 +486,7 @@ body[data-page="home"] .nav__overflow-menu {
   position: absolute;
   top: calc(100% + 10px);
   right: 0;
-  min-width: 200px;
+  min-width: 160px;
   background: var(--cream);
   border-radius: 14px;
   box-shadow: var(--shadow-md);
@@ -493,7 +497,7 @@ body[data-page="home"] .nav__overflow-menu {
 }
 body[data-page="home"] .nav__right { position: relative; }
 body[data-page="home"] .nav__overflow-link {
-  display: none;
+  display: block;
   padding: 10px 14px;
   border-radius: var(--r-md);
   font-size: 15px;
@@ -519,19 +523,6 @@ body[data-page="home"] .nav__overflow-link:hover { background: rgba(31, 35, 48, 
   body[data-page="home"] .nav__right { gap: 6px; }
   body[data-page="home"] .nav__menu a,
   body[data-page="home"] .nav__dropdown-toggle { padding: 8px 2px; }
-}
-
-/* Solo por debajo de 1360px los 7 ítems completos + ES/EN + CTA no entran
-   ni con la compresión de arriba (medido: overlap real hasta ~1340px,
-   1359px queda con margen sano) — recién ahí se saca "Cómo funciona" al
-   hamburger. A partir de 1360px entran los 7 en línea sin sacar nada. */
-@media (min-width: 769px) and (max-width: 1359px) {
-  body[data-page="home"] .nav__link--flex-1 { display: none; }
-  body[data-page="home"] .nav.is-open .nav__overflow-link--flex-1 { display: block; }
-}
-
-@media (min-width: 1360px) {
-  body[data-page="home"] .nav__hamburger { display: none; }
 }
 
 @media (max-width: 768px) {
