@@ -472,10 +472,16 @@ p { margin: 0; }
    permanente (no por falta de espacio) y vive solo en el panel del
    hamburger (.nav__overflow-menu), visible en todo el rango de escritorio
    — a diferencia del resto de páginas, donde el hamburger abre el
-   dropdown de exámenes, acá abre este panel. Medido (24-ago): sin
-   "Clases", los 6 links directos + dropdown entran en línea sin cortar
-   nada desde 1280px hasta 1920px, así que ya no hace falta ningún sistema
-   de corte dinámico adicional. */
+   dropdown de exámenes, acá abre este panel.
+
+   CORRECCIÓN 24-ago: sacar "Clases" NO deja espacio de sobra por sí solo
+   — medido con Playwright filtrando por display!=='none', en 1280-1359px
+   el margen real quedó PEOR que antes (llegaba a overlap en 1280px) al
+   remover el corte dinámico de "Cómo funciona" (~115px, la etiqueta más
+   ancha del grupo) que existía precisamente porque esa palabra no entra
+   en ese rango — "Clases" (~55px) nunca fue el problema de espacio ahí.
+   Se reinstala el corte de "Cómo funciona" en 1280-1359px; "Clases" sigue
+   afuera del horizontal en todo el rango. */
 @media (min-width: 769px) {
   body[data-page="home"] .nav__dropdown-toggle { display: inline-flex; }
   body[data-page="home"] .nav__link--mobile-only { display: none; }
@@ -486,7 +492,7 @@ body[data-page="home"] .nav__overflow-menu {
   position: absolute;
   top: calc(100% + 10px);
   right: 0;
-  min-width: 160px;
+  min-width: 200px;
   background: var(--cream);
   border-radius: 14px;
   box-shadow: var(--shadow-md);
@@ -504,6 +510,7 @@ body[data-page="home"] .nav__overflow-link {
   font-weight: 700;
   color: var(--ink-2);
 }
+body[data-page="home"] .nav__overflow-link--flex-1 { display: none; }
 body[data-page="home"] .nav__overflow-link:hover { background: rgba(31, 35, 48, 0.05); color: var(--ink); }
 
 @media (min-width: 769px) {
@@ -523,6 +530,14 @@ body[data-page="home"] .nav__overflow-link:hover { background: rgba(31, 35, 48, 
   body[data-page="home"] .nav__right { gap: 6px; }
   body[data-page="home"] .nav__menu a,
   body[data-page="home"] .nav__dropdown-toggle { padding: 8px 2px; }
+}
+
+/* Solo por debajo de 1360px "Cómo funciona" (la etiqueta más ancha del
+   grupo, ~115px) no entra ni con la compresión de arriba — recién ahí se
+   saca al hamburger. A partir de 1360px entra en línea sin cortar nada. */
+@media (min-width: 769px) and (max-width: 1359px) {
+  body[data-page="home"] .nav__link--flex-1 { display: none; }
+  body[data-page="home"] .nav.is-open .nav__overflow-link--flex-1 { display: block; }
 }
 
 @media (max-width: 768px) {
