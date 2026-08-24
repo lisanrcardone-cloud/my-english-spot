@@ -522,6 +522,13 @@ body[data-page="home"] .nav__overflow-link:hover { background: rgba(31, 35, 48, 
   body[data-page="home"] .nav.is-open .nav__dropdown-menu:not(.nav__dropdown.is-open .nav__dropdown-menu) { display: none; }
 }
 
+/* Separación real entre ítems del nav de home — antes dependía solo del
+   padding horizontal de cada <a> (2-3px por lado, ~4-6px de aire real
+   entre palabras), se veía pegado. gap explícito en el contenedor. */
+@media (min-width: 769px) {
+  body[data-page="home"] .nav__menu { gap: 20px; }
+}
+
 /* Compresión de espaciado (no de texto) en todo el rango sub-1440 —
    por debajo de 1440px real el nav siempre está más justo de espacio
    (--container topea en 1440px, ver nota de arriba). */
@@ -532,10 +539,14 @@ body[data-page="home"] .nav__overflow-link:hover { background: rgba(31, 35, 48, 
   body[data-page="home"] .nav__dropdown-toggle { padding: 8px 2px; }
 }
 
-/* Solo por debajo de 1360px "Cómo funciona" (la etiqueta más ancha del
+/* Solo por debajo de 1410px "Cómo funciona" (la etiqueta más ancha del
    grupo, ~115px) no entra ni con la compresión de arriba — recién ahí se
-   saca al hamburger. A partir de 1360px entra en línea sin cortar nada. */
-@media (min-width: 769px) and (max-width: 1359px) {
+   saca al hamburger. Umbral subido de 1359 a 1409px el 24-ago al agregar
+   gap:20px entre ítems (antes el "aire" entre palabras venía casi solo
+   del padding del <a>, ~4-6px; el gap real corre el punto de quiebre).
+   Medido: overlap real hasta ~1388px, 1409px ya con margen sano
+   (19.6px) y creciendo. A partir de 1410px entra en línea sin cortar. */
+@media (min-width: 769px) and (max-width: 1409px) {
   body[data-page="home"] .nav__link--flex-1 { display: none; }
   body[data-page="home"] .nav.is-open .nav__overflow-link--flex-1 { display: block; }
 }
