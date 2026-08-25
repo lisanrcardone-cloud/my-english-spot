@@ -20,14 +20,16 @@ Auditado el 24-ago-2026: las 9 páginas de servicio existentes están bien aline
    - `<body>`: hero (breadcrumb, eyebrow, H1 de 2 líneas, subtítulo, chips), y cada sección (`que-es`, `para-quien`, `incluye`, `método`, `opiniones`, `como-funciona`, `faq` con mínimo 6 preguntas).
 3. Ajustá los `href="#ancla"` del nav (`.nav__menu`) para que apunten a las secciones reales de la página nueva, y el link cruzado a otra página de servicio si corresponde.
 4. Decidí si la página lleva la sección `#newsletter` (formulario Brevo, patrón `g-form`/`g-field` — ya no `subscribe-form__*`, ver nota de bug abajo). Si no aplica, eliminá la sección completa.
-5. Agregá el rewrite en `vercel.json`:
+5. Agregá el rewrite (y el redirect `.html`→URL limpia correspondiente) en `vercel.json`:
    ```json
    { "source": "/slug-nuevo", "destination": "/slug-nuevo.html" }
    ```
-6. Actualizá `sitemap.xml` con la URL nueva y `<lastmod>`.
-7. Actualizá `llms.txt` si aplica.
-8. Enlazá la página desde el nav de las páginas de servicio relacionadas (y desde `index.html` si corresponde) — nunca dejar una página nueva sin enlaces entrantes.
-9. Verificá con Playwright en mobile (375px) y desktop (1280/1440px) antes de publicar: sin overflow horizontal, FAQ con `<details>`/`</details>` bien cerrados (no `</div>`), nav sin overlap.
+6. **Sumá la página al sistema de partials** en `config/pages.json` (`nav_type: "service"`, `has_dropdown`, `exclude_exam`, `footer_type: "common"`, `cta_text`/`cta_href`/`cta_event`) y corré `node scripts/build.js` — así el footer (y el dropdown de exámenes, si esta página lo lleva) quedan sincronizados automáticamente con el resto del sitio en vez de copiados a mano. Ver la nota dentro del template junto al `nav__menu` sobre cuándo agregar los marcadores `BUILD:NAV`.
+7. Actualizá `sitemap.xml` con la URL nueva y `<lastmod>`.
+8. Actualizá `llms.txt` si aplica.
+9. Enlazá la página desde el nav de las páginas de servicio relacionadas (y desde `index.html` si corresponde) — nunca dejar una página nueva sin enlaces entrantes.
+10. Cambiá `<meta name="robots">` de `noindex, nofollow` (valor del template) a `index, follow` — es el último paso antes de publicar, para no dejar la página nueva invisible para Google por accidente.
+11. Verificá con Playwright en mobile (375px) y desktop (1280/1440px) antes de publicar: sin overflow horizontal, FAQ con `<details>`/`</details>` bien cerrados (no `</div>`), nav sin overlap.
 
 **El footer no se toca.** Es idéntico en las 9 páginas y en el template — "No modificar" está indicado en el propio archivo.
 
@@ -42,10 +44,12 @@ Auditado el 24-ago-2026: las 9 páginas de servicio existentes están bien aline
    2. Tarjeta en `blog/index.html` (grid) **y** entrada nueva en el array `blogPost` del schema `Blog`/`ItemList` del mismo archivo
    3. `sitemap.xml`
    4. Enlace interno desde la página de servicio relacionada
-4. Agregá el rewrite en `vercel.json`: `{ "source": "/blog/slug-nuevo", "destination": "/blog/slug-nuevo.html" }`
-5. Actualizá `llms.txt` si aplica.
-6. Si el artículo usa algún script inline nuevo (no heredado del template), calculá su hash SHA256 y agregalo a `script-src` en `vercel.json` — la CSP del sitio es whitelist cerrada, sin `unsafe-inline`.
-7. Verificá con Playwright en mobile y desktop antes de publicar.
+4. Agregá el rewrite (y el redirect `.html`→URL limpia correspondiente) en `vercel.json`: `{ "source": "/blog/slug-nuevo", "destination": "/blog/slug-nuevo.html" }`
+5. **Sumá el post al sistema de partials** en `config/pages.json` (`nav_type: "blog"`, `has_dropdown`, `footer_type: "common"`, `cta_*`) y corré `node scripts/build.js` para que el footer (y el dropdown, si aplica) queden sincronizados automáticamente.
+6. Actualizá `llms.txt` si aplica.
+7. Si el artículo usa algún script inline nuevo (no heredado del template), calculá su hash SHA256 y agregalo a `script-src` en `vercel.json` — la CSP del sitio es whitelist cerrada, sin `unsafe-inline`.
+8. Cambiá `<meta name="robots">` de `noindex, nofollow` (valor del template) a `index, follow` como último paso antes de publicar.
+9. Verificá con Playwright en mobile y desktop antes de publicar.
 
 ---
 
