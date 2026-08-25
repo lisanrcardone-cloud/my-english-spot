@@ -119,6 +119,11 @@
       "permanent": true
     },
     {
+      "source": "/gracias.html",
+      "destination": "/gracias",
+      "permanent": true
+    },
+    {
       "source": "/(.*)",
       "has": [
         {
