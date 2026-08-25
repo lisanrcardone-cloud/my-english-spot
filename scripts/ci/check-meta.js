@@ -24,7 +24,8 @@ function changedHtmlFiles() {
     return [];
   }
   return out.split('\n').filter((f) => f.endsWith('.html') && fs.existsSync(path.join(ROOT, f)))
-    .filter((f) => !f.includes('template-servicio.html') && !f.includes('template-articulo.html')); // templates llevan PLACEHOLDER a propósito
+    .filter((f) => !f.includes('template-servicio.html') && !f.includes('template-articulo.html')) // templates llevan PLACEHOLDER a propósito
+    .filter((f) => !f.startsWith('partials/')); // fragmentos HTML (nav/footer), no páginas completas — sin title/meta/canonical por diseño
 }
 
 const files = changedHtmlFiles();
