@@ -19,9 +19,7 @@
     "description": "Programa intensivo de inglés en verano por videollamada: clases 1 a 1 o en grupo reducido (máx. 5 personas) de 2 a 5 sesiones por semana. Conversación, gramática, preparación Cambridge FCE/CAE e inglés para el trabajo. Primera clase gratis.",
     "url": "https://www.myenglishspotclasses.com/clases-ingles-verano",
     "provider": {
-      "@type": "EducationalOrganization",
-      "name": "My English Spot",
-      "url": "https://www.myenglishspotclasses.com"
+      "@id": "https://www.myenglishspotclasses.com/#organization"
     },
     "instructor": {
       "@type": "Person",
@@ -146,9 +144,7 @@
       "https://www.tiktok.com/@myenglishspot"
     ],
     "worksFor": {
-      "@type": "EducationalOrganization",
-      "name": "My English Spot",
-      "url": "https://www.myenglishspotclasses.com"
+      "@id": "https://www.myenglishspotclasses.com/#organization"
     }
   }
   </script>
@@ -916,6 +912,12 @@
     var email   = form.querySelector('[name="email"]').value.trim();
 
     if (!email) {
+      form.querySelector('[name="email"]').focus();
+      return;
+    }
+
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      error.hidden = false;
       form.querySelector('[name="email"]').focus();
       return;
     }

@@ -47,9 +47,77 @@
     {
       "source": "/clases-ingles-grupales-online",
       "destination": "/clases-ingles-grupales-online.html"
+    },
+    {
+      "source": "/aviso-legal",
+      "destination": "/aviso-legal.html"
+    },
+    {
+      "source": "/politica-privacidad",
+      "destination": "/politica-privacidad.html"
     }
   ],
   "redirects": [
+    {
+      "source": "/clases-particulares-ingles-online.html",
+      "destination": "/clases-particulares-ingles-online",
+      "permanent": true
+    },
+    {
+      "source": "/preparacion-first-cambridge.html",
+      "destination": "/preparacion-first-cambridge",
+      "permanent": true
+    },
+    {
+      "source": "/clases-ingles-verano.html",
+      "destination": "/clases-ingles-verano",
+      "permanent": true
+    },
+    {
+      "source": "/niveles-ingles-examenes.html",
+      "destination": "/niveles-ingles-examenes",
+      "permanent": true
+    },
+    {
+      "source": "/clases-ingles-vigo.html",
+      "destination": "/clases-ingles-vigo",
+      "permanent": true
+    },
+    {
+      "source": "/preparacion-ielts-online.html",
+      "destination": "/preparacion-ielts-online",
+      "permanent": true
+    },
+    {
+      "source": "/preparacion-cae-online.html",
+      "destination": "/preparacion-cae-online",
+      "permanent": true
+    },
+    {
+      "source": "/preparacion-aptis-online.html",
+      "destination": "/preparacion-aptis-online",
+      "permanent": true
+    },
+    {
+      "source": "/clases-ingles-grupales-online.html",
+      "destination": "/clases-ingles-grupales-online",
+      "permanent": true
+    },
+    {
+      "source": "/aviso-legal.html",
+      "destination": "/aviso-legal",
+      "permanent": true
+    },
+    {
+      "source": "/politica-privacidad.html",
+      "destination": "/politica-privacidad",
+      "permanent": true
+    },
+    {
+      "source": "/politica-cookies.html",
+      "destination": "/politica-cookies",
+      "permanent": true
+    },
     {
       "source": "/(.*)",
       "has": [

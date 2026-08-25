@@ -186,7 +186,7 @@
   <!-- META DESCRIPTION: ~155 chars · incluye keyword principal y CTA -->
   <meta name="description" content="<!-- PLACEHOLDER: meta descripción -->" />
 
-  <meta name="robots" content="index, follow" />
+  <meta name="robots" content="noindex, nofollow" />
   <link rel="canonical" href="https://www.myenglishspotclasses.com/<!-- PLACEHOLDER: slug -->" />
 
   <!-- Open Graph -->
@@ -1026,6 +1026,12 @@
     var email   = form.querySelector('[name="email"]').value.trim();
 
     if (!email) {
+      form.querySelector('[name="email"]').focus();
+      return;
+    }
+
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      error.hidden = false;
       form.querySelector('[name="email"]').focus();
       return;
     }

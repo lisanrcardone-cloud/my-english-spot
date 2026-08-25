@@ -14,9 +14,7 @@
     "description": "Clases de inglés online en formato grupal, con grupos reducidos de máximo 5 personas, pensadas para adultos que quieren practicar conversación real a un precio más accesible que la clase individual. Impartidas en directo por videollamada con profesores de My English Spot.",
     "url": "https://www.myenglishspotclasses.com/clases-ingles-grupales-online",
     "provider": {
-      "@type": "EducationalOrganization",
-      "name": "My English Spot",
-      "url": "https://www.myenglishspotclasses.com"
+      "@id": "https://www.myenglishspotclasses.com/#organization"
     },
     "instructor": {
       "@type": "Person",
@@ -139,9 +137,7 @@
       "https://www.tiktok.com/@myenglishspot"
     ],
     "worksFor": {
-      "@type": "EducationalOrganization",
-      "name": "My English Spot",
-      "url": "https://www.myenglishspotclasses.com"
+      "@id": "https://www.myenglishspotclasses.com/#organization"
     }
   }
   </script>
@@ -157,7 +153,7 @@
 
   <title>Clases de Inglés Online Grupales | Prueba Gratis 40 Min | My English Spot</title>
 
-  <meta name="description" content="Clases de inglés online en grupo reducido (máx. 5 personas) para adultos. Practica conversación real, mismo rigor que la clase individual, precio más accesible. Primera clase gratis de 40 min." />
+  <meta name="description" content="Clases de inglés online en grupo reducido (máx. 5 personas) para adultos. Practica conversación real con el mismo rigor. Primera clase gratis, 40 min." />
 
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://www.myenglishspotclasses.com/clases-ingles-grupales-online" />
@@ -882,6 +878,12 @@
     var email   = form.querySelector('[name="email"]').value.trim();
 
     if (!email) {
+      form.querySelector('[name="email"]').focus();
+      return;
+    }
+
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      error.hidden = false;
       form.querySelector('[name="email"]').focus();
       return;
     }

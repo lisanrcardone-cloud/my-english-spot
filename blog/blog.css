@@ -230,7 +230,8 @@
   padding-top: 1.5rem;
   border-top: 1px solid #e8e4db;
 }
-.article__related h2 {
+.article__related h2,
+.article__related-label {
   font-size: 1.3rem;
   color: #1a2b4a;
   margin: 0 0 0.75rem;
