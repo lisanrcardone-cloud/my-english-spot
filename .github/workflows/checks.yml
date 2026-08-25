@@ -1,0 +1,36 @@
+name: checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: JSON-LD válido
+        run: node scripts/ci/check-jsonld.js
+
+      - name: Links internos rotos
+        run: node scripts/ci/check-links.js
+
+      - name: Meta obligatorios en páginas modificadas
+        run: node scripts/ci/check-meta.js
+
+      - name: Redirects .html correspondientes
+        run: node scripts/ci/check-redirects.js
+
+      - name: Idempotencia del build (nav/footer sincronizados)
+        run: |
+          node scripts/build.js
+          git diff --exit-code -- '*.html'

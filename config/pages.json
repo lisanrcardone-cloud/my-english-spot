@@ -1,0 +1,40 @@
+{
+  "_comment": "Inventario de las 24 páginas reales del sitio. Fuente única para scripts/build.js. index.html está listada pero queda EXCLUIDA de BUILD:NAV/BUILD:FOOTER en esta pasada (nav bilingüe con toggle de idioma + estructura propia, footer con atributos data-es/data-en) — ver plan witty-herding-sphinx.md, secciones 'Reglas del dropdown' y 'Segunda ronda de decisiones'.",
+  "exam_dropdown_items": {
+    "fce":   { "href": "/preparacion-first-cambridge", "label": "Preparación FCE" },
+    "ielts": { "href": "/preparacion-ielts-online",     "label": "Preparación IELTS" },
+    "cae":   { "href": "/preparacion-cae-online",       "label": "Preparación CAE" },
+    "aptis": { "href": "/preparacion-aptis-online",     "label": "Preparación Aptis" }
+  },
+  "pages": [
+    { "file": "index.html", "nav_type": "home", "build_managed": false },
+
+    { "file": "preparacion-first-cambridge.html", "nav_type": "service", "has_dropdown": true, "exclude_exam": "fce",   "footer_type": "common", "cta_text": "Simulacro gratis",        "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+    { "file": "preparacion-ielts-online.html",    "nav_type": "service", "has_dropdown": true, "exclude_exam": "ielts", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+    { "file": "preparacion-cae-online.html",      "nav_type": "service", "has_dropdown": true, "exclude_exam": "cae",   "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+    { "file": "preparacion-aptis-online.html",    "nav_type": "service", "has_dropdown": true, "exclude_exam": "aptis", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+
+    { "file": "clases-ingles-grupales-online.html",       "nav_type": "service", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+    { "file": "clases-ingles-verano.html",                "nav_type": "service", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva_footer_verano" },
+    { "file": "clases-ingles-vigo.html",                  "nav_type": "service", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva_footer_vigo" },
+    { "file": "clases-particulares-ingles-online.html",   "nav_type": "service", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+
+    { "file": "gracias.html",                 "nav_type": "service", "has_dropdown": false, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+    { "file": "niveles-ingles-examenes.html",  "nav_type": "service", "has_dropdown": false, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+
+    { "file": "blog/index.html",                                              "nav_type": "blog", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+    { "file": "blog/vuelta-a-clases-de-ingles-en-septiembre.html",            "nav_type": "blog", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+    { "file": "blog/cuanto-se-tarda-en-preparar-first-certificate.html",      "nav_type": "blog", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+    { "file": "blog/como-preparar-el-first-certificate-fce.html",             "nav_type": "blog", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+    { "file": "blog/errores-comunes-writing-first-certificate.html",          "nav_type": "blog", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+    { "file": "blog/cuanto-se-tarda-en-preparar-ielts.html",                  "nav_type": "blog", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+    { "file": "blog/como-preparar-el-cae-c1-advanced.html",                   "nav_type": "blog", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+    { "file": "blog/cuanto-se-tarda-en-preparar-aptis.html",                  "nav_type": "blog", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+    { "file": "blog/clases-ingles-grupales-o-individuales.html",              "nav_type": "blog", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+    { "file": "blog/cuanto-se-tarda-en-preparar-cae.html",                    "nav_type": "blog", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+
+    { "file": "aviso-legal.html",         "nav_type": "legal", "has_dropdown": true, "exclude_exam": "none", "footer_type": "legal" },
+    { "file": "politica-privacidad.html", "nav_type": "legal", "has_dropdown": true, "exclude_exam": "none", "footer_type": "legal" },
+    { "file": "politica-cookies.html",    "nav_type": "legal", "has_dropdown": true, "exclude_exam": "none", "footer_type": "legal" }
+  ]
+}

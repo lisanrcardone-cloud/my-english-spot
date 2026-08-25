@@ -186,6 +186,8 @@
   <!-- META DESCRIPTION: ~155 chars · incluye keyword principal y CTA -->
   <meta name="description" content="<!-- PLACEHOLDER: meta descripción -->" />
 
+  <!-- noindex por defecto: este archivo es el template, nunca debe indexarse.
+       Al duplicar para una página real, cambiar a "index, follow". -->
   <meta name="robots" content="noindex, nofollow" />
   <link rel="canonical" href="https://www.myenglishspotclasses.com/<!-- PLACEHOLDER: slug -->" />
 
@@ -242,6 +244,12 @@
       <a href="#faq">Preguntas</a>
       <!-- PLACEHOLDER: enlace(s) cruzado(s) a otras páginas de servicio según corresponda -->
       <a href="/clases-particulares-ingles-online">Clases particulares</a>
+      <!-- Si esta página nueva va a llevar el dropdown "Preparación de exámenes":
+           agregá <!- BUILD:NAV:START -> / <!- BUILD:NAV:END -> alrededor del bloque
+           .nav__dropdown (ver preparacion-first-cambridge.html como referencia) y
+           sumá la entrada correspondiente (has_dropdown, exclude_exam) a
+           config/pages.json. No es automático — el nav de servicio es intencionalmente
+           más simple (ver TEMPLATES.md, sección "Nav: qué es específico de la home"). -->
     </nav>
 
     <div class="nav__right">
@@ -933,6 +941,7 @@
 
 <!-- ============================ FOOTER ============================ -->
 <!-- Footer idéntico en todas las páginas. No modificar. -->
+<!-- BUILD:FOOTER:START -->
 <footer class="footer">
   <div class="footer__inner">
     <div class="footer__brand">
@@ -981,6 +990,7 @@
     <a href="/politica-cookies.html" rel="nofollow">Cookies</a>
   </div>
 </footer>
+<!-- BUILD:FOOTER:END -->
 
 <!-- ============================ SVG SPRITE ============================ -->
 <!-- Sprite de los pins de marca. Idéntico en todas las páginas. No modificar. -->
