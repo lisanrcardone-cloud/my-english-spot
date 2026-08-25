@@ -9,6 +9,26 @@ const hits = new Map();
 const WINDOW_MS = 60_000;
 const MAX_PER_WINDOW = 5;
 
+// Flujos "fire-and-forget" de app.js: no muestran error al usuario porque la
+// conversión real ya quedó registrada por otro canal (calendario/WhatsApp).
+// Si Brevo falla ahí, avisamos por Telegram para no perder visibilidad.
+const SILENT_SOURCES = new Set(['precapture', 'post_booking_whatsapp', 'post_booking_email']);
+
+async function notifyTelegram(text) {
+  const token = process.env.TELEGRAM_BOT_TOKEN;
+  const chatId = process.env.TELEGRAM_CHAT_ID;
+  if (!token || !chatId) return;
+  try {
+    await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ chat_id: chatId, text })
+    });
+  } catch (e) {
+    console.error('Telegram notify failed', e);
+  }
+}
+
 function isRateLimited(ip) {
   const now = Date.now();
   const entry = hits.get(ip) || { count: 0, start: now };
@@ -69,9 +89,15 @@ module.exports = async function handler(req, res) {
     }
     const body = await response.text();
     console.error('Brevo API error', status, body);
+    if (SILENT_SOURCES.has(source)) {
+      await notifyTelegram(`[My English Spot] Falló alta en Brevo (formulario silencioso, source=${source}). Status ${status}.`);
+    }
     return res.status(502).json({ error: 'subscription service error' });
   } catch (err) {
     console.error('Brevo request failed', err);
+    if (SILENT_SOURCES.has(source)) {
+      await notifyTelegram(`[My English Spot] Falló alta en Brevo (formulario silencioso, source=${source}). Excepción: ${err.message}`);
+    }
     return res.status(502).json({ error: 'subscription service error' });
   }
 }
