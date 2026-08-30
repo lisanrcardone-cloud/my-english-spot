@@ -9,6 +9,14 @@
       "destination": "/gracias.html"
     },
     {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/contacto",
+      "destination": "/contacto.html"
+    },
+    {
       "source": "/clases-particulares-ingles-online",
       "destination": "/clases-particulares-ingles-online.html"
     },
@@ -124,6 +132,16 @@
       "permanent": true
     },
     {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/contacto.html",
+      "destination": "/contacto",
+      "permanent": true
+    },
+    {
       "source": "/(.*)",
       "has": [
         {
@@ -158,6 +176,10 @@
         {
           "key": "Strict-Transport-Security",
           "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "key": "Vary",
+          "value": "Accept, Accept-Encoding"
         },
         {
           "key": "Content-Security-Policy",
