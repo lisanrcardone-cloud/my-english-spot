@@ -67,6 +67,14 @@
     {
       "source": "/politica-privacidad",
       "destination": "/politica-privacidad.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contacto.html"
+    },
+    {
+      "source": "/privacy",
+      "destination": "/politica-privacidad.html"
     }
   ],
   "redirects": [

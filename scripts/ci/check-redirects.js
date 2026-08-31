@@ -17,10 +17,16 @@ const vercelConfig = JSON.parse(fs.readFileSync(path.join(ROOT, 'vercel.json'), 
 const rewrites = vercelConfig.rewrites || [];
 const redirects = vercelConfig.redirects || [];
 
+// Alias puros en inglés servidos para agentes/audits (agentic readiness), no
+// URLs canónicas nuevas: no llevan redirect inverso ni reemplazan el
+// canonical existente de la página en español (ej. /contacto, /politica-privacidad).
+const ALIAS_ONLY_REWRITES = ['/contact', '/privacy'];
+
 let fails = 0;
 let checked = 0;
 
 for (const rw of rewrites) {
+  if (ALIAS_ONLY_REWRITES.includes(rw.source)) continue;
   // solo nos importan los rewrites 1:1 de página (source sin :slug, destino .html real)
   if (rw.source.includes(':slug') || !rw.destination.endsWith('.html')) continue;
   checked++;
