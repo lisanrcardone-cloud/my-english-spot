@@ -122,6 +122,113 @@ function buildPage(pageConfig, examItems) {
   return false;
 }
 
+// ---------------------------------------------------------------------------
+// Markdown de páginas (negociación de contenido text/markdown, ver
+// middleware.js). Conversión por regex, sin dependencias nuevas. Determinista
+// e idempotente: mismo HTML de entrada -> mismo .md de salida siempre.
+// ---------------------------------------------------------------------------
+
+const SITE_ORIGIN = 'https://www.myenglishspotclasses.com';
+
+const HTML_ENTITIES = {
+  nbsp: ' ',
+  amp: '&',
+  lt: '<',
+  gt: '>',
+  quot: '"',
+  '#39': "'",
+  apos: "'",
+  middot: '·',
+  mdash: '—',
+  ndash: '–',
+};
+
+function decodeEntities(text) {
+  return text.replace(/&(#39|nbsp|amp|lt|gt|quot|apos|middot|mdash|ndash);/g, (m, key) => HTML_ENTITIES[key]);
+}
+
+function resolveAbsoluteUrl(href) {
+  if (/^(https?:|mailto:|tel:)/i.test(href)) return href;
+  if (href.startsWith('/')) return SITE_ORIGIN + href;
+  if (href.startsWith('#')) return SITE_ORIGIN + '/' + href; // ancla relativa a la propia página
+  return SITE_ORIGIN + '/' + href.replace(/^\.\//, '');
+}
+
+function htmlToMarkdown(html) {
+  let content = html;
+
+  // 1. Quitar scripts/estilos completos.
+  content = content.replace(/<script[\s\S]*?<\/script>/gi, '');
+  content = content.replace(/<style[\s\S]*?<\/style>/gi, '');
+
+  // 2. Quedarnos con el contenido de <main>...</main> si existe.
+  const mainMatch = content.match(/<main[^>]*>([\s\S]*?)<\/main>/i);
+  if (mainMatch) content = mainMatch[1];
+
+  // 3. Enlaces -> markdown, con URL absoluta, antes de tocar el resto de tags.
+  content = content.replace(/<a\s+[^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi, (m, href, text) => {
+    const plainText = text.replace(/<[^>]+>/g, '').trim();
+    return `[${plainText}](${resolveAbsoluteUrl(href)})`;
+  });
+
+  // 4. Encabezados.
+  content = content.replace(/<h1[^>]*>([\s\S]*?)<\/h1>/gi, (m, t) => `\n# ${t.replace(/<[^>]+>/g, '').trim()}\n`);
+  content = content.replace(/<h2[^>]*>([\s\S]*?)<\/h2>/gi, (m, t) => `\n## ${t.replace(/<[^>]+>/g, '').trim()}\n`);
+  content = content.replace(/<h3[^>]*>([\s\S]*?)<\/h3>/gi, (m, t) => `\n### ${t.replace(/<[^>]+>/g, '').trim()}\n`);
+
+  // 5. Items de lista.
+  content = content.replace(/<li[^>]*>([\s\S]*?)<\/li>/gi, (m, t) => `- ${t.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()}\n`);
+
+  // 6. Párrafos.
+  content = content.replace(/<p[^>]*>([\s\S]*?)<\/p>/gi, (m, t) => `\n${t.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()}\n`);
+
+  // 7. Quitar cualquier tag restante (divs, spans, ul/ol, article, etc).
+  content = content.replace(/<[^>]+>/g, ' ');
+
+  // 8. Decodificar entidades HTML básicas.
+  content = decodeEntities(content);
+
+  // 9. Colapsar espacios/líneas en blanco excesivos.
+  content = content
+    .split('\n')
+    .map((line) => line.replace(/[ \t]+/g, ' ').trim())
+    .join('\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+
+  return content + '\n';
+}
+
+function buildMarkdownForPage(relFile) {
+  const filePath = path.join(ROOT, relFile);
+  if (!fs.existsSync(filePath)) return false;
+  const html = fs.readFileSync(filePath, 'utf8');
+  const markdown = htmlToMarkdown(html);
+  const mdPath = filePath.replace(/\.html$/, '.md');
+  const original = fs.existsSync(mdPath) ? fs.readFileSync(mdPath, 'utf8') : null;
+  if (original !== markdown) {
+    fs.writeFileSync(mdPath, markdown, 'utf8');
+    return true;
+  }
+  return false;
+}
+
+function buildAllMarkdown(config) {
+  const extraPages = ['index.html', 'about.html', 'contacto.html', 'politica-privacidad.html'];
+  const configPages = config.pages.map((p) => p.file);
+  const allPages = [...new Set([...extraPages, ...configPages])];
+
+  let changed = 0;
+  for (const relFile of allPages) {
+    const didChange = buildMarkdownForPage(relFile);
+    if (didChange) {
+      changed += 1;
+      console.log(`updated (md): ${relFile.replace(/\.html$/, '.md')}`);
+    }
+  }
+  return { total: allPages.length, changed };
+}
+
 function main() {
   const config = loadPagesConfig();
   const examItems = config.exam_dropdown_items;
@@ -137,6 +244,13 @@ function main() {
   }
 
   console.log(`\nbuild.js: ${managedPages.length} páginas procesadas, ${changed} modificadas.`);
+
+  const mdResult = buildAllMarkdown(config);
+  console.log(`build.js: ${mdResult.total} páginas .md procesadas, ${mdResult.changed} modificadas.`);
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = { htmlToMarkdown, resolveAbsoluteUrl };

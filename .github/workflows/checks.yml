@@ -30,7 +30,10 @@ jobs:
       - name: Redirects .html correspondientes
         run: node scripts/ci/check-redirects.js
 
-      - name: Idempotencia del build (nav/footer sincronizados)
+      - name: Markdown para negociación de contenido (unit tests)
+        run: node scripts/ci/check-markdown.js
+
+      - name: Idempotencia del build (nav/footer sincronizados + .md)
         run: |
           node scripts/build.js
-          git diff --exit-code -- '*.html'
+          git diff --exit-code -- '*.html' '*.md'
