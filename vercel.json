@@ -21,6 +21,10 @@
       "destination": "/clases-particulares-ingles-online.html"
     },
     {
+      "source": "/clases-ingles-empresas-online",
+      "destination": "/clases-ingles-empresas-online.html"
+    },
+    {
       "source": "/preparacion-first-cambridge",
       "destination": "/preparacion-first-cambridge.html"
     },
@@ -69,6 +73,11 @@
     {
       "source": "/clases-particulares-ingles-online.html",
       "destination": "/clases-particulares-ingles-online",
+      "permanent": true
+    },
+    {
+      "source": "/clases-ingles-empresas-online.html",
+      "destination": "/clases-ingles-empresas-online",
       "permanent": true
     },
     {
