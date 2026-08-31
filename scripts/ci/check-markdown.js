@@ -106,5 +106,36 @@ test('wantsMarkdown: false si no hay Accept header', () => {
   assert.strictEqual(wantsMarkdown(undefined), false);
 });
 
+// --- resolveMarkdownPath (middleware.js) -------------------------------
+// Misma limitación que wantsMarkdown arriba (export de ES modules): lógica
+// re-declarada aquí. Si cambia en middleware.js, actualizar en paralelo.
+const ALIAS_MARKDOWN_PATHS = {
+  '/contact': '/contacto',
+  '/privacy': '/politica-privacidad',
+};
+
+function resolveMarkdownPath(pathname) {
+  let p = pathname === '/' ? '/index' : pathname.replace(/\/$/, '');
+  if (!p.startsWith('/')) p = '/' + p;
+  p = ALIAS_MARKDOWN_PATHS[p] || p;
+  return p + '.md';
+}
+
+test('resolveMarkdownPath: home -> /index.md', () => {
+  assert.strictEqual(resolveMarkdownPath('/'), '/index.md');
+});
+
+test('resolveMarkdownPath: página normal usa su propio slug', () => {
+  assert.strictEqual(resolveMarkdownPath('/preparacion-cae-online'), '/preparacion-cae-online.md');
+});
+
+test('resolveMarkdownPath: alias /contact resuelve al .md de /contacto', () => {
+  assert.strictEqual(resolveMarkdownPath('/contact'), '/contacto.md');
+});
+
+test('resolveMarkdownPath: alias /privacy resuelve al .md de /politica-privacidad', () => {
+  assert.strictEqual(resolveMarkdownPath('/privacy'), '/politica-privacidad.md');
+});
+
 console.log(`\ncheck-markdown: ${checked} tests, ${fails} fallidos.`);
 process.exit(fails > 0 ? 1 : 0);

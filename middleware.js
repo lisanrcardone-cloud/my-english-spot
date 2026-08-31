@@ -44,12 +44,23 @@ export function wantsMarkdown(acceptHeader) {
 }
 
 /**
+ * Alias en inglés servidos solo como rewrite en vercel.json (ver
+ * ALIAS_ONLY_REWRITES en scripts/ci/check-redirects.js) que no tienen su
+ * propio .md — apuntan al mismo contenido que la página canónica en español.
+ */
+const ALIAS_MARKDOWN_PATHS = {
+  '/contact': '/contacto',
+  '/privacy': '/politica-privacidad',
+};
+
+/**
  * Resuelve el pathname de una request a la ruta del archivo .md
  * correspondiente (mismo layout que los .html generados por build.js).
  */
 export function resolveMarkdownPath(pathname) {
   let p = pathname === '/' ? '/index' : pathname.replace(/\/$/, '');
   if (!p.startsWith('/')) p = '/' + p;
+  p = ALIAS_MARKDOWN_PATHS[p] || p;
   return p + '.md';
 }
 
