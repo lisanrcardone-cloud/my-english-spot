@@ -13,20 +13,24 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..', '..');
 const vercelConfig = JSON.parse(fs.readFileSync(path.join(ROOT, 'vercel.json'), 'utf8'));
+const aliasOnlyRewrites = JSON.parse(
+  fs.readFileSync(path.join(ROOT, 'config', 'alias-only-rewrites.json'), 'utf8')
+);
 
 const rewrites = vercelConfig.rewrites || [];
 const redirects = vercelConfig.redirects || [];
-
-// Alias puros en inglés servidos para agentes/audits (agentic readiness), no
-// URLs canónicas nuevas: no llevan redirect inverso ni reemplazan el
-// canonical existente de la página en español (ej. /contacto, /politica-privacidad).
-const ALIAS_ONLY_REWRITES = ['/contact', '/privacy'];
 
 let fails = 0;
 let checked = 0;
 
 for (const rw of rewrites) {
-  if (ALIAS_ONLY_REWRITES.includes(rw.source)) continue;
+  // Alias puros en inglés servidos para agentes/audits (agentic readiness), no
+  // URLs canónicas nuevas: no llevan redirect inverso ni reemplazan el
+  // canonical existente de la página en español (ej. /contacto, /politica-privacidad).
+  // La lista vive en config/alias-only-rewrites.json, compartida con
+  // myenglishspot_health_check.py (no puede ir dentro de vercel.json: Vercel
+  // rechaza propiedades adicionales en rewrites por schema validation).
+  if (aliasOnlyRewrites.includes(rw.source)) continue;
   // solo nos importan los rewrites 1:1 de página (source sin :slug, destino .html real)
   if (rw.source.includes(':slug') || !rw.destination.endsWith('.html')) continue;
   checked++;
