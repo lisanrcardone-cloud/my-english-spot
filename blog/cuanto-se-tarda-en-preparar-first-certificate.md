@@ -43,3 +43,5 @@ Sigue leyendo
 - [Cómo preparar el First Certificate (FCE) desde cero](https://www.myenglishspotclasses.com/blog/como-preparar-el-first-certificate-fce)
 
 - [7 errores que te bajan nota en el Writing del First Certificate (FCE)](https://www.myenglishspotclasses.com/blog/errores-comunes-writing-first-certificate)
+
+- [Del B2 First al C1 Advanced: cuánto se tarda en dar el salto](https://www.myenglishspotclasses.com/blog/de-b2-first-a-c1-advanced-cuanto-se-tarda)

@@ -14,6 +14,11 @@ Writing
 Clases grupales
 Motivación
 
+[Exámenes Cambridge · FCE a CAE
+Del B2 First al C1 Advanced: cuánto se tarda en dar el salto
+Ya tienes el FCE. Cuánto tiempo realista necesitas para el CAE, qué cambia entre ambos exámenes y cómo evitar repetir convocatoria.
+7 sep 2026 · 5 min de lectura](https://www.myenglishspotclasses.com/blog/de-b2-first-a-c1-advanced-cuanto-se-tarda)
+
 [Motivación · Vuelta a clases
 Vuelta a las clases de inglés en septiembre: por qué es el mejor momento para retomarlo
 Por qué cuesta tanto retomar el inglés tras el verano, el error más común al volver, y cómo elegir entre grupo o individual.
