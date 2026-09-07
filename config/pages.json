@@ -33,6 +33,7 @@
     { "file": "blog/cuanto-se-tarda-en-preparar-aptis.html",                  "nav_type": "blog", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
     { "file": "blog/clases-ingles-grupales-o-individuales.html",              "nav_type": "blog", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
     { "file": "blog/cuanto-se-tarda-en-preparar-cae.html",                    "nav_type": "blog", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
+    { "file": "blog/de-b2-first-a-c1-advanced-cuanto-se-tarda.html",          "nav_type": "blog", "has_dropdown": true, "exclude_exam": "none", "footer_type": "common", "cta_text": "Reserva tu clase gratis", "cta_href": "https://calendar.app.google/sRYu3JKfnedx8V3v8", "cta_event": "click_reserva" },
 
     { "file": "about.html",               "nav_type": "legal", "has_dropdown": true, "exclude_exam": "none", "footer_type": "legal" },
     { "file": "contacto.html",            "nav_type": "legal", "has_dropdown": true, "exclude_exam": "none", "footer_type": "legal" },

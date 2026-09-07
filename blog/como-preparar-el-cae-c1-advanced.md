@@ -36,6 +36,8 @@ El CAE se puntúa en una escala de 160 a 210 puntos. A partir de 180 se obtiene 
 
 ## Sigue leyendo
 
+- [Del B2 First al C1 Advanced: cuánto se tarda en dar el salto](https://www.myenglishspotclasses.com/blog/de-b2-first-a-c1-advanced-cuanto-se-tarda)
+
 - [Cuánto se tarda en preparar el CAE (C1 Advanced) para aprobarlo](https://www.myenglishspotclasses.com/blog/cuanto-se-tarda-en-preparar-cae)
 
 - [7 errores que te bajan nota en el Writing del First Certificate (FCE)](https://www.myenglishspotclasses.com/blog/errores-comunes-writing-first-certificate)
