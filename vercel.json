@@ -70,11 +70,13 @@
     },
     {
       "source": "/contact",
-      "destination": "/contacto.html"
+      "destination": "/contacto.html",
+      "aliasOnly": true
     },
     {
       "source": "/privacy",
-      "destination": "/politica-privacidad.html"
+      "destination": "/politica-privacidad.html",
+      "aliasOnly": true
     }
   ],
   "redirects": [
