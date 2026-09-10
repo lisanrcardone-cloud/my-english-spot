@@ -3,9 +3,17 @@
 <head>
   <!-- Consent Mode v2 defaults: debe ejecutarse ANTES de que cargue gtag.js -->
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("consent","default",{analytics_storage:"denied",ad_storage:"denied",functionality_storage:"denied",personalization_storage:"denied",wait_for_update:500});</script>
-  <!-- GA4 — carga siempre, pero sin cookies hasta consentimiento (Consent Mode v2) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1Y9YC09NL"></script>
-  <script>gtag("js", new Date());gtag("config", "G-Y1Y9YC09NL");</script>
+  <!-- GA4 — carga diferida a window.load (no recolecta nada hasta consentimiento, Consent Mode v2) -->
+  <script>
+    window.addEventListener('load', function () {
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-Y1Y9YC09NL';
+      document.head.appendChild(s);
+      gtag("js", new Date());
+      gtag("config", "G-Y1Y9YC09NL");
+    });
+  </script>
   <!-- Clarity queue stub — el script real solo carga si hay consentimiento -->
   <script>window.clarity=window.clarity||function(){(window.clarity.q=window.clarity.q||[]).push(arguments);};</script>
 <meta charset="utf-8" />
@@ -58,6 +66,12 @@
     "@type": "Country",
     "name": "España"
   },
+  "about": [
+    { "@type": "Thing", "name": "Clases de inglés online" },
+    { "@type": "Thing", "name": "Preparación de exámenes de Cambridge English (First, CAE)" },
+    { "@type": "Thing", "name": "Preparación IELTS" },
+    { "@type": "Thing", "name": "Preparación Aptis" }
+  ],
   "contactPoint": {
     "@type": "ContactPoint",
     "email": "info@myenglishspotclasses.com",
