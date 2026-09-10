@@ -2756,3 +2756,14 @@ body[data-page="home"] .nav__overflow-link:hover { background: rgba(31, 35, 48, 
   .precap__box { border-radius: var(--r-lg) var(--r-lg) 0 0; align-self: flex-end; max-height: 88dvh; }
   .precap { align-items: flex-end; padding: 0; }
 }
+
+.skip-link {
+  position: absolute; top: -40px; left: 8px; z-index: 9999;
+  background: var(--ink, #1a1a1a); color: #fff;
+  padding: 8px 14px; border-radius: 6px;
+  font-size: .85rem; font-weight: 700; text-decoration: none;
+  transition: top .15s ease;
+}
+.skip-link:focus {
+  top: 8px;
+}

@@ -4,6 +4,7 @@
   <!-- Consent Mode v2 defaults: debe ejecutarse ANTES de que cargue gtag.js -->
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("consent","default",{analytics_storage:"denied",ad_storage:"denied",functionality_storage:"denied",personalization_storage:"denied",wait_for_update:500});</script>
   <!-- GA4 — carga diferida a window.load (no recolecta nada hasta consentimiento, Consent Mode v2) -->
+  <link rel="preconnect" href="https://www.googletagmanager.com" />
   <script>
     window.addEventListener('load', function () {
       var s = document.createElement('script');
@@ -43,11 +44,11 @@
 <!-- Favicon -->
 <link rel="icon" type="image/png" href="assets/pin.png" />
 
-<!-- Schema.org: EducationalOrganization + LocalBusiness + Reviews -->
+<!-- Schema.org: EducationalOrganization + Reviews -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": ["EducationalOrganization", "LocalBusiness"],
+  "@type": "EducationalOrganization",
   "@id": "https://www.myenglishspotclasses.com/#organization",
   "name": "My English Spot",
   "description": "Academia de inglés online, clases particulares 1-a-1 y grupos reducidos. Aprende inglés online con enfoque personalizado. Niveles A1–C1 para adolescentes y adultos.",
@@ -408,6 +409,8 @@
 <link rel="stylesheet" href="/consent.css" />
 </head>
 <body data-page="home">
+
+<a class="skip-link" href="#top">Saltar al contenido</a>
 
 <!-- ============================ NAV ============================ -->
 <header class="nav" id="nav">
@@ -1103,11 +1106,11 @@
     <span class="footer__legal-sep">·</span>
     <a href="/contacto" data-es="Contacto" data-en="Contact">Contacto</a>
     <span class="footer__legal-sep">·</span>
-    <a href="aviso-legal.html" rel="nofollow" data-es="Aviso legal" data-en="Legal notice">Aviso legal</a>
+    <a href="aviso-legal.html" data-es="Aviso legal" data-en="Legal notice">Aviso legal</a>
     <span class="footer__legal-sep">·</span>
-    <a href="politica-privacidad.html" rel="nofollow" data-es="Privacidad" data-en="Privacy">Privacidad</a>
+    <a href="politica-privacidad.html" data-es="Privacidad" data-en="Privacy">Privacidad</a>
     <span class="footer__legal-sep">·</span>
-    <a href="politica-cookies.html" rel="nofollow" data-es="Cookies" data-en="Cookies">Cookies</a>
+    <a href="politica-cookies.html" data-es="Cookies" data-en="Cookies">Cookies</a>
   </div>
 </footer>
 
