@@ -11,6 +11,7 @@
  */
 'use strict';
 const path = require('path');
+const fs = require('fs');
 const assert = require('assert');
 
 const ROOT = path.join(__dirname, '..', '..');
@@ -135,6 +136,20 @@ test('resolveMarkdownPath: alias /contact resuelve al .md de /contacto', () => {
 
 test('resolveMarkdownPath: alias /privacy resuelve al .md de /politica-privacidad', () => {
   assert.strictEqual(resolveMarkdownPath('/privacy'), '/politica-privacidad.md');
+});
+
+// --- 404.md (fallback de agent-friendly 404, ver middleware.js) --------
+// El middleware sirve este archivo con status 404 cuando Accept pide
+// markdown sobre una ruta inexistente (ninguna página real cae acá,
+// build.js genera .md para todas). Verificamos que el archivo estático
+// exista y tenga los links de recuperación mínimos.
+test('404.md: existe y tiene links de recuperación (home, sitemap, llms.txt)', () => {
+  const path404 = path.join(ROOT, '404.md');
+  assert.ok(fs.existsSync(path404), '404.md debe existir en la raíz del proyecto');
+  const body = fs.readFileSync(path404, 'utf8');
+  assert.ok(body.includes('https://www.myenglishspotclasses.com/'), 'debe linkear al inicio');
+  assert.ok(body.includes('/sitemap.xml'), 'debe linkear al sitemap');
+  assert.ok(body.includes('/llms.txt'), 'debe linkear a llms.txt');
 });
 
 console.log(`\ncheck-markdown: ${checked} tests, ${fails} fallidos.`);

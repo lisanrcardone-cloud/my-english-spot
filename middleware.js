@@ -78,10 +78,24 @@ export default function middleware(request) {
   // archivo estático .md (servido por Vercel como asset) y ajustamos los
   // headers de la respuesta.
   return fetch(mdUrl).then((res) => {
-    if (!res.ok) return; // no existe .md para esta ruta -> dejar pasar (HTML normal)
-    const headers = new Headers(res.headers);
-    headers.set('Content-Type', 'text/markdown; charset=utf-8');
-    headers.set('Vary', 'Accept');
-    return new Response(res.body, { status: res.status, headers });
+    if (res.ok) {
+      const headers = new Headers(res.headers);
+      headers.set('Content-Type', 'text/markdown; charset=utf-8');
+      headers.set('Vary', 'Accept');
+      return new Response(res.body, { status: res.status, headers });
+    }
+    // build.js genera un .md para cada página real registrada en
+    // config/pages.json, así que si no existe .md para esta ruta la ruta
+    // no existe de verdad -> 404 genuino. Sin este fallback, un agente
+    // pidiendo Accept: text/markdown sobre una ruta inexistente recibía
+    // el 404.html normal (text/html), rompiendo la negociación de
+    // contenido justo en el caso que más importa para recuperarse.
+    return fetch(new URL('/404.md', url.origin)).then((r404) => {
+      if (!r404.ok) return; // 404.md no desplegado todavía -> comportamiento normal
+      const headers = new Headers(r404.headers);
+      headers.set('Content-Type', 'text/markdown; charset=utf-8');
+      headers.set('Vary', 'Accept');
+      return new Response(r404.body, { status: 404, headers });
+    });
   });
 }
