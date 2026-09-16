@@ -14,6 +14,11 @@ Writing
 Clases grupales
 Motivación
 
+[Exámenes de inglés · Comparativa
+FCE, CAE o IELTS: qué examen de inglés elegir según tu objetivo
+Diferencias reales entre los tres exámenes y cuál conviene según si tu objetivo es trabajar en España o estudiar en el extranjero.
+16 sep 2026 · 6 min de lectura](https://www.myenglishspotclasses.com/blog/fce-cae-o-ielts-que-examen-elegir)
+
 [Exámenes Cambridge · FCE a CAE
 Del B2 First al C1 Advanced: cuánto se tarda en dar el salto
 Ya tienes el FCE. Cuánto tiempo realista necesitas para el CAE, qué cambia entre ambos exámenes y cómo evitar repetir convocatoria.
