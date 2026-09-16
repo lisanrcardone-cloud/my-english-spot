@@ -393,6 +393,17 @@ p { margin: 0; }
     z-index: 60;
   }
   .nav__dropdown.is-open .nav__dropdown-menu { display: flex; }
+
+  /* Páginas no-home: el toggle propio está oculto en este breakpoint (ver
+     regla de abajo) y el único disparador es el hamburger, arriba a la
+     derecha — el menú debe anclarse ahí, no a .nav__dropdown (que vive
+     junto a "Clases grupales", a la izquierda). Sin este bloque el menú
+     aparece anclado a la izquierda, lejos del botón que lo abrió. Home
+     queda afuera: ahí el toggle sigue visible e inline, y el menú debe
+     seguir anclado a él en su posición real. */
+  body:not([data-page="home"]) .nav__inner { position: relative; }
+  body:not([data-page="home"]) .nav__dropdown { position: static; }
+  body:not([data-page="home"]) .nav__dropdown-menu { left: auto; right: 14px; }
 }
 
 .nav__right {
