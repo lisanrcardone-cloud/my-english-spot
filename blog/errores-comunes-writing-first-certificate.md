@@ -46,6 +46,10 @@ Un email informal, un artículo y una reseña tienen estructuras distintas (salu
 
 Los últimos 2-3 minutos para releer detectan la mitad de los errores típicos: tiempos verbales mezclados, artículos (a/an/the) y preposiciones. Es el paso que casi todo el mundo se salta por falta de tiempo, y el más rentable en puntos por minuto invertido.
 
+## Resumen: los errores más comunes en el Writing del B2 First
+
+Si buscas una lista rápida, estos son los 7 errores más comunes en el Writing del B2 First, de mayor a menor impacto en la nota: no responder a todos los puntos del enunciado, usar un registro equivocado, salirte del rango de 140-190 palabras, escribir párrafos sin conectores, repetir siempre las mismas palabras, ignorar la estructura del tipo de texto y no revisar el texto al terminar. Trabajarlos uno a uno, con ejemplos propios corregidos, es más efectivo que memorizar reglas sueltas. Si además quieres ver un plan completo de estudio, tenemos una guía de [cómo preparar el First Certificate desde cero](https://www.myenglishspotclasses.com/blog/como-preparar-el-first-certificate-fce), incluida la parte de Writing dentro de las 5 partes del examen.
+
 ## Cómo saber si estos errores te afectan a ti
 
 La forma más rápida es que alguien con los criterios oficiales de Cambridge corrija un texto tuyo real. Si quieres ver también cuánto tiempo necesitarías de preparación según tu nivel actual, tenemos una [guía completa sobre cuánto se tarda en preparar el FCE](https://www.myenglishspotclasses.com/blog/cuanto-se-tarda-en-preparar-first-certificate). Y si tu objetivo final es un examen distinto (visado, universidad fuera de España), consulta también nuestra [preparación IELTS online](https://www.myenglishspotclasses.com/preparacion-ielts-online).
