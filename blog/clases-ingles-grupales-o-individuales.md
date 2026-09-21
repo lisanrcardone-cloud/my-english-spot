@@ -36,6 +36,12 @@ Si tienes un examen Cambridge o el IELTS con fecha cerrada, la [clase individual
 
 Ninguna decisión es definitiva. Puedes empezar en grupo y pasarte a individual más adelante (o al revés) según cambie tu objetivo, y eso también se puede hablar en la primera clase de prueba.
 
+## Entonces, ¿clases grupales o individuales para aprender inglés?
+
+Resumiendo los cuatro factores: si buscas precio bajo y conversación real con más gente, elige grupo; si tienes un examen con fecha cerrada o un objetivo muy concreto, elige individual. Si te preparas para el B2 First y el Writing es tu punto débil, por ejemplo, la atención exclusiva de la clase individual suele notarse más rápido: puedes ver los [7 errores más comunes en el Writing del First Certificate](https://www.myenglishspotclasses.com/blog/errores-comunes-writing-first-certificate) para saber si es tu caso.
+
 ## Sigue leyendo
 
 - [Vuelta a las clases de inglés en septiembre: por qué es el mejor momento para retomarlo](https://www.myenglishspotclasses.com/blog/vuelta-a-clases-de-ingles-en-septiembre)
+
+- [7 errores que te bajan nota en el Writing del First Certificate (FCE)](https://www.myenglishspotclasses.com/blog/errores-comunes-writing-first-certificate)

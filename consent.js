@@ -49,6 +49,11 @@
     var b = document.getElementById('cookie-banner');
     if (!b) return;
     b.removeAttribute('hidden');
+    // Medir la altura real del banner y exponerla como custom property
+    // para que el CTA fijo mobile (.mobile-fab) pueda evitar el solape.
+    var h = b.getBoundingClientRect().height;
+    document.documentElement.style.setProperty('--cookie-banner-h', h + 'px');
+    document.body.classList.add('cookie-banner-visible');
     // Un frame de retardo para que la transición CSS arranque
     requestAnimationFrame(function () {
       requestAnimationFrame(function () { b.classList.add('is-visible'); });
@@ -59,6 +64,8 @@
     var b = document.getElementById('cookie-banner');
     if (!b) return;
     b.classList.remove('is-visible');
+    document.body.classList.remove('cookie-banner-visible');
+    document.documentElement.style.removeProperty('--cookie-banner-h');
     b.addEventListener('transitionend', function () { b.remove(); }, { once: true });
   }
 

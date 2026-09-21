@@ -88,6 +88,12 @@ Donde más diferencia hace tener un profesor es en Writing (necesitas correccion
 
 Si quieres una sesión de [clase particular de inglés online](https://www.myenglishspotclasses.com/clases-particulares-ingles-online) para ver exactamente dónde estás antes de empezar a prepararte, puedes reservar una primera sesión gratuita sin ningún compromiso.
 
+## ¿Se puede preparar el First Certificate online y gratis?
+
+En parte sí. Los exámenes de práctica oficiales de Cambridge, vídeos explicativos y bancos de vocabulario gratuitos cubren bien Reading, Listening y una primera toma de contacto con Use of English. Lo gratuito tiene un límite claro en Writing y Speaking: ahí necesitas que alguien con el criterio exacto del examinador corrija tu texto o te dé feedback sobre tu conversación en pareja, algo que ningún recurso gratuito por sí solo te da. Por eso la mayoría combina material gratuito para la base con una [clase diagnóstica gratuita](https://www.myenglishspotclasses.com/preparacion-first-cambridge) que sí incluye esa corrección real, antes de decidir si necesitan más sesiones o no.
+
+Si dudas entre estudiar por tu cuenta en grupo con otras personas en la misma situación o ir directamente a algo individual, tenemos una guía sobre [clases grupales o individuales según tu objetivo](https://www.myenglishspotclasses.com/blog/clases-ingles-grupales-o-individuales) que te puede ayudar a decidir.
+
 ## ¿Cada cuánto se convoca el examen?
 
 Cambridge ofrece varias convocatorias al año. En España las fechas más habituales son en marzo, junio y noviembre, aunque depende del centro examinador de tu ciudad. Puedes presentarte tantas veces como quieras, no hay límite de intentos ni penalización por repetir.
