@@ -26,4 +26,4 @@ My English Spot tiene su sede en Avenida Florida 39, 36210 Vigo (Pontevedra), Es
 
 Si quieres empezar, la vía más rápida es reservar directamente tu [clase de prueba gratuita de 40 minutos](https://calendar.app.google/sRYu3JKfnedx8V3v8). Tras la reserva se te pedirá una breve información sobre tu nivel y objetivo para preparar la primera clase.
 
-¿Prefieres conocer primero la metodología y quién da las clases? Visita [Sobre nosotros](https://www.myenglishspotclasses.com/about). · [Volver al inicio](https://www.myenglishspotclasses.com/index.html)
+¿Prefieres conocer primero la metodología y quién da las clases? Visita [Sobre nosotros](https://www.myenglishspotclasses.com/about). · [Volver al inicio](https://www.myenglishspotclasses.com/)
