@@ -132,4 +132,4 @@ La titular está en proceso de implementar un gestor de consentimiento (CMP) que
 
 Esta Política de Cookies puede ser actualizada para reflejar cambios en las tecnologías utilizadas, en la normativa aplicable o en las recomendaciones de las autoridades de protección de datos. La versión vigente estará siempre disponible en esta página con la fecha de última actualización.
 
-Última actualización: mayo de 2026 · [Volver al inicio](https://www.myenglishspotclasses.com/index.html)
+Última actualización: mayo de 2026 · [Volver al inicio](https://www.myenglishspotclasses.com/)

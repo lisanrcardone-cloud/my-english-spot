@@ -70,4 +70,4 @@ El presente Aviso Legal se rige en todos sus extremos por la legislación españ
 
 La titular se reserva el derecho de modificar el presente Aviso Legal en cualquier momento para adaptarlo a cambios legislativos, jurisprudenciales o en la propia actividad. Los cambios serán publicados en esta misma página y entrarán en vigor desde el momento de su publicación.
 
-Última actualización: mayo de 2026 · [Volver al inicio](https://www.myenglishspotclasses.com/index.html)
+Última actualización: mayo de 2026 · [Volver al inicio](https://www.myenglishspotclasses.com/)

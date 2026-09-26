@@ -128,4 +128,4 @@ La titular aplica las medidas técnicas y organizativas apropiadas para garantiz
 
 Esta Política de Privacidad puede modificarse para adaptarse a cambios legislativos, jurisprudenciales o en los servicios prestados. La versión vigente estará siempre disponible en esta página. Se recomienda consultarla periódicamente.
 
-Última actualización: mayo de 2026 · [Volver al inicio](https://www.myenglishspotclasses.com/index.html)
+Última actualización: mayo de 2026 · [Volver al inicio](https://www.myenglishspotclasses.com/)

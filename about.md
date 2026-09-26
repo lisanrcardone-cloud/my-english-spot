@@ -22,4 +22,4 @@ Las clases son 100% online por videollamada, con un plan personalizado tras una 
 
 My English Spot tiene su sede en Avenida Florida 39, Vigo (Pontevedra), y da clase online a alumnos de toda España. Puedes ver más sobre las clases en Vigo en la [página dedicada a Vigo](https://www.myenglishspotclasses.com/clases-ingles-vigo), o conocer toda la oferta de clases desde [la página de inicio](https://www.myenglishspotclasses.com/).
 
-¿Tienes dudas antes de empezar? Puedes [contactar aquí](https://www.myenglishspotclasses.com/contacto) o reservar directamente tu [clase de prueba gratuita](https://calendar.app.google/sRYu3JKfnedx8V3v8). · [Volver al inicio](https://www.myenglishspotclasses.com/index.html)
+¿Tienes dudas antes de empezar? Puedes [contactar aquí](https://www.myenglishspotclasses.com/contacto) o reservar directamente tu [clase de prueba gratuita](https://calendar.app.google/sRYu3JKfnedx8V3v8). · [Volver al inicio](https://www.myenglishspotclasses.com/)
