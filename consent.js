@@ -88,7 +88,13 @@
   document.addEventListener('DOMContentLoaded', function () {
     var btnAccept = document.getElementById('cookie-accept');
     var btnReject = document.getElementById('cookie-reject');
-    if (btnAccept) btnAccept.addEventListener('click', function () { applyConsent('granted', true); });
-    if (btnReject) btnReject.addEventListener('click', function () { applyConsent('denied',  true); });
+    if (btnAccept) btnAccept.addEventListener('click', function () {
+      applyConsent('granted', true);
+      if (typeof gtag === 'function') gtag('event', 'consent_accepted');
+    });
+    if (btnReject) btnReject.addEventListener('click', function () {
+      applyConsent('denied', true);
+      if (typeof gtag === 'function') gtag('event', 'consent_rejected');
+    });
   });
 })();
