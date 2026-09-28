@@ -1,15 +1,7 @@
 <!doctype html>
 <html lang="es">
 <head>
-
-  <!-- Consent Mode v2 defaults: debe ejecutarse ANTES de que cargue gtag.js -->
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("consent","default",{analytics_storage:"denied",ad_storage:"denied",functionality_storage:"denied",personalization_storage:"denied",wait_for_update:500});</script>
-  <!-- GA4 — carga siempre, pero sin cookies hasta consentimiento (Consent Mode v2) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1Y9YC09NL"></script>
-  <script>gtag("js", new Date());gtag("config", "G-Y1Y9YC09NL");</script>
-  <!-- Clarity queue stub — el script real solo carga si hay consentimiento -->
-  <script>window.clarity=window.clarity||function(){(window.clarity.q=window.clarity.q||[]).push(arguments);};</script>
-
+  <script src="/assets/js/head.js"></script>
   <!-- Schema.org: Course -->
   <script type="application/ld+json">
   {
@@ -148,8 +140,6 @@
     }
   }
   </script>
-
-
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -907,64 +897,7 @@
 
 <script src="/app.js"></script>
 
-<script>
-(function () {
-  var form = document.getElementById('subscribe-form');
-  if (!form) return;
-
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-
-    var btn     = form.querySelector('.subscribe-form__btn');
-    var success = document.getElementById('sub-success');
-    var error   = document.getElementById('sub-error');
-    var email   = form.querySelector('[name="email"]').value.trim();
-
-    if (!email) {
-      form.querySelector('[name="email"]').focus();
-      return;
-    }
-
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      error.hidden = false;
-      form.querySelector('[name="email"]').focus();
-      return;
-    }
-
-    btn.disabled = true;
-    success.hidden = true;
-    error.hidden   = true;
-
-    fetch('/api/subscribe', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        email:   email,
-        nombre:  (form.querySelector('[name="nombre"]')  || {}).value || '',
-        nivel:   (form.querySelector('[name="nivel"]')   || {}).value || '',
-        objetivo:(form.querySelector('[name="objetivo"]') || {}).value || ''
-      })
-    })
-    .then(function (res) { return res.json(); })
-    .then(function (data) {
-      if (data.ok) {
-        success.hidden = false;
-        form.reset();
-        gtag('event', 'subscribe_success');
-      } else {
-        error.hidden = false;
-      }
-    })
-    .catch(function () {
-      error.hidden = false;
-    })
-    .finally(function () {
-      btn.disabled = false;
-    });
-  });
-})();
-</script>
-
+<script src="/assets/js/subscribe.js" defer></script>
 
 <!-- ==================== COOKIE BANNER ==================== -->
 <div id="cookie-banner" class="cookie-banner" hidden role="dialog" aria-label="Aviso de cookies" aria-live="polite">
