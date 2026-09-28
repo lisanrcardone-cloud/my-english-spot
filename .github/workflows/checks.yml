@@ -33,6 +33,9 @@ jobs:
       - name: Markdown para negociación de contenido (unit tests)
         run: node scripts/ci/check-markdown.js
 
+      - name: CSP cubre todos los inline
+        run: node scripts/ci/check-csp.js
+
       - name: Idempotencia del build (nav/footer sincronizados + .md)
         run: |
           node scripts/build.js
