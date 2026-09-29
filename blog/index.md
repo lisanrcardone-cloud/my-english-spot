@@ -14,6 +14,11 @@ Writing
 Clases grupales
 Motivación
 
+[Exámenes de inglés · Aptis
+¿Cuánto dura el examen Aptis? Tiempos de cada parte
+El Aptis General dura unas 2 h 40 min si haces los 5 componentes. El tiempo exacto de cada parte, minuto a minuto.
+29 sep 2026 · 5 min de lectura](https://www.myenglishspotclasses.com/blog/cuanto-dura-el-examen-aptis)
+
 [Exámenes de inglés · Comparativa
 FCE, CAE o IELTS: qué examen de inglés elegir según tu objetivo
 Diferencias reales entre los tres exámenes y cuál conviene según si tu objetivo es trabajar en España o estudiar en el extranjero.

@@ -52,7 +52,7 @@ Business English
 Nivel A2–B1
 Hablar sin miedo
 
-### Prefieres aprender en grupo y ahorrar El grupo reducido (máx. 5 personas) es perfecto si también quieres practicar escuchando a otras personas hablar. Mismo rigor, más conversación variada, precio más accesible.
+### Prefieres aprender en grupo y ahorrar El grupo reducido (máx. 5 personas) es perfecto si también quieres practicar escuchando a otras personas hablar. Mismo rigor, más conversación variada y otros acentos que escuchar.
 
 Grupo máx. 5
 Dinámico y social

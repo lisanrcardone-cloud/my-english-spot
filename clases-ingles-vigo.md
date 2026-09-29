@@ -47,7 +47,7 @@ C1 Advanced
 Todos los niveles
 Conversación fluida
 
-### Grupos de compañeros o equipos Grupos de máximo 5 personas del mismo nivel: compañeros de trabajo, amigos o equipos de empresa que quieren mejorar juntos. Precio más accesible y práctica de conversación más variada.
+### Grupos de compañeros o equipos Grupos de máximo 5 personas del mismo nivel: compañeros de trabajo, amigos o equipos de empresa que quieren mejorar juntos. Práctica de conversación más variada y aprendes también de los errores de los demás.
 
 Máx. 5 personas
 Nivel homogéneo

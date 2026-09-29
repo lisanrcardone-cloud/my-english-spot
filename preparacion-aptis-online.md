@@ -178,7 +178,7 @@ El Aptis se hace por ordenador, da resultado en una escala de 0 a 200 puntos equ
 
 ¿Qué partes tiene el examen Aptis?
 
-Grammar & Vocabulary, Reading, Writing, Listening y Speaking. Es un examen modular por ordenador: según lo que te pida el organismo que solicita el certificado, puedes hacer solo algunos componentes o la prueba completa.
+Grammar & Vocabulary, Reading, Writing, Listening y Speaking. Es un examen modular por ordenador: según lo que te pida el organismo que solicita el certificado, puedes hacer solo algunos componentes o la prueba completa. Puedes ver cuánto dura cada parte en nuestra [guía de tiempos del examen Aptis](https://www.myenglishspotclasses.com/blog/cuanto-dura-el-examen-aptis).
 
 ¿Cuánto dura el certificado del Aptis?
 
