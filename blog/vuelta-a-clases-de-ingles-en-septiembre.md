@@ -24,7 +24,7 @@ Es habitual volver a apuntarse a un curso "del nivel de siempre" sin comprobar s
 
 En la clase de prueba gratuita de 40 minutos evaluamos tu nivel real (de A2 a C1) y tu disponibilidad, y te ubicamos en el grupo que mejor encaje contigo antes de que empiece el curso.
 
-[Ver grupos de septiembre](https://www.myenglishspotclasses.com/clases-ingles-grupales-online)
+[Ver grupos reducidos](https://www.myenglishspotclasses.com/clases-ingles-grupales-online)
 
 ★★★★★
 "Llevaba años queriendo retomar el inglés y siempre lo postergaba. Con Rocío empecé con un B1 bajo y en seis meses ya me siento cómoda en reuniones con clientes en inglés."

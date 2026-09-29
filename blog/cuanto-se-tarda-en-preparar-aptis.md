@@ -43,3 +43,5 @@ Resta las semanas que quedan hasta la fecha límite de tu trámite, empresa o ad
 - [Cuánto se tarda en preparar el IELTS según tu banda objetivo](https://www.myenglishspotclasses.com/blog/cuanto-se-tarda-en-preparar-ielts)
 
 - [Cuánto se tarda en preparar el CAE según tu nivel](https://www.myenglishspotclasses.com/blog/cuanto-se-tarda-en-preparar-cae)
+
+- [¿Cuánto dura el examen Aptis? Tiempos de cada parte](https://www.myenglishspotclasses.com/blog/cuanto-dura-el-examen-aptis)

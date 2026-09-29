@@ -12,7 +12,7 @@ Por Rocío Denti
 19 de junio de 2026
 7 min de lectura
 
-Si estás pensando en presentarte al B2 First de Cambridge (el examen que antes se llamaba FCE) y no sabes muy bien por dónde empezar, esto es exactamente para ti. He preparado a muchos alumnos para el First y siempre aparecen las mismas dudas: ¿cuánto tiempo necesito? ¿Qué partes son las más difíciles? ¿Puedo prepararlo sola sin academia? Aquí te cuento lo que realmente funciona, sin rodeos.
+Si estás pensando en presentarte al B2 First de Cambridge (el examen que antes se llamaba FCE) y no sabes muy bien por dónde empezar, esto es exactamente para ti. He preparado a muchos alumnos para el First y siempre aparecen las mismas dudas: ¿cuánto tiempo necesito? ¿Qué partes son las más difíciles? ¿Puedo prepararlo por mi cuenta, sin academia? Aquí te cuento lo que realmente funciona, sin rodeos.
 
 ## ¿Qué es el B2 First (FCE) y para qué sirve?
 
@@ -80,7 +80,7 @@ Intentar entender cada palabra de la grabación. No vas a entenderlo todo y no h
 
 Quedarse en silencio mientras habla tu compañero de examen. Esta parte no es un monólogo: evalúa interacción. Tienes que reaccionar, pedir opinión, confirmar, completar lo que dice el otro. Los candidatos que no practican el formato en pareja antes del examen pierden puntos que tienen ganados por nivel.
 
-## ¿Puedo prepararlo sola o necesito un profesor?
+## ¿Puedo prepararlo por mi cuenta o necesito un profesor?
 
 Puedes avanzar mucho por tu cuenta, especialmente en Reading y Listening. Cambridge tiene exámenes de práctica anteriores disponibles en su web oficial, y hay materiales gratuitos de calidad.
 

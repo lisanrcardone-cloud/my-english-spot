@@ -7,7 +7,7 @@ Grupos de máx. 5 · 100% online
 # Clases de inglés online en grupo
 Aprende hablando de verdad, interactuando con otras personas
 
-Clases en directo por videollamada, en grupos reducidos de máximo 5 personas del mismo nivel. Practicas conversación real, con la misma exigencia y seguimiento que en una clase individual. Los grupos nuevos empiezan en septiembre, con plazas limitadas por nivel y horario. Empieza con una clase de prueba gratuita de 40 minutos, sin compromiso.
+Clases en directo por videollamada, en grupos reducidos de máximo 5 personas del mismo nivel. Practicas conversación real, con la misma exigencia y seguimiento que en una clase individual. Abrimos grupos nuevos según nivel y horario, con plazas limitadas. Empieza con una clase de prueba gratuita de 40 minutos, sin compromiso.
 
 [Reserva tu clase gratis](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)
@@ -37,9 +37,9 @@ Grupos de máximo 5 personas Nunca compartes clase con más de 4 compañeros: ha
 Conversación
 Fluidez oral
 
-### Busca un precio más accesible Mantienes el mismo rigor y seguimiento que en una clase individual, pero al compartir la sesión con otros alumnos el coste por persona baja. Ideal si quieres constancia (varias clases al mes) sin que el presupuesto sea un freno.
+### Quiere aprender también de los demás Escuchar a compañeros de tu nivel te pone delante otros acentos, otras formas de decir lo mismo y errores que también podrían ser tuyos. Mantienes el mismo rigor y seguimiento que en una clase individual, y un grupo fijo te ayuda a no abandonar.
 
-Buena relación calidad-precio
+Aprendizaje entre iguales
 Constancia
 
 ### Prefiere aprender en compañía Hay quien avanza mejor cuando no está solo frente al profesor: el grupo reduce la presión de "hablar perfecto" y anima a lanzarse a hablar, con el respaldo de que los demás también están aprendiendo.
@@ -188,15 +188,15 @@ Siempre en directo, por videollamada, con el profesor y el resto del grupo prese
 
 ¿Cuándo empiezan los grupos y qué pasa si no hay plaza en mi horario?
 
-Los grupos nuevos empiezan en septiembre, con plazas limitadas por nivel y horario. Si tu franja horaria ya está completa, reservamos tu lugar para el próximo grupo compatible con tu horario y nivel en cuanto se forme.
+Abrimos grupos nuevos según el nivel y el horario de los alumnos apuntados, con plazas limitadas. Si tu franja horaria ya está completa, reservamos tu lugar para el próximo grupo compatible con tu horario y nivel en cuanto se forme.
 
 ¿Cuánto dura la clase de prueba y tiene algún compromiso?
 
 La clase de prueba dura 40 minutos, es gratuita y no requiere tarjeta ni ningún compromiso posterior.
 
-Grupos de septiembre · Plazas limitadas
+Grupos reducidos · Plazas limitadas
 
-## Reserva tu lugar para los grupos de septiembre
+## Reserva tu lugar en el próximo grupo
 
 Los grupos son de máximo 5 personas por nivel: cuantos antes te apuntes, más franjas horarias disponibles.
 
@@ -220,9 +220,9 @@ Inglés para el trabajo
 Retomar el inglés
 Otro
 
-Reservar mi lugar para septiembre
+Reservar mi lugar
 
-¡Reservado! Te confirmamos tu grupo de septiembre según tu nivel y horario en cuanto lo tengamos armado.
+¡Reservado! Te confirmamos tu grupo según tu nivel y horario en cuanto lo tengamos armado.
 
 Algo ha fallado. Escríbenos a [info@myenglishspotclasses.com](mailto:info@myenglishspotclasses.com).
 

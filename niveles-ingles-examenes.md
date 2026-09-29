@@ -109,7 +109,7 @@ Elige el formato que mejor encaja con tu ritmo, tu presupuesto y lo que quieres 
 Totalmente personalizado
 Cualquier nivel
 
-### Grupos pequeños Máximo 5 personas de nivel similar. Más práctica de conversación, más dinamismo y un coste más accesible. Ideal si te va bien practicar con otros y aprender de sus errores también.
+### Grupos pequeños Máximo 5 personas de nivel similar. Más práctica de conversación y más dinamismo. Ideal si te va bien practicar con otros y aprender de sus errores también.
 
 Máx. 5 personas
 Nivel homogéneo
