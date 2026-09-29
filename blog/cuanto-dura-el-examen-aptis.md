@@ -32,7 +32,7 @@ El Aptis se hace por ordenador y cada componente tiene un tiempo cerrado. Este e
 
 ## ¿Tienes que hacer las 5 partes?
 
-No siempre. El Aptis es un examen modular por ordenador, así que según el organismo que te pida el certificado (una empresa, una administración, un trámite de nacionalidad o extranjería) puedes tener que hacer solo algunos de los componentes o la prueba completa. Antes de planificar tu tiempo de examen, confirma con quien te pide el certificado qué partes necesitas realmente: puedes ver el detalle de los 5 componentes y el formato modular en [nuestra página de preparación Aptis](https://www.myenglishspotclasses.com/preparacion-aptis-online).
+No siempre. El Aptis es un examen modular por ordenador, así que según el organismo que te pida el certificado (una empresa, una universidad o una administración) puedes tener que hacer solo algunos de los componentes o la prueba completa. Antes de planificar tu tiempo de examen, confirma con quien te pide el certificado qué partes necesitas realmente: puedes ver el detalle de los 5 componentes y el formato modular en [nuestra página de preparación Aptis](https://www.myenglishspotclasses.com/preparacion-aptis-online).
 
 ¿Quieres saber qué partes del Aptis necesitas para tu trámite y cómo prepararlas a tiempo? En la clase de prueba gratuita evaluamos tu nivel real y te decimos qué te falta.
 
@@ -40,7 +40,7 @@ No siempre. El Aptis es un examen modular por ordenador, así que según el orga
 
 ## Cómo gestionar el tiempo en cada parte
 
-El Writing es la parte más larga del examen y tiene 4 tareas distintas, así que conviene repartir los 50 minutos por tarea antes de empezar a escribir, en lugar de dejar que una sola tarea se coma el tiempo de las demás. Si te quedas atascado en una pregunta de Grammar & Vocabulary o Reading, es mejor seguir adelante y volver al final si te sobra tiempo, porque el reloj no se detiene por sección. En el Speaking cada respuesta tiene su propio tiempo limitado, así que responde de forma directa desde el primer segundo: no hay margen para "calentar" antes de contestar.
+El Writing es la parte más larga del examen y tiene 4 tareas distintas, así que conviene repartir los 50 minutos por tarea antes de empezar a escribir, en lugar de dejar que una sola tarea se coma el tiempo de las demás. En Grammar & Vocabulary y en Reading, no te quedes demasiado en una pregunta que se te resiste: el tiempo de cada componente es cerrado y lo que gastas ahí lo pierdes para las siguientes. En el Speaking cada respuesta tiene su propio tiempo limitado. Responde directo desde el primer segundo, porque no hay margen para "calentar" antes de contestar.
 
 ## ¿Dura lo mismo en todas las versiones del Aptis?
 
