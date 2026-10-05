@@ -4,6 +4,7 @@
 /* === Guía Speaking FCE (/guia-speaking-first) === */
 .guia-page{min-height:100vh;display:flex;flex-direction:column}
 .guia-page main{flex:1}
+.guia [hidden]{display:none}
 .guia{max-width:1080px;margin:0 auto;padding:16px 16px 56px;display:flex;flex-direction:column;gap:20px}
 .guia .eyebrow{margin-bottom:14px}
 .guia h1{font-size:clamp(1.75rem,5vw,2.75rem);margin-bottom:12px}
