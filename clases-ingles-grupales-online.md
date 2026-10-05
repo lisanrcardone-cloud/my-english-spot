@@ -2,7 +2,7 @@
 ›
 Clases grupales
 
-Grupos de máx. 5 · 100% online
+Grupos de máx. 5 - 100% online
 
 # Clases de inglés online en grupo
 Aprende hablando de verdad, interactuando con otras personas
@@ -24,7 +24,7 @@ Sin tarjeta · Sin compromiso
 
 - Sin tarjeta ni compromiso
 
-Grupos reducidos · máx. 5 personas ## ¿Qué son las clases de inglés online grupales? Son clases en directo por videollamada, igual que las clases individuales, pero compartidas con un grupo reducido de hasta 5 personas de tu mismo nivel. No son clases masivas ni grabadas: es un grupo pequeño, con seguimiento real de cada alumno.
+Grupos reducidos - máx. 5 personas ## ¿Qué son las clases de inglés online grupales? Son clases en directo por videollamada, igual que las clases individuales, pero compartidas con un grupo reducido de hasta 5 personas de tu mismo nivel. No son clases masivas ni grabadas: es un grupo pequeño, con seguimiento real de cada alumno.
 
 La ventaja del grupo no es solo el precio: al practicar con otras personas te enfrentas a acentos, ritmos y formas de hablar distintas a las tuyas, algo que en una clase 1 a 1 no ocurre. Es la forma más parecida a una conversación real en inglés.
 
