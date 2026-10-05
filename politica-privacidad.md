@@ -2,7 +2,7 @@ Privacidad
 
 # Política de Privacidad
 
-Normativa aplicable: Reglamento (UE) 2016/679 (RGPD), artículos 5, 6, 12 y 13 · Ley Orgánica 3/2018, de 5 de diciembre (LOPDGDD) · Última actualización: mayo de 2026
+Normativa aplicable: Reglamento (UE) 2016/679 (RGPD), artículos 5, 6, 12 y 13 · Ley Orgánica 3/2018, de 5 de diciembre (LOPDGDD) · Última actualización: octubre de 2026
 
 ## 1. Responsable del tratamiento
 
@@ -66,7 +66,23 @@ Tras realizar una reserva a través de Google Calendar, el usuario accede a la p
 
 - Más información sobre WhatsApp: [whatsapp.com/legal/privacy-policy-eea](https://www.whatsapp.com/legal/privacy-policy-eea)
 
-### 3.4 Fuentes tipográficas
+### 3.4 Formularios de descarga y listas de espera
+
+En algunas páginas de la web el usuario puede dejar su dirección de correo electrónico para descargar una guía gratuita, apuntarse a una lista de espera de grupos o dejar sus datos antes de reservar la clase de prueba. Estos datos se guardan en Brevo, la plataforma de email que utiliza la titular.
+
+- Carácter: voluntario. El único dato obligatorio es la dirección de correo electrónico.
+
+- Finalidad: atender la solicitud (enviar o facilitar la guía, avisar de la apertura de un grupo o preparar la clase de prueba) y, solo si el usuario lo marca expresamente en el formulario, enviarle comunicaciones ocasionales sobre las clases y los exámenes de inglés.
+
+- Datos tratados: dirección de correo electrónico y, si el usuario los facilita, nombre, nivel de inglés y objetivo principal, junto con la página desde la que se envió el formulario.
+
+- Base jurídica: artículo 6.1.a) RGPD: consentimiento del usuario, expresado mediante el envío voluntario del formulario y, para las comunicaciones comerciales, mediante la casilla correspondiente (artículo 21 de la Ley 34/2002, LSSI).
+
+- Baja: el usuario puede darse de baja en cualquier momento desde el enlace incluido en cada email o escribiendo a info@myenglishspotclasses.com.
+
+- Plazo de conservación: hasta que el usuario se dé de baja o solicite la supresión de sus datos.
+
+### 3.5 Fuentes tipográficas
 
 El sitio web utiliza la familia tipográfica Nunito , alojada en los propios servidores del sitio web. El navegador del usuario no establece ninguna conexión con servidores de Google ni de ningún otro tercero para cargar esta tipografía, por lo que no se transmite dirección IP ni ningún otro dato a terceros con esta finalidad.
 
@@ -79,6 +95,8 @@ Los datos personales no se cederán a terceros salvo en los supuestos siguientes
 - Google Ireland Limited / Google LLC: actúa como encargado del tratamiento para la gestión de reservas a través de Google Calendar y para la analítica web mediante Google Analytics 4. El tratamiento está amparado en las garantías descritas en el apartado 5 de esta política.
 
 - Meta Platforms Ireland Limited: actúa como plataforma de comunicación cuando el usuario envía el formulario de la página de confirmación de reserva a través de WhatsApp. El tratamiento de los datos por parte de Meta queda sujeto a su propia [Política de Privacidad](https://www.whatsapp.com/legal/privacy-policy-eea).
+
+- Sendinblue SAS (Brevo): actúa como encargado del tratamiento para guardar los datos de los formularios descritos en el apartado 3.4 y para el envío de emails. Está establecida en Francia (UE), por lo que no hay transferencia internacional de datos.
 
 No se realizarán otras comunicaciones de datos sin el consentimiento previo, informado y expreso del interesado, salvo las excepciones legalmente previstas.
 
@@ -128,4 +146,4 @@ La titular aplica las medidas técnicas y organizativas apropiadas para garantiz
 
 Esta Política de Privacidad puede modificarse para adaptarse a cambios legislativos, jurisprudenciales o en los servicios prestados. La versión vigente estará siempre disponible en esta página. Se recomienda consultarla periódicamente.
 
-Última actualización: mayo de 2026 · [Volver al inicio](https://www.myenglishspotclasses.com/)
+Última actualización: octubre de 2026 · [Volver al inicio](https://www.myenglishspotclasses.com/)

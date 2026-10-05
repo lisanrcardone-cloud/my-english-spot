@@ -9,6 +9,10 @@
       "destination": "/gracias.html"
     },
     {
+      "source": "/guia-speaking-first",
+      "destination": "/guia-speaking-first.html"
+    },
+    {
       "source": "/about",
       "destination": "/about.html"
     },
@@ -146,6 +150,11 @@
     {
       "source": "/gracias.html",
       "destination": "/gracias",
+      "permanent": true
+    },
+    {
+      "source": "/guia-speaking-first.html",
+      "destination": "/guia-speaking-first",
       "permanent": true
     },
     {
