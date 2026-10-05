@@ -2,7 +2,7 @@ Privacidad
 
 # Política de Privacidad
 
-Normativa aplicable: Reglamento (UE) 2016/679 (RGPD), artículos 5, 6, 12 y 13 · Ley Orgánica 3/2018, de 5 de diciembre (LOPDGDD) · Última actualización: mayo de 2026
+Normativa aplicable: Reglamento (UE) 2016/679 (RGPD), artículos 5, 6, 12 y 13 · Ley Orgánica 3/2018, de 5 de diciembre (LOPDGDD) · Última actualización: octubre de 2026
 
 ## 1. Responsable del tratamiento
 
