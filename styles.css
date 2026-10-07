@@ -9,7 +9,7 @@
 .guia .eyebrow{margin-bottom:14px}
 .guia h1{font-size:clamp(1.75rem,5vw,2.75rem);margin-bottom:12px}
 .guia__sub{font-size:1.05rem;color:var(--ink-2);line-height:1.6}
-.guia__cover{width:100%;max-width:220px;height:auto;margin:0 auto;border-radius:var(--r-sm);box-shadow:var(--shadow-md)}
+.guia__cover{order:1;width:100%;max-width:220px;height:auto;margin:0 auto;border-radius:var(--r-sm);box-shadow:var(--shadow-md)}
 .guia__label{font-size:.8rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);margin-bottom:10px}
 .guia__list{display:grid;gap:10px;margin-bottom:24px}
 .guia__list li{position:relative;padding-left:24px;color:var(--ink-2);line-height:1.5}
