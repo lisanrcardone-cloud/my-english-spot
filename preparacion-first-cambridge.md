@@ -5,7 +5,7 @@ Preparación First Certificate
 Cambridge B2 First (FCE) · 100% online
 
 # Prepara el First Certificate
-y apruébalo este verano
+con un plan para tu fecha de examen
 
 Clases individuales de preparación FCE por videollamada. Simulacros reales de Cambridge, corrección detallada del Writing y técnica específica para cada sección. Un plan adaptado a tu fecha de examen y a tus puntos débiles concretos.
 
@@ -73,7 +73,7 @@ Para quién es
 
 ## ¿Para quién es esta preparación del First Certificate?
 
-Si tu objetivo es aprobar el FCE este verano, estas clases son para ti. Sea cual sea tu punto de partida.
+Si tu objetivo es aprobar el FCE en tu próxima convocatoria, estas clases son para ti. Sea cual sea tu punto de partida.
 
 ### Primera vez que te presentas Tienes el examen en verano y quieres hacerlo bien desde el primer intento. Un plan organizado semana a semana es lo que necesitas.
 
@@ -251,7 +251,7 @@ Dura 40 minutos por videollamada. Evaluamos tu nivel real, identificamos tus pun
 
 Esta política aplica a las clases regulares ya contratadas, no a la clase de prueba: para probar no hace falta tarjeta ni hay ningún compromiso. Una vez empiezas con clases regulares: las clases pueden recuperarse únicamente si se cancelan con al menos 24 horas de antelación; de lo contrario, se consideran impartidas. El tiempo de tolerancia por retraso es de 15 minutos. Ante cualquier situación excepcional, siempre hay disposición al diálogo.
 
-## ¿Listo para aprobar el First Certificate este verano?
+## ¿Listo para aprobar el First Certificate?
 
 Reserva tu clase de prueba gratis. 40 minutos, sin tarjeta, sin compromiso. Saldrás con un plan claro.
 

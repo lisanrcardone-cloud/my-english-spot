@@ -92,7 +92,7 @@ Feedback con los criterios oficiales de banda, no solo "está bien" o "está mal
 
 Clase de prueba gratuita
 
-40 minutos sin compromiso para conocer el método y salir con un plan concreto, lo lleves adelante con nosotras o no.
+40 minutos sin compromiso para conocer el método y salir con un plan concreto, lo lleves adelante con nosotros o no.
 
 El método
 
@@ -122,7 +122,7 @@ Se registra tu progreso banda a banda, sesión a sesión.
 
 Opiniones
 
-## Alumnos que ya aprobaron sus exámenes de inglés con nosotras
+## Alumnos que ya aprobaron sus exámenes de inglés con nosotros
 
 ★★★★★
 "Gracias a Rocío he conseguido aprobar mi examen C1 de la EOI. La recomiendo muchísimo!!!"

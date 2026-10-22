@@ -7,7 +7,7 @@ CAE · C1 Advanced · 100% online
 # Preparación CAE online
 con profesores especializados
 
-Clases 1 a 1 para llegar preparado/a a tu examen Cambridge CAE (C1 Advanced): simulacros cronometrados de Reading and Use of English, Listening y Writing, entrevistas de Speaking reales y feedback por criterio oficial. Empieza con una clase de prueba gratuita de 40 minutos, sin compromiso.
+Clases 1 a 1 para llegar preparado a tu examen Cambridge CAE (C1 Advanced): simulacros cronometrados de Reading and Use of English, Listening y Writing, entrevistas de Speaking reales y feedback por criterio oficial. Empieza con una clase de prueba gratuita de 40 minutos, sin compromiso.
 
 [Reserva tu clase de prueba](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)
@@ -92,7 +92,7 @@ Feedback con los criterios oficiales de Cambridge, no solo "está bien" o "está
 
 Clase de prueba gratuita
 
-40 minutos sin compromiso para conocer el método y salir con un plan concreto, lo lleves adelante con nosotras o no.
+40 minutos sin compromiso para conocer el método y salir con un plan concreto, lo lleves adelante con nosotros o no.
 
 El método
 
@@ -122,7 +122,7 @@ Se registra tu progreso sesión a sesión hasta llegar con seguridad al examen.
 
 Opiniones
 
-## Alumnos que ya aprobaron sus exámenes de inglés con nosotras
+## Alumnos que ya aprobaron sus exámenes de inglés con nosotros
 
 ★★★★★
 "Gracias a Rocío he conseguido aprobar mi examen C1 de la EOI. La recomiendo muchísimo!!!"

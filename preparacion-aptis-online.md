@@ -7,7 +7,7 @@ Aptis · British Council · 100% online
 # Preparación Aptis online
 con profesores especializados
 
-Clases 1 a 1 o en grupos reducidos para llegar preparado/a a tu examen Aptis del British Council: práctica de Grammar & Vocabulary, Reading, Writing, Listening y Speaking. Empieza con una clase de prueba gratuita de 40 minutos, sin compromiso.
+Clases 1 a 1 o en grupos reducidos para llegar preparado a tu examen Aptis del British Council: práctica de Grammar & Vocabulary, Reading, Writing, Listening y Speaking. Empieza con una clase de prueba gratuita de 40 minutos, sin compromiso.
 
 [Reserva tu clase diagnóstica](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)
@@ -90,7 +90,7 @@ Feedback claro por criterio, pensado para la escala continua 0-200 del Aptis.
 
 Clase de prueba gratuita
 
-40 minutos sin compromiso para conocer el método y salir con un plan concreto, lo lleves adelante con nosotras o no.
+40 minutos sin compromiso para conocer el método y salir con un plan concreto, lo lleves adelante con nosotros o no.
 
 El método
 
@@ -120,7 +120,7 @@ Se registra tu progreso sesión a sesión hasta llegar con seguridad al examen.
 
 Opiniones
 
-## Alumnos que ya aprobaron sus exámenes de inglés con nosotras
+## Alumnos que ya aprobaron sus exámenes de inglés con nosotros
 
 ★★★★★
 "Gracias a Rocío he conseguido aprobar mi examen C1 de la EOI. La recomiendo muchísimo!!!"
