@@ -1,0 +1,21 @@
+name: indexnow
+
+# Avisa a IndexNow (Bing) cuando Vercel termina un deploy de Production.
+on: deployment_status
+
+jobs:
+  indexnow:
+    if: github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.deployment.sha }}
+          fetch-depth: 2
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+
+      - name: Enviar URLs cambiadas a IndexNow
+        run: node scripts/indexnow.js HEAD~1..HEAD
