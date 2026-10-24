@@ -24,6 +24,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 
 const ROOT = path.resolve(__dirname, '..');
 
@@ -229,6 +230,142 @@ function buildAllMarkdown(config) {
   return { total: allPages.length, changed };
 }
 
+// ---------------------------------------------------------------------------
+// Sitemap: lastmod automático (fecha del último commit del archivo) y feed RSS.
+// Las funciones de mapeo loc <-> archivo se exportan para scripts/indexnow.js.
+// ---------------------------------------------------------------------------
+
+// URL (loc del sitemap) -> archivo relativo. '/' -> index.html, '/blog' -> blog/index.html.
+function locToFile(loc) {
+  const pathname = loc.replace(SITE_ORIGIN, '').replace(/\/+$/, '');
+  if (pathname === '') return 'index.html';
+  if (pathname === '/blog') return 'blog/index.html';
+  return pathname.replace(/^\//, '') + '.html';
+}
+
+// Archivo relativo -> URL (inverso de locToFile).
+function fileToLoc(relFile) {
+  if (relFile === 'index.html') return SITE_ORIGIN + '/';
+  if (relFile === 'blog/index.html') return SITE_ORIGIN + '/blog';
+  return SITE_ORIGIN + '/' + relFile.replace(/\.html$/, '');
+}
+
+function readSitemapLocs() {
+  const xml = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8');
+  return [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+}
+
+function gitOutput(cmd) {
+  return execSync(cmd, { cwd: ROOT, stdio: ['ignore', 'pipe', 'ignore'] }).toString().trim();
+}
+
+function todayISO() {
+  return new Date().toISOString().slice(0, 10);
+}
+
+// Fecha para <lastmod>: la del último commit del archivo, o la de hoy si tiene
+// cambios sin commitear (así, editar + build antes del commit deja la fecha buena).
+function lastmodForFile(relFile) {
+  if (gitOutput(`git status --porcelain -- "${relFile}"`) !== '') return todayISO();
+  return gitOutput(`git log -1 --format=%cs -- "${relFile}"`) || todayISO();
+}
+
+function buildSitemapLastmod() {
+  const sitemapPath = path.join(ROOT, 'sitemap.xml');
+  const original = fs.readFileSync(sitemapPath, 'utf8');
+  let changed = 0;
+
+  const updated = original.replace(/<url>[\s\S]*?<\/url>/g, (block) => {
+    const locMatch = block.match(/<loc>([^<]+)<\/loc>/);
+    if (!locMatch) return block;
+    const relFile = locToFile(locMatch[1]);
+    if (!fs.existsSync(path.join(ROOT, relFile))) {
+      console.warn(`aviso: sitemap.xml apunta a ${locMatch[1]} pero no existe ${relFile}; lastmod sin tocar.`);
+      return block;
+    }
+    const date = lastmodForFile(relFile);
+    const newBlock = block.replace(/(<lastmod>)[^<]*(<\/lastmod>)/, `$1${date}$2`);
+    if (newBlock !== block) changed += 1;
+    return newBlock;
+  });
+
+  if (updated !== original) fs.writeFileSync(sitemapPath, updated, 'utf8');
+  return { total: readSitemapLocs().length, changed };
+}
+
+function escapeXml(text) {
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
+// Lee el JSON-LD Article de un post (null si no tiene).
+function readArticleSchema(html) {
+  for (const m of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+    try {
+      const data = JSON.parse(m[1]);
+      if (data && data['@type'] === 'Article') return data;
+    } catch (e) {
+      // JSON-LD inválido: lo detecta check-jsonld.js, aquí se ignora
+    }
+  }
+  return null;
+}
+
+function buildFeed() {
+  const sitemapLocs = new Set(readSitemapLocs());
+  const posts = fs
+    .readdirSync(path.join(ROOT, 'blog'))
+    .filter((f) => f.endsWith('.html') && f !== 'index.html' && f !== 'template-articulo.html')
+    .map((f) => readArticleSchema(fs.readFileSync(path.join(ROOT, 'blog', f), 'utf8')))
+    .filter((a) => a && sitemapLocs.has(a.url))
+    .sort((a, b) => b.datePublished.localeCompare(a.datePublished) || a.url.localeCompare(b.url));
+
+  const blogHtml = fs.readFileSync(path.join(ROOT, 'blog', 'index.html'), 'utf8');
+  const channelDesc = decodeEntities(blogHtml.match(/<meta name="description" content="([^"]*)"/)[1]);
+
+  const items = posts
+    .map((a) => {
+      const pubDate = new Date(`${a.datePublished}T00:00:00Z`).toUTCString();
+      return [
+        '    <item>',
+        `      <title>${escapeXml(decodeEntities(a.headline))}</title>`,
+        `      <link>${escapeXml(a.url)}</link>`,
+        `      <guid isPermaLink="true">${escapeXml(a.url)}</guid>`,
+        `      <description>${escapeXml(decodeEntities(a.description))}</description>`,
+        `      <pubDate>${pubDate}</pubDate>`,
+        '    </item>',
+      ].join('\n');
+    })
+    .join('\n');
+
+  const xml = [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+    '  <channel>',
+    '    <title>My English Spot - Blog</title>',
+    `    <link>${SITE_ORIGIN}/blog</link>`,
+    `    <atom:link href="${SITE_ORIGIN}/feed.xml" rel="self" type="application/rss+xml" />`,
+    `    <description>${escapeXml(channelDesc)}</description>`,
+    '    <language>es-ES</language>',
+    items,
+    '  </channel>',
+    '</rss>',
+    '',
+  ].join('\n');
+
+  const feedPath = path.join(ROOT, 'feed.xml');
+  const original = fs.existsSync(feedPath) ? fs.readFileSync(feedPath, 'utf8') : null;
+  if (original !== xml) {
+    fs.writeFileSync(feedPath, xml, 'utf8');
+    return { total: posts.length, changed: 1 };
+  }
+  return { total: posts.length, changed: 0 };
+}
+
 function main() {
   const config = loadPagesConfig();
   const examItems = config.exam_dropdown_items;
@@ -247,10 +384,16 @@ function main() {
 
   const mdResult = buildAllMarkdown(config);
   console.log(`build.js: ${mdResult.total} páginas .md procesadas, ${mdResult.changed} modificadas.`);
+
+  const sitemapResult = buildSitemapLastmod();
+  console.log(`build.js: sitemap.xml ${sitemapResult.total} URLs, ${sitemapResult.changed} lastmod actualizados.`);
+
+  const feedResult = buildFeed();
+  console.log(`build.js: feed.xml ${feedResult.total} posts, ${feedResult.changed ? 'actualizado' : 'sin cambios'}.`);
 }
 
 if (require.main === module) {
   main();
 }
 
-module.exports = { htmlToMarkdown, resolveAbsoluteUrl };
+module.exports = { htmlToMarkdown, resolveAbsoluteUrl, locToFile, fileToLoc, readSitemapLocs };

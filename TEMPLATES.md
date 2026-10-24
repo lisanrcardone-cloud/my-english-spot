@@ -25,7 +25,7 @@ Auditado el 24-ago-2026: las 9 páginas de servicio existentes están bien aline
    { "source": "/slug-nuevo", "destination": "/slug-nuevo.html" }
    ```
 6. **Sumá la página al sistema de partials** en `config/pages.json` (`nav_type: "service"`, `has_dropdown`, `exclude_exam`, `footer_type: "common"`, `cta_text`/`cta_href`/`cta_event`) y corré `node scripts/build.js` — así el footer (y el dropdown de exámenes, si esta página lo lleva) quedan sincronizados automáticamente con el resto del sitio en vez de copiados a mano. Ver la nota dentro del template junto al `nav__menu` sobre cuándo agregar los marcadores `BUILD:NAV`.
-7. Actualizá `sitemap.xml` con la URL nueva y `<lastmod>`.
+7. Añadí la `<url>` nueva a `sitemap.xml` (con `<loc>` en URL limpia, sin `.html`). El `<lastmod>` lo pone `node scripts/build.js` automáticamente.
 8. Actualizá `llms.txt` si aplica.
 9. Enlazá la página desde el nav de las páginas de servicio relacionadas (y desde `index.html` si corresponde) — nunca dejar una página nueva sin enlaces entrantes.
 10. Cambiá `<meta name="robots">` de `noindex, nofollow` (valor del template) a `index, follow` — es el último paso antes de publicar, para no dejar la página nueva invisible para Google por accidente.
@@ -42,7 +42,7 @@ Auditado el 24-ago-2026: las 9 páginas de servicio existentes están bien aline
 3. Seguí el **checklist de publicación** (evita desincronizar hub/schema/sitemap — regla ya establecida en este proyecto):
    1. Archivo del artículo (`blog/nombre-del-articulo.html`)
    2. Tarjeta en `blog/index.html` (grid) **y** entrada nueva en el array `blogPost` del schema `Blog`/`ItemList` del mismo archivo
-   3. `sitemap.xml`
+   3. `sitemap.xml` (solo añadir la `<url>`; el `<lastmod>` lo pone `node scripts/build.js`)
    4. Enlace interno desde la página de servicio relacionada
 4. Agregá el rewrite (y el redirect `.html`→URL limpia correspondiente) en `vercel.json`: `{ "source": "/blog/slug-nuevo", "destination": "/blog/slug-nuevo.html" }`
 5. **Sumá el post al sistema de partials** en `config/pages.json` (`nav_type: "blog"`, `has_dropdown`, `footer_type: "common"`, `cta_*`) y corré `node scripts/build.js` para que el footer (y el dropdown, si aplica) queden sincronizados automáticamente.
