@@ -39,4 +39,4 @@ jobs:
       - name: Idempotencia del build (nav/footer sincronizados + .md)
         run: |
           node scripts/build.js
-          git diff --exit-code -- '*.html' '*.md'
+          git diff --exit-code -- '*.html' '*.md' feed.xml
