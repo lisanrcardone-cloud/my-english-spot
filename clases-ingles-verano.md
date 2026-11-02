@@ -102,7 +102,7 @@ Feedback real y detallado en cada clase: qué dices bien, qué mejorar y cómo. 
 
 Seguimiento semanal de progreso
 
-Revisamos juntas al final de cada semana qué has avanzado y ajustamos el plan si hace falta. El verano es corto: cada semana cuenta.
+Revisamos juntos al final de cada semana qué has avanzado y ajustamos el plan si hace falta. El verano es corto: cada semana cuenta.
 
 El método
 
@@ -182,7 +182,7 @@ Preguntas frecuentes
 
 ¿Cuántas clases a la semana son las clases intensivas de verano?
 
-Puedes elegir entre el formato semintensivo (2-3 clases por semana) o el intensivo completo (4-5 clases por semana). Lo decidimos juntas en la clase de diagnóstico según tu objetivo y disponibilidad. Cuantas más clases, más rápido avanzas.
+Puedes elegir entre el formato semintensivo (2-3 clases por semana) o el intensivo completo (4-5 clases por semana). Lo decidimos juntos en la clase de diagnóstico según tu objetivo y disponibilidad. Cuantas más clases, más rápido avanzas.
 
 ¿Las clases son individuales o en grupo?
 

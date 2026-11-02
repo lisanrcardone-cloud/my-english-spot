@@ -203,7 +203,7 @@ Preguntas frecuentes
 
 ¿Cómo sé cuál es mi nivel de inglés?
 
-En tu primera clase gratuita, el equipo hace una valoración rápida a través de una conversación. En esa primera clase ya tienes una idea clara de en qué punto estás (A1, A2, B1, B2 o C1) y qué camino seguir.
+En tu primera clase gratuita, el equipo hace una valoración rápida a través de una conversación. Al terminarla ya tienes una idea clara de en qué punto estás (A1, A2, B1, B2 o C1) y qué camino seguir.
 
 ¿Puedo preparar el FCE o el CAE desde casa con clases online?
 
