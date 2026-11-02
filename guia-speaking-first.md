@@ -32,6 +32,6 @@ Algo ha fallado. Escríbenos a [info@myenglishspotclasses.com](mailto:info@myeng
 
 ## ¿Quieres practicarlo con un profesor?
 
-Empieza con un simulacro gratis de 40 minutos: sabrás tu nivel en cada parte del examen y qué trabajar.
+Empieza con un simulacro gratis: sabrás tu nivel en cada parte del examen y qué trabajar.
 
 [Reservar mi simulacro gratis](https://calendar.app.google/sRYu3JKfnedx8V3v8)

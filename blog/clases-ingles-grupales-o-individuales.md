@@ -26,7 +26,7 @@ En la clase individual, el ritmo lo pones tú. Si una semana te cuesta el subjun
 
 Hablar delante de otras 4 personas da vergüenza al principio. Pero es justo esa vergüenza la que te obliga a improvisar, corregirte sobre la marcha y acostumbrarte a acentos distintos al tuyo, algo que en una clase 1 a 1 casi no ocurre porque solo hablas con el profesor. Si te bloqueas fácil delante de gente o necesitas un espacio sin ningún tipo de exposición, la individual te va a resultar más cómoda desde el primer día.
 
-¿Todavía no tienes claro cuál de los dos formatos encaja contigo? En la clase de prueba gratuita de 40 minutos evaluamos tu nivel y tu objetivo, y te decimos con cuál empezar.
+¿Todavía no tienes claro cuál de los dos formatos encaja contigo? En la clase de prueba gratuita evaluamos tu nivel y tu objetivo, y te decimos con cuál empezar.
 
 [Ver clases grupales](https://www.myenglishspotclasses.com/clases-ingles-grupales-online)
 

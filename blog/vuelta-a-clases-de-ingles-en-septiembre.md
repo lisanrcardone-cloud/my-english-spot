@@ -22,7 +22,7 @@ Después de semanas con menos contacto con el idioma es normal sentir que cuesta
 
 Es habitual volver a apuntarse a un curso "del nivel de siempre" sin comprobar si sigue siendo el adecuado. El resultado más frecuente es frustración: un grupo que va demasiado rápido si has perdido soltura, o que se queda corto si en realidad ya estabas más avanzado de lo que recordabas. La forma de evitarlo es simple: una evaluación real antes de empezar, no una suposición basada en el curso del año pasado.
 
-En la clase de prueba gratuita de 40 minutos evaluamos tu nivel real (de A2 a C1) y tu disponibilidad, y te ubicamos en el grupo que mejor encaje contigo antes de que empiece el curso.
+En la clase de prueba gratuita evaluamos tu nivel real (de A2 a C1) y tu disponibilidad, y te ubicamos en el grupo que mejor encaje contigo antes de que empiece el curso.
 
 [Ver grupos reducidos](https://www.myenglishspotclasses.com/clases-ingles-grupales-online)
 

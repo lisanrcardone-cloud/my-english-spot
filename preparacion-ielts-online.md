@@ -7,7 +7,7 @@ IELTS Academic · General Training · 100% online
 # Preparación IELTS online
 con profesores especializados
 
-Clases 1 a 1 para llegar a tu banda objetivo: simulacros cronometrados de Listening, Reading y Writing, entrevistas de Speaking reales y feedback por criterio oficial. Empieza con una clase de prueba gratuita de 40 minutos, sin compromiso.
+Clases 1 a 1 para llegar a tu banda objetivo: simulacros cronometrados de Listening, Reading y Writing, entrevistas de Speaking reales y feedback por criterio oficial. Empieza con una clase de prueba gratuita, sin compromiso.
 
 [Reserva tu clase de prueba](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)
@@ -30,7 +30,7 @@ Si aún no tienes claro si necesitas IELTS o Cambridge (FCE/CAE), también puede
 
 ¿Quieres saber más antes de reservar? Lee [cuánto se tarda en preparar el IELTS según tu banda objetivo](https://www.myenglishspotclasses.com/blog/cuanto-se-tarda-en-preparar-ielts) en nuestro blog.
 
-Clases 1 a 1 por videollamada 100% adaptadas a tu banda objetivo y fecha de examen. Simulacros cronometrados Listening, Reading y Writing en condiciones reales de tiempo. Speaking en formato entrevista Las 3 partes del examen oral, con feedback inmediato. Corrección de Writing por criterio Task Achievement, Coherencia, Léxico y Gramática, con banda estimada. Clase de prueba gratuita 40 minutos para evaluar tu nivel real y diseñar tu plan por semanas. Para quién es ## Preparación IELTS: para quién es Cualquier persona con una fecha de examen concreta y una banda objetivo que cumplir.
+Clases 1 a 1 por videollamada 100% adaptadas a tu banda objetivo y fecha de examen. Simulacros cronometrados Listening, Reading y Writing en condiciones reales de tiempo. Speaking en formato entrevista Las 3 partes del examen oral, con feedback inmediato. Corrección de Writing por criterio Task Achievement, Coherencia, Léxico y Gramática, con banda estimada. Clase de prueba gratuita Para evaluar tu nivel real y diseñar tu plan por semanas. Para quién es ## Preparación IELTS: para quién es Cualquier persona con una fecha de examen concreta y una banda objetivo que cumplir.
 
 ### Vas a estudiar en el extranjero Necesitas una banda mínima (normalmente 6.0–7.0) para tu admisión universitaria y quieres llegar con margen, no justo.
 
@@ -92,7 +92,7 @@ Feedback con los criterios oficiales de banda, no solo "está bien" o "está mal
 
 Clase de prueba gratuita
 
-40 minutos sin compromiso para conocer el método y salir con un plan concreto, lo lleves adelante con nosotros o no.
+Sin compromiso para conocer el método y salir con un plan concreto, lo lleves adelante con nosotros o no.
 
 El método
 
@@ -160,7 +160,7 @@ Cómo funciona
 
 ## Tres pasos para empezar tu preparación IELTS
 
-- 1 ### Reserva tu clase de prueba gratuita 40 minutos para evaluar tu nivel real frente a la banda que necesitas.
+- 1 ### Reserva tu clase de prueba gratuita Evaluamos tu nivel real frente a la banda que necesitas.
 
 - 2 ### Recibe tu plan por semanas Calendario concreto hasta tu fecha de examen, con foco en tus puntos débiles.
 
@@ -196,7 +196,7 @@ No. Se puede empezar a preparar desde un B1 sólido si tienes tiempo suficiente 
 
 ## ¿Listo para llegar a tu banda objetivo del IELTS?
 
-Reserva tu clase de prueba gratuita de 40 minutos. Sin tarjeta, sin compromiso.
+Reserva tu clase de prueba gratuita. Sin tarjeta, sin compromiso.
 
 [Reserva tu clase de prueba gratis](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)

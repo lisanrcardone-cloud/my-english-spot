@@ -7,7 +7,7 @@ Profesores en Vigo · 100% online · A1–C1
 # Clases de inglés en Vigo
 100% online, sin salir de casa
 
-My English Spot es una academia de inglés online con base en Vigo. Clases particulares 1 a 1 y grupos reducidos (máx. 5 personas) por videollamada, para todos los niveles: desde A1 hasta C1, Cambridge FCE y CAE, IELTS e inglés para el trabajo. La primera clase de 40 minutos es gratis.
+My English Spot es una academia de inglés online con base en Vigo. Clases particulares 1 a 1 y grupos reducidos (máx. 5 personas) por videollamada, para todos los niveles: desde A1 hasta C1, Cambridge FCE y CAE, IELTS e inglés para el trabajo. La primera clase es gratis.
 
 [Reserva tu clase gratis](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)
@@ -30,7 +30,7 @@ El formato es flexible: clases individuales 1 a 1 completamente personalizadas, 
 
 Si buscas más opciones, consulta también nuestras [clases particulares de inglés online](https://www.myenglishspotclasses.com/clases-particulares-ingles-online) disponibles para todo el territorio nacional, o nuestra [preparación específica del First Certificate](https://www.myenglishspotclasses.com/preparacion-first-cambridge).
 
-Online, sin desplazarte Clases en directo por videollamada desde cualquier lugar, con la misma calidad que presencial. Plan personalizado desde el día 1 Empezamos con un diagnóstico de nivel y diseñamos el plan según tu objetivo concreto. Horarios adaptados a ti Mañanas, tardes o fines de semana: nos ajustamos a tu agenda, no al revés. Profesores que conocen Vigo Clases 100% online, con profesores que conocen tu ciudad y se adaptan a tu horario. Primera clase siempre gratis 40 minutos de diagnóstico sin tarjeta, sin compromiso, sin letra pequeña. Para quién es ## Clases de inglés en Vigo: ¿para quién son? Para personas de Vigo y de toda Galicia que quieren avanzar en inglés de verdad, sin salir de casa.
+Online, sin desplazarte Clases en directo por videollamada desde cualquier lugar, con la misma calidad que presencial. Plan personalizado desde el día 1 Empezamos con un diagnóstico de nivel y diseñamos el plan según tu objetivo concreto. Horarios adaptados a ti Mañanas, tardes o fines de semana: nos ajustamos a tu agenda, no al revés. Profesores que conocen Vigo Clases 100% online, con profesores que conocen tu ciudad y se adaptan a tu horario. Primera clase siempre gratis Diagnóstico sin tarjeta, sin compromiso, sin letra pequeña. Para quién es ## Clases de inglés en Vigo: ¿para quién son? Para personas de Vigo y de toda Galicia que quieren avanzar en inglés de verdad, sin salir de casa.
 
 ### Profesionales de Vigo Personas de Vigo y alrededores que necesitan inglés para el trabajo: reuniones, emails o clientes internacionales. Las clases se adaptan a lo que tú necesites usar en tu día a día.
 
@@ -62,7 +62,7 @@ Un programa completo, desde el diagnóstico hasta que consigas tu objetivo.
 
 Clase de diagnóstico gratuita
 
-40 minutos para evaluar tu nivel real, entender qué quieres conseguir y diseñar el plan más adecuado. Sin tarjeta, sin compromiso.
+Evaluamos tu nivel real, entendemos qué quieres conseguir y diseñar el plan más adecuado. Sin tarjeta, sin compromiso.
 
 2
 
@@ -160,7 +160,7 @@ Cómo funciona
 
 ## Tres pasos para empezar con tus clases de inglés en Vigo
 
-- 1 ### Reserva tu clase de prueba gratis 40 minutos por videollamada: hablamos, evaluamos tu nivel real y entendemos qué quieres conseguir. Sin tarjeta, sin compromiso, sin rollos.
+- 1 ### Reserva tu clase de prueba gratis Por videollamada: hablamos, evaluamos tu nivel real y entendemos qué quieres conseguir. Sin tarjeta, sin compromiso, sin rollos.
 
 - 2 ### Diseñamos tu plan personalizado Preparamos un plan según tu nivel, tu objetivo (examen, trabajo o conversación) y tu disponibilidad. Clases 1 a 1 o en grupo, tú eliges.
 
@@ -184,7 +184,7 @@ Sí. Además del Cambridge B2 First (FCE) y el C1 Advanced (CAE), Rocío prepara
 
 ¿Qué nivel de inglés necesito para empezar las clases?
 
-No hay nivel mínimo. Trabajamos desde A2 (principiante-intermedio) hasta C1 avanzado. En la primera clase gratuita de 40 minutos hacemos una evaluación rápida para identificar exactamente en qué punto estás y qué pasos necesitas para llegar a tu objetivo, ya sea hablar con soltura, subir de nivel o aprobar un examen oficial.
+No hay nivel mínimo. Trabajamos desde A2 (principiante-intermedio) hasta C1 avanzado. En la primera clase gratuita hacemos una evaluación rápida para identificar exactamente en qué punto estás y qué pasos necesitas para llegar a tu objetivo, ya sea hablar con soltura, subir de nivel o aprobar un examen oficial.
 
 ¿Preparáis exámenes de la EOI (Escola Oficial de Idiomas)?
 
@@ -198,7 +198,7 @@ Sí, es la situación más habitual. La mayoría de nuestros alumnos son persona
 
 ## ¿Empezamos con tu inglés en Vigo?
 
-La clase de diagnóstico es gratis y dura 40 minutos. Sin tarjeta, sin compromiso, sin rollos.
+La clase de diagnóstico es gratis. Sin tarjeta, sin compromiso, sin rollos.
 
 [Reserva tu clase gratis](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)

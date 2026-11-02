@@ -75,7 +75,7 @@ Matices, debate, escritura avanzada y preparación para Cambridge Advanced (CAE)
 Avanzado
 CAE · C1 Advanced
 
-¿No sabes exactamente en qué nivel estás? [Reserva la clase de prueba gratis](https://calendar.app.google/sRYu3JKfnedx8V3v8) y nuestro equipo lo evalúa contigo en 40 minutos.
+¿No sabes exactamente en qué nivel estás? [Reserva la clase de prueba gratis](https://calendar.app.google/sRYu3JKfnedx8V3v8) y nuestro equipo lo evalúa contigo.
 
 Para quién es
 
@@ -191,7 +191,7 @@ Cómo funciona
 
 ## Tres pasos para empezar con tus clases de inglés online
 
-- 1 ### Reserva tu clase de prueba gratis 40 minutos con nuestros profesores para hablar, evaluar tu nivel y entender qué quieres conseguir. Sin tarjeta, sin compromiso, sin rollos.
+- 1 ### Reserva tu clase de prueba gratis Con nuestros profesores para hablar, evaluar tu nivel y entender qué quieres conseguir. Sin tarjeta, sin compromiso, sin rollos.
 
 - 2 ### Diseñamos tu plan personalizado El equipo prepara un plan según tu nivel, tu objetivo (examen, trabajo, conversación) y tu disponibilidad. Clases 1 a 1 o en grupo, tú eliges.
 
@@ -203,7 +203,7 @@ Preguntas frecuentes
 
 ¿Cómo sé cuál es mi nivel de inglés?
 
-En tu primera clase gratuita, el equipo hace una valoración rápida a través de una conversación. En 40 minutos ya tienes una idea clara de en qué punto estás (A1, A2, B1, B2 o C1) y qué camino seguir.
+En tu primera clase gratuita, el equipo hace una valoración rápida a través de una conversación. En esa primera clase ya tienes una idea clara de en qué punto estás (A1, A2, B1, B2 o C1) y qué camino seguir.
 
 ¿Puedo preparar el FCE o el CAE desde casa con clases online?
 
@@ -229,7 +229,7 @@ Para ambos. Nuestros profesores trabajan con adolescentes, adultos en general y 
 
 ## ¿Listo para saber qué nivel tienes y empezar de verdad?
 
-Reserva tu clase de prueba gratis de 40 minutos. Sin tarjeta, sin compromiso, sin rollos.
+Reserva tu clase de prueba gratis. Sin tarjeta, sin compromiso, sin rollos.
 
 [Reserva tu clase gratis](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)

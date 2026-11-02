@@ -7,7 +7,7 @@ CAE · C1 Advanced · 100% online
 # Preparación CAE online
 con profesores especializados
 
-Clases 1 a 1 para llegar preparado a tu examen Cambridge CAE (C1 Advanced): simulacros cronometrados de Reading and Use of English, Listening y Writing, entrevistas de Speaking reales y feedback por criterio oficial. Empieza con una clase de prueba gratuita de 40 minutos, sin compromiso.
+Clases 1 a 1 para llegar preparado a tu examen Cambridge CAE (C1 Advanced): simulacros cronometrados de Reading and Use of English, Listening y Writing, entrevistas de Speaking reales y feedback por criterio oficial. Empieza con una clase de prueba gratuita, sin compromiso.
 
 [Reserva tu clase de prueba](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)
@@ -30,7 +30,7 @@ Si aún no tienes el B2 consolidado, te recomendamos empezar por nuestra [prepar
 
 ¿Quieres saber más antes de reservar? Lee [cómo preparar el CAE (C1 Advanced) desde cero](https://www.myenglishspotclasses.com/blog/como-preparar-el-cae-c1-advanced), [cuánto se tarda en preparar el CAE](https://www.myenglishspotclasses.com/blog/cuanto-se-tarda-en-preparar-cae) o, si vienes de aprobar el FCE, [cuánto se tarda en dar el salto del B2 First al C1 Advanced](https://www.myenglishspotclasses.com/blog/de-b2-first-a-c1-advanced-cuanto-se-tarda) en nuestro blog.
 
-Clases 1 a 1 por videollamada 100% adaptadas a tu nivel de partida y fecha de examen. Simulacros cronometrados Reading and Use of English, Listening y Writing en condiciones reales de tiempo. Speaking en formato entrevista Las 4 partes del examen oral, con feedback inmediato. Corrección de Writing por criterio Contenido, Comunicación, Organización y Lenguaje, con nota estimada. Clase de prueba gratuita 40 minutos para evaluar tu nivel real y diseñar tu plan por semanas. Para quién es ## Preparación CAE: para quién es Cualquier persona que quiera certificar nivel C1 de forma permanente, con Cambridge.
+Clases 1 a 1 por videollamada 100% adaptadas a tu nivel de partida y fecha de examen. Simulacros cronometrados Reading and Use of English, Listening y Writing en condiciones reales de tiempo. Speaking en formato entrevista Las 4 partes del examen oral, con feedback inmediato. Corrección de Writing por criterio Contenido, Comunicación, Organización y Lenguaje, con nota estimada. Clase de prueba gratuita Para evaluar tu nivel real y diseñar tu plan por semanas. Para quién es ## Preparación CAE: para quién es Cualquier persona que quiera certificar nivel C1 de forma permanente, con Cambridge.
 
 ### Ya aprobaste el B2/FCE y quieres subir a C1 Tienes el First Certificate o un B2 consolidado y quieres dar el siguiente paso natural hacia el C1 Advanced.
 
@@ -92,7 +92,7 @@ Feedback con los criterios oficiales de Cambridge, no solo "está bien" o "está
 
 Clase de prueba gratuita
 
-40 minutos sin compromiso para conocer el método y salir con un plan concreto, lo lleves adelante con nosotros o no.
+Sin compromiso para conocer el método y salir con un plan concreto, lo lleves adelante con nosotros o no.
 
 El método
 
@@ -160,7 +160,7 @@ Cómo funciona
 
 ## Tres pasos para empezar tu preparación CAE
 
-- 1 ### Reserva tu clase de prueba gratuita 40 minutos para evaluar tu nivel real frente a las exigencias del C1.
+- 1 ### Reserva tu clase de prueba gratuita Evaluamos tu nivel real frente a las exigencias del C1.
 
 - 2 ### Recibe tu plan por semanas Calendario concreto hasta tu fecha de examen, con foco en tus puntos débiles.
 
@@ -196,7 +196,7 @@ Depende de tu nivel de partida. Como referencia, con un B2 consolidado y 2 clase
 
 ## ¿Listo para certificar tu nivel C1 con el CAE?
 
-Reserva tu clase de prueba gratuita de 40 minutos. Sin tarjeta, sin compromiso.
+Reserva tu clase de prueba gratuita. Sin tarjeta, sin compromiso.
 
 [Reserva tu clase gratis](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)

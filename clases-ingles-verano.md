@@ -30,7 +30,7 @@ El formato puede ser individual (1 a 1, completamente personalizado) o en grupo 
 
 Si buscas clases sin la presión del intensivo, también tenemos [clases particulares de inglés online](https://www.myenglishspotclasses.com/clases-particulares-ingles-online) a ritmo regular durante todo el año.
 
-Videollamada, sin desplazarte Clases en directo desde donde estés, con la misma calidad que presencial. Plan personalizado de verano Diseñado en la clase de diagnóstico según tu nivel, objetivo y semanas disponibles. Horarios de verano flexibles Mañanas, tardes, fines de semana: nos adaptamos a tu ritmo de julio y agosto. Individual o grupo reducido Máximo 5 personas en grupo: suficiente práctica real sin perder atención individual. Primera clase siempre gratis 40 minutos de diagnóstico sin tarjeta, sin compromiso, sin letra pequeña. Para quién es ## Clases intensivas de inglés en verano: ¿para quién son? Para quien quiere aprovechar el verano de verdad, no perderlo.
+Videollamada, sin desplazarte Clases en directo desde donde estés, con la misma calidad que presencial. Plan personalizado de verano Diseñado en la clase de diagnóstico según tu nivel, objetivo y semanas disponibles. Horarios de verano flexibles Mañanas, tardes, fines de semana: nos adaptamos a tu ritmo de julio y agosto. Individual o grupo reducido Máximo 5 personas en grupo: suficiente práctica real sin perder atención individual. Primera clase siempre gratis Diagnóstico sin tarjeta, sin compromiso, sin letra pequeña. Para quién es ## Clases intensivas de inglés en verano: ¿para quién son? Para quien quiere aprovechar el verano de verdad, no perderlo.
 
 ### Quieres hablar con fluidez antes de septiembre Llevas tiempo queriendo mejorar tu conversación pero nunca encuentras el momento. El verano es ese momento: con 3–4 clases semanales en julio y agosto, el cambio es visible.
 
@@ -72,7 +72,7 @@ Un programa completo, desde el diagnóstico hasta el día que termina el verano.
 
 Clase de diagnóstico gratuita
 
-40 minutos para evaluar tu nivel real, entender tu objetivo y diseñar el plan intensivo más adecuado. Sin tarjeta, sin compromiso.
+Evaluamos tu nivel real, entendemos tu objetivo y diseñar el plan intensivo más adecuado. Sin tarjeta, sin compromiso.
 
 2
 
@@ -170,7 +170,7 @@ Cómo funciona
 
 ## Tres pasos para empezar tu intensivo de inglés de verano
 
-- 1 ### Reserva tu clase de prueba gratis 40 minutos por videollamada: hablamos, evaluamos tu nivel real y decidimos juntas si vas mejor con el formato individual o el grupo reducido.
+- 1 ### Reserva tu clase de prueba gratis Por videollamada: hablamos, evaluamos tu nivel real y decidimos juntos si vas mejor con el formato individual o el grupo reducido.
 
 - 2 ### Diseñamos tu plan intensivo En función de tu objetivo, tu nivel y las semanas disponibles, preparo un plan semana a semana con el ritmo y los materiales que necesitas para ese verano.
 
@@ -239,7 +239,7 @@ Algo ha fallado. Escríbenos a [info@myenglishspotclasses.com](mailto:info@myeng
 
 ## ¿Empezamos este verano?
 
-La clase de diagnóstico es gratis y dura 40 minutos. Sin tarjeta, sin compromiso. El verano empieza a contar ahora.
+La clase de diagnóstico es gratis. Sin tarjeta, sin compromiso. El verano empieza a contar ahora.
 
 [Reserva tu clase gratis de verano](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)

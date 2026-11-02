@@ -38,7 +38,7 @@ Cuando el usuario envía un mensaje a [info@myenglishspotclasses.com](mailto:inf
 
 ### 3.2 Reserva de clase a través de Google Calendar
 
-El sitio web incluye un enlace externo a Google Calendar ( calendar.app.google ) para que el usuario pueda reservar la clase de prueba gratuita de 40 minutos. Al hacer clic en dicho enlace, el usuario es redirigido a un servicio externo propiedad de Google LLC, quedando sujeto a la [Política de Privacidad de Google](https://policies.google.com/privacy). Los datos facilitados durante la reserva (nombre, dirección de correo electrónico y cualquier información adicional) son tratados por Google LLC como encargado del tratamiento, bajo el acuerdo de procesamiento de datos suscrito con la titular.
+El sitio web incluye un enlace externo a Google Calendar ( calendar.app.google ) para que el usuario pueda reservar la clase de prueba gratuita. Al hacer clic en dicho enlace, el usuario es redirigido a un servicio externo propiedad de Google LLC, quedando sujeto a la [Política de Privacidad de Google](https://policies.google.com/privacy). Los datos facilitados durante la reserva (nombre, dirección de correo electrónico y cualquier información adicional) son tratados por Google LLC como encargado del tratamiento, bajo el acuerdo de procesamiento de datos suscrito con la titular.
 
 La titular únicamente accede a los datos de la reserva para gestionar la clase acordada.
 
