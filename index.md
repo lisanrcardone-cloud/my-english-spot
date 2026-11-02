@@ -20,6 +20,8 @@ Sin tarjeta · Sin compromiso
 
 Clase 1-a-1 · My English Spot 42:17 R En directo Rocío Profesora A Tú · Ana Hablando ahora "What would you do if you had a whole free day?" Recreación ilustrativa de una clase 1-a-1 Para quién ## Aprende inglés onlinedesde cero hasta el C1,a cualquier edad Si quieres aprender, este es tu spot. Adaptamos cada clase a tu nivel, tu objetivo y tu ritmo.
 
+¿Vives en Vigo o alrededores? Mira cómo son nuestras [clases de inglés en Vigo](https://www.myenglishspotclasses.com/clases-ingles-vigo) .
+
 A1
 
 ### Empiezo de cero

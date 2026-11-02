@@ -28,7 +28,7 @@ Sin local físico · 100% videollamada ## ¿Qué son las clases particulares de 
 
 La clase se prepara cada semana en función de tu nivel, tu progreso y tus objetivos. Si necesitas inglés para reuniones de trabajo, para superar un examen IELTS, Cambridge (PET, FCE, CAE) o Aptis o simplemente para perder el miedo a hablar, el contenido se diseña para eso.
 
-Puedes conectarte desde cualquier lugar de España, o del mundo. Solo necesitas un dispositivo con cámara y conexión a internet.
+Puedes conectarte desde cualquier lugar de España, o del mundo. Solo necesitas un dispositivo con cámara y conexión a internet. ¿Vives en Vigo o alrededores? Mira cómo son nuestras [clases de inglés en Vigo](https://www.myenglishspotclasses.com/clases-ingles-vigo).
 
 Clase en directo por videollamada En tiempo real con tus profesores. Sin cursos pregrabados. Contenido personalizado cada semana El material se adapta a tu nivel y tus objetivos reales. Horarios que encajan con tu vida Mañanas o tardes, sin desplazamientos. Feedback claro y honesto en cada clase Sabrás en todo momento qué mejorar y cómo. Primera clase de prueba gratis Sin compromiso, con test de nivel incluido. Para quién son ## Clases particulares de inglés online para cada objetivo Desde nivel cero hasta C1. Para adultos, jóvenes y profesionales. Si quieres aprender inglés, aquí tienes tu sitio.
 

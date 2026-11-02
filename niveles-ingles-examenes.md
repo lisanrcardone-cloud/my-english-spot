@@ -28,7 +28,7 @@ Los niveles
 
 ## Encuentra tu nivel de inglés online: A1 a C1
 
-Cada nivel tiene su propio punto de partida y sus propios objetivos. Aquí puedes ver en qué consiste cada uno.
+Cada nivel tiene su propio punto de partida y sus propios objetivos. Aquí puedes ver en qué consiste cada uno. ¿Vives en Vigo o alrededores? Mira cómo son nuestras [clases de inglés en Vigo](https://www.myenglishspotclasses.com/clases-ingles-vigo).
 
 A1
 
