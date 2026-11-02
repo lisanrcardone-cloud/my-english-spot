@@ -20,7 +20,7 @@ El horario de atención y de clases es el siguiente:
 
 ## 3. Ubicación
 
-My English Spot tiene su sede en Avenida Florida 39, 36210 Vigo (Pontevedra), España. Todas las clases se imparten online por videollamada, por lo que puedes tomar clase desde cualquier punto de España sin necesidad de desplazarte.
+My English Spot tiene su sede en Avenida Florida 39, 36210 Vigo (Pontevedra), España. Todas las clases se imparten online por videollamada, por lo que puedes tomar clase desde cualquier punto de España sin necesidad de desplazarte. Si eres de Vigo, aquí tienes nuestras [clases de inglés en Vigo](https://www.myenglishspotclasses.com/clases-ingles-vigo).
 
 ## 4. Reservar una clase
 
