@@ -7,7 +7,7 @@ Aptis · British Council · 100% online
 # Preparación Aptis online
 con profesores especializados
 
-Clases 1 a 1 o en grupos reducidos para llegar preparado a tu examen Aptis del British Council: práctica de Grammar & Vocabulary, Reading, Writing, Listening y Speaking. Empieza con una clase de prueba gratuita de 40 minutos, sin compromiso.
+Clases 1 a 1 o en grupos reducidos para llegar preparado a tu examen Aptis del British Council: práctica de Grammar & Vocabulary, Reading, Writing, Listening y Speaking. Empieza con una clase de prueba gratuita, sin compromiso.
 
 [Reserva tu clase diagnóstica](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)
@@ -28,7 +28,7 @@ El Aptis se puntúa en una escala continua de 0 a 200 puntos alineada al Marco C
 
 Si tu objetivo es una certificación C1 permanente de Cambridge, mira nuestra [preparación CAE](https://www.myenglishspotclasses.com/preparacion-cae-online). Y si necesitas un certificado de validez internacional por bandas, también puedes ver nuestra [preparación IELTS](https://www.myenglishspotclasses.com/preparacion-ielts-online): en la clase de prueba te ayudamos a decidir cuál encaja con el trámite u organismo que te lo pide.
 
-Clases 1 a 1 por videollamada 100% adaptadas a tu nivel de partida y a la banda CEFR que necesitas. Práctica de los 5 componentes Grammar & Vocabulary, Reading, Writing, Listening y Speaking, en formato por ordenador. Speaking grabado, con feedback Práctica de Speaking en videollamada 1 a 1, con feedback detallado por componente. Corrección de Writing por criterio Feedback claro para ganar puntos en la escala 0-200, no solo "está bien" o "está mal". Clase de prueba gratuita 40 minutos para evaluar tu nivel real y diseñar tu plan por semanas. Para quién es ## Preparación Aptis: para quién es Cualquier persona a la que un organismo, empresa o administración le pida específicamente el certificado Aptis del British Council.
+Clases 1 a 1 por videollamada 100% adaptadas a tu nivel de partida y a la banda CEFR que necesitas. Práctica de los 5 componentes Grammar & Vocabulary, Reading, Writing, Listening y Speaking, en formato por ordenador. Speaking grabado, con feedback Práctica de Speaking en videollamada 1 a 1, con feedback detallado por componente. Corrección de Writing por criterio Feedback claro para ganar puntos en la escala 0-200, no solo "está bien" o "está mal". Clase de prueba gratuita Para evaluar tu nivel real y diseñar tu plan por semanas. Para quién es ## Preparación Aptis: para quién es Cualquier persona a la que un organismo, empresa o administración le pida específicamente el certificado Aptis del British Council.
 
 ### Necesitas un trámite con nivel CEFR acreditado Un proceso de homologación, extranjería o administración pública te pide un certificado de inglés en escala CEFR, y el Aptis es una de las opciones aceptadas.
 
@@ -90,7 +90,7 @@ Feedback claro por criterio, pensado para la escala continua 0-200 del Aptis.
 
 Clase de prueba gratuita
 
-40 minutos sin compromiso para conocer el método y salir con un plan concreto, lo lleves adelante con nosotros o no.
+Sin compromiso para conocer el método y salir con un plan concreto, lo lleves adelante con nosotros o no.
 
 El método
 
@@ -158,7 +158,7 @@ Cómo funciona
 
 ## Tres pasos para empezar tu preparación Aptis
 
-- 1 ### Reserva tu clase diagnóstica gratuita 40 minutos para evaluar tu nivel real y la banda CEFR que necesitas.
+- 1 ### Reserva tu clase diagnóstica gratuita Evaluamos tu nivel real y la banda CEFR que necesitas.
 
 - 2 ### Recibe tu plan por semanas Calendario concreto hasta tu fecha de examen, con foco en tus puntos débiles.
 
@@ -194,7 +194,7 @@ Depende de tu nivel de partida y de la banda CEFR que necesites acreditar. Como 
 
 ## ¿Listo para acreditar tu nivel con el Aptis?
 
-Reserva tu clase diagnóstica gratuita de 40 minutos. Sin tarjeta, sin compromiso.
+Reserva tu clase diagnóstica gratuita. Sin tarjeta, sin compromiso.
 
 [Reserva tu clase gratis](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)

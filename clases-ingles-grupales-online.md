@@ -7,7 +7,7 @@ Grupos de máx. 5 - 100% online
 # Clases de inglés online en grupo
 Aprende hablando de verdad, interactuando con otras personas
 
-Clases en directo por videollamada, en grupos reducidos de máximo 5 personas del mismo nivel. Practicas conversación real, con la misma exigencia y seguimiento que en una clase individual. Abrimos grupos nuevos según nivel y horario, con plazas limitadas. Empieza con una clase de prueba gratuita de 40 minutos, sin compromiso.
+Clases en directo por videollamada, en grupos reducidos de máximo 5 personas del mismo nivel. Practicas conversación real, con la misma exigencia y seguimiento que en una clase individual. Abrimos grupos nuevos según nivel y horario, con plazas limitadas. Empieza con una clase de prueba gratuita, sin compromiso.
 
 [Reserva tu clase gratis](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)
@@ -28,9 +28,9 @@ Grupos reducidos - máx. 5 personas ## ¿Qué son las clases de inglés online g
 
 La ventaja del grupo no es solo el precio: al practicar con otras personas te enfrentas a acentos, ritmos y formas de hablar distintas a las tuyas, algo que en una clase 1 a 1 no ocurre. Es la forma más parecida a una conversación real en inglés.
 
-Si prefieres avanzar a tu ritmo exclusivo o tienes un objetivo muy específico (un examen, entrevistas de trabajo, un viaje concreto), la clase [individual](https://www.myenglishspotclasses.com/clases-particulares-ingles-online) puede encajar mejor. La clase de prueba gratuita de 40 minutos sirve precisamente para decidir juntos qué formato es el tuyo. Si aún dudas entre los dos, en el blog comparamos [clases grupales o individuales según tu objetivo](https://www.myenglishspotclasses.com/blog/clases-ingles-grupales-o-individuales).
+Si prefieres avanzar a tu ritmo exclusivo o tienes un objetivo muy específico (un examen, entrevistas de trabajo, un viaje concreto), la clase [individual](https://www.myenglishspotclasses.com/clases-particulares-ingles-online) puede encajar mejor. La clase de prueba gratuita sirve precisamente para decidir juntos qué formato es el tuyo. Si aún dudas entre los dos, en el blog comparamos [clases grupales o individuales según tu objetivo](https://www.myenglishspotclasses.com/blog/clases-ingles-grupales-o-individuales).
 
-Grupos de máximo 5 personas Nunca compartes clase con más de 4 compañeros: hay espacio real para hablar tú también. Mismo nivel, mismo objetivo Se agrupa por nivel (A2–C1) para que la clase avance a un ritmo que le sirve a todo el grupo. 100% en directo por videollamada Nada de vídeos grabados: profesor y compañeros en la misma sesión, en tiempo real. Seguimiento individual dentro del grupo El profesor corrige y hace seguimiento de cada alumno, no solo del grupo en general. Clase de prueba gratis de 40 minutos Antes de unirte a un grupo, hacemos una clase de prueba para confirmar tu nivel y encaje. Para quién es ## Clases de inglés grupales: para quién son Ideales si quieres progresar de verdad en inglés sin pagar el precio de una clase 1 a 1.
+Grupos de máximo 5 personas Nunca compartes clase con más de 4 compañeros: hay espacio real para hablar tú también. Mismo nivel, mismo objetivo Se agrupa por nivel (A2–C1) para que la clase avance a un ritmo que le sirve a todo el grupo. 100% en directo por videollamada Nada de vídeos grabados: profesor y compañeros en la misma sesión, en tiempo real. Seguimiento individual dentro del grupo El profesor corrige y hace seguimiento de cada alumno, no solo del grupo en general. Clase de prueba gratis Antes de unirte a un grupo, hacemos una clase de prueba para confirmar tu nivel y encaje. Para quién es ## Clases de inglés grupales: para quién son Ideales si quieres progresar de verdad en inglés sin pagar el precio de una clase 1 a 1.
 
 ### Quiere practicar conversación real Si tu inglés ya tiene una base pero te falta soltura al hablar, el grupo te obliga a producir el idioma con otras personas, no solo con el profesor. Es la práctica más parecida a una conversación de verdad.
 
@@ -90,9 +90,9 @@ Reservas una franja fija cada semana con tu grupo, así que puedes organizar tu 
 
 6
 
-Clase de prueba gratis de 40 minutos
+Clase de prueba gratis
 
-Antes de unirte a un grupo, hay una clase de prueba individual de 40 minutos sin compromiso ni tarjeta, para confirmar nivel y horario.
+Antes de unirte a un grupo, hay una clase de prueba individual sin compromiso ni tarjeta, para confirmar nivel y horario.
 
 El método
 
@@ -160,7 +160,7 @@ Cómo funciona
 
 ## Tres pasos para unirte a un grupo de inglés
 
-- 1 ### Clase de prueba gratis 40 minutos por videollamada: evaluamos tu nivel real y hablamos de tu disponibilidad horaria.
+- 1 ### Clase de prueba gratis Por videollamada: evaluamos tu nivel real y hablamos de tu disponibilidad horaria.
 
 - 2 ### Te ubicamos en tu grupo Te asignamos a un grupo de máximo 5 personas de tu mismo nivel y en una franja horaria que te encaje.
 
@@ -180,7 +180,7 @@ Sí. Si en algún momento prefieres avanzar a tu ritmo exclusivo, puedes cambiar
 
 ¿Cómo se forman los grupos por nivel?
 
-En la clase de prueba gratuita de 40 minutos evaluamos tu nivel real (de A2 a C1) y tu disponibilidad horaria, y te ubicamos en un grupo que encaje con ambas cosas.
+En la clase de prueba gratuita evaluamos tu nivel real (de A2 a C1) y tu disponibilidad horaria, y te ubicamos en un grupo que encaje con ambas cosas.
 
 ¿Las clases son en directo o son vídeos grabados?
 
@@ -192,7 +192,7 @@ Abrimos grupos nuevos según el nivel y el horario de los alumnos apuntados, con
 
 ¿Cuánto dura la clase de prueba y tiene algún compromiso?
 
-La clase de prueba dura 40 minutos, es gratuita y no requiere tarjeta ni ningún compromiso posterior.
+La clase de prueba es gratuita y no requiere tarjeta ni ningún compromiso posterior.
 
 Grupos reducidos · Plazas limitadas
 
@@ -228,7 +228,7 @@ Algo ha fallado. Escríbenos a [info@myenglishspotclasses.com](mailto:info@myeng
 
 ## ¿Listo para practicar inglés en grupo de verdad?
 
-Reserva tu clase de prueba gratis de 40 minutos. Sin tarjeta, sin compromiso, y te decimos en el momento si hay grupo disponible para ti.
+Reserva tu clase de prueba gratis. Sin tarjeta, sin compromiso, y te decimos en el momento si hay grupo disponible para ti.
 
 [Reserva tu clase gratis](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)

@@ -76,7 +76,7 @@ Las 5 partes del examen, los errores más comunes en cada una y el plan de estud
 
 ## ¿Con cuál de estos exámenes seguimos?
 
-Reserva tu clase de prueba gratis de 40 minutos y te decimos por dónde empezar.
+Reserva tu clase de prueba gratis y te decimos por dónde empezar.
 
 [Reserva tu clase gratis](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)

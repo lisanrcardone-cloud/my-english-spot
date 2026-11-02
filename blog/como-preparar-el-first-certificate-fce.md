@@ -106,7 +106,7 @@ El FCE no es el examen más difícil del mundo. Pero sí tiene un formato muy es
 
 Los alumnos que avanzan más rápido en mi experiencia son los que trabajan con material oficial de Cambridge desde el primer día, identifican sus puntos débiles reales (no los que creen tener) y dedican el tiempo de práctica a mejorarlos, no a seguir haciendo lo que ya les sale bien.
 
-Si quieres empezar con buen pie, en la [preparación para el First Certificate](https://www.myenglishspotclasses.com/preparacion-first-cambridge) comenzamos siempre con una sesión diagnóstica gratuita. En 40 minutos vemos tu nivel real, identificamos qué partes necesitan más trabajo y diseñamos un plan concreto para tu fecha de examen. Sin compromiso.
+Si quieres empezar con buen pie, en la [preparación para el First Certificate](https://www.myenglishspotclasses.com/preparacion-first-cambridge) comenzamos siempre con una sesión diagnóstica gratuita. En ella vemos tu nivel real, identificamos qué partes necesitan más trabajo y diseñamos un plan concreto para tu fecha de examen. Sin compromiso.
 
 ## Sigue leyendo
 

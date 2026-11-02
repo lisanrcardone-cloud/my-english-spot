@@ -30,7 +30,7 @@ La clase se prepara cada semana en función de tu nivel, tu progreso y tus objet
 
 Puedes conectarte desde cualquier lugar de España, o del mundo. Solo necesitas un dispositivo con cámara y conexión a internet.
 
-Clase en directo por videollamada En tiempo real con tus profesores. Sin cursos pregrabados. Contenido personalizado cada semana El material se adapta a tu nivel y tus objetivos reales. Horarios que encajan con tu vida Mañanas o tardes, sin desplazamientos. Feedback claro y honesto en cada clase Sabrás en todo momento qué mejorar y cómo. Primera clase de prueba gratis 40 minutos sin compromiso, con test de nivel incluido. Para quién son ## Clases particulares de inglés online para cada objetivo Desde nivel cero hasta C1. Para adultos, jóvenes y profesionales. Si quieres aprender inglés, aquí tienes tu sitio.
+Clase en directo por videollamada En tiempo real con tus profesores. Sin cursos pregrabados. Contenido personalizado cada semana El material se adapta a tu nivel y tus objetivos reales. Horarios que encajan con tu vida Mañanas o tardes, sin desplazamientos. Feedback claro y honesto en cada clase Sabrás en todo momento qué mejorar y cómo. Primera clase de prueba gratis Sin compromiso, con test de nivel incluido. Para quién son ## Clases particulares de inglés online para cada objetivo Desde nivel cero hasta C1. Para adultos, jóvenes y profesionales. Si quieres aprender inglés, aquí tienes tu sitio.
 
 ### Inglés para el trabajo Reuniones, presentaciones, emails y llamadas con clientes o colegas internacionales. Business English práctico, sin teoría vacía.
 
@@ -110,7 +110,7 @@ Tus profesores recuerdan dónde lo dejasteis la semana anterior y ajustan el rit
 
 Primera clase de prueba gratuita
 
-40 minutos sin coste, sin tarjeta y sin compromiso. Para que veas cómo es antes de decidir. Si no es para ti, no pasa nada.
+Sin coste, sin tarjeta y sin compromiso. Para que veas cómo es antes de decidir. Si no es para ti, no pasa nada.
 
 El método
 
@@ -178,7 +178,7 @@ Cómo funciona
 
 ## Tres pasos para empezar con tu clase particular de inglés
 
-- 1 ### Clase gratis de 40 min Reservas online en menos de un minuto. Sin tarjeta, sin compromiso. Nos conocemos, evaluamos tu nivel y hablamos de tus objetivos.
+- 1 ### Clase de prueba gratis Reservas online en menos de un minuto. Sin tarjeta, sin compromiso. Nos conocemos, evaluamos tu nivel y hablamos de tus objetivos.
 
 - 2 ### Tu plan personalizado Recibes una propuesta clara: tipo de clase, frecuencia, material y enfoque. Adaptada a ti, no a un catálogo estándar.
 
@@ -198,7 +198,7 @@ No. Trabajamos con todos los niveles, desde principiantes absolutos (A1) hasta n
 
 ¿Cuánto duran las clases y con qué frecuencia se dan?
 
-Las clases individuales duran 60 minutos. La frecuencia la decidimos juntos según tus objetivos y disponibilidad: una o dos veces por semana es lo más habitual. La clase de prueba gratuita dura 40 minutos.
+Las clases individuales duran 60 minutos. La frecuencia la decidimos juntos según tus objetivos y disponibilidad: una o dos veces por semana es lo más habitual.
 
 ¿Qué plataforma se usa para las videollamadas?
 
@@ -210,7 +210,7 @@ Esta política aplica a las clases regulares ya contratadas, no a la clase de pr
 
 ¿La primera clase es realmente gratis?
 
-Sí, completamente. La clase de prueba dura 40 minutos, no requiere tarjeta ni ningún pago, e incluye un test de nivel y una propuesta personalizada. Si al terminar decides que no es para ti, no hay ningún problema.
+Sí, completamente. La clase de prueba no requiere tarjeta ni ningún pago, e incluye un test de nivel y una propuesta personalizada. Si al terminar decides que no es para ti, no hay ningún problema.
 
 ¿Cómo sé qué plan o frecuencia es la mejor para mí?
 
@@ -218,7 +218,7 @@ En la clase de prueba gratuita analizamos tus objetivos, tu nivel actual y tu di
 
 ## ¿Listo para empezar con tu clase particular de inglés online?
 
-Reserva tu clase de prueba gratis de 40 minutos. Sin tarjeta, sin compromiso, sin rollos.
+Reserva tu clase de prueba gratis. Sin tarjeta, sin compromiso, sin rollos.
 
 [Reserva tu clase gratis](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)

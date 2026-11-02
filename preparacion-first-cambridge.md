@@ -32,7 +32,7 @@ El examen tiene cuatro partes: Reading and Use of English, Writing, Listening y 
 
 Con la preparación adecuada (simulacros reales, corrección del Writing y práctica del Speaking), la diferencia entre suspender y aprobar suele ser de pocas semanas de trabajo bien dirigido.
 
-Simulacros con exámenes reales de Cambridge Practicas con el formato y la dificultad exacta del examen oficial. Corrección del Writing con criterios oficiales Con los mismos criterios que usa Cambridge. Speaking con la técnica del examen oral Practicas el formato de la parte oral: long turn, collaborative task y discussion. Plan adaptado a tu fecha de examen Organizamos el temario según cuánto tiempo tienes. Ni más rápido ni más lento. Primer simulacro de diagnóstico gratis 40 minutos para evaluar tu nivel y diseñar tu plan. Sin coste, sin compromiso. Las 5 partes del FCE ## Preparamos cada sección del First Certificate a fondo El FCE se compone de cinco partes. Cada una tiene su técnica. Trabajamos todas, con más intensidad en las que más te cuestan.
+Simulacros con exámenes reales de Cambridge Practicas con el formato y la dificultad exacta del examen oficial. Corrección del Writing con criterios oficiales Con los mismos criterios que usa Cambridge. Speaking con la técnica del examen oral Practicas el formato de la parte oral: long turn, collaborative task y discussion. Plan adaptado a tu fecha de examen Organizamos el temario según cuánto tiempo tienes. Ni más rápido ni más lento. Primer simulacro de diagnóstico gratis Para evaluar tu nivel y diseñar tu plan. Sin coste, sin compromiso. Las 5 partes del FCE ## Preparamos cada sección del First Certificate a fondo El FCE se compone de cinco partes. Cada una tiene su técnica. Trabajamos todas, con más intensidad en las que más te cuestan.
 
 📖
 Parte 1
@@ -115,7 +115,7 @@ No es solo practicar exámenes. Es un proceso completo para que llegues al día 
 
 Simulacro de diagnóstico gratuito
 
-La primera sesión (40 min) es gratuita. Evaluamos tu nivel real frente al FCE e identificamos las secciones donde necesitas más trabajo. A partir de ahí, el plan es tuyo.
+La primera sesión es gratuita. Evaluamos tu nivel real frente al FCE e identificamos las secciones donde necesitas más trabajo. A partir de ahí, el plan es tuyo.
 
 2
 
@@ -213,7 +213,7 @@ Cómo funciona
 
 ## Tres pasos para empezar tu preparación del First Certificate
 
-- 1 ### Simulacro de diagnóstico gratis 40 minutos por videollamada. Evaluamos tu nivel, identificamos tus puntos débiles frente al FCE y estimamos cuánto tiempo necesitas. Sin tarjeta, sin compromiso.
+- 1 ### Simulacro de diagnóstico gratis Por videollamada. Evaluamos tu nivel, identificamos tus puntos débiles frente al FCE y estimamos cuánto tiempo necesitas. Sin tarjeta, sin compromiso.
 
 - 2 ### Tu plan de preparación personalizado Recibes un plan concreto: secciones prioritarias, frecuencia de clases y materiales. Diseñado para tu fecha de examen y tus puntos débiles específicos.
 
@@ -245,7 +245,7 @@ Con dos clases semanales de 60 minutos y trabajo autónomo entre sesiones es suf
 
 ¿Cómo es el simulacro de diagnóstico gratuito?
 
-Dura 40 minutos por videollamada. Evaluamos tu nivel real, identificamos tus puntos fuertes y débiles en relación al FCE, y te damos un plan claro para llegar al examen preparado. Sin coste, sin tarjeta, sin compromiso.
+Es por videollamada. Evaluamos tu nivel real, identificamos tus puntos fuertes y débiles en relación al FCE, y te damos un plan claro para llegar al examen preparado. Sin coste, sin tarjeta, sin compromiso.
 
 ¿Cuál es la política de cancelación de clases?
 
@@ -253,7 +253,7 @@ Esta política aplica a las clases regulares ya contratadas, no a la clase de pr
 
 ## ¿Listo para aprobar el First Certificate?
 
-Reserva tu clase de prueba gratis. 40 minutos, sin tarjeta, sin compromiso. Saldrás con un plan claro.
+Reserva tu clase de prueba gratis. Sin tarjeta, sin compromiso. Saldrás con un plan claro.
 
 [Clase de prueba gratis](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)

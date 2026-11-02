@@ -12,7 +12,7 @@ Clases de inglés online 1-a-1 y en grupos reducidos, adaptadas a tus objetivos.
 
 Sin tarjeta · Sin compromiso
 
-- Prueba gratis 40 min
+- Prueba gratis
 
 - Enfoque personalizado
 
@@ -88,7 +88,7 @@ Cómo funciona
 
 ## Cómo funciona: empieza con una clase de inglés gratis
 
-- 1 ### Clase gratis de 40 min Nos conocemos en una clase de inglés online gratuita de 40 minutos. Vemos tu nivel, hablamos de tus objetivos y te contamos cómo trabajamos. Sin compromiso.
+- 1 ### Clase de prueba gratis Nos conocemos en una clase de inglés online gratuita. Vemos tu nivel, hablamos de tus objetivos y te contamos cómo trabajamos. Sin compromiso.
 
 - 2 ### Plan personalizado Te enviamos una propuesta clara: tipo de clase, frecuencia y materiales.
 
@@ -100,7 +100,7 @@ Planes a tu medida
 
 Diseñamos el ritmo, la frecuencia y el contenido contigo: 1-a-1, en grupo, intensivo o tranquilito. Cuéntanos qué necesitas y te pasamos una propuesta clara, sin compromiso.
 
-### Clase gratis de 40 min
+### Clase de prueba gratis
 
 Reserva una llamada con nosotros. Vemos tu nivel, hablamos de tus objetivos y te preparamos una propuesta personalizada.
 
@@ -161,7 +161,7 @@ Preguntas frecuentes
 
 ¿Cuánto duran las clases?
 
-Las clases individuales y en grupo duran 60 minutos. La clase de prueba gratuita dura 40 minutos.
+Las clases individuales y en grupo duran 60 minutos.
 
 ¿Necesito un nivel mínimo para empezar?
 
@@ -193,7 +193,7 @@ Sí. Si en algún momento tus objetivos o tu situación cambian, lo hablamos y a
 
 ## ¿Todo listo para empezar a hablar inglés?
 
-Reserva tu clase gratis de 40 minutos. Sin tarjeta, sin compromiso, sin rollos.
+Reserva tu clase de prueba gratis. Sin tarjeta, sin compromiso, sin rollos.
 
 [Reserva tu clase gratis](https://calendar.app.google/sRYu3JKfnedx8V3v8)
 [Prefiero escribir](mailto:info@myenglishspotclasses.com)
