@@ -42,6 +42,8 @@ El B2 First tiene cuatro pruebas que evalúan cinco habilidades. Conocerlas bien
 
 - Speaking : 14 minutos en pareja con otro candidato. Cuatro partes que evalúan fluidez, pronunciación, gramática, vocabulario y capacidad de interacción.
 
+Si quieres el desglose del tiempo y cómo repartirlo dentro de cada prueba, lo tienes en [cuánto dura el examen First, parte por parte](https://www.myenglishspotclasses.com/blog/cuanto-dura-el-examen-first).
+
 Cada prueba vale el 25% de la nota final. Para aprobar necesitas al menos 160 puntos sobre 230, lo que equivale a un B2. Si sacas entre 180 y 192, obtienes el certificado con mención especial de nivel C1, algo que sorprende a muchos candidatos que no sabían que podían salir con un nivel superior al que fueron a demostrar.
 
 ## ¿Cuánto tiempo necesitas para prepararlo?
