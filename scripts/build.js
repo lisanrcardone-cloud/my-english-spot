@@ -14,9 +14,9 @@
  * Alcance de esta pasada (ver plan witty-herding-sphinx.md, punto 1):
  * - BUILD:NAV: solo el dropdown "Preparación de exámenes" (el único bloque
  *   del nav que es realmente invariante entre páginas y el que causó el bug
- *   real de nav desincronizado). Va en las 23 páginas no-home.
- * - BUILD:FOOTER: footer completo, en las 23 páginas no-home (20 usan
- *   footer-common.html, 3 legales usan footer-legal.html).
+ *   real de nav desincronizado). Va en las 30 páginas no-home.
+ * - BUILD:FOOTER: footer completo, en las 30 páginas no-home (25 usan
+ *   footer-common.html, 5 usan footer-legal.html).
  * - index.html (home) queda fuera de ambos sistemas en esta pasada: su nav
  *   es bilingüe con toggle de idioma y estructura de menú propia, y su
  *   footer tiene atributos data-es/data-en que ninguna otra página tiene.
@@ -263,11 +263,48 @@ function todayISO() {
   return new Date().toISOString().slice(0, 10);
 }
 
-// Fecha para <lastmod>: la del último commit del archivo, o la de hoy si tiene
-// cambios sin commitear (así, editar + build antes del commit deja la fecha buena).
+function stripGenerated(text) {
+  const cut = (t, a, b) => {
+    let out = t;
+    for (let n = 0; n < 20; n += 1) {
+      const i = out.indexOf(a);
+      if (i === -1) break;
+      const k = out.indexOf(b, i);
+      if (k === -1) break;
+      out = out.slice(0, i) + out.slice(k + b.length);
+    }
+    return out;
+  };
+  return cut(cut(text, NAV_START, NAV_END), FOOTER_START, FOOTER_END);
+}
+
+function fileAt(rev, relFile) {
+  try {
+    return gitOutput(`git show ${rev}:"${relFile}"`);
+  } catch (e) {
+    return null;
+  }
+}
+
+// Fecha para <lastmod>: la del último commit que cambió el contenido propio de la
+// página (fuera de los bloques BUILD:NAV / BUILD:FOOTER), mirando como mucho 50 commits;
+// hoy si hay cambios sin commitear en ese contenido. Los cambios solo en nav/footer no cuentan.
 function lastmodForFile(relFile) {
-  if (gitOutput(`git status --porcelain -- "${relFile}"`) !== '') return todayISO();
-  return gitOutput(`git log -1 --format=%cs -- "${relFile}"`) || todayISO();
+  if (gitOutput(`git status --porcelain -- "${relFile}"`) !== '') {
+    const disk = fs.readFileSync(path.join(ROOT, relFile), 'utf8').trim();
+    const head = fileAt('HEAD', relFile);
+    if (head === null || stripGenerated(disk) !== stripGenerated(head)) return todayISO();
+  }
+  const lines = gitOutput(`git log --format="%H %cs" -n 50 -- "${relFile}"`)
+    .split('\n')
+    .filter(Boolean);
+  for (const line of lines) {
+    const [hash, date] = line.split(' ');
+    const prev = fileAt(`${hash}^`, relFile);
+    const cur = fileAt(hash, relFile);
+    if (prev === null || stripGenerated(prev) !== stripGenerated(cur || '')) return date;
+  }
+  return lines.length ? lines[0].split(' ')[1] : todayISO();
 }
 
 function buildSitemapLastmod() {

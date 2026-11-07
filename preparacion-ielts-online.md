@@ -22,6 +22,8 @@ Clases 1 a 1 para llegar a tu banda objetivo: simulacros cronometrados de Listen
 
 - Sin tarjeta ni compromiso
 
+Sube nivel en el Writing del IELTS, de nuestro [Instagram](https://www.instagram.com/myenglishspot.classes/)
+
 Preparación específica IELTS ## ¿Qué es la preparación IELTS online de My English Spot? Son clases individuales centradas exclusivamente en el examen IELTS: técnica por sección (Listening, Reading, Writing, Speaking), simulacros con condiciones reales de examen y corrección con los criterios de banda oficiales de Cambridge/IDP.
 
 Sirve tanto para IELTS Academic (universidad, colegios profesionales) como para IELTS General Training (visados de trabajo o residencia, procesos migratorios). Puedes consultar toda la información oficial del examen en [ielts.org](https://www.ielts.org).

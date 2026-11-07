@@ -32,7 +32,7 @@ Puedes conectarte desde cualquier lugar de España, o del mundo. Solo necesitas 
 
 Clase en directo por videollamada En tiempo real con tus profesores. Sin cursos pregrabados. Contenido personalizado cada semana El material se adapta a tu nivel y tus objetivos reales. Horarios que encajan con tu vida Mañanas o tardes, sin desplazamientos. Feedback claro y honesto en cada clase Sabrás en todo momento qué mejorar y cómo. Primera clase de prueba gratis Sin compromiso, con test de nivel incluido. Para quién son ## Clases particulares de inglés online para cada objetivo Desde nivel cero hasta C1. Para adultos, jóvenes y profesionales. Si quieres aprender inglés, aquí tienes tu sitio.
 
-### Inglés para el trabajo Reuniones, presentaciones, emails y llamadas con clientes o colegas internacionales. Business English práctico, sin teoría vacía.
+### Inglés para el trabajo Reuniones, presentaciones, emails y llamadas con clientes o colegas internacionales. Business English práctico, sin teoría vacía. Si lo que buscas es formación para tu equipo, tenemos [clases de inglés para empresas](https://www.myenglishspotclasses.com/clases-ingles-empresas-online).
 
 Business English
 Reuniones

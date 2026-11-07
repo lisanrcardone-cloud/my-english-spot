@@ -55,6 +55,6 @@
 
 ## Páginas legales
 
-- [Aviso legal](https://www.myenglishspotclasses.com/aviso-legal.html)
-- [Política de privacidad](https://www.myenglishspotclasses.com/politica-privacidad.html)
-- [Política de cookies](https://www.myenglishspotclasses.com/politica-cookies.html)
+- [Aviso legal](https://www.myenglishspotclasses.com/aviso-legal)
+- [Política de privacidad](https://www.myenglishspotclasses.com/politica-privacidad)
+- [Política de cookies](https://www.myenglishspotclasses.com/politica-cookies)
