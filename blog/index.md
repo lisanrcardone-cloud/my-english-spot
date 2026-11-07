@@ -14,6 +14,11 @@ Writing
 Clases grupales
 Motivación
 
+[Exámenes Cambridge · First
+¿Cuánto dura el examen First? Tiempo de cada parte
+El B2 First dura unas 3 h 30 min. El tiempo de cada prueba y cómo repartirlo en Reading and Use of English y en Writing.
+4 nov 2026 · 5 min de lectura](https://www.myenglishspotclasses.com/blog/cuanto-dura-el-examen-first)
+
 [Exámenes de inglés · Aptis
 ¿Cuánto dura el examen Aptis? Tiempos de cada parte
 El Aptis General dura unas 2 h 40 min si haces los 5 componentes. El tiempo exacto de cada parte, minuto a minuto.
