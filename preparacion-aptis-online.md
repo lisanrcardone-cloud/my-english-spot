@@ -35,7 +35,7 @@ Clases 1 a 1 por videollamada 100% adaptadas a tu nivel de partida y a la banda 
 Trámites
 Escala CEFR
 
-### Tu empresa exige el certificado Aptis Tu empresa te pide acreditar un nivel concreto en la escala 0-200 del British Council para un puesto, ascenso o proceso de selección.
+### Tu empresa exige el certificado Aptis Tu empresa te pide acreditar un nivel concreto en la escala 0-200 del British Council para un puesto, ascenso o proceso de selección. Si en tu empresa lo necesitan varias personas, mira nuestras [clases de inglés para empresas](https://www.myenglishspotclasses.com/clases-ingles-empresas-online).
 
 Uso profesional
 Selección de personal
