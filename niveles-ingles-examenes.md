@@ -61,7 +61,7 @@ B2
 
 ### Trabajo y exámenes
 
-Reuniones, emails, entrevistas y preparación para Cambridge First (FCE) e IELTS. El nivel que abre puertas profesionales y certifica que puedes desenvolverte de verdad.
+Reuniones, emails, entrevistas y preparación para Cambridge First (FCE) e IELTS. El nivel que abre puertas profesionales y certifica que puedes desenvolverte de verdad. Si la necesidad es de toda tu empresa, consulta las [clases de inglés para empresas](https://www.myenglishspotclasses.com/clases-ingles-empresas-online).
 
 Intermedio-alto
 FCE · IELTS
