@@ -14,9 +14,9 @@
  * Alcance de esta pasada (ver plan witty-herding-sphinx.md, punto 1):
  * - BUILD:NAV: solo el dropdown "Preparación de exámenes" (el único bloque
  *   del nav que es realmente invariante entre páginas y el que causó el bug
- *   real de nav desincronizado). Va en las 23 páginas no-home.
- * - BUILD:FOOTER: footer completo, en las 23 páginas no-home (20 usan
- *   footer-common.html, 3 legales usan footer-legal.html).
+ *   real de nav desincronizado). Va en las 30 páginas no-home.
+ * - BUILD:FOOTER: footer completo, en las 30 páginas no-home (25 usan
+ *   footer-common.html, 5 usan footer-legal.html).
  * - index.html (home) queda fuera de ambos sistemas en esta pasada: su nav
  *   es bilingüe con toggle de idioma y estructura de menú propia, y su
  *   footer tiene atributos data-es/data-en que ninguna otra página tiene.
