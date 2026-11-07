@@ -22,6 +22,8 @@ Clases 1 a 1 para llegar preparado a tu examen Cambridge CAE (C1 Advanced): simu
 
 - Sin tarjeta ni compromiso
 
+6 idioms que suman nivel en el C1, de nuestro [Instagram](https://www.instagram.com/myenglishspot.classes/)
+
 Preparación específica CAE ## ¿Qué es la preparación CAE online de My English Spot? Son clases individuales centradas exclusivamente en el examen Cambridge CAE (Certificate in Advanced English, nivel C1): técnica por sección (Reading and Use of English, Writing, Listening, Speaking), simulacros con condiciones reales de examen y corrección con los criterios oficiales de Cambridge.
 
 El CAE certifica nivel C1 de forma permanente, sin caducidad, y es reconocido por universidades, empresas y administraciones de todo el mundo. Puedes consultar toda la información oficial del examen en [cambridgeenglish.org](https://www.cambridgeenglish.org).
