@@ -39,7 +39,7 @@
 
 /* Reel en la columna derecha del hero de servicio (07-nov-2026) */
 .service-hero__media { max-width: 280px; margin: 32px auto 0; }
-.service-hero__media video { width: 100%; height: auto; aspect-ratio: 9 / 16; border-radius: 20px; display: block; background: #000; }
+.service-hero__media video { width: 100%; height: auto; aspect-ratio: 9 / 16; border-radius: 20px; display: block; background: var(--cream); object-fit: cover; border: 2px solid var(--blue); }
 .service-hero__media figcaption { font-size: 0.875rem; margin-top: 10px; }
 .service-hero__media details { margin-top: 4px; font-size: 0.875rem; }
 .service-hero__media summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; }
