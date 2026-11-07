@@ -80,6 +80,8 @@ Intentar entender cada palabra de la grabación. No vas a entenderlo todo y no h
 
 Quedarse en silencio mientras habla tu compañero de examen. Esta parte no es un monólogo: evalúa interacción. Tienes que reaccionar, pedir opinión, confirmar, completar lo que dice el otro. Los candidatos que no practican el formato en pareja antes del examen pierden puntos que tienen ganados por nivel.
 
+Los 3 errores que más puntos quitan en el Speaking del First y las frases para evitarlos. Más en nuestro [Instagram](https://www.instagram.com/myenglishspot.classes/).
+
 ## ¿Puedo prepararlo por mi cuenta o necesito un profesor?
 
 Puedes avanzar mucho por tu cuenta, especialmente en Reading y Listening. Cambridge tiene exámenes de práctica anteriores disponibles en su web oficial, y hay materiales gratuitos de calidad.

@@ -243,3 +243,9 @@
   line-height: 1.8;
 }
 .article__related li { margin-bottom: 0.4rem; }
+
+/* Galería de slides en posts (piloto multimedia, 07-nov-2026) */
+.article__gallery { margin: 28px 0; }
+.article__gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.article__gallery img { width: 100%; height: auto; border-radius: 12px; display: block; }
+.article__gallery figcaption { font-size: 0.875rem; margin-top: 10px; opacity: 0.8; }

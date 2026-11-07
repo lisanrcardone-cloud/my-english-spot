@@ -36,3 +36,11 @@
   .guia__cover{grid-area:cover;max-width:380px;width:100%;margin:0;align-self:start}
   .guia__submit,.guia__secondary{width:auto;min-width:260px}
 }
+
+/* Reel vertical en páginas de servicio (piloto multimedia, 07-nov-2026) */
+.media-reel { max-width: 320px; margin: 24px 0; }
+.media-reel video { width: 100%; height: auto; aspect-ratio: 9 / 16; border-radius: 16px; display: block; background: #000; }
+.media-reel figcaption { font-size: 0.875rem; margin-top: 10px; }
+.media-reel details { margin-top: 8px; font-size: 0.875rem; }
+.media-reel summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; }
+@media (max-width: 768px) { .media-reel { margin: 24px auto; } }

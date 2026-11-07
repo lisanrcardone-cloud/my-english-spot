@@ -22,6 +22,8 @@ El FCE certifica nivel B2 y el CAE certifica nivel C1. No es solo "un poco más 
 
 El CAE consta de cuatro partes, cada una con un peso del 25% sobre la nota final: Reading and Use of English (comprensión lectora y gramática/vocabulario avanzado), Writing (dos tareas, una obligatoria y una a elegir entre varias opciones), Listening (comprensión auditiva con distintos tipos de audio) y Speaking (entrevista junto a otro candidato, con partes individuales y de interacción).
 
+6 idioms que suman nivel en el Use of English, el Speaking y el Writing del C1 Advanced. Más en nuestro [Instagram](https://www.instagram.com/myenglishspot.classes/).
+
 ¿Quieres saber si tu nivel actual ya da para empezar con el CAE, o si conviene reforzar primero el B2? En la primera clase gratuita lo evaluamos y te damos un plan con fechas reales.
 
 [Ver preparación CAE](https://www.myenglishspotclasses.com/preparacion-cae-online)
