@@ -24,6 +24,8 @@ Sin tarjeta · Sin compromiso
 
 - Primer simulacro gratis · sin compromiso
 
+Guía rápida del Speaking, de nuestro [Instagram](https://www.instagram.com/myenglishspot.classes/)
+
 Cambridge B2 First · reconocido en todo el mundo ## ¿Qué es el First Certificate y por qué prepararlo bien marca la diferencia? El Cambridge B2 First (FCE) es el certificado de inglés de nivel B2 más reconocido del mundo. Acredita que puedes desenvolverte en inglés en entornos académicos, profesionales y cotidianos, y no caduca. Puedes consultar toda la información oficial del examen en [cambridgeenglish.org](https://www.cambridgeenglish.org).
 
 Si además de preparar el FCE quieres trabajar el inglés de forma general, también ofrecemos [clases particulares de inglés online](https://www.myenglishspotclasses.com/clases-particulares-ingles-online) para todos los niveles y objetivos.
