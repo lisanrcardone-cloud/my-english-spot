@@ -62,6 +62,8 @@ Adolescentes Cole, insti y exámenes Adultos Trabajo, viajes, vida Profesionales
 
 ### Grupos pequeños Máximo 5 personas del mismo nivel. Aprende inglés hablando con otros en una práctica real.
 
+[Clases grupales →](https://www.myenglishspotclasses.com/clases-ingles-grupales-online)
+
 - Mismo nivel, mismos intereses
 
 - Mucha conversación real
@@ -79,6 +81,8 @@ Adolescentes Cole, insti y exámenes Adultos Trabajo, viajes, vida Profesionales
 ### Exámenes oficiales Preparación para Cambridge (PET, FCE, CAE), IELTS y Aptis.
 
 [Preparación FCE →](https://www.myenglishspotclasses.com/preparacion-first-cambridge)
+
+[Preparación Aptis →](https://www.myenglishspotclasses.com/preparacion-aptis-online)
 
 - Simulacros reales
 

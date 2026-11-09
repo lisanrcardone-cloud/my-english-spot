@@ -12,7 +12,7 @@ Su enfoque combina el dominio de la estructura de cada examen oficial con clases
 
 ## 2. Especialización en exámenes oficiales
 
-Rocío prepara específicamente los exámenes Cambridge B2 First (FCE) , Cambridge C1 Advanced (CAE) , IELTS (Academic y General Training) y Aptis del British Council. Las clases de preparación incluyen simulacros cronometrados y corrección detallada de Writing y Speaking según el criterio oficial de cada examen, para que el alumno llegue al día del examen sabiendo exactamente qué esperar.
+Rocío prepara específicamente los exámenes Cambridge B2 First (FCE) , Cambridge C1 Advanced (CAE) , IELTS (Academic y General Training) y [Aptis](https://www.myenglishspotclasses.com/preparacion-aptis-online) del British Council. Las clases de preparación incluyen simulacros cronometrados y corrección detallada de Writing y Speaking según el criterio oficial de cada examen, para que el alumno llegue al día del examen sabiendo exactamente qué esperar.
 
 ## 3. Metodología
 

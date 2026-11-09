@@ -26,7 +26,7 @@ Sin tarjeta · Sin compromiso
 
 Sin local físico · 100% videollamada ## ¿Qué son las clases particulares de inglés online? Son clases individuales de inglés en directo, impartidas por videollamada con tus profesores. No hay academia presencial, ni cursos grabados, ni aplicaciones de idiomas. Cada sesión es en tiempo real: tú y tu profesor/a, trabajando en lo que a ti te importa.
 
-La clase se prepara cada semana en función de tu nivel, tu progreso y tus objetivos. Si necesitas inglés para reuniones de trabajo, para superar un examen IELTS, Cambridge (PET, FCE, CAE) o Aptis o simplemente para perder el miedo a hablar, el contenido se diseña para eso.
+La clase se prepara cada semana en función de tu nivel, tu progreso y tus objetivos. Si necesitas inglés para reuniones de trabajo, para superar un examen IELTS, Cambridge (PET, FCE, CAE) o [Aptis](https://www.myenglishspotclasses.com/preparacion-aptis-online) o simplemente para perder el miedo a hablar, el contenido se diseña para eso.
 
 Puedes conectarte desde cualquier lugar de España, o del mundo. Solo necesitas un dispositivo con cámara y conexión a internet. ¿Vives en Vigo o alrededores? Mira cómo son nuestras [clases de inglés en Vigo](https://www.myenglishspotclasses.com/clases-ingles-vigo).
 
