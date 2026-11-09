@@ -26,7 +26,7 @@ Sin tarjeta · Sin compromiso
 
 100% online · profesores con base en Vigo ## ¿Qué son las clases de inglés en Vigo de My English Spot? Son clases de inglés online impartidas por Rocío, profesora con base en Vigo. Las clases son 100% por videollamada: puedes tenerlas desde casa, desde la oficina o desde donde estés, sin desplazarte al centro de Vigo ni perder tiempo en desplazamientos.
 
-El formato es flexible: clases individuales 1 a 1 completamente personalizadas, o grupos reducidos de máximo 5 personas del mismo nivel. El contenido se adapta a tu objetivo: conversación fluida, gramática, preparación del Cambridge FCE o CAE, IELTS, inglés para el trabajo, o una combinación de lo que necesites.
+El formato es flexible: clases individuales 1 a 1 completamente personalizadas, o [grupos reducidos de máximo 5 personas](https://www.myenglishspotclasses.com/clases-ingles-grupales-online) del mismo nivel. El contenido se adapta a tu objetivo: conversación fluida, gramática, preparación del Cambridge FCE o CAE, IELTS, inglés para el trabajo, o una combinación de lo que necesites.
 
 Si buscas más opciones, consulta también nuestras [clases particulares de inglés online](https://www.myenglishspotclasses.com/clases-particulares-ingles-online) disponibles para todo el territorio nacional, o nuestra [preparación específica del First Certificate](https://www.myenglishspotclasses.com/preparacion-first-cambridge).
 
