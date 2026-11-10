@@ -15,6 +15,11 @@ Clases grupales
 Motivación
 
 [Exámenes Cambridge · First
+Part 4 del First: 5 tips para las key word transformations
+6 frases, hasta 2 puntos cada una. Cómo no dejarte puntos en la Part 4 del Use of English, con ejemplos resueltos.
+10 nov 2026 · 4 min de lectura](https://www.myenglishspotclasses.com/blog/part-4-use-of-english-first)
+
+[Exámenes Cambridge · First
 ¿Cuánto dura el examen First? Tiempo de cada parte
 El B2 First dura unas 3 h 30 min. El tiempo de cada prueba y cómo repartirlo en Reading and Use of English y en Writing.
 4 nov 2026 · 5 min de lectura](https://www.myenglishspotclasses.com/blog/cuanto-dura-el-examen-first)
