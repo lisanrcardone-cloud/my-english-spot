@@ -14,6 +14,11 @@ Writing
 Clases grupales
 Motivación
 
+[Inglés del día a día · Vídeo
+4 errores típicos de los españoles en inglés (con vídeo)
+Actually no es actualmente, cómo decir "me cuesta", el present perfect continuous y el third conditional, explicados en vídeo.
+10 nov 2026 · 5 min de lectura](https://www.myenglishspotclasses.com/blog/errores-tipicos-espanoles-ingles)
+
 [Exámenes Cambridge · First
 Part 4 del First: 5 tips para las key word transformations
 6 frases, hasta 2 puntos cada una. Cómo no dejarte puntos en la Part 4 del Use of English, con ejemplos resueltos.
