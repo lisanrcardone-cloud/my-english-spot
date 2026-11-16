@@ -34,7 +34,7 @@ Con un B2 consolidado y 2 clases semanales, la preparación suele necesitar entr
 
 ## La nota del CAE y por qué no caduca
 
-El CAE se puntúa en una escala de 160 a 210 puntos. A partir de 180 se obtiene el Grade C (aprobado, certificado C1); desde 193 el Grade B y desde 200 el Grade A, ambos con más nota dentro del mismo certificado C1. Entre 160 y 179 se certifica nivel B2 en vez de C1. Una ventaja frente a otros certificados: el Certificate in Advanced English de Cambridge no caduca : una vez aprobado, el C1 queda certificado de por vida.
+El CAE se puntúa en una escala de 160 a 210 puntos. A partir de 180 se obtiene el Grade C (aprobado, certificado C1); desde 193 el Grade B y desde 200 el Grade A, ambos con más nota dentro del mismo certificado C1. Entre 160 y 179 se certifica nivel B2 en vez de C1. Una ventaja frente a otros certificados: el Certificate in Advanced English de Cambridge no caduca: una vez aprobado, el C1 queda certificado de por vida.
 
 ## Sigue leyendo
 

@@ -192,7 +192,7 @@ function htmlToMarkdown(html) {
   // 9. Colapsar espacios/líneas en blanco excesivos.
   content = content
     .split('\n')
-    .map((line) => line.replace(/[ \t]+/g, ' ').trim())
+    .map((line) => line.replace(/[ \t]+/g, ' ').replace(/ :/g, ':').trim())
     .join('\n')
     .replace(/\n{3,}/g, '\n\n')
     .trim();
