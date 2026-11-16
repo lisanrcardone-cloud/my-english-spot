@@ -76,7 +76,7 @@ Tecnología Cookies de tercero ( _ga , _ga_XXXXXXXX , _gid )
 Proveedor Google Ireland Limited (Dublín, Irlanda), filial de Google LLC (EE. UU.)
 Finalidad Medir el uso del sitio web (páginas vistas, sesiones, origen del tráfico, tasa de rebote y eventos de conversión como reservas de clase) para mejorar el servicio
 Datos tratados Dirección IP anonimizada, agente de usuario, páginas visitadas, tiempo de permanencia, identificador de sesión aleatorio; no se recaban datos que permitan identificar directamente al usuario
-Duración _ga y _ga_* : 2 años desde la última interacción · _gid : 24 horas
+Duración _ga y _ga_*: 2 años desde la última interacción · _gid: 24 horas
 Transferencia internacional A Google LLC (EE. UU.), amparada en Cláusulas Contractuales Tipo (CCT) aprobadas por la Comisión Europea (Decisión de Ejecución (UE) 2021/914)
 Base jurídica Art. 6.1.a) RGPD: consentimiento del usuario (art. 22.2 LSSI-CE); requiere aceptación previa mediante panel de cookies
 Requiere consentimiento Sí. Al ser cookies analíticas de tercero, solo se activan si el usuario acepta expresamente su uso

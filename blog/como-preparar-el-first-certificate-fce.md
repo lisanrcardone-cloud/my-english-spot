@@ -34,13 +34,13 @@ Una cosa importante: el certificado no caduca . A diferencia del IELTS, que tien
 
 El B2 First tiene cuatro pruebas que evalúan cinco habilidades. Conocerlas bien antes de empezar a prepararlo te ahorra semanas de trabajo mal enfocado.
 
-- Reading and Use of English : La parte más larga y para muchos la más temida. 75 minutos. Combina comprensión lectora con gramática y vocabulario en siete tipos diferentes de ejercicio.
+- Reading and Use of English: La parte más larga y para muchos la más temida. 75 minutos. Combina comprensión lectora con gramática y vocabulario en siete tipos diferentes de ejercicio.
 
-- Writing : Dos textos en 80 minutos: un ensayo obligatorio y un segundo texto a elegir entre email, artículo, reseña o informe según la convocatoria.
+- Writing: Dos textos en 80 minutos: un ensayo obligatorio y un segundo texto a elegir entre email, artículo, reseña o informe según la convocatoria.
 
-- Listening : 40 minutos. Cuatro secciones con grabaciones reales en distintos acentos del inglés: británico, americano, australiano.
+- Listening: 40 minutos. Cuatro secciones con grabaciones reales en distintos acentos del inglés: británico, americano, australiano.
 
-- Speaking : 14 minutos en pareja con otro candidato. Cuatro partes que evalúan fluidez, pronunciación, gramática, vocabulario y capacidad de interacción.
+- Speaking: 14 minutos en pareja con otro candidato. Cuatro partes que evalúan fluidez, pronunciación, gramática, vocabulario y capacidad de interacción.
 
 Si quieres el desglose del tiempo y cómo repartirlo dentro de cada prueba, lo tienes en [cuánto dura el examen First, parte por parte](https://www.myenglishspotclasses.com/blog/cuanto-dura-el-examen-first).
 

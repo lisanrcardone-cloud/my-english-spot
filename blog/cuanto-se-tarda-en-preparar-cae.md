@@ -12,7 +12,7 @@ Por Rocío Denti
 10 de agosto de 2026
 5 min de lectura
 
-El CAE es el examen de Cambridge que certifica el C1 de inglés : si buscas "sacarme el C1" con Cambridge, es este examen. Con un B2 consolidado y 2 clases semanales, la preparación suele necesitar entre 3 y 6 meses hasta llegar con seguridad a la convocatoria. El punto de partida real es lo que marca la diferencia, no una cifra fija para todo el mundo.
+El CAE es el examen de Cambridge que certifica el C1 de inglés: si buscas "sacarme el C1" con Cambridge, es este examen. Con un B2 consolidado y 2 clases semanales, la preparación suele necesitar entre 3 y 6 meses hasta llegar con seguridad a la convocatoria. El punto de partida real es lo que marca la diferencia, no una cifra fija para todo el mundo.
 
 ## CAE, C1 Advanced, C1 de inglés: es todo lo mismo
 
