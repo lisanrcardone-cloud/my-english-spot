@@ -9,7 +9,7 @@ Exámenes Cambridge · B2 First (FCE)
 # Part 4 del Use of English del First: 5 tips para las key word transformations
 
 Por Rocío Denti
-10 de noviembre de 2026
+16 de noviembre de 2026
 4 min de lectura
 
 La Part 4 del Reading and Use of English del B2 First son las key word transformations: 6 frases que tienes que reescribir con una palabra clave para que signifiquen lo mismo. Evalúa gramática y vocabulario, y cada respuesta vale hasta 2 puntos. Parece la parte más corta, pero es donde más puntos se escapan. Abajo tienes los 5 tips que más trabajamos en clase, con ejemplos resueltos.

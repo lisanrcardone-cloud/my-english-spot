@@ -17,7 +17,7 @@ Motivación
 [Exámenes Cambridge · First
 Part 4 del First: 5 tips para las key word transformations
 6 frases, hasta 2 puntos cada una. Cómo no dejarte puntos en la Part 4 del Use of English, con ejemplos resueltos.
-10 nov 2026 · 4 min de lectura](https://www.myenglishspotclasses.com/blog/part-4-use-of-english-first)
+16 nov 2026 · 4 min de lectura](https://www.myenglishspotclasses.com/blog/part-4-use-of-english-first)
 
 [Exámenes Cambridge · First
 ¿Cuánto dura el examen First? Tiempo de cada parte
