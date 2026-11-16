@@ -83,6 +83,11 @@
   ],
   "redirects": [
     {
+      "source": "/blog/part-4-use-of-english-first.html",
+      "destination": "/blog/part-4-use-of-english-first",
+      "permanent": true
+    },
+    {
       "source": "/blog/cuanto-dura-el-examen-first.html",
       "destination": "/blog/cuanto-dura-el-examen-first",
       "permanent": true

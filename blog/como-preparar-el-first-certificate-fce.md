@@ -70,6 +70,8 @@ Después de preparar a varios alumnos para el FCE, hay patrones que se repiten s
 
 El error clásico es leer cada texto de arriba a abajo antes de mirar las preguntas. Eso come tiempo y hace que llegues al final con el cerebro frito. La estrategia correcta es leer primero las preguntas, identificar qué buscan, y luego localizar la respuesta en el texto. El FCE no te examina de memoria, te examina de comprensión específica.
 
+Dentro del Use of English, la parte donde más puntos se escapan es la Part 4. La tienes explicada con ejemplos en [5 tips para las key word transformations del First](https://www.myenglishspotclasses.com/blog/part-4-use-of-english-first).
+
 ### Writing
 
 Escribir el mismo tipo de texto que en el instituto o en los emails del trabajo. El FCE pide registros muy concretos: formal para el informe, semiformal para el email, informal para la carta a un amigo. Cambridge puntúa el registro explícitamente. Dominar las plantillas de cada formato es lo que más diferencia a los candidatos que aprueban Writing de los que no.
