@@ -83,6 +83,11 @@
   ],
   "redirects": [
     {
+      "source": "/blog/errores-tipicos-espanoles-ingles.html",
+      "destination": "/blog/errores-tipicos-espanoles-ingles",
+      "permanent": true
+    },
+    {
       "source": "/blog/part-4-use-of-english-first.html",
       "destination": "/blog/part-4-use-of-english-first",
       "permanent": true

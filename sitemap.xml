@@ -32,9 +32,15 @@
   </url>
   <url>
     <loc>https://www.myenglishspotclasses.com/blog</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.myenglishspotclasses.com/blog/errores-tipicos-espanoles-ingles</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.myenglishspotclasses.com/blog/part-4-use-of-english-first</loc>
@@ -134,7 +140,7 @@
   </url>
   <url>
     <loc>https://www.myenglishspotclasses.com/blog/vuelta-a-clases-de-ingles-en-septiembre</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

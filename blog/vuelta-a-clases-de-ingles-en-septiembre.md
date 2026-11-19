@@ -18,6 +18,8 @@ Septiembre funciona como un segundo enero. La vuelta a la rutina trae la energí
 
 Después de semanas con menos contacto con el idioma es normal sentir que cuesta más hablar, que las palabras tardan en salir o que la fluidez que tenías en junio ha desaparecido. No has bajado de nivel: es falta de práctica reciente, y se recupera rápido en cuanto vuelves a usar el idioma de forma constante. Esa sensación de estar "oxidado" es probablemente la razón número uno por la que septiembre concentra tantas ganas de retomar el inglés, más que enero o cualquier otro mes del año.
 
+Si quieres ir calentando antes de volver a clase, repasa estos [4 errores típicos de los españoles en inglés, explicados en vídeo](https://www.myenglishspotclasses.com/blog/errores-tipicos-espanoles-ingles).
+
 ## El error más común al volver: empezar sin saber tu nivel real
 
 Es habitual volver a apuntarse a un curso "del nivel de siempre" sin comprobar si sigue siendo el adecuado. El resultado más frecuente es frustración: un grupo que va demasiado rápido si has perdido soltura, o que se queda corto si en realidad ya estabas más avanzado de lo que recordabas. La forma de evitarlo es simple: una evaluación real antes de empezar, no una suposición basada en el curso del año pasado.
