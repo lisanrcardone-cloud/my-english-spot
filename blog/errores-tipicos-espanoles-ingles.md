@@ -9,7 +9,7 @@ Inglés del día a día
 # 4 errores típicos de los españoles en inglés (y cómo decirlo bien)
 
 Por Rocío Denti
-10 de noviembre de 2026
+23 de noviembre de 2026
 5 min de lectura
 
 Estos son 4 errores típicos de los españoles en inglés, cada uno con el vídeo en el que lo explico:
@@ -38,11 +38,11 @@ Actually o currently, en 44 segundos. [Más en nuestro Instagram](https://www.in
 
 Es una frase que mis alumnos nunca saben decir. La tentación es buscar una traducción palabra por palabra, y así no sale. Tienes tres opciones, y las tres significan lo mismo:
 
-- I find it difficult : I find it difficult to speak in English (me cuesta hablar en inglés), I find it difficult to speak in public (me cuesta hablar en público).
+- I find it difficult: I find it difficult to speak in English (me cuesta hablar en inglés), I find it difficult to speak in public (me cuesta hablar en público).
 
-- It's hard for me : It's hard for me to speak in English , It's hard for me to speak in public .
+- It's hard for me: It's hard for me to speak in English , It's hard for me to speak in public .
 
-- I struggle to : I struggle to understand native speakers (me cuesta entender a los nativos), I struggle to speak in English .
+- I struggle to: I struggle to understand native speakers (me cuesta entender a los nativos), I struggle to speak in English .
 
 3 formas de decir "me cuesta" en inglés. [Más en nuestro Instagram](https://www.instagram.com/myenglishspot.classes/)
 
@@ -54,11 +54,11 @@ Es una frase que mis alumnos nunca saben decir. La tentación es buscar una trad
 
 Quieres decir "he estado estudiando inglés durante 10 años" o "he estado viviendo en esta casa durante 10 años" y te quedas en blanco. El tiempo verbal que necesitas es el present perfect continuous .
 
-Se usa cuando empezaste la acción en el pasado, sigues en el presente y seguirás en el futuro. La estructura es I have been + verbo con -ing :
+Se usa cuando empezaste la acción en el pasado, sigues en el presente y seguirás en el futuro. La estructura es I have been + verbo con -ing:
 
 - I have been studying English for 10 years. He estado estudiando inglés durante 10 años.
 
-Y para pronunciarlo bien, contrae el have : I've been studying English for 10 years.
+Y para pronunciarlo bien, contrae el have: I've been studying English for 10 years.
 
 Ahora te toca a ti: How long have you been studying English? (¿Cuánto tiempo has estado estudiando inglés?)
 
@@ -86,7 +86,7 @@ El third conditional, nivel pro. [Más en nuestro Instagram](https://www.instagr
 
 ### ¿Qué significa actually en español?
 
-En realidad, no actualmente. Para decir actualmente se usa currently : Currently I'm working from home , actualmente estoy trabajando desde casa.
+En realidad, no actualmente. Para decir actualmente se usa currently: Currently I'm working from home , actualmente estoy trabajando desde casa.
 
 ### ¿Cómo se dice me cuesta en inglés?
 
@@ -94,11 +94,11 @@ Tienes tres opciones: I find it difficult to speak in English , It's hard for me
 
 ### ¿Cómo se dice he estado estudiando inglés durante 10 años?
 
-I have been studying English for 10 years , con el present perfect continuous ( I have been + verbo con -ing). Al hablar se contrae el have : I've been studying English for 10 years .
+I have been studying English for 10 years , con el present perfect continuous ( I have been + verbo con -ing). Al hablar se contrae el have: I've been studying English for 10 years .
 
 ### ¿Cómo se contrae el third conditional en inglés?
 
-En la primera parte contraes el had : If I'd studied harder . En la segunda tienes dos opciones: I would've passed , o contraer would y have a la vez, I'd've passed . Queda así: If I'd studied harder, I'd've passed the exam .
+En la primera parte contraes el had: If I'd studied harder . En la segunda tienes dos opciones: I would've passed , o contraer would y have a la vez, I'd've passed . Queda así: If I'd studied harder, I'd've passed the exam .
 
 Si no tienes claro en qué nivel estás, mira nuestra [guía de niveles de inglés de A1 a C1](https://www.myenglishspotclasses.com/niveles-ingles-examenes). Y si quieres corregir tus propios errores con un profesor, empieza con una [clase particular de inglés online](https://www.myenglishspotclasses.com/clases-particulares-ingles-online) gratis.
 
