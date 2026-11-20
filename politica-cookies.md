@@ -84,6 +84,10 @@ Más información [Política de Privacidad de Google](https://policies.google.co
 
 Nota de implementación: Actualmente el sitio carga Google Analytics 4 sin solicitar consentimiento previo mediante un panel de cookies. Esta situación será regularizada mediante la implementación de un gestor de consentimiento (CMP) conforme a los requisitos de la Guía AEPD (mayo 2024), que presentará las opciones de aceptar y rechazar con igual prominencia y accesibilidad. Hasta que dicho gestor esté operativo, el usuario puede instalar el [complemento de inhabilitación de Google Analytics](https://tools.google.com/dlpage/gaoptout) para su navegador.
 
+### 4.4 Medición sin cookies
+
+Para saber cuántas personas visitan el sitio y cuántas pulsan el botón de reserva, usamos Vercel Web Analytics (proveedor: Vercel Inc.) y un contador propio de clics. Ninguno de los dos usa cookies ni guarda tu dirección IP: Vercel identifica la visita con un hash que se descarta a las 24 horas y solo ofrece estadísticas agregadas, y nuestro contador solo suma clics por día y por página, sin identificadores, durante un máximo de 25 meses. Al tratarse de medición de audiencia anónima y agregada, y según la guía de la AEPD de enero de 2024, no requiere consentimiento conforme al artículo 22.2 de la LSSI-CE.
+
 ## 5. Cookies de terceros a través de enlaces externos
 
 Los enlaces a servicios externos presentes en este sitio web (Google Calendar para reserva de clase, Instagram y TikTok) son simples hipervínculos. Este sitio web no instala cookies de dichos servicios en el dispositivo del usuario. Solo si el usuario hace clic en alguno de esos enlaces y accede a las plataformas externas, dichas plataformas podrán instalar sus propias cookies conforme a sus respectivas políticas:

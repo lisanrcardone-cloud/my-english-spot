@@ -2,6 +2,28 @@
 // My English Spot — interaction layer
 // ============================================================
 
+// --- Medición sin cookies: Vercel Web Analytics + contador propio ---
+// El script es del mismo origen (CSP 'self'). Solo cuenta en producción.
+window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+(function () {
+  var s = document.createElement('script');
+  s.defer = true;
+  s.src = '/_vercel/insights/script.js';
+  document.head.appendChild(s);
+}());
+
+// Cuenta un evento (lista cerrada en api/evento.js). Sin cookies ni IDs.
+function contar(evento) {
+  try {
+    var payload = JSON.stringify({ evento: evento, pagina: location.pathname });
+    if (navigator.sendBeacon) {
+      navigator.sendBeacon('/api/evento', new Blob([payload], { type: 'application/json' }));
+    } else {
+      fetch('/api/evento', { method: 'POST', headers: { 'content-type': 'application/json' }, body: payload, keepalive: true }).catch(function () {});
+    }
+  } catch (e) {}
+}
+
 // --- Clarity: detener en entornos que no son producción --------
 (function () {
   var host = window.location.hostname;
@@ -193,6 +215,7 @@ document.addEventListener('keydown', e => {
   }
 
   function goToCalendar() {
+    contar('va_al_calendario');
     if (pendingHref) window.open(pendingHref, '_blank', 'noopener');
     closeModal();
   }
@@ -213,6 +236,7 @@ document.addEventListener('keydown', e => {
     var a = e.target.closest('a[href*="' + CAL_MATCH + '"]');
     if (!a) return;
     e.preventDefault();
+    contar('click_reserva');
     openModal(a.href);
   });
 })();
@@ -229,6 +253,7 @@ document.addEventListener('keydown', e => {
   // gtag() está definido en el <head>; los eventos se encolan en dataLayer
   // y se envían cuando GA4 termina de cargarse.
   gtag('event', 'reserva_confirmada', { value: 1 });
+  contar('gracias');
 
   function readFields() {
     return {
