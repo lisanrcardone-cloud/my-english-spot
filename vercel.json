@@ -83,6 +83,26 @@
   ],
   "redirects": [
     {
+      "source": "/go/vigo",
+      "destination": "https://www.myenglishspotclasses.com/clases-ingles-vigo?utm_source=google&utm_medium=organic&utm_campaign=gbp_post_vigo_nov",
+      "permanent": false
+    },
+    {
+      "source": "/go/aptis",
+      "destination": "https://www.myenglishspotclasses.com/preparacion-aptis-online?utm_source=google&utm_medium=organic&utm_campaign=gbp_post_aptis_nov",
+      "permanent": false
+    },
+    {
+      "source": "/go/grupales",
+      "destination": "https://www.myenglishspotclasses.com/clases-ingles-grupales-online?utm_source=google&utm_medium=organic&utm_campaign=gbp_post_grupales_dic",
+      "permanent": false
+    },
+    {
+      "source": "/go/first",
+      "destination": "https://www.myenglishspotclasses.com/preparacion-first-cambridge?utm_source=google&utm_medium=organic&utm_campaign=gbp_post_first_dic",
+      "permanent": false
+    },
+    {
       "source": "/blog/errores-tipicos-espanoles-ingles.html",
       "destination": "/blog/errores-tipicos-espanoles-ingles",
       "permanent": true
