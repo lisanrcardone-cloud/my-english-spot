@@ -30,6 +30,8 @@ Cambridge B2 First · reconocido en todo el mundo ## ¿Qué es el First Certific
 
 Si además de preparar el FCE quieres trabajar el inglés de forma general, también ofrecemos [clases particulares de inglés online](https://www.myenglishspotclasses.com/clases-particulares-ingles-online) para todos los niveles y objetivos.
 
+My English Spot es una academia de inglés online con base en Vigo. Si buscas dónde preparar el First en Vigo, las clases son por videollamada: las haces desde casa, en Vigo o en cualquier lugar de España, con el mismo plan y los mismos simulacros. Tienes más detalles en nuestras [clases de inglés en Vigo](https://www.myenglishspotclasses.com/clases-ingles-vigo).
+
 El examen tiene cuatro partes: Reading and Use of English, Writing, Listening y Speaking. Cada sección tiene su propia técnica y sus propias trampas. Presentarte sin haberlas trabajado específicamente es el motivo más común de no aprobarlo en el primer intento. Si quieres saber [cuánto dura el examen First y cada una de sus partes](https://www.myenglishspotclasses.com/blog/cuanto-dura-el-examen-first), lo tienes en el blog. Y si la trampa que más te preocupa es la Part 4 del Use of English, aquí tienes [5 tips para las key word transformations](https://www.myenglishspotclasses.com/blog/part-4-use-of-english-first).
 
 Con la preparación adecuada (simulacros reales, corrección del Writing y práctica del Speaking), la diferencia entre suspender y aprobar suele ser de pocas semanas de trabajo bien dirigido.

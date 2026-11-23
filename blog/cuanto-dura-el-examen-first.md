@@ -14,6 +14,10 @@ Por Rocío Denti
 
 El B2 First (FCE) dura 209 minutos, unas 3 horas y 30 minutos: Reading and Use of English 75 minutos, Writing 80, Listening 40 y Speaking 14. Debajo tienes qué entra en cada prueba y cómo repartir el tiempo en las dos más largas, donde el reloj lo gestionas tú.
 
+¿Te presentas al First? Prepáralo online en clases 1 a 1 con Rocío. Empiezas con un simulacro gratis para saber qué parte te conviene trabajar.
+
+[Ver preparación First](https://www.myenglishspotclasses.com/preparacion-first-cambridge)
+
 ## Duración de cada parte del First
 
 El First tiene cuatro pruebas y cada una tiene un tiempo cerrado. Este es el desglose oficial de Cambridge:
