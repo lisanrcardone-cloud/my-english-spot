@@ -103,6 +103,11 @@
       "permanent": false
     },
     {
+      "source": "/go/errores",
+      "destination": "https://www.myenglishspotclasses.com/blog/errores-tipicos-espanoles-ingles?utm_source=google&utm_medium=organic&utm_campaign=gbp_post_errores_tipicos",
+      "permanent": false
+    },
+    {
       "source": "/blog/errores-tipicos-espanoles-ingles.html",
       "destination": "/blog/errores-tipicos-espanoles-ingles",
       "permanent": true
