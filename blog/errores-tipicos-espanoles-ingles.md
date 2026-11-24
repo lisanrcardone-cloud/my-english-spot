@@ -100,7 +100,7 @@ I have been studying English for 10 years , con el present perfect continuous ( 
 
 En la primera parte contraes el had: If I'd studied harder . En la segunda tienes dos opciones: I would've passed , o contraer would y have a la vez, I'd've passed . Queda así: If I'd studied harder, I'd've passed the exam .
 
-Si no tienes claro en qué nivel estás, mira nuestra [guía de niveles de inglés de A1 a C1](https://www.myenglishspotclasses.com/niveles-ingles-examenes). Y si quieres corregir tus propios errores con un profesor, empieza con una [clase particular de inglés online](https://www.myenglishspotclasses.com/clases-particulares-ingles-online) gratis.
+Si no tienes claro en qué nivel estás, mira nuestra [guía de niveles de inglés de A1 a C1](https://www.myenglishspotclasses.com/niveles-ingles-examenes). Y si quieres corregir tus propios errores con un profesor, empieza con una clase particular de inglés online gratis.
 
 ## Sigue leyendo
 

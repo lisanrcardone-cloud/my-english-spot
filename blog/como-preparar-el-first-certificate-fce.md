@@ -58,7 +58,7 @@ Depende de tu nivel de partida. Como orientación práctica:
 
 El error más común que veo es prepararlo "por libre" con material genérico de YouTube sin practicar el formato real del examen. El FCE tiene su propia lógica (los tipos de pregunta, las trampas que pone Cambridge, la gestión del tiempo) y eso solo se aprende practicándolo con material oficial.
 
-¿No sabes en qué nivel estás ahora mismo? En la [clase diagnóstica gratuita para el First Certificate](https://www.myenglishspotclasses.com/preparacion-first-cambridge) evaluamos tu nivel real y diseñamos un plan concreto para tu fecha de examen.
+¿No sabes en qué nivel estás ahora mismo? En la clase diagnóstica gratuita para el First Certificate evaluamos tu nivel real y diseñamos un plan concreto para tu fecha de examen.
 
 [Ver cómo funciona la preparación](https://www.myenglishspotclasses.com/preparacion-first-cambridge)
 
@@ -96,7 +96,7 @@ Si quieres una sesión de [clase particular de inglés online](https://www.myeng
 
 ## ¿Se puede preparar el First Certificate online y gratis?
 
-En parte sí. Los exámenes de práctica oficiales de Cambridge, vídeos explicativos y bancos de vocabulario gratuitos cubren bien Reading, Listening y una primera toma de contacto con Use of English. Lo gratuito tiene un límite claro en Writing y Speaking: ahí necesitas que alguien con el criterio exacto del examinador corrija tu texto o te dé feedback sobre tu conversación en pareja, algo que ningún recurso gratuito por sí solo te da. Por eso la mayoría combina material gratuito para la base con una [clase diagnóstica gratuita](https://www.myenglishspotclasses.com/preparacion-first-cambridge) que sí incluye esa corrección real, antes de decidir si necesitan más sesiones o no.
+En parte sí. Los exámenes de práctica oficiales de Cambridge, vídeos explicativos y bancos de vocabulario gratuitos cubren bien Reading, Listening y una primera toma de contacto con Use of English. Lo gratuito tiene un límite claro en Writing y Speaking: ahí necesitas que alguien con el criterio exacto del examinador corrija tu texto o te dé feedback sobre tu conversación en pareja, algo que ningún recurso gratuito por sí solo te da. Por eso la mayoría combina material gratuito para la base con una clase diagnóstica gratuita que sí incluye esa corrección real, antes de decidir si necesitan más sesiones o no.
 
 Si dudas entre estudiar por tu cuenta en grupo con otras personas en la misma situación o ir directamente a algo individual, tenemos una guía sobre [clases grupales o individuales según tu objetivo](https://www.myenglishspotclasses.com/blog/clases-ingles-grupales-o-individuales) que te puede ayudar a decidir.
 

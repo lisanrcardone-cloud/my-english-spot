@@ -10,6 +10,35 @@
 <link rel="preload" href="/assets/fonts/nunito-latin-desktop.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css" />
 <link rel="stylesheet" href="/consent.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": "https://www.myenglishspotclasses.com/about#webpage",
+      "url": "https://www.myenglishspotclasses.com/about",
+      "name": "Sobre nosotros | My English Spot",
+      "inLanguage": "es",
+      "dateModified": "2026-11-25",
+      "mainEntity": { "@id": "https://www.myenglishspotclasses.com/#organization" },
+      "about": { "@id": "https://www.myenglishspotclasses.com/#instructor" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.myenglishspotclasses.com/#instructor",
+      "name": "Rocío Antonella Denti Monaco",
+      "jobTitle": "Profesora de inglés especializada en preparación de exámenes",
+      "knowsAbout": ["Cambridge B2 First (FCE)", "Cambridge C1 Advanced (CAE)", "IELTS", "Aptis"],
+      "worksFor": { "@id": "https://www.myenglishspotclasses.com/#organization" },
+      "sameAs": [
+        "https://www.instagram.com/myenglishspot.classes",
+        "https://www.tiktok.com/@myenglishspot"
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -60,7 +89,7 @@
   <span class="legal-tag">Sobre nosotros</span>
   <h1>Sobre My English Spot</h1>
   <p class="legal-meta">
-    Academia de inglés online con sede en Vigo, Galicia &nbsp;·&nbsp; Última actualización: agosto de 2026
+    Academia de inglés online con sede en Vigo, Galicia &nbsp;·&nbsp; Última actualización: noviembre de 2026
   </p>
 
   <h2>1. Quién enseña en My English Spot</h2>
@@ -73,17 +102,44 @@
 
   <h2>2. Especialización en exámenes oficiales</h2>
   <p>
-    Rocío prepara específicamente los exámenes <strong>Cambridge B2 First (FCE)</strong>, <strong>Cambridge C1 Advanced (CAE)</strong>, <strong>IELTS</strong> (Academic y General Training) y <strong><a href="/preparacion-aptis-online">Aptis</a></strong> del British Council. Las clases de preparación incluyen simulacros cronometrados y corrección detallada de Writing y Speaking según el criterio oficial de cada examen, para que el alumno llegue al día del examen sabiendo exactamente qué esperar.
+    Rocío prepara específicamente los exámenes <strong><a href="/preparacion-first-cambridge">Cambridge B2 First (FCE)</a></strong>, <strong><a href="/preparacion-cae-online">Cambridge C1 Advanced (CAE)</a></strong>, <strong><a href="/preparacion-ielts-online">IELTS</a></strong> (Academic y General Training) y <strong><a href="/preparacion-aptis-online">Aptis</a></strong> del British Council. Las clases de preparación incluyen simulacros cronometrados y corrección detallada de Writing y Speaking según el criterio oficial de cada examen, para que el alumno llegue al día del examen sabiendo exactamente qué esperar.
   </p>
 
   <h2>3. Metodología</h2>
   <p>
-    Las clases son 100% online por videollamada, con un plan personalizado tras una primera clase gratuita de diagnóstico. My English Spot ofrece dos formatos: clases particulares 1-a-1, totalmente adaptadas al alumno, y grupos reducidos de un máximo de 5 personas del mismo nivel, pensados para practicar conversación real en un ambiente cercano.
+    Las clases son 100% online por videollamada, con un plan personalizado tras una primera clase gratuita de diagnóstico. My English Spot ofrece dos formatos: <a href="/clases-particulares-ingles-online">clases particulares 1-a-1</a>, totalmente adaptadas al alumno, y <a href="/clases-ingles-grupales-online">grupos reducidos de un máximo de 5 personas</a> del mismo nivel, pensados para practicar conversación real en un ambiente cercano.
+  </p>
+  <p>
+    El punto de partida es siempre el mismo: en la primera clase evaluamos tu nivel real, identificamos tus puntos fuertes y lo que más necesitas trabajar, y a partir de ahí el plan es tuyo. Las clases son en directo con tus profesores, sin cursos grabados, y en la preparación de exámenes se practica desde el principio con el formato real de cada prueba.
   </p>
 
   <h2>4. Dónde da clase</h2>
   <p>
     My English Spot tiene su sede en Avenida Florida 39, Vigo (Pontevedra), y da clase online a alumnos de toda España. Puedes ver más sobre las clases en Vigo en la <a href="/clases-ingles-vigo">página dedicada a Vigo</a>, o conocer toda la oferta de clases desde <a href="/">la página de inicio</a>.
+  </p>
+
+  <!-- EQUIPO DE PROFESORES (no visible). Pendiente de los datos de Rocío: ver /root/noche-25nov/resultados/01-preguntas-rocio.md.
+       Cuando estén confirmados, sacar este bloque del comentario, renumerar la sección y añadir un Person por profesor al JSON-LD de esta página.
+  <h2>5. El equipo de profesores</h2>
+  <div class="about-team">
+    <div class="about-team__person">
+      <img src="[A CONFIRMAR: foto]" alt="[A CONFIRMAR: nombre], profesor de inglés en My English Spot" width="160" height="160" loading="lazy" />
+      <h3>[A CONFIRMAR: nombre y apellidos]</h3>
+      <p>[A CONFIRMAR: titulación]. [A CONFIRMAR: años] años de experiencia dando clases de inglés.</p>
+      <p>Prepara: [A CONFIRMAR: exámenes, por ejemplo B2 First, C1 Advanced, IELTS, Aptis].</p>
+      <p>LinkedIn: [A CONFIRMAR: URL de LinkedIn] (al publicar, convertirlo en enlace con target="_blank" rel="noopener")</p>
+    </div>
+    (repetir un bloque about-team__person por profesor)
+  </div>
+  Person de ejemplo para el JSON-LD: {"@type": "Person", "name": "[A CONFIRMAR]", "jobTitle": "Profesor de inglés", "knowsAbout": ["[A CONFIRMAR]"], "sameAs": ["[A CONFIRMAR: LinkedIn]"], "worksFor": {"@id": "https://www.myenglishspotclasses.com/#organization"}}
+  -->
+
+  <h2>5. Dónde encontrarnos</h2>
+  <p>
+    Publicamos consejos de inglés y de exámenes en Instagram, <a href="https://www.instagram.com/myenglishspot.classes" target="_blank" rel="noopener">@myenglishspot.classes</a>, y en TikTok, <a href="https://www.tiktok.com/@myenglishspot" target="_blank" rel="noopener">@myenglishspot</a>. En <a href="/blog">el blog</a> tienes guías sobre los exámenes de Cambridge, IELTS y Aptis.
+  </p>
+  <p>
+    También puedes escribirnos a <a href="mailto:info@myenglishspotclasses.com">info@myenglishspotclasses.com</a>.
   </p>
 
   <p class="legal-foot">

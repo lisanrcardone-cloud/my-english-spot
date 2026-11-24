@@ -16,7 +16,11 @@ El CAE es el examen de Cambridge que certifica el C1 de inglés: si buscas "saca
 
 ## CAE, C1 Advanced, C1 de inglés: es todo lo mismo
 
-Es habitual buscar "cómo sacarme el C1 de inglés" sin saber que el nombre del examen es CAE (Certificate in Advanced English). Cambridge organiza sus certificados por nivel del Marco Común Europeo de Referencia: el First Certificate (FCE) certifica B2, y el CAE certifica C1, un escalón por encima, con textos más largos, vocabulario más preciso y mayor exigencia en Writing y Speaking.
+Es habitual buscar "cómo sacarme el C1 de inglés" sin saber que el nombre del examen es CAE (Certificate in Advanced English). Cambridge organiza sus certificados según los [niveles de inglés del Marco Común Europeo](https://www.myenglishspotclasses.com/niveles-ingles-examenes) de Referencia: el First Certificate (FCE) certifica B2, y el CAE certifica C1, un escalón por encima.
+
+## Qué cambia realmente de B2 First a C1 Advanced
+
+No es solo "un poco más difícil": los textos de Reading son más largos y densos, el Use of English exige matices de vocabulario que en el FCE no se piden, y en Writing y Speaking se espera un discurso más elaborado y argumentado.
 
 ## Por qué "cuánto se tarda" depende de tu nivel de partida
 
@@ -39,8 +43,6 @@ Tu B2 aún es flojo: lo más rentable es reforzarlo primero. Empezar el CAE sin 
 El CAE se puntúa en una escala de 160 a 210 puntos. A partir de 180 se obtiene el Grade C (aprobado, certificado C1); desde 193 el Grade B y desde 200 el Grade A, ambos con más nota dentro del mismo certificado C1. Entre 160 y 179 se certifica nivel B2 en vez de C1, no se suspende sin más, se certifica el nivel real alcanzado. Puedes ver el desglose completo de las 4 partes del examen en [nuestra guía de preparación del CAE desde cero](https://www.myenglishspotclasses.com/blog/como-preparar-el-cae-c1-advanced).
 
 ## Sigue leyendo
-
-- [Del B2 First al C1 Advanced: cuánto se tarda en dar el salto](https://www.myenglishspotclasses.com/blog/de-b2-first-a-c1-advanced-cuanto-se-tarda)
 
 - [Cómo preparar el CAE (C1 Advanced) desde cero](https://www.myenglishspotclasses.com/blog/como-preparar-el-cae-c1-advanced)
 
