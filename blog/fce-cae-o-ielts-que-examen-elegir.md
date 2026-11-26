@@ -20,11 +20,11 @@ El FCE certifica nivel B2 y el CAE certifica nivel C1, ambos de Cambridge, y nin
 
 ## Si tu objetivo es trabajar o ascender en España
 
-Muchas empresas en España piden el B2 (FCE) como requisito para ascender o para ciertos puestos, y el C1 (CAE) para perfiles más exigentes o de cara al extranjero dentro de la propia empresa. Al no caducar, son una acreditación permanente en tu currículum: la preparas una vez y no vuelves a repetirla.
+Muchas empresas en España piden el B2 (FCE) como requisito para ascender o para ciertos puestos, y el C1 (CAE) para perfiles más exigentes o de cara al extranjero dentro de la propia empresa. Al no caducar, son una acreditación permanente en tu currículum: la preparas una vez y no vuelves a repetirla. Si es tu caso, mira cómo trabajamos la [preparación del First Certificate](https://www.myenglishspotclasses.com/preparacion-first-cambridge) y la [preparación del CAE](https://www.myenglishspotclasses.com/preparacion-cae-online).
 
 ## Si tu objetivo es estudiar, trabajar o pedir visado fuera
 
-Aquí normalmente no hay margen de elección: si la universidad, el proceso de visado o el empleador te piden IELTS, no sirve presentar el FCE o el CAE en su lugar. Como referencia, la mayoría de universidades piden entre 6.0 y 7.0 de banda, y muchos procesos de visado piden entre 5.5 y 6.5. Revisa primero qué banda exige exactamente el organismo al que te diriges antes de preparar cualquier examen.
+Aquí normalmente no hay margen de elección: si la universidad, el proceso de visado o el empleador te piden IELTS, no sirve presentar el FCE o el CAE en su lugar. Como referencia, la mayoría de universidades piden entre 6.0 y 7.0 de banda, y muchos procesos de visado piden entre 5.5 y 6.5. Revisa primero qué banda exige exactamente el organismo al que te diriges antes de preparar cualquier examen. Para ese caso tenemos [preparación IELTS online](https://www.myenglishspotclasses.com/preparacion-ielts-online) con clases 1 a 1.
 
 ¿No sabes cuál de los tres te corresponde? En la primera clase gratuita revisamos tu objetivo concreto (trabajo, universidad, visado) y te decimos qué examen preparar y en qué plazo.
 

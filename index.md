@@ -173,6 +173,8 @@ Las clases individuales y en grupo duran 60 minutos.
 
 No. Trabajamos con todos los niveles, desde principiantes absolutos (A1) hasta nivel avanzado (C1). En la clase de prueba evaluamos tu nivel y diseñamos un plan adaptado a ti.
 
+Si quieres ver qué incluye cada nivel y qué examen le corresponde, consulta nuestra guía de [niveles de inglés](https://www.myenglishspotclasses.com/niveles-ingles-examenes) .
+
 ¿Cómo funcionan las clases en grupo?
 
 Los grupos son de máximo 5 personas, lo que garantiza atención personalizada para cada alumno. Se organizan por nivel para que todos avancen al mismo ritmo.

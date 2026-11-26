@@ -222,6 +222,21 @@
       ],
       "destination": "https://www.myenglishspotclasses.com/$1",
       "permanent": true
+    },
+    {
+      "source": "/blog/de-b2-first-a-c1-advanced-cuanto-se-tarda",
+      "destination": "/blog/cuanto-se-tarda-en-preparar-cae",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/de-b2-first-a-c1-advanced-cuanto-se-tarda.html",
+      "destination": "/blog/cuanto-se-tarda-en-preparar-cae",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/de-b2-first-a-c1-advanced-cuanto-se-tarda.md",
+      "destination": "/blog/cuanto-se-tarda-en-preparar-cae.md",
+      "statusCode": 301
     }
   ],
   "headers": [

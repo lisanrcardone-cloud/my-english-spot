@@ -233,7 +233,7 @@ Depende de tu nivel de partida. Si ya tienes un B1 sólido, entre 3 y 6 meses de
 
 ¿Qué nivel necesito para empezar a preparar el FCE?
 
-Lo recomendable es tener un B1 consolidado. Si aún estás en A2-B1, primero reforzamos ese nivel y después pasamos a la preparación específica del examen. En ningún caso vas a perder el tiempo: todo el trabajo de base suma para el First.
+Lo recomendable es tener un B1 consolidado. Si aún estás en A2-B1, primero reforzamos ese nivel y después pasamos a la preparación específica del examen. En ningún caso vas a perder el tiempo: todo el trabajo de base suma para el First. Si no sabes [qué nivel de inglés tienes](https://www.myenglishspotclasses.com/niveles-ingles-examenes), en esta guía puedes ver qué significa cada nivel, de A1 a C1.
 
 ¿Es lo mismo preparar el FCE online que presencialmente?
 

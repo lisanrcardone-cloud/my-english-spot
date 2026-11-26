@@ -16,7 +16,7 @@ Respuesta corta: entre 3 y 6 meses , según tu nivel de partida. Con un B1 sóli
 
 ## Por qué "cuánto se tarda" depende de tu punto de partida, no del examen
 
-El First Certificate (FCE / B2 First) exige un nivel B2 consolidado en las cinco destrezas: Reading, Writing, Listening, Speaking y Use of English. La pregunta real no es "cuánto dura el curso", sino "cuánto B2 me falta hoy". Dos alumnos que empiezan el mismo día pueden necesitar convocatorias distintas si parten de niveles distintos.
+El First Certificate (FCE / B2 First) exige un nivel B2 consolidado en las cinco destrezas: Reading, Writing, Listening, Speaking y Use of English. La pregunta real no es "cuánto dura el curso", sino "cuánto B2 me falta hoy". Dos alumnos que empiezan el mismo día pueden necesitar convocatorias distintas si parten de niveles distintos. Si no tienes claro en qué punto estás, mira [en qué nivel de inglés estás](https://www.myenglishspotclasses.com/niveles-ingles-examenes) antes de calcular plazos.
 
 ## Plan por nivel de partida
 
@@ -46,4 +46,4 @@ Sigue leyendo
 
 - [7 errores que te bajan nota en el Writing del First Certificate (FCE)](https://www.myenglishspotclasses.com/blog/errores-comunes-writing-first-certificate)
 
-- [Del B2 First al C1 Advanced: cuánto se tarda en dar el salto](https://www.myenglishspotclasses.com/blog/de-b2-first-a-c1-advanced-cuanto-se-tarda)
+- [Cuánto se tarda en preparar el CAE (C1 Advanced) para aprobarlo](https://www.myenglishspotclasses.com/blog/cuanto-se-tarda-en-preparar-cae)

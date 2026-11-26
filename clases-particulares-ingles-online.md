@@ -194,7 +194,7 @@ Son clases individuales de inglés impartidas por videollamada, en directo con t
 
 ¿Necesito un nivel mínimo para empezar?
 
-No. Trabajamos con todos los niveles, desde principiantes absolutos (A1) hasta nivel avanzado (C1). En la clase de prueba gratuita evaluamos tu nivel y diseñamos un plan adaptado a ti.
+No. Trabajamos con todos los niveles, desde principiantes absolutos (A1) hasta nivel avanzado (C1). En la clase de prueba gratuita evaluamos tu nivel y diseñamos un plan adaptado a ti. Aquí tienes los [niveles de inglés de A1 a C1](https://www.myenglishspotclasses.com/niveles-ingles-examenes) explicados uno a uno.
 
 ¿Cuánto duran las clases y con qué frecuencia se dan?
 

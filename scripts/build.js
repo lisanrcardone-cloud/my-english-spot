@@ -161,6 +161,8 @@ function htmlToMarkdown(html) {
   // 1. Quitar scripts/estilos completos.
   content = content.replace(/<script[\s\S]*?<\/script>/gi, '');
   content = content.replace(/<style[\s\S]*?<\/style>/gi, '');
+  // Quitar comentarios HTML: el paso 7 solo quita tags y filtraría el texto de un comentario con HTML dentro.
+  content = content.replace(/<!--[\s\S]*?-->/g, '');
 
   // 2. Quedarnos con el contenido de <main>...</main> si existe.
   const mainMatch = content.match(/<main[^>]*>([\s\S]*?)<\/main>/i);
